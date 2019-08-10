@@ -96,25 +96,24 @@ function ConvertTo-DraftObject {
             }
             'Player' {
                 if ($League) {
-                    $Hashtable['Status'] = switch ($Hashtable['Waiverstatus']) {
-                        'blocked' {
-                            $OwnedBy = '-'
-                            'Blocked'
-                            break
-                        }
-                        'on_waivers' {
-                            $OwnedBy = '-'
-                            'Waivers'
-                            break
-                        }
-                        'off_waivers' {
-                            $OwnedBy = $Teams.Players.Where{$_.Id -eq $Hashtable.Id}[0].Manager
-                            if ($OwnedBy) {
-                                'Owned'
+                    $OwnedBy = $Teams.Players.Where{$_.Id -eq $Hashtable.Id}[0].Manager
+                    $Hashtable['Status'] = if ($OwnedBy) {
+                        'Owned'
+                    }
+                    else {
+                        $OwnedBy = '-'
+                        switch ($Hashtable['Waiverstatus']) {
+                            'blocked' {
+                                'Blocked'
+                                break
                             }
-                            else {
-                                $OwnedBy = '-'
+                            'on_waivers' {
+                                'Waivers'
+                                break
+                            }
+                            'off_waivers' {
                                 'Free'
+                                break
                             }
                         }
                     }

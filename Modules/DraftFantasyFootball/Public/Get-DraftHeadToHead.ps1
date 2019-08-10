@@ -21,7 +21,7 @@ function Get-DraftHeadToHead {
     $LeagueId = $Script:ConfigData[$League]['LeagueId']
 
     if ($Current) {
-        $Gameweek = $Script:BootstrapStatic.events | Where-Object -Property is_current
+        $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}[0].id
         if ($Gameweek -eq 0) {
             $Gameweek = 1
         }

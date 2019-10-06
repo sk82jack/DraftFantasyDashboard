@@ -24,6 +24,10 @@ function Get-DraftLeagueTable {
             headToHeadLeaguePoints
         }
         gameweekPoints: liveGameweekPoints(gameweek: $gameweek)
+        gameweekHistory(gameweek: $gameweek) {
+            lineup
+            subs
+        }
     }
 }
 "@

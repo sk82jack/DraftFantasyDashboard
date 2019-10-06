@@ -17,6 +17,10 @@ function Get-DraftLeaguePoints {
         _id
         name
         gameweekPoints: liveGameweekPoints(gameweek: $gameweek)
+        gameweekHistory(gameweek: $gameweek) {
+            lineup
+            subs
+        }
     }
 }
 "@

@@ -7,6 +7,7 @@ function Get-DraftLeagueTable {
         $League
     )
     $LeagueId = $Script:ConfigData[$League]['LeagueId']
+    $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     $Query = @"
 {
     leagueTeams(_id:"$LeagueId") {
@@ -22,9 +23,11 @@ function Get-DraftLeagueTable {
             lost
             headToHeadLeaguePoints
         }
+        gameweekPoints: liveGameweekPoints(gameweek: $gameweek)
     }
 }
 "@
     $Result = Invoke-ApiQuery -Query $Query
-    ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'LeagueTable' -League $League
+    $Output = ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'LeagueTable' -League $League
+    $Output | Sort-Object -Property Points, TotalScore -Descending
 }

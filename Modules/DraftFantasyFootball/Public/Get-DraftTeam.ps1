@@ -15,11 +15,27 @@ Function Get-DraftTeam {
             _id
             web_name
             element_type_id
+            team_name_short
+            club {
+                fixtures {
+                    homeTeamShort
+                    awayTeamShort
+                    gameweek
+                }
+            }
         }
         subPlayers {
             _id
             web_name
             element_type_id
+            team_name_short
+            club {
+                fixtures {
+                    homeTeam
+                    awayTeam
+                    gameweek
+                }
+            }
         }
     }
 }

@@ -7,7 +7,7 @@ function ConvertTo-DraftObject {
 
         [Parameter(Mandatory)]
         [ValidateSet(
-            'HeadToHead', 'LeagueTable', 'Trade', 'Team', 'Player', 'WaiverOrder'
+            'HeadToHead', 'LeagueTable', 'Trade', 'Team', 'Player', 'WaiverOrder', 'Points'
         )]
         [string]
         $Type,
@@ -19,9 +19,13 @@ function ConvertTo-DraftObject {
     )
     switch ($Type) {
         'HeadToHead' {}
-        'LeagueTable' {}
+        'LeagueTable' {
+            $HeadToHead = Get-DraftHeadToHead -League $League -Current
+        }
         'Trade' {}
-        'Team' {}
+        'Team' {
+            $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_next}.id
+        }
         'Player' {
             if ($League) {
                 $Teams = Get-DraftTeam -League $League
@@ -35,6 +39,7 @@ function ConvertTo-DraftObject {
             }
             return
         }
+        'Points' {}
     }
 
     foreach ($Object in $InputObject) {
@@ -54,7 +59,41 @@ function ConvertTo-DraftObject {
                 $Hashtable['Lost'] = $Hashtable['headToHeadData'].lost
                 $Hashtable['Points'] = $Hashtable['headToHeadData'].headToHeadLeaguepoints
                 $Hashtable['Manager'] = $Script:ConfigData[$League]['Managers'][$Hashtable['UserId']]
-                $Hashtable['Position'] = $Position += 1
+                $Hashtable['Position'] = $null
+
+                if ($HeadToHead[0].Gameweek -gt $Hashtable['Played']) {
+                    $Hashtable['Played'] += 1
+                    $Fixture = $HeadToHead.Where{$Hashtable['Manager'] -eq $_.Manager1}
+                    if ($Fixture) {
+                        if ($Fixture.Team1Score -gt $Fixture.Team2Score) {
+                            $Hashtable['Won'] += 1
+                            $Hashtable['Points'] += 3
+                        }
+                        elseif ($Fixture.Team1Score -eq $Fixture.Team2Score) {
+                            $Hashtable['Drawn'] += 1
+                            $Hashtable['Points'] += 1
+                        }
+                        else {
+                            $Hashtable['Lost'] += 1
+                        }
+                        $Hashtable['TotalScore'] += $Fixture.Team1Score
+                    }
+                    else {
+                        $Fixture = $HeadToHead.Where{$Hashtable['Manager'] -eq $_.Manager2}
+                        if ($Fixture.Team2Score -gt $Fixture.Team1Score) {
+                            $Hashtable['Won'] += 1
+                            $Hashtable['Points'] += 3
+                        }
+                        elseif ($Fixture.Team2Score -eq $Fixture.Team1Score) {
+                            $Hashtable['Drawn'] += 1
+                            $Hashtable['Points'] += 1
+                        }
+                        else {
+                            $Hashtable['Lost'] += 1
+                        }
+                        $Hashtable['TotalScore'] += $Fixture.Team2Score
+                    }
+                }
             }
             'Trade' {
                 [string]$Hashtable['InManager'] = if ($Hashtable['inTeamId']) {
@@ -84,6 +123,13 @@ function ConvertTo-DraftObject {
                     $PlayerHash = Convert-DiacriticProperties -Object $Player
                     $PlayerHash['IsSub'] = $False
                     $PlayerHash['Manager'] = $Manager
+                    $Fixture = $Player.Club.fixtures.Where{$_.gameweek -eq $Gameweek}
+                    $PlayerHash['TeamAgainst'] = if ($Fixture.homeTeamShort -eq $PlayerHash['TeamNameShort']) {
+                        'vs {0} (H)' -f $Fixture.awayTeamShort
+                    }
+                    else {
+                        'vs {0} (A)' -f $Fixture.homeTeamShort
+                    }
                     $Hashtable['Players'].Add([PSCustomObject]$PlayerHash)
                 }
                 $Hashtable['Players'] = [System.Collections.Generic.List[psobject]]($Hashtable['Players'] | Sort-Object ElementTypeId)
@@ -121,6 +167,10 @@ function ConvertTo-DraftObject {
                 }
             }
             'WaiverOrder' {}
+            'Points' {
+                $Manager = $Script:ConfigData[$League]['Teams'][$Hashtable.Id]
+                $Hashtable['Manager'] = $Manager
+            }
         }
         [pscustomobject]$Hashtable
     }

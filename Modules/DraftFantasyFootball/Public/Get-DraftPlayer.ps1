@@ -17,6 +17,10 @@ function Get-DraftPlayer {
         total_points
         waiverStatus
         rating
+        fixtures_data {
+            gw
+            mp
+        }
     }
 }
 "@

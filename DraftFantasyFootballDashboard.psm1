@@ -6,26 +6,12 @@ function Start-Dashboard {
         $Pages += . $_.FullName
     }
 
-    $BHEndpoints = New-UDEndpointInitialization -Module 'Modules\DraftFantasyFootball\DraftFantasyFootball.psd1'
-
+    $Images = @{}
+    foreach ($File in (Get-ChildItem -Path .\Images)) {
+        $Images[$File.BaseName] = 'Images\{0}' -f $File.Name
+    }
+    $BHEndpoints = New-UDEndpointInitialization -Module 'Modules\DraftFantasyFootball\DraftFantasyFootball.psd1' -Variable 'Images'
     $Theme = Get-UDTheme Azure
-    $ThemeSettings = @{
-        'background-color' = '#252525'
-        'color'            = '#FFFFFF'
-    }
-    $ThemeSettingsWithBorder = @{
-        'background-color' = '#252525'
-        'color'            = '#FFFFFF'
-        'border'           = '#252525'
-    }
-    $Theme.Definition['.sidenav'] = $ThemeSettings
-    $Theme.Definition['.sidenav li>a'] = $ThemeSettings
-    $Theme.Definition['.tabs'] = $ThemeSettings
-    $Theme.Definition['.tab'] = $ThemeSettings
-    $Theme.Definition['.collapsible'] = $ThemeSettingsWithBorder
-    $Theme.Definition['.collapsible-header'] = $ThemeSettingsWithBorder
-    $Theme.Definition['.collapsible-body'] = $ThemeSettingsWithBorder
-
     $DashboardSplat = @{
         Title                  = 'Draft Fantasy Football'
         Pages                  = $Pages

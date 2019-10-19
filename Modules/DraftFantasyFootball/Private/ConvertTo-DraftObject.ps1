@@ -15,12 +15,18 @@ function ConvertTo-DraftObject {
         [Parameter()]
         [ValidateSet('Prem', 'Freak', 'Vermin')]
         [string]
-        $League
+        $League,
+
+        [Parameter()]
+        [int64]
+        $Gameweek
     )
     switch ($Type) {
-        'HeadToHead' {}
+        'HeadToHead' {
+            $Points = Get-DraftLeaguePoints -League $League -Gameweek $Gameweek
+        }
         'LeagueTable' {
-            $HeadToHead = Get-DraftHeadToHead -League $League -Current
+            $HeadToHead = Get-DraftHeadToHead -League $League
         }
         'Trade' {}
         'Team' {
@@ -39,7 +45,11 @@ function ConvertTo-DraftObject {
             }
             return
         }
-        'Points' {}
+        'Points' {
+            $Script:BootstrapStatic = Get-FplBootstrapStatic
+            $Script:DraftPlayers = Get-DraftPlayer
+            $PlayerMinutes = Get-DraftPlayerMinutes
+        }
     }
 
     foreach ($Object in $InputObject) {
@@ -49,8 +59,8 @@ function ConvertTo-DraftObject {
             'HeadToHead' {
                 $Hashtable['Manager1'] = $Script:ConfigData[$League]['Teams'][$Hashtable['Team1Id']]
                 $Hashtable['Manager2'] = $Script:ConfigData[$League]['Teams'][$Hashtable['Team2Id']]
-                $Hashtable['Team1score'] = $Hashtable['Team1score'] -as [int]
-                $Hashtable['Team2score'] = $Hashtable['Team2score'] -as [int]
+                $Hashtable['Team1score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager1']}.Gameweekpoints
+                $Hashtable['Team2score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager2']}.Gameweekpoints
             }
             'LeagueTable' {
                 $Hashtable['Played'] = [int]$Hashtable['headToHeadData'].played
@@ -100,11 +110,11 @@ function ConvertTo-DraftObject {
                     $Script:ConfigData[$League]['Teams'][$Hashtable['inTeamId']]
                 }
                 $Hashtable['PlayersIn'] = foreach ($Player in $Hashtable['Playersinids']) {
-                    $Script:Players.Where{$_.Id -eq $Player}.WebName
+                    $Script:DraftPlayers.Where{$_.Id -eq $Player}.WebName
                 }
                 $Hashtable['OutManager'] = $Script:ConfigData[$League]['Teams'][$Hashtable['outTeamId']]
                 $Hashtable['PlayersOut'] = foreach ($Player in $Hashtable['Playersoutids']) {
-                    $Script:Players.Where{$_.Id -eq $Player}.WebName
+                    $Script:DraftPlayers.Where{$_.Id -eq $Player}.WebName
                 }
                 foreach ($Property in 'createdAt', 'respondedAt', 'updatedAt') {
                     $Hashtable[$Property] = ConvertFrom-PosixTime -PosixTime $Hashtable[$Property]
@@ -141,6 +151,11 @@ function ConvertTo-DraftObject {
                 }
             }
             'Player' {
+                $Hashtable['WeeklyPoints'] = $Hashtable['GameweekPoints']
+                $Hashtable.Remove('GameweekPoints')
+                foreach ($Fixture in $Hashtable['Club'].fixtures) {
+                    $Fixture.date = ConvertFrom-PosixTime -PosixTime $Fixture.date
+                }
                 if ($League) {
                     $OwnedBy = $Teams.Players.Where{$_.Id -eq $Hashtable.Id}[0].Manager
                     $Hashtable['Status'] = if ($OwnedBy) {
@@ -170,6 +185,15 @@ function ConvertTo-DraftObject {
             'Points' {
                 $Manager = $Script:ConfigData[$League]['Teams'][$Hashtable.Id]
                 $Hashtable['Manager'] = $Manager
+                if (-not $Script:BootstrapStatic.events.Where{$_.id -eq $Gameweek}.finished) {
+                    $AutoSubParams = @{
+                        LineupIds     = $Hashtable['Gameweekhistory'].lineup
+                        SubIds        = $Hashtable['Gameweekhistory'].subs
+                        PlayerMinutes = $PlayerMinutes
+                    }
+                    $Hashtable['GameweekLineup'] = Invoke-AutoSubs @AutoSubParams
+                    $Hashtable['Gameweekpoints'] = ($Hashtable['GameweekLineup'].WeeklyPoints | Measure-Object -Sum).Sum
+                }
             }
         }
         [pscustomobject]$Hashtable

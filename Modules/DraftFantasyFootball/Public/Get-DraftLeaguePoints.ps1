@@ -20,10 +20,14 @@ function Get-DraftLeaguePoints {
         gameweekHistory(gameweek: $gameweek) {
             lineup
             subs
+            autoSubs {
+                in
+                out
+            }
         }
     }
 }
 "@
     $Result = Invoke-ApiQuery -Query $Query
-    ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'Points' -League $League
+    ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'Points' -League $League -Gameweek $Gameweek
 }

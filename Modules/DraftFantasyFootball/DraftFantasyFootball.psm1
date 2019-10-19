@@ -21,4 +21,4 @@ Export-ModuleMember -Function $publicFunctions
 
 $Script:ConfigData = Import-PowerShellDataFile -Path "$PSScriptRoot\Config\Leagues.psd1"
 $Script:BootstrapStatic = Get-FplBootstrapStatic
-$Script:Players = Get-DraftPlayer
+$Script:DraftPlayers = Get-DraftPlayer

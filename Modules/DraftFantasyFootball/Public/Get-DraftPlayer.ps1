@@ -7,19 +7,24 @@ function Get-DraftPlayer {
         $League
     )
 
+    $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
+    $LeagueId = $Script:ConfigData['Prem']['LeagueId']
     $Query = @"
 {
     players {
         _id
         web_name
         team_name_short
-        weekly_points
+        gameweekPoints: customGameweekPoints(gameweek: $Gameweek, leagueId: "$LeagueId")
         total_points
         waiverStatus
         rating
-        fixtures_data {
-            gw
-            mp
+        type_name
+        club {
+            fixtures {
+                date
+                gameweek
+            }
         }
     }
 }

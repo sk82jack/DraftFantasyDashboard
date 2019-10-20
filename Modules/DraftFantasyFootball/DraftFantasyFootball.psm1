@@ -16,9 +16,9 @@ ForEach ($Folder in $FunctionFolders) {
         }
     }
 }
-$publicFunctions = (Get-ChildItem -Path "$PSScriptRoot\Public" -Filter '*.ps1').BaseName
+$publicFunctions = (Get-ChildItem -Path "$PSScriptRoot/Public" -Filter '*.ps1').BaseName
 Export-ModuleMember -Function $publicFunctions
 
-$Script:ConfigData = Import-PowerShellDataFile -Path "$PSScriptRoot\Config\Leagues.psd1"
+$Script:ConfigData = Import-PowerShellDataFile -Path "$PSScriptRoot/Config/Leagues.psd1"
 $Script:BootstrapStatic = Get-FplBootstrapStatic
 $Script:DraftPlayers = Get-DraftPlayer

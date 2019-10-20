@@ -21,7 +21,7 @@ function Start-Dashboard {
     $Dashboard = New-UDDashboard @DashboardSplat
 
     try {
-        Start-UDDashboard -Dashboard $Dashboard -Port 10000
+        Start-UDDashboard -Dashboard $Dashboard -Port 8585
     }
     catch {
         Write-Error -Exception $_.Exception

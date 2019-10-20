@@ -4,17 +4,17 @@ New-UDPage -Name 'Tables' -Icon futbol -Endpoint {
             New-UDTabContainer -Tabs {
                 New-UDTab -Text 'Prem' -Content {
                     New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
-                        Get-DraftLeagueTable -League 'Prem' | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                        $Cache:PremTable | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
                     }
                 }
                 New-UDTab -Text 'Freak' -Content {
                     New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
-                        Get-DraftLeagueTable -League 'Freak' | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                        $Cache:FreakTable | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
                     }
                 }
                 New-UDTab -Text 'Vermin' -Content {
                     New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
-                        Get-DraftLeagueTable -League 'Vermin' | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                        $Cache:VerminTable | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
                     }
                 }
             }

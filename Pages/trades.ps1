@@ -4,7 +4,6 @@ New-UDPage -Name 'Trades' -Icon exchange_alt -Endpoint {
             New-UDTabContainer -Tabs {
                 New-UDTab -Text 'Prem' -Content {
                     New-UDCollapsible -Items {
-                        $Cache:PremTrades = Get-DraftTrade -League 'Prem'
                         New-UDCollapsibleItem -Title 'Open Offers' -Content {
                             New-UDGrid -Headers @('Type', 'Offered', 'Requested', 'Offered by', 'Offered to', 'Offer date') -DateTimeFormat "D/M/YY, H:mm" -NoExport -NoFilter -Properties @('Type', 'PlayersOut', 'PlayersIn', 'OutManager', 'InManager', 'createdAt') -Endpoint {
                                 $Cache:PremTrades | Where-Object Status -eq 'awaiting_response' | Out-UDGridData
@@ -17,14 +16,13 @@ New-UDPage -Name 'Trades' -Icon exchange_alt -Endpoint {
                         }
                         New-UDCollapsibleItem -Title 'Waiver Order' -Content {
                             New-UDTable -Headers 'Manager' -Style 'centered' -Content {
-                                Get-DraftWaiverOrder -League 'Prem' | Out-UDTableData -Property Manager
+                                $Cache:PremWaiver | Out-UDTableData -Property Manager
                             }
                         }
                     }
                 }
                 New-UDTab -Text 'Freak' -Content {
                     New-UDCollapsible -Items {
-                        $Cache:FreakTrades = Get-DraftTrade -League 'Freak'
                         New-UDCollapsibleItem -Title 'Open Offers' -Content {
                             New-UDGrid -Headers @('Type', 'Offered', 'Requested', 'Offered by', 'Offered to', 'Offer date') -DateTimeFormat "D/M/YY, H:mm" -NoExport -NoFilter -Properties @('Type', 'PlayersOut', 'PlayersIn', 'OutManager', 'InManager', 'createdAt') -Endpoint {
                                 $Cache:FreakTrades | Where-Object Status -eq 'awaiting_response' | Out-UDGridData
@@ -37,14 +35,13 @@ New-UDPage -Name 'Trades' -Icon exchange_alt -Endpoint {
                         }
                         New-UDCollapsibleItem -Title 'Waiver Order' -Content {
                             New-UDTable -Headers 'Manager' -Style 'centered' -Content {
-                                Get-DraftWaiverOrder -League 'Freak' | Out-UDTableData -Property Manager
+                                $Cache:FreakWaiver | Out-UDTableData -Property Manager
                             }
                         }
                     }
                 }
                 New-UDTab -Text 'Vermin' -Content {
                     New-UDCollapsible -Items {
-                        $Cache:VerminTrades = Get-DraftTrade -League 'Vermin'
                         New-UDCollapsibleItem -Title 'Open Offers' -Content {
                             New-UDGrid -Headers @('Type', 'Offered', 'Requested', 'Offered by', 'Offered to', 'Offer date') -DateTimeFormat "D/M/YY, H:mm" -NoExport -NoFilter -Properties @('Type', 'PlayersOut', 'PlayersIn', 'OutManager', 'InManager', 'createdAt') -Endpoint {
                                 $Cache:VerminTrades | Where-Object Status -eq 'awaiting_response' | Out-UDGridData
@@ -57,7 +54,7 @@ New-UDPage -Name 'Trades' -Icon exchange_alt -Endpoint {
                         }
                         New-UDCollapsibleItem -Title 'Waiver Order' -Content {
                             New-UDTable -Headers 'Manager' -Style 'centered' -Content {
-                                Get-DraftWaiverOrder -League 'Vermin' | Out-UDTableData -Property Manager
+                                $Cache:VerminWaiver | Out-UDTableData -Property Manager
                             }
                         }
                     }

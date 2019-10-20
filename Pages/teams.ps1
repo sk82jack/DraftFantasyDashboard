@@ -4,8 +4,7 @@ New-UDPage -Name 'Teams' -Icon 'users' -Endpoint {
             New-UDTabContainer -Tabs {
                 New-UDTab -Text 'Prem' -Content {
                     New-UDCollapsible -Items {
-                        $Teams = Get-DraftTeam -League 'Prem'
-                        foreach ($Team in $Teams) {
+                        foreach ($Team in $Cache:PremTeams) {
                             $Subs = $Team.Players.Where{$_.IsSub}
                             $GK = $Team.Players[0..10].Where{$_.ElementTypeId -eq 1}
                             $DEF = $Team.Players[0..10].Where{$_.ElementTypeId -eq 2}
@@ -157,8 +156,7 @@ New-UDPage -Name 'Teams' -Icon 'users' -Endpoint {
                 }
                 New-UDTab -Text 'Freak' -Content {
                     New-UDCollapsible -Items {
-                        $Teams = Get-DraftTeam -League 'Freak'
-                        foreach ($Team in $Teams) {
+                        foreach ($Team in $Cache:FreakTeams) {
                             $Subs = $Team.Players.Where{$_.IsSub}
                             $GK = $Team.Players[0..10].Where{$_.ElementTypeId -eq 1}
                             $DEF = $Team.Players[0..10].Where{$_.ElementTypeId -eq 2}
@@ -310,8 +308,7 @@ New-UDPage -Name 'Teams' -Icon 'users' -Endpoint {
                 }
                 New-UDTab -Text 'Vermin' -Content {
                     New-UDCollapsible -Items {
-                        $Teams = Get-DraftTeam -League 'Vermin'
-                        foreach ($Team in $Teams) {
+                        foreach ($Team in $Cache:VerminTeams) {
                             $Subs = $Team.Players.Where{$_.IsSub}
                             $GK = $Team.Players[0..10].Where{$_.ElementTypeId -eq 1}
                             $DEF = $Team.Players[0..10].Where{$_.ElementTypeId -eq 2}

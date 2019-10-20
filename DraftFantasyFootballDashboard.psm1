@@ -7,7 +7,7 @@ function Start-Dashboard {
     }
 
     $Images = @{}
-    foreach ($File in (Get-ChildItem -Path ./Images)) {
+    foreach ($File in (Get-ChildItem -Path $PSScriptRoot/Images)) {
         $Images[$File.BaseName] = 'Images/{0}' -f $File.Name
     }
     $BHEndpoints = New-UDEndpointInitialization -Module 'Modules/DraftFantasyFootball/DraftFantasyFootball.psd1' -Variable 'Images'

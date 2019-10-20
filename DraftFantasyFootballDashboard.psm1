@@ -1,8 +1,8 @@
 function Start-Dashboard {
     $Pages = @()
-    $Pages += . (Join-Path $PSScriptRoot "pages/fixtures.ps1")
+    $Pages += . (Join-Path $PSScriptRoot "Pages/fixtures.ps1")
 
-    Get-ChildItem (Join-Path $PSScriptRoot "pages") -Exclude "fixtures.ps1" | ForEach-Object {
+    Get-ChildItem (Join-Path $PSScriptRoot "Pages") -Exclude "fixtures.ps1" | ForEach-Object {
         $Pages += . $_.FullName
     }
 

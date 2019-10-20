@@ -14,8 +14,15 @@ function Start-Dashboard {
     $BHEndpoints = New-UDEndpointInitialization -Module 'Modules/DraftFantasyFootball/DraftFantasyFootball.psd1' -Variable 'Images'
     $Theme = Get-UDTheme Azure
 
-    $Schedule = New-UDEndpointSchedule -Every 1 -Hour
-    $EveryHour = New-UDEndpoint -Schedule $Schedule -Endpoint {
+    $DashboardSplat = @{
+        Title                  = 'Draft Fantasy Football'
+        Pages                  = $Pages
+        EndpointInitialization = $BHEndpoints
+        Theme                  = $Theme
+    }
+    $Dashboard = New-UDDashboard @DashboardSplat
+
+    $EveryHour = New-UDEndpoint -Schedule (New-UDEndpointSchedule -Every 1 -Hour) -Endpoint {
         $Cache:PremTeams = Get-DraftTeam -League 'Prem'
         $Cache:FreakTeams = Get-DraftTeam -League 'Freak'
         $Cache:VerminTeams = Get-DraftTeam -League 'Vermin'
@@ -36,17 +43,8 @@ function Start-Dashboard {
         $Cache:VerminWaiver = Get-DraftWaiverOrder -League 'Vermin'
     }
 
-    $DashboardSplat = @{
-        Title                  = 'Draft Fantasy Football'
-        Pages                  = $Pages
-        EndpointInitialization = $BHEndpoints
-        Theme                  = $Theme
-        EndPoint               = $EveryHour
-    }
-    $Dashboard = New-UDDashboard @DashboardSplat
-
     try {
-        Start-UDDashboard -Dashboard $Dashboard -Port 8585 -Wait
+        Start-UDDashboard -Dashboard $Dashboard -Port 8585 -Wait -Endpoint $EveryHour
     }
     catch {
         Write-Error -Exception $_.Exception

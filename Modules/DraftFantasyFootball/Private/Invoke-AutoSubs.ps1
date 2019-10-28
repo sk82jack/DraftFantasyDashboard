@@ -17,20 +17,16 @@ function Invoke-AutoSubs {
     $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     $GameweekLineup = Assert-FplLineup -Lineup $LineupIds
     $SubsStillToPlay = $SubIds.Where{
-        -not $PlayerMinutes[$_][$Gameweek]
+        -not $PlayerMinutes[$_][$Gameweek]['Minutes'] -and
+        -not $PlayerMinutes[$_][$Gameweek]['GameFinished']
     }
     if (-not $SubsStillToPlay) {
         $AutoSubOff = $LineupIds.Where{
-            $Id = $_
-            -not $PlayerMinutes[$Id][$Gameweek] -and
-            $Date -gt $Script:DraftPlayers.Where{
-                $_.Id -eq $Id
-            }.Club.fixtures.Where{
-                $_.gameweek -eq $Gameweek
-            }.date.AddMinutes(90)
+            -not $PlayerMinutes[$_][$Gameweek]['Minutes'] -and
+            $PlayerMinutes[$_][$Gameweek]['GameFinished']
         }
         $AutoSubOn = $SubIds.Where{
-            $PlayerMinutes[$_][$Gameweek]
+            $PlayerMinutes[$_][$Gameweek]['Minutes']
         }
         foreach ($Player in $AutoSubOff) {
             foreach ($Sub in $AutoSubOn) {

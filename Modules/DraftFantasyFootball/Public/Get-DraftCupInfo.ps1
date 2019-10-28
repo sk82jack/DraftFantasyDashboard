@@ -49,10 +49,7 @@ function Get-DraftCupInfo {
             }
             else {
                 $UniqueScores = $LastCutoffManager.Gameweekpoints | Sort-Object -Unique
-                if ($UniqueScores.count -eq 1) {
-                    $EliminationNumber += 1
-                }
-                else {
+                if ($UniqueScores.count -ne 1) {
                     $LastCutoffManager = foreach ($Score in $UniqueScores) {
                         $ScoreManager = $LastCutoffManager.Where{$_.Gameweekpoints -eq $Score}
                         if ($ScoreManager.Count -lt $EliminationNumber) {

@@ -14,7 +14,7 @@ function Get-DraftCupInfo {
         )
     )
 
-    $Script:CupCacheFile = $Script:CupCacheFile ??= New-TemporaryFile
+    $Script:CupCacheFile = $Script:CupCacheFile ?? New-TemporaryFile
     $PreviousGameweeks = Get-Content -Path $Script:CupCacheFile.FullName | ConvertFrom-Json
 
     $CupHash = @{}

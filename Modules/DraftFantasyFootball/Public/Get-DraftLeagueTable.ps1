@@ -33,5 +33,8 @@ function Get-DraftLeagueTable {
 "@
     $Result = Invoke-ApiQuery -Query $Query
     $Output = ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'LeagueTable' -League $League
-    $Output | Sort-Object -Property Points, TotalScore -Descending
+    $Output | Sort-Object -Property Points, TotalScore -Descending | Foreach-Object -Begin {$i = 1} {
+        $_.Position = $i++
+        $_
+    }
 }

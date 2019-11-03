@@ -14,7 +14,7 @@ function Get-DraftCupInfo {
         )
     )
 
-    $Script:CupCacheFile = $Script:CupCacheFile ?? New-TemporaryFile
+    $Script:CupCacheFile = $Script:CupCacheFile ?? (New-TemporaryFile)
     $PreviousGameweeks = Get-Content -Path $Script:CupCacheFile.FullName | ConvertFrom-Json
 
     $CupHash = @{}
@@ -44,6 +44,7 @@ function Get-DraftCupInfo {
             $LastCutOffScore = $LastGameweekRanking[-$EliminationNumber].Gameweekpoints
             $LastCutoffManager = $LastGameweekRanking.Where({$_.Gameweekpoints -eq $LastCutoffScore}, 'SkipUntil')
             if ($LastCutoffManager.Count -eq $EliminationNumber) {
+                $LastCutoffManager | Add-Member -MemberType NoteProperty -Name Eliminated -Value $true
                 $EliminatedManagers.AddRange([string[]]$LastCutoffManager.Manager)
                 $EliminationNumber = 0
             }
@@ -57,6 +58,7 @@ function Get-DraftCupInfo {
                             $EliminationNumber = $EliminationNumber - $ScoreManager.Count
                         }
                     }
+                    $LastCutoffManager | Add-Member -MemberType NoteProperty -Name Eliminated -Value $true
                     $EliminatedManagers.AddRange([string[]]$LastCutoffManager.Manager)
                 }
             }

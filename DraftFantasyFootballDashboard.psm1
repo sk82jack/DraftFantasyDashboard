@@ -23,6 +23,7 @@ function Start-Dashboard {
     $Dashboard = New-UDDashboard @DashboardSplat
 
     $EveryHour = New-UDEndpoint -Schedule (New-UDEndpointSchedule -Every 1 -Hour) -Endpoint {
+        $Cache:CurrentGameweek = (Get-FplBootstrapStatic).events.Where{$_.is_current}.id
         $Cache:PremTeams = Get-DraftTeam -League 'Prem'
         $Cache:FreakTeams = Get-DraftTeam -League 'Freak'
         $Cache:VerminTeams = Get-DraftTeam -League 'Vermin'
@@ -41,6 +42,7 @@ function Start-Dashboard {
         $Cache:PremWaiver = Get-DraftWaiverOrder -League 'Prem'
         $Cache:FreakWaiver = Get-DraftWaiverOrder -League 'Freak'
         $Cache:VerminWaiver = Get-DraftWaiverOrder -League 'Vermin'
+        $Cache:CupInfo = Get-DraftCupInfo
     }
 
     try {

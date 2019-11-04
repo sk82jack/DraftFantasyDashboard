@@ -45,8 +45,9 @@ function Start-Dashboard {
         $Cache:CupInfo = Get-DraftCupInfo
     }
 
+    $Cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromCertFile('/var/cert/certificate.crt')
     try {
-        Start-UDDashboard -Dashboard $Dashboard -Port 8585 -Wait -Endpoint $EveryHour
+        Start-UDDashboard -Dashboard $Dashboard -Port 8585 -Wait -Endpoint $EveryHour -Certificate $Cert
     }
     catch {
         Write-Error -Exception $_.Exception

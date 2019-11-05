@@ -62,7 +62,7 @@ function Start-Dashboard {
         EndPoint  = $EveryHour
     }
     if ($CertificatePath) {
-        $StartDashboardSplat['CertificateFile'] = $CertificatePath
+        $StartDashboardSplat['Certificate'] = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromCertFile($CertificatePath)
     }
     try {
         Start-UDDashboard @StartDashboardSplat

@@ -55,11 +55,6 @@ function Start-Dashboard {
         $Cache:CupInfo = Get-DraftCupInfo
     }
 
-<<<<<<< Updated upstream
-    openssl pkcs12 -export -out certificate.pfx -inkey /var/cert/private.key -in /var/cert/certificate.crt -certfile /var/cert/ca_bundle.crt -passout pass:
-    $Path = Resolve-Path $PSScriptRoot/certificate.pfx
-    $Cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromCertFile($Path.Path)
-=======
     $StartDashboardSplat = @{
         Dashboard = $Dashboard
         Port      = $Port
@@ -69,7 +64,6 @@ function Start-Dashboard {
     if ($CertificatePath) {
         $StartDashboardSplat['Cert'] = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromCertFile($CertificatePath)
     }
->>>>>>> Stashed changes
     try {
         Start-UDDashboard @StartDashboardSplat
     }

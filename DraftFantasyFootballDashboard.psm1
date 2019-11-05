@@ -1,4 +1,14 @@
 function Start-Dashboard {
+    [CmdletBinding()]
+    param (
+        [Parameter()]
+        [int]
+        $Port = 8585,
+
+        [Parameter()]
+        [string]
+        $CertificatePath
+    )
     $Pages = @()
     $Pages += . (Join-Path $PSScriptRoot "Pages/fixtures.ps1")
 
@@ -45,11 +55,23 @@ function Start-Dashboard {
         $Cache:CupInfo = Get-DraftCupInfo
     }
 
+<<<<<<< Updated upstream
     openssl pkcs12 -export -out certificate.pfx -inkey /var/cert/private.key -in /var/cert/certificate.crt -certfile /var/cert/ca_bundle.crt -passout pass:
     $Path = Resolve-Path $PSScriptRoot/certificate.pfx
     $Cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromCertFile($Path.Path)
+=======
+    $StartDashboardSplat = @{
+        Dashboard = $Dashboard
+        Port      = $Port
+        Wait      = $true
+        EndPoint  = $EveryHour
+    }
+    if ($CertificatePath) {
+        $StartDashboardSplat['Cert'] = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromCertFile($CertificatePath)
+    }
+>>>>>>> Stashed changes
     try {
-        Start-UDDashboard -Dashboard $Dashboard -Port 8585 -Wait -Endpoint $EveryHour -Certificate $Cert
+        Start-UDDashboard @StartDashboardSplat
     }
     catch {
         Write-Error -Exception $_.Exception

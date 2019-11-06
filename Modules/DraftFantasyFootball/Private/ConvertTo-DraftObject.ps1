@@ -31,6 +31,12 @@ function ConvertTo-DraftObject {
         'Trade' {}
         'Team' {
             $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_next}.id
+            $Positions = @{
+                1 = 'GK'
+                2 = 'DEF'
+                3 = 'MID'
+                4 = 'FWD'
+            }
         }
         'Player' {
             if ($League) {
@@ -140,6 +146,7 @@ function ConvertTo-DraftObject {
                     else {
                         'vs {0} (A)' -f $Fixture.homeTeamShort
                     }
+                    $PlayerHash['Position'] = $Positions[[int]$Player.element_type_id]
                     $Hashtable['Players'].Add([PSCustomObject]$PlayerHash)
                 }
                 $Hashtable['Players'] = [System.Collections.Generic.List[psobject]]($Hashtable['Players'] | Sort-Object ElementTypeId)
@@ -147,6 +154,7 @@ function ConvertTo-DraftObject {
                     $PlayerHash = Convert-DiacriticProperties -Object $Player
                     $PlayerHash['IsSub'] = $True
                     $PlayerHash['Manager'] = $Manager
+                    $PlayerHash['Position'] = $Positions[[int]$Player.element_type_id]
                     $Hashtable['Players'].Add([PSCustomObject]$PlayerHash)
                 }
             }

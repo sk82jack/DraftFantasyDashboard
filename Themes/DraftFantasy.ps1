@@ -215,5 +215,8 @@
         '.card .card-title'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   = @{
             'font-size' = '15px'
         }
+        '.modal' = @{
+            'background-color' = 'rgb(51,51,51)'
+        }
     }
 }

@@ -22,7 +22,8 @@ function Start-Dashboard {
     }
 
     $BHEndpoints = New-UDEndpointInitialization -Module 'Modules/DraftFantasyFootball/DraftFantasyFootball.psd1' -Variable 'Images'
-    $Theme = Get-UDTheme Azure
+    $ThemeDefinition = Import-PowerShellDataFile -Path (Join-Path $PSScriptRoot '/Themes/DraftFantasy.ps1')
+    $Theme = New-UDTheme -Name $ThemeDefinition['Name'] -Definition $ThemeDefinition['Definition']
 
     $DashboardSplat = @{
         Title                  = 'Draft Fantasy Football'

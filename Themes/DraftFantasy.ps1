@@ -219,9 +219,10 @@
         }
         '.modal'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              = @{
             'background-color' = 'rgb(51,51,51)'
+            'margin-top' = '64px'
         }
         'main'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                = @{
-            'margin-top' = "64px"
+            'margin-top' = '64px'
         }
     }
 }

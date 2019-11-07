@@ -217,7 +217,7 @@
         '.modal'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              = @{
             'background-color' = 'rgb(51,51,51)'
         }
-        '.main'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               = @{
+        'main'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               = @{
             'margin-top' = "64px"
         }
     }

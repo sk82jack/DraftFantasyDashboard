@@ -18,18 +18,19 @@ New-UDPage -Name 'Cup' -Icon trophy -Endpoint {
                         $Eliminated = 'N/A'
                     }
 
+                    $RoundNumber = $Gameweek - 5
                     $ViewRankingsEndpoint = New-UDEndpoint -ArgumentList $Cache:CupInfo[$Gameweek] -Endpoint {
                         Show-UDModal -Content {
-                            New-UDTable -Title "Round $($Gameweek - 5) Cup Rankings" -Headers @("Manager", "Round Points") -Content {
+                            New-UDTable -Title "Round $RoundNumber Cup Rankings" -Headers @("Manager", "Round Points") -Content {
                                 $ArgumentList | Out-UDTableData -Property @("Manager", "Gameweekpoints")
                             }
                         }
                     }
 
                     [PSCustomObject]@{
-                        Round        = $Gameweek - 5
+                        Round        = $RoundNumber
                         Eliminated   = $Eliminated
-                        ViewRankings = New-UDButton -Text "Round Rankings" -OnClick $ViewRankingsEndpoint
+                        ViewRankings = New-UDButton -Text "Round $RoundNumber Rankings" -OnClick $ViewRankingsEndpoint
                     }
                 }
 

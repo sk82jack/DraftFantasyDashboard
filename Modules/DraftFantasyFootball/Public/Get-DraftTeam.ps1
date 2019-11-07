@@ -31,8 +31,8 @@ Function Get-DraftTeam {
             team_name_short
             club {
                 fixtures {
-                    homeTeam
-                    awayTeam
+                    homeTeamShort
+                    awayTeamShort
                     gameweek
                 }
             }

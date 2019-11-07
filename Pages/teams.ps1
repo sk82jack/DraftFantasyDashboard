@@ -1,6 +1,6 @@
 New-UDPage -Name 'Teams' -Icon 'users' -Endpoint {
     New-UDRow -Columns {
-        New-UDColumn -SmallSize 12 -Endpoint {
+        New-UDColumn -SmallSize 12 -MediumSize 12 -LargeSize 8 -LargeOffset 2 -Endpoint {
             New-UDTabContainer -Tabs {
                 New-UDTab -Text 'Prem' -Content {
                     New-UDTable -Title 'Team Lineups' -Headers @('Manager', 'Team') -Endpoint {

@@ -9,7 +9,7 @@ function Convert-DiacriticProperties {
     $Object.psobject.properties | ForEach-Object {
         $Name = $TextInfo.ToTitleCase($_.Name) -replace '_'
         if ($_.Value -is [string]) {
-            $Value = [Text.Encoding]::ASCII.GetString([Text.Encoding]::GetEncoding("Cyrillic").GetBytes($_.value)).trim()
+            $Value = [Text.Encoding]::ASCII.GetString([Text.Encoding]::GetEncoding("Cyrillic").GetBytes($_.value.replace('ß','ss'))).trim()
         }
         else {
             $Value = $_.Value

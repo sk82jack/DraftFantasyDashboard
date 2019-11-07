@@ -28,7 +28,6 @@
             BackgroundColor = "#252525"
             FontColor       = "#FFFFFF"
             'border-radius' = "12px"
-            'margin-top'    = "64px"
         }
         UDGrid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                = @{
             BackgroundColor = "#252525"
@@ -52,7 +51,6 @@
         }
         '.tabs'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               = @{
             'color'            = "#55b3ff"
-            'margin-top'       = "64px"
             'background-color' = "#333333"
             'z-index'          = "9998"
         }
@@ -208,16 +206,19 @@
             'max-height'   = '72px'
         }
         '.card .card-content'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 = @{
-            'padding'    = '0px'
-            'text-align' = 'center'
+            'padding'     = '0px'
+            'text-align'  = 'center'
             'font-weight' = '300'
-            'font-size' = '13px'
+            'font-size'   = '13px'
         }
         '.card .card-title'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   = @{
             'font-size' = '15px'
         }
-        '.modal' = @{
+        '.modal'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              = @{
             'background-color' = 'rgb(51,51,51)'
+        }
+        '.main'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               = @{
+            'margin-top' = "64px"
         }
     }
 }

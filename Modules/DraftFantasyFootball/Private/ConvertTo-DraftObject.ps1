@@ -154,6 +154,13 @@ function ConvertTo-DraftObject {
                     $PlayerHash = Convert-DiacriticProperties -Object $Player
                     $PlayerHash['IsSub'] = $True
                     $PlayerHash['Manager'] = $Manager
+                    $Fixture = $Player.Club.fixtures.Where{$_.gameweek -eq $Gameweek}
+                    $PlayerHash['TeamAgainst'] = if ($Fixture.homeTeamShort -eq $PlayerHash['TeamNameShort']) {
+                        'vs {0} (H)' -f $Fixture.awayTeamShort
+                    }
+                    else {
+                        'vs {0} (A)' -f $Fixture.homeTeamShort
+                    }
                     $PlayerHash['Position'] = $Positions[[int]$Player.element_type_id]
                     $Hashtable['Players'].Add([PSCustomObject]$PlayerHash)
                 }

@@ -35,24 +35,36 @@ function Start-Dashboard {
 
     $EveryHour = New-UDEndpoint -Schedule (New-UDEndpointSchedule -Every 1 -Hour) -Endpoint {
         $Cache:CurrentGameweek = (Get-FplBootstrapStatic).events.Where{$_.is_current}.id
-        $Cache:PremTeams = Get-DraftTeam -League 'Prem'
-        $Cache:FreakTeams = Get-DraftTeam -League 'Freak'
-        $Cache:VerminTeams = Get-DraftTeam -League 'Vermin'
-        $Cache:PremH2H = Get-DraftHeadToHead -League 'Prem'
-        $Cache:FreakH2H = Get-DraftHeadToHead -League 'Freak'
-        $Cache:VerminH2H = Get-DraftHeadToHead -League 'Vermin'
-        $Cache:PremPlayers = Get-DraftPlayer -League 'Prem'
-        $Cache:FreakPlayers = Get-DraftPlayer -League 'Freak'
-        $Cache:VerminPlayers = Get-DraftPlayer -League 'Vermin'
-        $Cache:PremTable = Get-DraftLeagueTable -League 'Prem'
-        $Cache:FreakTable = Get-DraftLeagueTable -League 'Freak'
-        $Cache:VerminTable = Get-DraftLeagueTable -League 'Vermin'
-        $Cache:PremTrades = Get-DraftTrade -League 'Prem'
-        $Cache:FreakTrades = Get-DraftTrade -League 'Freak'
-        $Cache:VerminTrades = Get-DraftTrade -League 'Vermin'
-        $Cache:PremWaiver = Get-DraftWaiverOrder -League 'Prem'
-        $Cache:FreakWaiver = Get-DraftWaiverOrder -League 'Freak'
-        $Cache:VerminWaiver = Get-DraftWaiverOrder -League 'Vermin'
+        $Cache:Teams = @{
+            'Prem'   = Get-DraftTeam -League 'Prem'
+            'Freak'  = Get-DraftTeam -League 'Freak'
+            'Vermin' = Get-DraftTeam -League 'Vermin'
+        }
+        $Cache:H2H = @{
+            'Prem'   = Get-DraftHeadToHead -League 'Prem'
+            'Freak'  = Get-DraftHeadToHead -League 'Freak'
+            'Vermin' = Get-DraftHeadToHead -League 'Vermin'
+        }
+        $Cache:Players = @{
+            'Prem'   = Get-DraftPlayer -League 'Prem'
+            'Freak'  = Get-DraftPlayer -League 'Freak'
+            'Vermin' = Get-DraftPlayer -League 'Vermin'
+        }
+        $Cache:Tables = @{
+            'Prem'   = Get-DraftLeagueTable -League 'Prem'
+            'Freak'  = Get-DraftLeagueTable -League 'Freak'
+            'Vermin' = Get-DraftLeagueTable -League 'Vermin'
+        }
+        $Cache:Trades = @{
+            'Prem'   = Get-DraftTrade -League 'Prem'
+            'Freak'  = Get-DraftTrade -League 'Freak'
+            'Vermin' = Get-DraftTrade -League 'Vermin'
+        }
+        $Cache:Waivers = @{
+            'Prem'   = Get-DraftWaiverOrder -League 'Prem'
+            'Freak'  = Get-DraftWaiverOrder -League 'Freak'
+            'Vermin' = Get-DraftWaiverOrder -League 'Vermin'
+        }
         $Cache:CupInfo = Get-DraftCupInfo
     }
 

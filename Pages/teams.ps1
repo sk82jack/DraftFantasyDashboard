@@ -4,7 +4,7 @@ New-UDPage -Name 'Teams' -Icon 'users' -Endpoint {
             New-UDTabContainer -Tabs {
                 New-UDTab -Text 'Prem' -Content {
                     New-UDTable -Title 'Team Lineups' -Headers @('Manager', 'Team') -Endpoint {
-                        $Output = foreach ($Team in $Cache:PremTeams) {
+                        $Output = foreach ($Team in $Cache:Teams['Prem']) {
                             $ViewTeamEndpoint = New-UDEndpoint -ArgumentList $Team -Endpoint {
                                 Show-UDModal -Content {
                                     New-UDTable -Title "Starting XI" -Headers @('Name', 'Team', 'Position', 'Upcoming Fixture') -Content {
@@ -27,7 +27,7 @@ New-UDPage -Name 'Teams' -Icon 'users' -Endpoint {
                 }
                 New-UDTab -Text 'Freak' -Content {
                     New-UDTable -Title 'Team Lineups' -Headers @('Manager', 'Team') -Endpoint {
-                        $Output = foreach ($Team in $Cache:FreakTeams) {
+                        $Output = foreach ($Team in $Cache:Teams['Freak']) {
                             $ViewTeamEndpoint = New-UDEndpoint -ArgumentList $Team -Endpoint {
                                 Show-UDModal -Content {
                                     New-UDTable -Title "Starting XI" -Headers @('Name', 'Team', 'Position', 'Upcoming Fixture') -Content {
@@ -50,7 +50,7 @@ New-UDPage -Name 'Teams' -Icon 'users' -Endpoint {
                 }
                 New-UDTab -Text 'Vermin' -Content {
                     New-UDTable -Title 'Team Lineups' -Headers @('Manager', 'Team') -Endpoint {
-                        $Output = foreach ($Team in $Cache:VerminTeams) {
+                        $Output = foreach ($Team in $Cache:Teams['Vermin']) {
                             $ViewTeamEndpoint = New-UDEndpoint -ArgumentList $Team -Endpoint {
                                 Show-UDModal -Content {
                                     New-UDTable -Title "Starting XI" -Headers @('Name', 'Team', 'Position', 'Upcoming Fixture') -Content {

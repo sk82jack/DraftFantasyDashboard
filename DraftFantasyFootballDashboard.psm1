@@ -33,46 +33,93 @@ function Start-Dashboard {
     }
     $Dashboard = New-UDDashboard @DashboardSplat
 
-    $EveryHour = New-UDEndpoint -Schedule (New-UDEndpointSchedule -Every 1 -Hour) -Endpoint {
+    $Schedule2 = New-UDEndpointSchedule -Every 2 -Minute
+    $Schedule5 = New-UDEndpointSchedule -Every 5 -Minute
+    $BaseEndpoint = New-UDEndpoint -Schedule $Schedule2 -Endpoint {
         $Cache:CurrentGameweek = (Get-FplBootstrapStatic).events.Where{$_.is_current}.id
-        $Cache:Teams = @{
-            'Prem'   = Get-DraftTeam -League 'Prem'
-            'Freak'  = Get-DraftTeam -League 'Freak'
-            'Vermin' = Get-DraftTeam -League 'Vermin'
+        $Fixtures = Invoke-RestMethod -Uri 'https://fantasy.premierleague.com/api/fixtures/'
+        $GameweekFixtures = $Fixtures.Where{$_.event -eq $NewGameweek}
+        $Cache:InGame = foreach ($Fixture in $GameweekFixtures) {
+            ($Time -gt $Fixture.kickoff_time) -and ($Time -lt $Fixture.kickoff_time.AddHours(2))
+            break
         }
-        $Cache:H2H = @{
-            'Prem'   = Get-DraftHeadToHead -League 'Prem'
-            'Freak'  = Get-DraftHeadToHead -League 'Freak'
-            'Vermin' = Get-DraftHeadToHead -League 'Vermin'
-        }
-        $Cache:Players = @{
-            'Prem'   = Get-DraftPlayer -League 'Prem'
-            'Freak'  = Get-DraftPlayer -League 'Freak'
-            'Vermin' = Get-DraftPlayer -League 'Vermin'
-        }
-        $Cache:Tables = @{
-            'Prem'   = Get-DraftLeagueTable -League 'Prem'
-            'Freak'  = Get-DraftLeagueTable -League 'Freak'
-            'Vermin' = Get-DraftLeagueTable -League 'Vermin'
-        }
-        $Cache:Trades = @{
-            'Prem'   = Get-DraftTrade -League 'Prem'
-            'Freak'  = Get-DraftTrade -League 'Freak'
-            'Vermin' = Get-DraftTrade -League 'Vermin'
-        }
-        $Cache:Waivers = @{
-            'Prem'   = Get-DraftWaiverOrder -League 'Prem'
-            'Freak'  = Get-DraftWaiverOrder -League 'Freak'
-            'Vermin' = Get-DraftWaiverOrder -League 'Vermin'
-        }
-        $Cache:CupInfo = Get-DraftCupInfo
     }
+    $TeamsEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
+        if ($Cache:InGame -or -not $Cache:Teams) {
+            $Cache:Teams = @{
+                'Prem'   = Get-DraftTeam -League 'Prem'
+                'Freak'  = Get-DraftTeam -League 'Freak'
+                'Vermin' = Get-DraftTeam -League 'Vermin'
+            }
+        }
+    }
+    $H2HEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
+        if ($Cache:InGame -or -not $Cache:H2H) {
+            $Cache:H2H = @{
+                'Prem'   = Get-DraftHeadToHead -League 'Prem'
+                'Freak'  = Get-DraftHeadToHead -League 'Freak'
+                'Vermin' = Get-DraftHeadToHead -League 'Vermin'
+            }
+        }
+    }
+    $PlayersEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
+        if ($Cache:InGame -or -not $Cache:Players) {
+            $Cache:Players = @{
+                'Prem'   = Get-DraftPlayer -League 'Prem'
+                'Freak'  = Get-DraftPlayer -League 'Freak'
+                'Vermin' = Get-DraftPlayer -League 'Vermin'
+            }
+        }
+    }
+    $TablesEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
+        if ($Cache:InGame -or -not $Cache:Tables) {
+            $Cache:Tables = @{
+                'Prem'   = Get-DraftLeagueTable -League 'Prem'
+                'Freak'  = Get-DraftLeagueTable -League 'Freak'
+                'Vermin' = Get-DraftLeagueTable -League 'Vermin'
+            }
+        }
+    }
+    $TradesEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
+        if ($Cache:InGame -or -not $Cache:Trades) {
+            $Cache:Trades = @{
+                'Prem'   = Get-DraftTrade -League 'Prem'
+                'Freak'  = Get-DraftTrade -League 'Freak'
+                'Vermin' = Get-DraftTrade -League 'Vermin'
+            }
+        }
+    }
+    $WaiversEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
+        if ($Cache:InGame -or -not $Cache:Waivers) {
+            $Cache:Waivers = @{
+                'Prem'   = Get-DraftWaiverOrder -League 'Prem'
+                'Freak'  = Get-DraftWaiverOrder -League 'Freak'
+                'Vermin' = Get-DraftWaiverOrder -League 'Vermin'
+            }
+        }
+    }
+    $CupEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
+        if ($Cache:InGame -or -not $Cache:CupInfo) {
+            $Cache:CupInfo = Get-DraftCupInfo
+        }
+    }
+
+    $Endpoints = @(
+        $BaseEndpoint
+        $TeamsEndpoint
+        $H2HEndpoint
+        $PlayersEndpoint
+        $TablesEndpoint
+        $TradesEndpoint
+        $WaiversEndpoint
+        $CupEndpoint
+    )
 
     $StartDashboardSplat = @{
         Dashboard = $Dashboard
         Port      = $Port
         Wait      = $true
-        EndPoint  = $EveryHour
+        EndPoint  = $Endpoints
     }
     if ($CertificatePath) {
         $StartDashboardSplat['Certificate'] = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromCertFile($CertificatePath)

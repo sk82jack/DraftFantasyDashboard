@@ -7,7 +7,7 @@ function Get-DraftLeaguePoints {
         $League,
 
         [Parameter()]
-        [int]
+        [int[]]
         $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     )
     $LeagueId = $Script:ConfigData[$League]['LeagueId']
@@ -16,8 +16,12 @@ function Get-DraftLeaguePoints {
     leagueTeams(_id: "$leagueId") {
         _id
         name
-        gameweekPoints: liveGameweekPoints(gameweek: $gameweek)
-        gameweekHistory(gameweek: $gameweek) {
+
+"@
+    foreach ($Week in $Gameweek) {
+        $Query += @"
+        gameweek$($Week)Points: liveGameweekPoints(gameweek: $Week)
+        gameweek$($Week)History: gameweekHistory(gameweek: $Week) {
             lineup
             subs
             autoSubs {
@@ -25,6 +29,10 @@ function Get-DraftLeaguePoints {
                 out
             }
         }
+
+"@
+    }
+    $Query += @"
     }
 }
 "@

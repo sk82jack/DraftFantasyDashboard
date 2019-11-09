@@ -14,67 +14,52 @@ function Get-DraftCupInfo {
         )
     )
 
-    $Script:CupCacheFile = $Script:CupCacheFile ?? (New-TemporaryFile)
-    $PreviousGameweeks = Get-Content -Path $Script:CupCacheFile.FullName | ConvertFrom-Json
-
+    $CurrentGW = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     $CupHash = @{}
-    if ($PreviousGameweeks.$StartGameweek) {
-        $CupHash[$StartGameweek] = $PreviousGameweeks.$StartGameweek
+    $Scores = foreach ($League in $Leagues) {
+        Get-DraftLeaguePoints -League $League -Gameweek ($StartGameweek..$CurrentGW)
     }
-    else {
-        $Scores = foreach ($League in $Leagues) {
-            Get-DraftLeaguePoints -League $League -Gameweek $StartGameweek
-        }
-        $Output = $Scores | Sort-Object -Property Gameweekpoints -Descending
-        $CupHash[$StartGameweek] = $Output
-        $PreviousGameweeks = [PSCustomObject]@{
-            $StartGameweek = $Output
-        }
+    $Output = $Scores | Sort-Object -Property "Gameweek$($StartGameweek)points" -Descending
+    $CupHash[$StartGameweek] = $Output | Select-Object -ExcludeProperty 'Gameweekpoints' -Property *, @{
+        Name       = 'Gameweekpoints'
+        Expression = {$_."Gameweek$($StartGameweek)points"}
     }
     $EliminatedManagers = [System.Collections.Generic.List[string]]::new()
-    $CurrentGW = $Script:BootstrapStatic.events.Where{$_.is_current}.id
 
     foreach ($Gameweek in ($StartGameweek + 1)..$CurrentGW) {
-        if (($Gameweek -ne $CurrentGW) -and $PreviousGameweeks.$Gameweek) {
-            $CupHash[$Gameweek] = $PreviousGameweeks.$Gameweek
+        $EliminationNumber += 1
+        $LastGameweek = $Gameweek - 1
+        $LastGameweekRanking = $CupHash[$LastGameweek]
+        $LastCutOffScore = $LastGameweekRanking[ - $EliminationNumber]."Gameweekpoints"
+        $LastCutoffManager = $LastGameweekRanking.Where( {$_."Gameweekpoints" -eq $LastCutoffScore}, 'SkipUntil')
+        if ($LastCutoffManager.Count -eq $EliminationNumber) {
+            $LastCutoffManager | Add-Member -MemberType NoteProperty -Name Eliminated -Value $true
+            $EliminatedManagers.AddRange([string[]]$LastCutoffManager.Manager)
+            $EliminationNumber = 0
         }
         else {
-            $EliminationNumber += 1
-            $LastGameweekRanking = $CupHash[($Gameweek - 1)]
-            $LastCutOffScore = $LastGameweekRanking[-$EliminationNumber].Gameweekpoints
-            $LastCutoffManager = $LastGameweekRanking.Where({$_.Gameweekpoints -eq $LastCutoffScore}, 'SkipUntil')
-            if ($LastCutoffManager.Count -eq $EliminationNumber) {
+            $UniqueScores = $LastCutoffManager."Gameweekpoints" | Sort-Object -Unique
+            if ($UniqueScores.count -ne 1) {
+                $LastCutoffManager = foreach ($Score in $UniqueScores) {
+                    $ScoreManager = $LastCutoffManager.Where{$_."Gameweekpoints" -eq $Score}
+                    if ($ScoreManager.Count -lt $EliminationNumber) {
+                        $ScoreManager
+                        $EliminationNumber = $EliminationNumber - $ScoreManager.Count
+                    }
+                }
                 $LastCutoffManager | Add-Member -MemberType NoteProperty -Name Eliminated -Value $true
                 $EliminatedManagers.AddRange([string[]]$LastCutoffManager.Manager)
-                $EliminationNumber = 0
-            }
-            else {
-                $UniqueScores = $LastCutoffManager.Gameweekpoints | Sort-Object -Unique
-                if ($UniqueScores.count -ne 1) {
-                    $LastCutoffManager = foreach ($Score in $UniqueScores) {
-                        $ScoreManager = $LastCutoffManager.Where{$_.Gameweekpoints -eq $Score}
-                        if ($ScoreManager.Count -lt $EliminationNumber) {
-                            $ScoreManager
-                            $EliminationNumber = $EliminationNumber - $ScoreManager.Count
-                        }
-                    }
-                    $LastCutoffManager | Add-Member -MemberType NoteProperty -Name Eliminated -Value $true
-                    $EliminatedManagers.AddRange([string[]]$LastCutoffManager.Manager)
-                }
-            }
-
-            $Scores = foreach ($League in $Leagues) {
-                Get-DraftLeaguePoints -League $League -Gameweek $Gameweek | Where-Object {
-                    $_.Manager -notin $EliminatedManagers
-                }
-            }
-            $Output = $Scores | Sort-Object -Property Gameweekpoints -Descending
-            $CupHash[$Gameweek] = $Output
-            if ($Gameweek -lt $CurrentGW) {
-                $PreviousGameweeks | Add-Member -Name $Gameweek -MemberType NoteProperty -Value $Output
             }
         }
+
+        $Scores = $Scores.Where{
+            $_.Manager -notin $EliminatedManagers
+        }
+        $Output = $Scores | Sort-Object -Property "Gameweek$($Gameweek)points" -Descending
+        $CupHash[$Gameweek] = $Output | Select-Object -ExcludeProperty 'Gameweekpoints' -Property *, @{
+            Name       = 'Gameweekpoints'
+            Expression = {$_."Gameweek$($Gameweek)points"}
+        }
     }
-    $PreviousGameweeks | ConvertTo-Json -Depth 5 | Set-Content -Path $Script:CupCacheFile.FullName
     $CupHash
 }

@@ -18,7 +18,7 @@ function ConvertTo-DraftObject {
         $League,
 
         [Parameter()]
-        [int64]
+        [int64[]]
         $Gameweek
     )
     switch ($Type) {
@@ -200,14 +200,18 @@ function ConvertTo-DraftObject {
             'Points' {
                 $Manager = $Script:ConfigData[$League]['Teams'][$Hashtable.Id]
                 $Hashtable['Manager'] = $Manager
-                if (-not $Script:BootstrapStatic.events.Where{$_.id -eq $Gameweek}.finished) {
-                    $AutoSubParams = @{
-                        LineupIds     = $Hashtable['Gameweekhistory'].lineup
-                        SubIds        = $Hashtable['Gameweekhistory'].subs
-                        PlayerMinutes = $PlayerMinutes
+                foreach ($Week in $Gameweek) {
+                    if (-not $Script:BootstrapStatic.events.Where{$_.id -eq $Week}.finished) {
+                        $AutoSubParams = @{
+                            LineupIds     = $Hashtable["Gameweek$($Week)history"].lineup
+                            SubIds        = $Hashtable["Gameweek$($Week)history"].subs
+                            PlayerMinutes = $PlayerMinutes
+                        }
+                        $Hashtable["Gameweek$($Week)Lineup"] = Invoke-AutoSubs @AutoSubParams
+                        $Hashtable["Gameweek$($Week)points"] = ($Hashtable["Gameweek$($Week)Lineup"].WeeklyPoints | Measure-Object -Sum).Sum
+                        $Hashtable['GameweekLineup'] = $Hashtable["Gameweek$($Week)Lineup"]
+                        $Hashtable['Gameweekpoints'] = $Hashtable["Gameweek$($Week)points"]
                     }
-                    $Hashtable['GameweekLineup'] = Invoke-AutoSubs @AutoSubParams
-                    $Hashtable['Gameweekpoints'] = ($Hashtable['GameweekLineup'].WeeklyPoints | Measure-Object -Sum).Sum
                 }
             }
         }

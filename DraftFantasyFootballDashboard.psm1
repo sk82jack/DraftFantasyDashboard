@@ -35,6 +35,8 @@ function Start-Dashboard {
 
     $Schedule2 = New-UDEndpointSchedule -Every 2 -Minute
     $Schedule5 = New-UDEndpointSchedule -Every 5 -Minute
+    $Schedule60 = New-UDEndpointSchedule -Every 1 -Hour
+
     $BaseEndpoint = New-UDEndpoint -Schedule $Schedule2 -Endpoint {
         $Cache:CurrentGameweek = (Get-FplBootstrapStatic).events.Where{$_.is_current}.id
         $Fixtures = Invoke-RestMethod -Uri 'https://fantasy.premierleague.com/api/fixtures/'
@@ -45,7 +47,7 @@ function Start-Dashboard {
         }
     }
     $TeamsEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame -or -not $Cache:Teams) {
+        if ($Cache:InGame) {
             $Cache:Teams = @{
                 'Prem'   = Get-DraftTeam -League 'Prem'
                 'Freak'  = Get-DraftTeam -League 'Freak'
@@ -54,7 +56,7 @@ function Start-Dashboard {
         }
     }
     $H2HEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame -or -not $Cache:H2H) {
+        if ($Cache:InGame) {
             $Cache:H2H = @{
                 'Prem'   = Get-DraftHeadToHead -League 'Prem'
                 'Freak'  = Get-DraftHeadToHead -League 'Freak'
@@ -63,7 +65,7 @@ function Start-Dashboard {
         }
     }
     $PlayersEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame -or -not $Cache:Players) {
+        if ($Cache:InGame) {
             $Cache:Players = @{
                 'Prem'   = Get-DraftPlayer -League 'Prem'
                 'Freak'  = Get-DraftPlayer -League 'Freak'
@@ -72,7 +74,7 @@ function Start-Dashboard {
         }
     }
     $TablesEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame -or -not $Cache:Tables) {
+        if ($Cache:InGame) {
             $Cache:Tables = @{
                 'Prem'   = Get-DraftLeagueTable -League 'Prem'
                 'Freak'  = Get-DraftLeagueTable -League 'Freak'
@@ -81,7 +83,7 @@ function Start-Dashboard {
         }
     }
     $TradesEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame -or -not $Cache:Trades) {
+        if ($Cache:InGame) {
             $Cache:Trades = @{
                 'Prem'   = Get-DraftTrade -League 'Prem'
                 'Freak'  = Get-DraftTrade -League 'Freak'
@@ -90,7 +92,7 @@ function Start-Dashboard {
         }
     }
     $WaiversEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame -or -not $Cache:Waivers) {
+        if ($Cache:InGame) {
             $Cache:Waivers = @{
                 'Prem'   = Get-DraftWaiverOrder -League 'Prem'
                 'Freak'  = Get-DraftWaiverOrder -League 'Freak'
@@ -99,9 +101,42 @@ function Start-Dashboard {
         }
     }
     $CupEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame -or -not $Cache:CupInfo) {
+        if ($Cache:InGame) {
             $Cache:CupInfo = Get-DraftCupInfo
         }
+    }
+    $HourlyEndpoint = New-UDEndpoint -Schedule $Schedule60 -Endpoint {
+        $Cache:Teams = @{
+            'Prem'   = Get-DraftTeam -League 'Prem'
+            'Freak'  = Get-DraftTeam -League 'Freak'
+            'Vermin' = Get-DraftTeam -League 'Vermin'
+        }
+        $Cache:H2H = @{
+            'Prem'   = Get-DraftHeadToHead -League 'Prem'
+            'Freak'  = Get-DraftHeadToHead -League 'Freak'
+            'Vermin' = Get-DraftHeadToHead -League 'Vermin'
+        }
+        $Cache:Players = @{
+            'Prem'   = Get-DraftPlayer -League 'Prem'
+            'Freak'  = Get-DraftPlayer -League 'Freak'
+            'Vermin' = Get-DraftPlayer -League 'Vermin'
+        }
+        $Cache:Tables = @{
+            'Prem'   = Get-DraftLeagueTable -League 'Prem'
+            'Freak'  = Get-DraftLeagueTable -League 'Freak'
+            'Vermin' = Get-DraftLeagueTable -League 'Vermin'
+        }
+        $Cache:Trades = @{
+            'Prem'   = Get-DraftTrade -League 'Prem'
+            'Freak'  = Get-DraftTrade -League 'Freak'
+            'Vermin' = Get-DraftTrade -League 'Vermin'
+        }
+        $Cache:Waivers = @{
+            'Prem'   = Get-DraftWaiverOrder -League 'Prem'
+            'Freak'  = Get-DraftWaiverOrder -League 'Freak'
+            'Vermin' = Get-DraftWaiverOrder -League 'Vermin'
+        }
+        $Cache:CupInfo = Get-DraftCupInfo
     }
 
     $Endpoints = @(
@@ -113,6 +148,7 @@ function Start-Dashboard {
         $TradesEndpoint
         $WaiversEndpoint
         $CupEndpoint
+        $HourlyEndpoint
     )
 
     $StartDashboardSplat = @{

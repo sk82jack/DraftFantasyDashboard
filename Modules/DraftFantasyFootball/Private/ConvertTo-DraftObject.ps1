@@ -139,7 +139,7 @@ function ConvertTo-DraftObject {
                     $PlayerHash = Convert-DiacriticProperties -Object $Player
                     $PlayerHash['IsSub'] = $False
                     $PlayerHash['Manager'] = $Manager
-                    $Fixture = $Player.Club.fixtures.Where{$_.gameweek -eq $Gameweek}
+                    $Fixture = $Player.Club.fixtures.Where{$_.gameweek -in $Gameweek}
                     $PlayerHash['TeamAgainst'] = if ($Fixture.homeTeamShort -eq $PlayerHash['TeamNameShort']) {
                         'vs {0} (H)' -f $Fixture.awayTeamShort
                     }
@@ -154,7 +154,7 @@ function ConvertTo-DraftObject {
                     $PlayerHash = Convert-DiacriticProperties -Object $Player
                     $PlayerHash['IsSub'] = $True
                     $PlayerHash['Manager'] = $Manager
-                    $Fixture = $Player.Club.fixtures.Where{$_.gameweek -eq $Gameweek}
+                    $Fixture = $Player.Club.fixtures.Where{$_.gameweek -in $Gameweek}
                     $PlayerHash['TeamAgainst'] = if ($Fixture.homeTeamShort -eq $PlayerHash['TeamNameShort']) {
                         'vs {0} (H)' -f $Fixture.awayTeamShort
                     }

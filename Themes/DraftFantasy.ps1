@@ -49,34 +49,33 @@
             FontColor       = "#55b3ff"
             "margin-top"    = "4% !important"
         }
-        '.tabs'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               = @{
-            'color'            = "#55b3ff"
-            'background-color' = "#333333"
-            'z-index'          = "9998"
+
+        UDTab = @{
+            FontColor = '#FFFFFF'
         }
-        '.tabs .tab'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          = @{
-            'color' = "#252525"
+        UDTabs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                = @{
+            BackgroundColor = '#1c1c1c'
+            FontColor       = '#FFFFFF'
+            Height          = 'auto'
         }
 
-        '.tabs .tab a:hover'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  = @{
-            'background-color' = "#252525"
-            'color'            = "#55b3ff"
+        UDTabActive                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           = @{
+            ActiveBackgroundColor = '#1c1c1c'
+            ActiveFontColor       = '#55b3ff'
         }
 
-        '.tabs .tab a.active'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 = @{
-            'background-color' = "#1c1c1c"
-            'color'            = "#55b3ff"
+        UDTabIndicator                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        = @{
+            IndicatorColor = '#55b3ff'
         }
-        '.tabs .tab a:focus.active'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           = @{
 
-            'background-color' = "#252525"
-            'color'            = "#55b3ff"
+        '.mdc-tab__ripple::before'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            = @{
+            'background-color' = '#1c1c1c'
         }
-        '.tabs .indicator'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    = @{
-            'background-color' = "#55b3ff"
+        '.mdc-tab__ripple::after'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             = @{
+            'background-color' = '#1c1c1c'
         }
-        '.tabs .tab a'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        = @{
-            'color' = "#FFFFFF"
+        '.mdc-tab .mdc-tab__text-label' = @{
+            'color' = '#FFFFFF'
         }
 
         '[type="radio"]:checked + span::after'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                = @{
@@ -219,7 +218,7 @@
         }
         '.modal'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              = @{
             'background-color' = 'rgb(51,51,51)'
-            'margin-top' = '64px'
+            'margin-top'       = '64px'
         }
         'main'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                = @{
             'margin-top' = '64px'

@@ -10,8 +10,13 @@ function Get-DraftLeaguePoints {
         [int[]]
         $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     )
-    if ($Gameweek -gt 38) {
-        $Gameweek += -9
+    $Gameweek = $Gameweek | Foreach-Object {
+        if ($_ -gt 38) {
+            $_ - 9
+        }
+        else {
+            $_
+        }
     }
 
     $LeagueId = $Script:ConfigData[$League]['LeagueId']

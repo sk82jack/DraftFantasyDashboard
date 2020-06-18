@@ -68,8 +68,8 @@ function ConvertTo-DraftObject {
             'HeadToHead' {
                 $Hashtable['Manager1'] = $Script:ConfigData[$League]['Teams'][$Hashtable['Team1Id']]
                 $Hashtable['Manager2'] = $Script:ConfigData[$League]['Teams'][$Hashtable['Team2Id']]
-                $Hashtable['Team1score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager1']}.Gameweekpoints
-                $Hashtable['Team2score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager2']}.Gameweekpoints
+                $Hashtable['Team1score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager1']}."Gameweek${Gameweek}points"
+                $Hashtable['Team2score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager2']}."Gameweek${Gameweek}points"
             }
             'LeagueTable' {
                 $Hashtable['Played'] = [int]$Hashtable['headToHeadData'].played

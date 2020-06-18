@@ -31,6 +31,9 @@ function ConvertTo-DraftObject {
         'Trade' {}
         'Team' {
             $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_next}.id
+            if ($Gameweek -gt 38) {
+                $Gameweek += -9
+            }
             $Positions = @{
                 1 = 'GK'
                 2 = 'DEF'

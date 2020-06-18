@@ -14,6 +14,9 @@ function Invoke-AutoSubs {
         $PlayerMinutes = Get-DraftPlayerMinutes
     }
     $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
+    if ($Gameweek -gt 38) {
+        $Gameweek += -9
+    }
     $GameweekLineup = Assert-FplLineup -Lineup $LineupIds
     $SubsStillToPlay = $SubIds.Where{
         -not $PlayerMinutes[$_].$Gameweek.Minutes -and

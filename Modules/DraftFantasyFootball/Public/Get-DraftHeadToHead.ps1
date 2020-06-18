@@ -18,6 +18,9 @@ function Get-DraftHeadToHead {
         if ($Gameweek -eq 0) {
             $Gameweek = 1
         }
+        elseif ($Gameweek -gt 38) {
+            $Gameweek += -9
+        }
     }
 
     $Query = @"

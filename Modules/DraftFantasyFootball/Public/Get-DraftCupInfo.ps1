@@ -67,10 +67,23 @@ function Get-DraftCupInfo {
             $_.Manager -notin $EliminatedManagers
         }
 
-        $CupHash[$Gameweek] = $Scores | Sort-Object -Property "Gameweek$($Gameweek)points" -Descending | Select-Object -ExcludeProperty 'Gameweekpoints' -Property *, @{
-            Name       = 'Gameweekpoints'
-            Expression = {$_."Gameweek$($Gameweek)points"}
+        $Properties = [System.Collections.Generic.List[psobject]]@(
+            '*'
+            @{
+                Name       = 'Gameweekpoints'
+                Expression = {$_."Gameweek$($Gameweek)points"}
+            }
+            @{
+                Name       = 'Winner'
+                Expression = {$false}
+            }
+        )
+
+        if (@($Scores).Count -eq 1) {
+            $Properties[2]['Expression'] = {$true}
         }
+
+        $CupHash[$Gameweek] = $Scores | Sort-Object -Property "Gameweek$($Gameweek)points" -Descending | Select-Object -ExcludeProperty 'Gameweekpoints' -Property $Properties
     }
     $CupHash
 }

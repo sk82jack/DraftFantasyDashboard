@@ -10,9 +10,11 @@ New-UDPage -Name 'Cup' -Icon trophy -Endpoint {
                         continue
                     }
 
-                    $Eliminated = ($Cache:CupInfo[$Gameweek].Where{$_.Eliminated} | Foreach-Object {
-                        '{0} ({1})' -f $_.Manager, $_.Gameweekpoints
-                    }) -join ', '
+                    $Eliminated = (
+                        $Cache:CupInfo[$Gameweek].Where{$_.Eliminated} | Foreach-Object {
+                            '{0} ({1})' -f $_.Manager, $_.Gameweekpoints
+                        }
+                    ) -join ', '
 
                     if (-not $Eliminated) {
                         $Eliminated = 'N/A'

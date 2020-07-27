@@ -32,6 +32,10 @@ function Get-DraftCupInfo {
 
     foreach ($Gameweek in ($StartGameweek + 1)..$CurrentGW) {
         $EliminationNumber += 1
+        if ($EliminationNumber -eq $Scores.Count) {
+            $EliminationNumber -= 1
+        }
+
         $LastGameweek = $Gameweek - 1
         $LastGameweekRanking = $CupHash[$LastGameweek]
         $LastCutOffScore = $LastGameweekRanking[ - $EliminationNumber]."Gameweekpoints"

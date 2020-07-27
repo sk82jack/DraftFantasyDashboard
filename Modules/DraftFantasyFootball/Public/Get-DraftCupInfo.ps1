@@ -84,6 +84,10 @@ function Get-DraftCupInfo {
         }
 
         $CupHash[$Gameweek] = $Scores | Sort-Object -Property "Gameweek$($Gameweek)points" -Descending | Select-Object -ExcludeProperty 'Gameweekpoints' -Property $Properties
+
+        if (@($Scores).Count -eq 1) {
+            break
+        }
     }
     $CupHash
 }

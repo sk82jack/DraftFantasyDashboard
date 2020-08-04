@@ -4,7 +4,7 @@ New-UDPage -Name 'Picks' -Icon history -Endpoint {
             New-UDTabContainer -Tabs {
                 New-UDTab -Text 'Prem' -Content {
                     New-UDGrid -Id 'PremHistory' -Headers @('#', 'Manager', 'Player', 'Round') -Properties 'PickNo', 'Manager', 'Player', 'Round' -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
-                        Get-DraftPicks -League 'Prem' | Out-UDGridData
+                        $Cache:Picks['Prem'] | Out-UDGridData
                         Invoke-UDJavaScript -JavaScript "
                             var checkExist = setInterval(function () {
                             if (document.getElementById('PremHistory').querySelector('table.griddle-table') != null) {
@@ -17,7 +17,7 @@ New-UDPage -Name 'Picks' -Icon history -Endpoint {
                 }
                 New-UDTab -Text 'Freak' -Content {
                     New-UDGrid -Id 'FreakHistory' -Headers @('#', 'Manager', 'Player', 'Round') -Properties 'PickNo', 'Manager', 'Player', 'Round' -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
-                        Get-DraftPicks -League 'Freak' | Out-UDGridData
+                        $Cache:Picks['Freak'] | Out-UDGridData
                         Invoke-UDJavaScript -JavaScript "
                             var checkExist = setInterval(function () {
                             if (document.getElementById('FreakHistory').querySelector('table.griddle-table') != null) {
@@ -30,7 +30,7 @@ New-UDPage -Name 'Picks' -Icon history -Endpoint {
                 }
                 New-UDTab -Text 'Vermin' -Content {
                     New-UDGrid -Id 'VerminHistory' -Headers @('#', 'Manager', 'Player', 'Round') -Properties 'PickNo', 'Manager', 'Player', 'Round' -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
-                        Get-DraftPicks -League 'Vermin' | Out-UDGridData
+                        $Cache:Picks['Vermin'] | Out-UDGridData
                         Invoke-UDJavaScript -JavaScript "
                             var checkExist = setInterval(function () {
                             if (document.getElementById('VerminHistory').querySelector('table.griddle-table') != null) {

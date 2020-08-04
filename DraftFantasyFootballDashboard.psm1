@@ -55,8 +55,8 @@ function Start-Dashboard {
         }
 
         foreach ($League in 'Prem', 'Freak', 'Vermin') {
-            if (-not $Cache:Picks) {
-                $Cache:Picks.$League = Get-DraftPicks -League $League
+            if (-not $Cache:Picks[$League]) {
+                $Cache:Picks[$League] = Get-DraftPicks -League $League
             }
         }
     }

@@ -1,0 +1,1985 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Playerid">LhQvwukmJuvDHWMeR</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Salah</S>
+      <I32 N="PickNo">1</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">6XEYZcmzy6izfraGr</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Sterling</S>
+      <I32 N="PickNo">2</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">ZuWWZ7aZp3uNZRDhd</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Kane</S>
+      <I32 N="PickNo">3</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">irxTtXhrTZfrTvsdS</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Mane</S>
+      <I32 N="PickNo">4</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">tSj39mauNjCq42LXg</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Aubameyang</S>
+      <I32 N="PickNo">5</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="5">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">FRjjvsHKpHCksNzAA</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Aguero</S>
+      <I32 N="PickNo">6</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">QbNZCrAnityEoLqhY</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Roberto Firmino</S>
+      <I32 N="PickNo">7</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="7">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">MMQmANxcxxHLHEW2w</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Vardy</S>
+      <I32 N="PickNo">8</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="8">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">evKD48yKn5EsdJvFy</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Lacazette</S>
+      <I32 N="PickNo">9</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="9">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">NaRuB5myMWn874pKo</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Alexander-Arnold</S>
+      <I32 N="PickNo">10</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">8vYsDuAQAtXRgPEMD</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">De Bruyne</S>
+      <I32 N="PickNo">11</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="11">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">nZ2SEJ5mvYA2BqP47</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Bernardo Silva</S>
+      <I32 N="PickNo">12</I32>
+      <D N="Round">1</D>
+    </MS>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">gSEYEoMjpPL9sRLPa</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">van Dijk</S>
+      <I32 N="PickNo">13</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="13">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">wDRBWAhBJhjhB39M9</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Son Heung-Min</S>
+      <I32 N="PickNo">14</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">X3hrqcohri9GDNdoP</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Eriksen</S>
+      <I32 N="PickNo">15</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="15">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">RLqRteW98cgNGg4wh</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Pogba</S>
+      <I32 N="PickNo">16</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="16">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">PbXGDrny57G7Ds2tQ</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Wilson</S>
+      <I32 N="PickNo">17</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="17">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">WATzB9YT2RYdMvbBk</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Sigurdsson</S>
+      <I32 N="PickNo">18</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">ZuSKFK3DQfJgRLuYH</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Robertson</S>
+      <I32 N="PickNo">19</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="19">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">TYSaxKtHXJQteNNEK</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Laporte</S>
+      <I32 N="PickNo">20</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">r4Daba7nc5hsLjkhJ</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Rashford</S>
+      <I32 N="PickNo">21</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="21">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">ff5jPhDuakgy9yy33</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Richarlison</S>
+      <I32 N="PickNo">22</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="22">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">FRBawGLukznpoSv9T</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Zaha</S>
+      <I32 N="PickNo">23</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="23">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">6G7Y9NZPozoE7aHYp</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Jimenez</S>
+      <I32 N="PickNo">24</I32>
+      <D N="Round">2</D>
+    </MS>
+  </Obj>
+  <Obj RefId="24">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">kK7ipwHNFPDz3eBd6</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Dele Alli</S>
+      <I32 N="PickNo">25</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="25">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">77fZBixoib7ZYrbKy</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">King</S>
+      <I32 N="PickNo">26</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="26">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">aQ642xLKuEEiuuwJL</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Alisson</S>
+      <I32 N="PickNo">27</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="27">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">nvN8QncLonpjybufD</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Jota</S>
+      <I32 N="PickNo">28</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="28">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">orzoKMAt8YBdzvkst</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Pulisic</S>
+      <I32 N="PickNo">29</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="29">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">85Y2zd5Pp3qmDAQWW</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Ederson Moraes</S>
+      <I32 N="PickNo">30</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="30">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Jg8LsDma5Y4BbphH7</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Haller</S>
+      <I32 N="PickNo">31</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="31">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">DzSw2swgp4pRcbdRJ</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Lloris</S>
+      <I32 N="PickNo">32</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="32">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">nLeoWrZbWPMbWqv54</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Azpilicueta</S>
+      <I32 N="PickNo">33</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="33">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">hEqZ3fcBiXzM5gDmD</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Maddison</S>
+      <I32 N="PickNo">34</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="34">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">DLSPyBBQdju5Zpvhz</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Joelinton</S>
+      <I32 N="PickNo">35</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="35">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">z56PwipWhmpGQaKie</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Gabriel Jesus</S>
+      <I32 N="PickNo">36</I32>
+      <D N="Round">3</D>
+    </MS>
+  </Obj>
+  <Obj RefId="36">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">rfFutgr4MzhCMKgc6</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Wan-Bissaka</S>
+      <I32 N="PickNo">37</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="37">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">fpyE8vi6a4gHN2wSr</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Felipe Anderson</S>
+      <I32 N="PickNo">38</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="38">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">kMQWoWviRabZGRisD</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Fraser</S>
+      <I32 N="PickNo">39</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="39">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">cEra7GFMLs53iJn9T</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Walker</S>
+      <I32 N="PickNo">40</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="40">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">BPNDggz3MhhWEj9aJ</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Maguire</S>
+      <I32 N="PickNo">41</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="41">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">XFFa4mfLEGsZFnL67</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Tielemans</S>
+      <I32 N="PickNo">42</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="42">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">CGTXpjBesPmtjJ6Je</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Milivojevic</S>
+      <I32 N="PickNo">43</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="43">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">agkgtKtSu63zE4pxw</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Martial</S>
+      <I32 N="PickNo">44</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="44">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">o3yy8hhq3ZFb92X5J</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Deulofeu</S>
+      <I32 N="PickNo">45</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="45">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">CJzLGGrjE2Whg7Xmc</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Alderweireld</S>
+      <I32 N="PickNo">46</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="46">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Fwz2WAQnp76HqBjhi</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Pereira</S>
+      <I32 N="PickNo">47</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="47">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">qveCBsC8mNzw5sdXJ</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Digne</S>
+      <I32 N="PickNo">48</I32>
+      <D N="Round">4</D>
+    </MS>
+  </Obj>
+  <Obj RefId="48">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">YBYRAv4Ln6E55zN5C</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Kepa</S>
+      <I32 N="PickNo">49</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="49">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">rdeBpaafJmApz5kw7</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Ayoze Perez</S>
+      <I32 N="PickNo">50</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="50">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">qB3u9tvgQrhXojAT7</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Sane</S>
+      <I32 N="PickNo">51</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="51">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">zBTzhrXYxNjEXNd45</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Silva</S>
+      <I32 N="PickNo">52</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="52">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">rfRgQzthBzuDxLRxs</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">David Luiz</S>
+      <I32 N="PickNo">53</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="53">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">7gFf4rpNb7opnfu8f</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Giroud</S>
+      <I32 N="PickNo">54</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="54">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">yRvnXpuqE55ohjzxM</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Vertonghen</S>
+      <I32 N="PickNo">55</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="55">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Evb3gQ2DZagksZzvv</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Mahrez</S>
+      <I32 N="PickNo">56</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="56">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">oQhmjoLisSM36MKfX</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Lucas Moura</S>
+      <I32 N="PickNo">57</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="57">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">6CLiW9npFcyTdKLXN</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Doherty</S>
+      <I32 N="PickNo">58</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="58">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">wNpWv7niyvugTvXBk</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Brooks</S>
+      <I32 N="PickNo">59</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="59">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Cw892Xgwcn4PgSJrA</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">de Gea</S>
+      <I32 N="PickNo">60</I32>
+      <D N="Round">5</D>
+    </MS>
+  </Obj>
+  <Obj RefId="60">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">GNvDh7rdrj9xm6KX6</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Wood</S>
+      <I32 N="PickNo">61</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="61">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">YAQTnjRunLDRXbQEd</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Zinchenko</S>
+      <I32 N="PickNo">62</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="62">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">NLsEGv83GLpK6ymfW</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Deeney</S>
+      <I32 N="PickNo">63</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="63">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">iRS4t4NWoviG2Ztn9</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Mendy</S>
+      <I32 N="PickNo">64</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="64">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">GmsdFPC2BZAhLjQiQ</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Willian</S>
+      <I32 N="PickNo">65</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="65">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">NG8KfdQg8Z7X36DHb</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Buendia</S>
+      <I32 N="PickNo">66</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="66">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">LmwenHR5RvoHAbnRp</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Antonio</S>
+      <I32 N="PickNo">67</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="67">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">z3J6X2p7Wd88H24Lp</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Coleman</S>
+      <I32 N="PickNo">68</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="68">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">AteRY5vGbYa6CSneH</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Chilwell</S>
+      <I32 N="PickNo">69</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="69">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">zacYQeeiewSucZywi</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Lanzini</S>
+      <I32 N="PickNo">70</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="70">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Wdd663Hoj4F5QaCS9</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Shaw</S>
+      <I32 N="PickNo">71</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="71">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">M2CtCcqcnxqd8q8hC</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Gomez</S>
+      <I32 N="PickNo">72</I32>
+      <D N="Round">6</D>
+    </MS>
+  </Obj>
+  <Obj RefId="72">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">DoTRd4D3Qb3igm3Xe</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Pukki</S>
+      <I32 N="PickNo">73</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="73">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">wC4Qdk6uqAvPuPAmd</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Schmeichel</S>
+      <I32 N="PickNo">74</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="74">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">sgYFcyX4CeGD4wqoQ</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Stones</S>
+      <I32 N="PickNo">75</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="75">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">WcdMexix2YYYFPMy3</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Davies</S>
+      <I32 N="PickNo">76</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="76">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">qbcCZe8r6nKP5K5DA</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Pickford</S>
+      <I32 N="PickNo">77</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="77">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">vrBH6TBE8a6N6yadK</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Lindelof</S>
+      <I32 N="PickNo">78</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="78">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">DNvGYuNmLxEe3grEA</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Alonso</S>
+      <I32 N="PickNo">79</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="79">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">BfFKoMzF95iZw4Fy3</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Emerson</S>
+      <I32 N="PickNo">80</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="80">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">226XCNYgy35XHo8Ng</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Ceballos</S>
+      <I32 N="PickNo">81</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="81">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Eh5YxcmxnyP4CZKHb</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Aurier</S>
+      <I32 N="PickNo">82</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="82">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">N4oovfYLJtuQqg9pr</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Delph</S>
+      <I32 N="PickNo">83</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="83">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">E9g8oeFW6SJcYxsXQ</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Pedro</S>
+      <I32 N="PickNo">84</I32>
+      <D N="Round">7</D>
+    </MS>
+  </Obj>
+  <Obj RefId="84">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">su2A3r5bhv5qJ9bek</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Sanchez</S>
+      <I32 N="PickNo">85</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="85">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">ttfz4CZ6msfcirTwZ</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Abraham</S>
+      <I32 N="PickNo">86</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="86">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">hF96kTfbHG9GGpDNq</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Rudiger</S>
+      <I32 N="PickNo">87</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="87">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">BK6AFuzvB8NqLhB8m</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Leno</S>
+      <I32 N="PickNo">88</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="88">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">PmHyq9Rj9JEGpynwK</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Keane</S>
+      <I32 N="PickNo">89</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="89">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">N9xszfTjwAbS9QrFJ</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">James</S>
+      <I32 N="PickNo">90</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="90">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">yWe6fYRo3wJg4qit3</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Redmond</S>
+      <I32 N="PickNo">91</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="91">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">v6F3NhjgmiMBHKXLb</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Hudson-Odoi</S>
+      <I32 N="PickNo">92</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="92">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">M25mxo6E4ce7DHiWH</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">van Aanholt</S>
+      <I32 N="PickNo">93</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="93">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">RbAJFHfZ2cw6djbmj</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Boly</S>
+      <I32 N="PickNo">94</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="94">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">taeHWiNMCdfk93xne</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Danny Ings</S>
+      <I32 N="PickNo">95</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="95">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">4dmR9fa9NrF7DZrK6</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Ozil</S>
+      <I32 N="PickNo">96</I32>
+      <D N="Round">8</D>
+    </MS>
+  </Obj>
+  <Obj RefId="96">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">cbjcKNRepAZPXhtB8</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Townsend</S>
+      <I32 N="PickNo">97</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="97">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">zC6awXt97EBXwS2ce</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Barkley</S>
+      <I32 N="PickNo">98</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="98">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">uAgdEqfbnRQGbQKvp</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Mkhitaryan</S>
+      <I32 N="PickNo">99</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="99">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">CL9RGto2mejqcxGTE</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Patricio</S>
+      <I32 N="PickNo">100</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="100">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">PvdJYKz5wdhTrMKWp</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Adams</S>
+      <I32 N="PickNo">101</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="101">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">MfutKQr96Lgxwk65W</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Grealish</S>
+      <I32 N="PickNo">102</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="102">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">CfRKss7HmTX2aN9LM</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Ritchie</S>
+      <I32 N="PickNo">103</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="103">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">aTe6PYfrNWtKpnSMD</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Almiron</S>
+      <I32 N="PickNo">104</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="104">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">KvTfLqoDib7usQpkA</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Murray</S>
+      <I32 N="PickNo">105</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="105">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Tys6R4KBuyhwtMb8q</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Barnes</S>
+      <I32 N="PickNo">106</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="106">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">nShi8djm2Aoa8zxcN</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Matip</S>
+      <I32 N="PickNo">107</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="107">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">eprmmEERwuFQNKj3T</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Pereyra</S>
+      <I32 N="PickNo">108</I32>
+      <D N="Round">9</D>
+    </MS>
+  </Obj>
+  <Obj RefId="108">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">GoxYvhP8doBrQ2zRN</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Yarmolenko</S>
+      <I32 N="PickNo">109</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="109">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">CLN5krmiDDhH3BzJm</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Walker-Peters</S>
+      <I32 N="PickNo">110</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="110">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">TkCmHkTN9TWc2aZBT</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Gross</S>
+      <I32 N="PickNo">111</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="111">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">DyHE25p5zNnScuBAB</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Ake</S>
+      <I32 N="PickNo">112</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="112">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">6xP93deqcTwpbqH6T</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Calvert-Lewin</S>
+      <I32 N="PickNo">113</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="113">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">nWhcwZLov3rTc2zX4</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Wesley</S>
+      <I32 N="PickNo">114</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="114">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">ox9B9Fuv6hsxupEcD</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Ward-Prowse</S>
+      <I32 N="PickNo">115</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="115">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">hXBxjATmtDHXiiSqk</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Oxlade-Chamberlain</S>
+      <I32 N="PickNo">116</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="116">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">2gPeZtZPinrKbZhg2</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Ndombele</S>
+      <I32 N="PickNo">117</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="117">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">R7xkDBMXbcypZFQQK</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Lingard</S>
+      <I32 N="PickNo">118</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="118">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">4j4tgJnkcHxup7g8v</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Kolasinac</S>
+      <I32 N="PickNo">119</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="119">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">7Xa2WKKwbWd7LZmKq</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Jonny</S>
+      <I32 N="PickNo">120</I32>
+      <D N="Round">10</D>
+    </MS>
+  </Obj>
+  <Obj RefId="120">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">bmHhjJnSN5BFyJxmN</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Monreal</S>
+      <I32 N="PickNo">121</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="121">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">nvFuJq27PQYQCxLqL</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Holebas</S>
+      <I32 N="PickNo">122</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="122">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">L7nwwAxNYgmEtd3Jv</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Bertrand</S>
+      <I32 N="PickNo">123</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="123">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">eFAzZuFPLrxvBCNj3</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Christensen</S>
+      <I32 N="PickNo">124</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="124">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">TShkKSWTe2Fa5R37p</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Sharp</S>
+      <I32 N="PickNo">125</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="125">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">j6wqftPwjGmcLek9z</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Mina</S>
+      <I32 N="PickNo">126</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="126">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">3a2jw8KorkQMNAR9d</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Fabianski</S>
+      <I32 N="PickNo">127</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="127">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">sxinhMWwZogPmXY6P</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Kante</S>
+      <I32 N="PickNo">128</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="128">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">qSYgh4wcoSkE3wqYc</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Fornals</S>
+      <I32 N="PickNo">129</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="129">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">tRNmdpCvyYBWqFgSv</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">McNeil</S>
+      <I32 N="PickNo">130</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="130">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">ey3RuSXQWePXZ2NfY</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Dubravka</S>
+      <I32 N="PickNo">131</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="131">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">4CpoLXXynZeBkwcML</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Berg Gudmundsson</S>
+      <I32 N="PickNo">132</I32>
+      <D N="Round">11</D>
+    </MS>
+  </Obj>
+  <Obj RefId="132">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">RGN6Ec5ACcFY5xgps</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Lukaku</S>
+      <I32 N="PickNo">133</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="133">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">dyTWDCfMERK5EnYxG</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Bellerin</S>
+      <I32 N="PickNo">134</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="134">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">okaYJCfZkfFEywjvo</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Mustafi</S>
+      <I32 N="PickNo">135</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="135">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">QfpvP9E3Qau8kqdWa</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Origi</S>
+      <I32 N="PickNo">136</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="136">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">4anTSbr3Akh2N8w7m</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Doucoure</S>
+      <I32 N="PickNo">137</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="137">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">ZtJL3hmWcpJkHw3NQ</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Rose</S>
+      <I32 N="PickNo">138</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="138">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">jg2BwTCjf8E4LiRJ9</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Foyth</S>
+      <I32 N="PickNo">139</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="139">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">a4yyRG6jLAQ6G28w2</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Guilbert</S>
+      <I32 N="PickNo">140</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="140">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">6twCAT4E2wngNB3AX</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Gray</S>
+      <I32 N="PickNo">141</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="141">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">H5TLPb62FKN8knk4X</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Sokratis</S>
+      <I32 N="PickNo">142</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="142">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">sCXHhu5ha29sZNPZ7</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Angelino</S>
+      <I32 N="PickNo">143</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="143">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">K86uvBPnxJ76Anpb4</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Benteke</S>
+      <I32 N="PickNo">144</I32>
+      <D N="Round">12</D>
+    </MS>
+  </Obj>
+  <Obj RefId="144">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">rEv2DmpvmAKnvAFtP</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Vrancic</S>
+      <I32 N="PickNo">145</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="145">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Quxv77QEPMC8qoxoS</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Foster</S>
+      <I32 N="PickNo">146</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="146">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">9F3N4MepvMEdLXWei</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Batshuayi</S>
+      <I32 N="PickNo">147</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="147">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">7rwTBLaAKHCGKPXtc</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Otamendi</S>
+      <I32 N="PickNo">148</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="148">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">JDBPigyAYqaLMoCfx</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Trossard</S>
+      <I32 N="PickNo">149</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="149">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">5Tf7RYjg7K8jogf4m</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Schar</S>
+      <I32 N="PickNo">150</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="150">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">LBNLq2N9Cq3cJmxk5</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Jota</S>
+      <I32 N="PickNo">151</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="151">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">xedJhwQjAxF2JMAcY</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Lascelles</S>
+      <I32 N="PickNo">152</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="152">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">DfErahJtReG3t3EhB</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Targett</S>
+      <I32 N="PickNo">153</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="153">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">pDuA98tLoTen85m3M</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Heaton</S>
+      <I32 N="PickNo">154</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="154">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">C7DMopxBDgdGkFWCa</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Mount</S>
+      <I32 N="PickNo">155</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="155">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">2BEqaeKuggFyBD2Ab</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Holding</S>
+      <I32 N="PickNo">156</I32>
+      <D N="Round">13</D>
+    </MS>
+  </Obj>
+  <Obj RefId="156">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">uksn5hWtmsgfzwamF</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Balbuena</S>
+      <I32 N="PickNo">157</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="157">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">NWJazK2vmC5Pp8dvj</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Locadia</S>
+      <I32 N="PickNo">158</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="158">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">JBTodBN8wn8cJbNLn</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Kodjia</S>
+      <I32 N="PickNo">159</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="159">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">7w59kZKpEFYWqNwwe</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Sanchez</S>
+      <I32 N="PickNo">160</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="160">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">zQ4pk9mMCNuqKCe8b</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Sakho</S>
+      <I32 N="PickNo">161</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="161">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">7JzLaAgWsaDwLcpvo</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Smalling</S>
+      <I32 N="PickNo">162</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="162">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">rbAoKp4RtpbDvK37h</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Rodriguez</S>
+      <I32 N="PickNo">163</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="163">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">4dkg7r7NXmApGofCo</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Evans</S>
+      <I32 N="PickNo">164</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="164">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Cjtev3Ju9FG9244E3</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Gundogan</S>
+      <I32 N="PickNo">165</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="165">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Nn3ur6bzfhC8t5AZm</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Solanke</S>
+      <I32 N="PickNo">166</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="166">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">xgPJRHTksg2hAyEiq</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Hernandez</S>
+      <I32 N="PickNo">167</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="167">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">Wg4566rRAkyxeLaQz</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Cresswell</S>
+      <I32 N="PickNo">168</I32>
+      <D N="Round">14</D>
+    </MS>
+  </Obj>
+  <Obj RefId="168">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">hRNPDnoqix67QYQyR</S>
+      <S N="Teamid">yyF4MG9DGZkYjMr8g</S>
+      <S N="Manager">Will Lafferty</S>
+      <S N="Player">Guaita</S>
+      <I32 N="PickNo">169</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="169">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">4QiXPZGX8vaoy9aKP</S>
+      <S N="Teamid">g7oyQog8GXz77Quct</S>
+      <S N="Manager">Eddie Lyne</S>
+      <S N="Player">Mousset</S>
+      <I32 N="PickNo">170</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="170">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">sQNqBiq8xBXnv2EnN</S>
+      <S N="Teamid">wMRLPg8KhK3BszJtw</S>
+      <S N="Manager">Daniel Jansepar</S>
+      <S N="Player">Mat Ryan</S>
+      <I32 N="PickNo">171</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="171">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">PTDGvsdnbvsCbeDCz</S>
+      <S N="Teamid">RYhTYnzcwrBLSB8rf</S>
+      <S N="Manager">Calum Reina</S>
+      <S N="Player">Begovic</S>
+      <I32 N="PickNo">172</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="172">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">X3qgzwYDfm4mFCHQp</S>
+      <S N="Teamid">GFYPpwaixCTC76RaZ</S>
+      <S N="Manager">Adam Waller</S>
+      <S N="Player">Travers</S>
+      <I32 N="PickNo">173</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="173">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">XcYi74oMCefNbstir</S>
+      <S N="Teamid">t3EhdWRWMSzo9jDgp</S>
+      <S N="Manager">Sasha Bosnjak</S>
+      <S N="Player">Norris</S>
+      <I32 N="PickNo">174</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="174">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">PrvvhTYDANpyJgomM</S>
+      <S N="Teamid">7ERzHEbTBTq59sBQg</S>
+      <S N="Manager">Simeon Gholam</S>
+      <S N="Player">Krul</S>
+      <I32 N="PickNo">175</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="175">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">6EAjy7FtKfQBRjCLN</S>
+      <S N="Teamid">5apBKB2p6dykYj8kz</S>
+      <S N="Manager">Edi Finch</S>
+      <S N="Player">Gunn</S>
+      <I32 N="PickNo">176</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="176">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">2evqBw7JWJH84JjCq</S>
+      <S N="Teamid">cWuZ3F3EKDm4BtvCm</S>
+      <S N="Manager">Craig Farrell</S>
+      <S N="Player">Mignolet</S>
+      <I32 N="PickNo">177</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="177">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">r3tHvTGcdE33c7K39</S>
+      <S N="Teamid">qBcq8QJQMXfBYenBF</S>
+      <S N="Manager">Jack Denton</S>
+      <S N="Player">Steer</S>
+      <I32 N="PickNo">178</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="178">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">WamqLiH64KufduH5L</S>
+      <S N="Teamid">Ci6eDCfgkDRtSQArE</S>
+      <S N="Manager">Daniel Louki</S>
+      <S N="Player">Bravo</S>
+      <I32 N="PickNo">179</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="179">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Playerid">SjYgfdGcuYo9XyTfR</S>
+      <S N="Teamid">NpNRbWhQq5N3goe8i</S>
+      <S N="Manager">Daniel Barber</S>
+      <S N="Player">Hennessey</S>
+      <I32 N="PickNo">180</I32>
+      <D N="Round">15</D>
+    </MS>
+  </Obj>
+</Objs>

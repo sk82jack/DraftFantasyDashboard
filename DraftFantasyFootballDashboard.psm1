@@ -49,6 +49,16 @@ function Start-Dashboard {
             ($Time -gt $Fixture.kickoff_time) -and ($Time -lt $Fixture.kickoff_time.AddHours(2))
             break
         }
+
+        if (-not $Cache:Picks) {
+            $Cache:Picks = @{}
+        }
+
+        foreach ($League in 'Prem', 'Freak', 'Vermin') {
+            if (-not $Cache:Picks) {
+                $Cache:Picks.$League = Get-DraftPicks -League $League
+            }
+        }
     }
     $TeamsEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
         if ($Cache:InGame) {

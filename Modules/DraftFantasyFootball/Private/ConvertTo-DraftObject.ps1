@@ -7,7 +7,7 @@ function ConvertTo-DraftObject {
 
         [Parameter(Mandatory)]
         [ValidateSet(
-            'HeadToHead', 'LeagueTable', 'Trade', 'Team', 'Player', 'WaiverOrder', 'Points'
+            'HeadToHead', 'LeagueTable', 'Trade', 'Team', 'Player', 'WaiverOrder', 'Points', 'Picks'
         )]
         [string]
         $Type,
@@ -63,6 +63,10 @@ function ConvertTo-DraftObject {
             $Script:BootstrapStatic = Get-FplBootstrapStatic
             $Script:DraftPlayers = Get-DraftPlayer
             $PlayerMinutes = Get-DraftPlayerMinutes
+        }
+        'Picks' {
+            $Script:DraftPlayers = Get-DraftPlayer
+            $PickNo = 0
         }
     }
 
@@ -221,6 +225,20 @@ function ConvertTo-DraftObject {
                         $Hashtable['Gameweekpoints'] = $Hashtable["Gameweek$($Week)points"]
                     }
                 }
+            }
+            'Picks' {
+                $Manager = $Script:ConfigData[$League]['Teams'][$Hashtable.TeamId]
+                $Hashtable['Manager'] = $Manager
+
+                $Player = $Script:DraftPlayers.Where{$_.Id -eq $Hashtable.PlayerId}.WebName
+                $Hashtable['Player'] = $Player
+
+                $PickNo++
+                $Hashtable['PickNo'] = $PickNo
+
+                $LeagueTeamsNo = $Script:ConfigData[$League]['Teams'].Count
+                $Round = [math]::Ceiling(($PickNo / $LeagueTeamsNo))
+                $Hashtable['Round'] = $Round
             }
         }
         [pscustomobject]$Hashtable

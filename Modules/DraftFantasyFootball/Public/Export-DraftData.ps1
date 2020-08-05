@@ -52,10 +52,17 @@ function Export-DraftData {
             $_ | Add-Member -MemberType NoteProperty -Name Relegated -Value $Relegated -PassThru
         }
         $StandingsFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueStandings$LeagueName.xml"
-        $Standings | Export-CliXml -Path $StandingsFileName -Depth 99
+        $Standings | Export-CliXml -Path $StandingsFileName -Depth 99 -NoClobber
 
         $Picks = Get-DraftPicks -League $LeagueName
         $PicksFileName = Join-Path -Path $ExportFolder -ChildPath "LeaguePicks$LeagueName.xml"
-        $Picks | Export-CliXml -Path $PicksFileName -Depth 99
+        $Picks | Export-CliXml -Path $PicksFileName -Depth 99 -NoClobber
+
+        $H2HFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueH2H$LeagueName.xml"
+        $HeadToHead = @{}
+        foreach ($Gameweek in 1..38) {
+            $HeadToHead[$Gameweek] = Get-DraftHeadToHead -League $LeagueName -Gameweek $Gameweek
+        }
+        $HeadToHead | Export-CliXml -Path $H2HFileName -Depth 99 -NoClobber
     }
 }

@@ -7,15 +7,17 @@ function Export-DraftData {
 
         [Parameter(Mandatory)]
         [int]
-        $FreakRelegationSpots
+        $FreakRelegationSpots,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
 
-    $Date = Get-Date
-    $ExportFolder = Join-Path -Path $PSScriptRoot -ChildPath "..\Data\$($Date.Year)"
-
+    $ExportFolder = Join-Path -Path $PSScriptRoot -ChildPath "..\Data\$Year"
     New-Item -Path $ExportFolder -ItemType Directory -Force | Out-Null
 
-    foreach ($LeagueName in $Script:ConfigData.Keys) {
+    foreach ($LeagueName in $Script:ConfigData[$Year].Keys) {
         switch ($LeagueName) {
             'Prem' {
                 $RelegationSpots = $PremRelegationSpots
@@ -41,7 +43,7 @@ function Export-DraftData {
                 $Promoted = $false
             }
 
-            if ($Count -gt ($Script:ConfigData[$LeagueName].Teams.Count - $RelegationSpots)) {
+            if ($Count -gt ($Script:ConfigData[$Year][$LeagueName].Teams.Count - $RelegationSpots)) {
                 $Relegated = $true
             }
             else {

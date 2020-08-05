@@ -4,9 +4,13 @@ function Get-DraftLeagueTable {
         [Parameter(Mandatory)]
         [ValidateSet('Prem', 'Freak', 'Vermin')]
         [string]
-        $League
+        $League,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
-    $LeagueId = $Script:ConfigData[$League]['LeagueId']
+    $LeagueId = $Script:ConfigData[$Year][$League]['LeagueId']
     $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     if ($Gameweek -gt 38) {
         $Gameweek += -9
@@ -34,8 +38,8 @@ function Get-DraftLeagueTable {
     }
 }
 "@
-    $Result = Invoke-ApiQuery -Query $Query
-    $Output = ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'LeagueTable' -League $League
+    $Result = Invoke-ApiQuery -Query $Query -Year $Year
+    $Output = ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'LeagueTable' -League $League -Year $Year
     $Output | Sort-Object -Property Points, TotalScore -Descending | Foreach-Object -Begin {$i = 1} {
         $_.Position = $i++
         $_

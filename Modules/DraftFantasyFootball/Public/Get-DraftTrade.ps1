@@ -4,9 +4,13 @@ Function Get-DraftTrade {
         [Parameter(Mandatory)]
         [ValidateSet('Prem', 'Freak', 'Vermin')]
         [string]
-        $League
+        $League,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
-    $LeagueId = $Script:ConfigData[$League]['LeagueId']
+    $LeagueId = $Script:ConfigData[$Year][$League]['LeagueId']
     $Query = @"
 {
     trades(leagueId:"$LeagueId") {
@@ -24,6 +28,6 @@ Function Get-DraftTrade {
 }
 "@
 
-    $Response = Invoke-ApiQuery -Query $Query
-    ConvertTo-DraftObject -InputObject $Response.data.trades -Type 'Trade' -League $League
+    $Response = Invoke-ApiQuery -Query $Query -Year $Year
+    ConvertTo-DraftObject -InputObject $Response.data.trades -Type 'Trade' -League $League -Year $Year
 }

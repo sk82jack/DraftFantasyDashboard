@@ -4,10 +4,14 @@ function Get-DraftPicks {
         [Parameter(Mandatory)]
         [ValidateSet('Prem', 'Freak', 'Vermin')]
         [string]
-        $League
+        $League,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
 
-    $LeagueId = $Script:ConfigData[$League]['LeagueId']
+    $LeagueId = $Script:ConfigData[$Year][$League]['LeagueId']
 
     $Query = @"
 {
@@ -20,6 +24,6 @@ function Get-DraftPicks {
     }
 }
 "@
-    $Result = Invoke-ApiQuery -Query $Query
-    ConvertTo-DraftObject -InputObject $Result.data.league.draftHistory -Type 'Picks' -League $League
+    $Result = Invoke-ApiQuery -Query $Query -Year $Year
+    ConvertTo-DraftObject -InputObject $Result.data.league.draftHistory -Type 'Picks' -League $League -Year $Year
 }

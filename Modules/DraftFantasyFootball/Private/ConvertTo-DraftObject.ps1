@@ -19,14 +19,18 @@ function ConvertTo-DraftObject {
 
         [Parameter()]
         [int64[]]
-        $Gameweek
+        $Gameweek,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
     switch ($Type) {
         'HeadToHead' {
-            $Points = Get-DraftLeaguePoints -League $League -Gameweek $Gameweek
+            $Points = Get-DraftLeaguePoints -League $League -Gameweek $Gameweek -Year $Year
         }
         'LeagueTable' {
-            $HeadToHead = Get-DraftHeadToHead -League $League
+            $HeadToHead = Get-DraftHeadToHead -League $League -Year $Year
         }
         'Trade' {}
         'Team' {
@@ -48,24 +52,24 @@ function ConvertTo-DraftObject {
         }
         'Player' {
             if ($League) {
-                $Teams = Get-DraftTeam -League $League
+                $Teams = Get-DraftTeam -League $League -Year $Year
             }
         }
         'WaiverOrder' {
             foreach ($Manager in $InputObject) {
                 [PSCustomObject]@{
-                    Manager = $Script:ConfigData[$League]['Teams'][$Manager]
+                    Manager = $Script:ConfigData[$Year][$League]['Teams'][$Manager]
                 }
             }
             return
         }
         'Points' {
             $Script:BootstrapStatic = Get-FplBootstrapStatic
-            $Script:DraftPlayers = Get-DraftPlayer
-            $PlayerMinutes = Get-DraftPlayerMinutes
+            $Script:DraftPlayers = Get-DraftPlayer -Year $Year
+            $PlayerMinutes = Get-DraftPlayerMinutes -Year $Year
         }
         'Picks' {
-            $Script:DraftPlayers = Get-DraftPlayer
+            $Script:DraftPlayers = Get-DraftPlayer -Year $Year
             $PickNo = 0
         }
     }
@@ -75,8 +79,8 @@ function ConvertTo-DraftObject {
 
         switch ($Type) {
             'HeadToHead' {
-                $Hashtable['Manager1'] = $Script:ConfigData[$League]['Teams'][$Hashtable['Team1Id']]
-                $Hashtable['Manager2'] = $Script:ConfigData[$League]['Teams'][$Hashtable['Team2Id']]
+                $Hashtable['Manager1'] = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['Team1Id']]
+                $Hashtable['Manager2'] = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['Team2Id']]
                 $Hashtable['Team1score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager1']}."Gameweek${Gameweek}points"
                 $Hashtable['Team2score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager2']}."Gameweek${Gameweek}points"
             }
@@ -86,7 +90,7 @@ function ConvertTo-DraftObject {
                 $Hashtable['Drawn'] = $Hashtable['headToHeadData'].drawn
                 $Hashtable['Lost'] = $Hashtable['headToHeadData'].lost
                 $Hashtable['Points'] = $Hashtable['headToHeadData'].headToHeadLeaguepoints
-                $Hashtable['Manager'] = $Script:ConfigData[$League]['Managers'][$Hashtable['UserId']]
+                $Hashtable['Manager'] = $Script:ConfigData[$Year][$League]['Managers'][$Hashtable['UserId']]
                 $Hashtable['Position'] = $null
 
                 if ($HeadToHead[0].Gameweek -gt $Hashtable['Played']) {
@@ -125,12 +129,12 @@ function ConvertTo-DraftObject {
             }
             'Trade' {
                 [string]$Hashtable['InManager'] = if ($Hashtable['inTeamId']) {
-                    $Script:ConfigData[$League]['Teams'][$Hashtable['inTeamId']]
+                    $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['inTeamId']]
                 }
                 $Hashtable['PlayersIn'] = foreach ($Player in $Hashtable['Playersinids']) {
                     $Script:DraftPlayers.Where{$_.Id -eq $Player}.WebName
                 }
-                $Hashtable['OutManager'] = $Script:ConfigData[$League]['Teams'][$Hashtable['outTeamId']]
+                $Hashtable['OutManager'] = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['outTeamId']]
                 $Hashtable['PlayersOut'] = foreach ($Player in $Hashtable['Playersoutids']) {
                     $Script:DraftPlayers.Where{$_.Id -eq $Player}.WebName
                 }
@@ -144,7 +148,7 @@ function ConvertTo-DraftObject {
                 $Hashtable['PlayersOut'] = $Hashtable['PlayersOut'] -join ', '
             }
             'Team' {
-                $Manager = $Script:ConfigData[$League]['Teams'][$Hashtable.Id]
+                $Manager = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable.Id]
                 $Hashtable['Manager'] = $Manager
                 $Hashtable['Players'] = [System.Collections.Generic.List[psobject]]::new()
                 foreach ($Player in $Hashtable.LineupPlayers) {
@@ -210,7 +214,7 @@ function ConvertTo-DraftObject {
             }
             'WaiverOrder' {}
             'Points' {
-                $Manager = $Script:ConfigData[$League]['Teams'][$Hashtable.Id]
+                $Manager = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable.Id]
                 $Hashtable['Manager'] = $Manager
                 foreach ($Week in $Gameweek) {
                     if (-not $Script:BootstrapStatic.events.Where{$_.id -eq $Week}.finished) {
@@ -227,7 +231,7 @@ function ConvertTo-DraftObject {
                 }
             }
             'Picks' {
-                $Manager = $Script:ConfigData[$League]['Teams'][$Hashtable.TeamId]
+                $Manager = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable.TeamId]
                 $Hashtable['Manager'] = $Manager
 
                 $Player = $Script:DraftPlayers.Where{$_.Id -eq $Hashtable.PlayerId}.WebName
@@ -236,7 +240,7 @@ function ConvertTo-DraftObject {
                 $PickNo++
                 $Hashtable['PickNo'] = $PickNo
 
-                $LeagueTeamsNo = $Script:ConfigData[$League]['Teams'].Count
+                $LeagueTeamsNo = $Script:ConfigData[$Year][$League]['Teams'].Count
                 $Round = [math]::Ceiling(($PickNo / $LeagueTeamsNo))
                 $Hashtable['Round'] = $Round
             }

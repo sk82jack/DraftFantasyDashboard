@@ -4,9 +4,13 @@ Function Get-DraftTeam {
         [Parameter(Mandatory)]
         [ValidateSet('Prem', 'Freak', 'Vermin')]
         [string]
-        $League
+        $League,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
-    $LeagueId = $Script:ConfigData[$League]['LeagueId']
+    $LeagueId = $Script:ConfigData[$Year][$League]['LeagueId']
     $Query = @"
 {
     leagueTeams(_id: "$LeagueId") {
@@ -41,6 +45,6 @@ Function Get-DraftTeam {
 }
 "@
 
-    $Response = Invoke-ApiQuery -Query $Query
-    ConvertTo-DraftObject -InputObject $Response.data.leagueTeams -Type 'Team' -League $League
+    $Response = Invoke-ApiQuery -Query $Query -Year $Year
+    ConvertTo-DraftObject -InputObject $Response.data.leagueTeams -Type 'Team' -League $League -Year $Year
 }

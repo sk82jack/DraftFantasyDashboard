@@ -3,10 +3,19 @@ function Invoke-ApiQuery {
     param (
         [Parameter()]
         [string]
-        $Query
+        $Query,
+
+        [Parameter()]
+        [int]
+        $Year
     )
 
-    $ApiUri = 'https://draftfantasyfootball.co.uk/graphql'
+    switch ($Year) {
+        2019 {$ApiUri = 'https://epl18.draftfantasyfootball.co.uk/graphql'}
+        2018 {$ApiUri = 'https://epl17.draftfantasyfootball.co.uk/graphql'}
+        default {$ApiUri = 'https://draftfantasyfootball.co.uk/graphql'}
+    }
+
     $Body = '{{"query":"{0}","variables":null,"operationName":null}}' -f $Query.Replace('"', '\"') -replace "`r?`n", '\n'
     $Params = @{
         Uri         = $ApiUri

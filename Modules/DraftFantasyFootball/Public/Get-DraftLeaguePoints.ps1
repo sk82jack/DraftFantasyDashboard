@@ -8,7 +8,11 @@ function Get-DraftLeaguePoints {
 
         [Parameter()]
         [int[]]
-        $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
+        $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
     $Gameweek = $Gameweek | Foreach-Object {
         if ($_ -gt 38) {
@@ -19,7 +23,7 @@ function Get-DraftLeaguePoints {
         }
     }
 
-    $LeagueId = $Script:ConfigData[$League]['LeagueId']
+    $LeagueId = $Script:ConfigData[$Year][$League]['LeagueId']
     $Query = @"
 {
     leagueTeams(_id: "$leagueId") {
@@ -45,6 +49,6 @@ function Get-DraftLeaguePoints {
     }
 }
 "@
-    $Result = Invoke-ApiQuery -Query $Query
-    ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'Points' -League $League -Gameweek $Gameweek
+    $Result = Invoke-ApiQuery -Query $Query -Year $Year
+    ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'Points' -League $League -Gameweek $Gameweek -Year $Year
 }

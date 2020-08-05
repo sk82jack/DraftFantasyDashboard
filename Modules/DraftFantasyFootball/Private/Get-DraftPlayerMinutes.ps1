@@ -1,6 +1,10 @@
 function Get-DraftPlayerMinutes {
     [CmdletBinding()]
-    param ()
+    param (
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
+    )
 
     $Query = @"
 {
@@ -18,7 +22,7 @@ function Get-DraftPlayerMinutes {
     }
 }
 "@
-    $Result = Invoke-ApiQuery -Query $Query
+    $Result = Invoke-ApiQuery -Query $Query -Year $Year
     $Output = @{}
     foreach ($Player in $Result.data.players) {
         $Output[$Player._id] = @{}

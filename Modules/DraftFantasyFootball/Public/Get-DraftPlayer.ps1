@@ -4,14 +4,18 @@ function Get-DraftPlayer {
         [Parameter()]
         [ValidateSet('Prem', 'Freak', 'Vermin')]
         [string]
-        $League
+        $League,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
 
     $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     if ($Gameweek -gt 38) {
         $Gameweek += -9
     }
-    $LeagueId = $Script:ConfigData['Prem']['LeagueId']
+    $LeagueId = $Script:ConfigData[$Year]['Prem']['LeagueId']
     $Query = @"
 {
     players {
@@ -32,10 +36,11 @@ function Get-DraftPlayer {
     }
 }
 "@
-    $Result = Invoke-ApiQuery -Query $Query
+    $Result = Invoke-ApiQuery -Query $Query -Year $Year
     $ConvertToDraftObjectSplat = @{
         InputObject = $Result.data.players
         Type        = 'Player'
+        Year        = $Year
     }
     if ($League) {
         $ConvertToDraftObjectSplat['League'] = $League

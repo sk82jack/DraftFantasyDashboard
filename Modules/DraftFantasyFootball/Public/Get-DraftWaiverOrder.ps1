@@ -4,9 +4,13 @@ function Get-DraftWaiverOrder {
         [Parameter(Mandatory)]
         [ValidateSet('Prem', 'Freak', 'Vermin')]
         [string]
-        $League
+        $League,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
-    $LeagueId = $Script:ConfigData[$League]['LeagueId']
+    $LeagueId = $Script:ConfigData[$Year][$League]['LeagueId']
     $Query = @"
 {
     league(_id: "$LeagueId"){
@@ -14,6 +18,6 @@ function Get-DraftWaiverOrder {
     }
 }
 "@
-    $Result = Invoke-ApiQuery -Query $Query
-    ConvertTo-DraftObject -InputObject $Result.data.league.waiverQueue -Type 'WaiverOrder' -League $League
+    $Result = Invoke-ApiQuery -Query $Query -Year $Year
+    ConvertTo-DraftObject -InputObject $Result.data.league.waiverQueue -Type 'WaiverOrder' -League $League -Year $Year
 }

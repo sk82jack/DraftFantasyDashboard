@@ -33,7 +33,7 @@ function Export-DraftData {
             }
         }
 
-        $Standings = Get-DraftLeagueTable -League $LeagueName | Foreach-Object -Begin {$Count = 0} {
+        $Standings = Get-DraftLeagueTable -League $LeagueName -Year $Year | Foreach-Object -Begin {$Count = 0} {
             $Count++
 
             if ($Count -le $PromotionSpots) {
@@ -56,14 +56,14 @@ function Export-DraftData {
         $StandingsFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueStandings$LeagueName.xml"
         $Standings | Export-CliXml -Path $StandingsFileName -Depth 99 -NoClobber
 
-        $Picks = Get-DraftPicks -League $LeagueName
+        $Picks = Get-DraftPicks -League $LeagueName -Year $Year
         $PicksFileName = Join-Path -Path $ExportFolder -ChildPath "LeaguePicks$LeagueName.xml"
         $Picks | Export-CliXml -Path $PicksFileName -Depth 99 -NoClobber
 
         $H2HFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueH2H$LeagueName.xml"
         $HeadToHead = @{}
         foreach ($Gameweek in 1..38) {
-            $HeadToHead[$Gameweek] = Get-DraftHeadToHead -League $LeagueName -Gameweek $Gameweek
+            $HeadToHead[$Gameweek] = Get-DraftHeadToHead -League $LeagueName -Gameweek $Gameweek -Year $Year
         }
         $HeadToHead | Export-CliXml -Path $H2HFileName -Depth 99 -NoClobber
     }

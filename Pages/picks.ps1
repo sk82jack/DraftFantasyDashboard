@@ -1,4 +1,4 @@
-New-UDPage -Name 'Picks' -Icon history -Endpoint {
+New-UDPage -Name 'Picks' -Icon list_ol -Endpoint {
     New-UDRow -Columns {
         New-UDColumn -SmallSize 12 -MediumSize 12 -LargeSize 8 -LargeOffset 2 -Endpoint {
             New-UDTabContainer -Tabs {

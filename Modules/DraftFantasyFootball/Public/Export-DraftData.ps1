@@ -17,7 +17,7 @@ function Export-DraftData {
     $ExportFolder = Join-Path -Path $PSScriptRoot -ChildPath "..\Data\$Year"
     New-Item -Path $ExportFolder -ItemType Directory -Force | Out-Null
 
-    foreach ($LeagueName in $Script:ConfigData[$Year].Keys) {
+    :LeagueLoop foreach ($LeagueName in $Script:ConfigData[$Year].Keys) {
         switch ($LeagueName) {
             'Prem' {
                 $RelegationSpots = $PremRelegationSpots
@@ -30,6 +30,9 @@ function Export-DraftData {
             'Vermin' {
                 $RelegationSpots = 0
                 $PromotionSpots = $FreakRelegationSpots
+            }
+            'Cup' {
+                continue LeagueLoop
             }
         }
 
@@ -66,11 +69,16 @@ function Export-DraftData {
 
         $H2HFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueH2H$LeagueName.xml"
         if (-not (Test-Path $H2HFileName)) {
-        $HeadToHead = @{}
+            $HeadToHead = @{}
             foreach ($Gameweek in 1..38) {
                 $HeadToHead[$Gameweek] = Get-DraftHeadToHead -League $LeagueName -Gameweek $Gameweek -Year $Year
             }
             $HeadToHead | Export-CliXml -Path $H2HFileName -Depth 99
         }
+    }
+
+    $CupFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueCup.xml"
+    if (-not (Test-Path $CupFileName)) {
+        Get-DraftCupInfo -Year $Year | Export-CliXml -Path $CupFileName -Depth 99
     }
 }

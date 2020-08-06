@@ -33,38 +33,44 @@ function Export-DraftData {
             }
         }
 
-        $Standings = Get-DraftLeagueTable -League $LeagueName -Year $Year | Foreach-Object -Begin {$Count = 0} {
-            $Count++
-
-            if ($Count -le $PromotionSpots) {
-                $Promoted = $true
-            }
-            else {
-                $Promoted = $false
-            }
-
-            if ($Count -gt ($Script:ConfigData[$Year][$LeagueName].Teams.Count - $RelegationSpots)) {
-                $Relegated = $true
-            }
-            else {
-                $Relegated = $false
-            }
-
-            $_ | Add-Member -MemberType NoteProperty -Name Promoted -Value $Promoted
-            $_ | Add-Member -MemberType NoteProperty -Name Relegated -Value $Relegated -PassThru
-        }
         $StandingsFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueStandings$LeagueName.xml"
-        $Standings | Export-CliXml -Path $StandingsFileName -Depth 99 -NoClobber
+        if (-not (Test-Path $StandingsFileName)) {
+            $Standings = Get-DraftLeagueTable -League $LeagueName -Year $Year | Foreach-Object -Begin {$Count = 0} {
+                $Count++
 
-        $Picks = Get-DraftPicks -League $LeagueName -Year $Year
+                if ($Count -le $PromotionSpots) {
+                    $Promoted = $true
+                }
+                else {
+                    $Promoted = $false
+                }
+
+                if ($Count -gt ($Script:ConfigData[$Year][$LeagueName].Teams.Count - $RelegationSpots)) {
+                    $Relegated = $true
+                }
+                else {
+                    $Relegated = $false
+                }
+
+                $_ | Add-Member -MemberType NoteProperty -Name Promoted -Value $Promoted
+                $_ | Add-Member -MemberType NoteProperty -Name Relegated -Value $Relegated -PassThru
+            }
+            $Standings | Export-CliXml -Path $StandingsFileName -Depth 99
+        }
+
         $PicksFileName = Join-Path -Path $ExportFolder -ChildPath "LeaguePicks$LeagueName.xml"
-        $Picks | Export-CliXml -Path $PicksFileName -Depth 99 -NoClobber
+        if (-not (Test-Path $PicksFileName)) {
+            $Picks = Get-DraftPicks -League $LeagueName -Year $Year
+            $Picks | Export-CliXml -Path $PicksFileName -Depth 99
+        }
 
         $H2HFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueH2H$LeagueName.xml"
+        if (-not (Test-Path $H2HFileName)) {
         $HeadToHead = @{}
-        foreach ($Gameweek in 1..38) {
-            $HeadToHead[$Gameweek] = Get-DraftHeadToHead -League $LeagueName -Gameweek $Gameweek -Year $Year
+            foreach ($Gameweek in 1..38) {
+                $HeadToHead[$Gameweek] = Get-DraftHeadToHead -League $LeagueName -Gameweek $Gameweek -Year $Year
+            }
+            $HeadToHead | Export-CliXml -Path $H2HFileName -Depth 99
         }
-        $HeadToHead | Export-CliXml -Path $H2HFileName -Depth 99 -NoClobber
     }
 }

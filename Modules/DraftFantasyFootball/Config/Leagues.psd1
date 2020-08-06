@@ -85,6 +85,13 @@
                 'yeH4ivqjm8uWRw76a' = 'Ian Montagu'
             }
         }
+        Cup    = @{
+            StartGameweek = 6
+            Leagues       = @(
+                'Prem'
+                'Freak'
+            )
+        }
     }
     2020 = @{
         Prem   = @{
@@ -172,9 +179,16 @@
                 'yeH4ivqjm8uWRw76a' = 'Ian Montagu'
             }
         }
+        Cup    = @{
+            StartGameweek = 6
+            Leagues       = @(
+                'Prem'
+                'Freak'
+            )
+        }
     }
     2019 = @{
-        Prem   = @{
+        Prem  = @{
             LeagueId = 'zJkmnLwMNqzqaAvdQ'
             Managers = @{
                 'd3NG7f4RovG9SRKyN' = 'Jonny Mills'
@@ -205,7 +219,7 @@
                 'xLvpywYQrtXW9hN4j' = 'Joe Chrisp'
             }
         }
-        Freak  = @{
+        Freak = @{
             LeagueId = 'v3GkDYHxwGiDAWMNR'
             Managers = @{
                 'rnAEB5XPqoJBvLrzx' = 'Lewis Bowden'
@@ -238,7 +252,7 @@
         }
     }
     2018 = @{
-        Prem   = @{
+        Prem  = @{
             LeagueId = 'yNANgcMsWhozYyWa2'
             Managers = @{
                 'RXYTLotwDNs8mL7si' = 'Craig Farrell'
@@ -269,7 +283,7 @@
                 'v6XdyWScZ87iZs2jw' = 'Daniel Jansepar'
             }
         }
-        Freak  = @{
+        Freak = @{
             LeagueId = 'gfKFYcQR8zr7ECpc7'
             Managers = @{
                 'SgtN6CgK5AbXsXtNK' = 'Jack Denton'

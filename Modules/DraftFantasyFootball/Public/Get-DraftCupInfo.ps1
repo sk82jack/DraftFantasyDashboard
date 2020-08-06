@@ -3,16 +3,25 @@ function Get-DraftCupInfo {
     param (
         [Parameter()]
         [int]
-        $StartGameweek = 6,
+        $StartGameweek,
 
         [Parameter()]
         [ValidateSet('Prem', 'Freak', 'Vermin')]
         [string[]]
-        $Leagues = @(
-            'Prem',
-            'Freak'
-        )
+        $Leagues,
+
+        [Parameter()]
+        [int]
+        $Year = (Get-DraftYear)
     )
+
+    if (-not $StartGameweek) {
+        $StartGameweek = $Script:ConfigData[$Year]['Cup']['StartGameweek']
+    }
+
+    if (-not $Leagues) {
+        $Leagues = $Script:ConfigData[$Year]['Cup']['Leagues']
+    }
 
     $CurrentGW = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     if ($CurrentGW -gt 38) {

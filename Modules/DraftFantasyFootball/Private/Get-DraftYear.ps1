@@ -6,8 +6,8 @@ function Get-DraftYear {
         $Date = (Get-Date)
     )
 
-    if ($Date.Month -gt 7) {
-        $Date.Year + 1
+    if ($Date.Month -lt 8) {
+        $Date.Year - 1
     }
     else {
         $Date.Year

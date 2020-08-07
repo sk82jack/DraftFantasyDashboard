@@ -11,8 +11,8 @@ function Invoke-ApiQuery {
     )
 
     switch ($Year) {
-        2019 {$ApiUri = 'https://epl18.draftfantasyfootball.co.uk/graphql'}
-        2018 {$ApiUri = 'https://epl17.draftfantasyfootball.co.uk/graphql'}
+        2018 {$ApiUri = 'https://epl18.draftfantasyfootball.co.uk/graphql'}
+        2017 {$ApiUri = 'https://epl17.draftfantasyfootball.co.uk/graphql'}
         default {$ApiUri = 'https://draftfantasyfootball.co.uk/graphql'}
     }
 

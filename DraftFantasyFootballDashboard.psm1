@@ -33,6 +33,7 @@ function Start-Dashboard {
         New-UDSideNavItem -Text 'Player List' -PageName 'Players' -Icon user
         New-UDSideNavItem -Text 'Trades' -PageName 'Trades' -Icon exchange_alt
         New-UDSideNavItem -Text 'Draft Order' -PageName 'Picks' -Icon list_ol
+        New-UDSideNavItem -Text 'Charter' -PageName 'Charter' -Icon gavel
         New-UDSideNavItem -Text 'History' -PageName 'History' -Icon history
     }
 

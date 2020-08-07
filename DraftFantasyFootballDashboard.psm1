@@ -25,11 +25,23 @@ function Start-Dashboard {
     $ThemeDefinition = Import-PowerShellDataFile -Path (Join-Path $PSScriptRoot '/Themes/DraftFantasy.ps1')
     $Theme = New-UDTheme -Name $ThemeDefinition['Name'] -Definition $ThemeDefinition['Definition']
 
+    $Navigation = New-UDSideNav -Content {
+        New-UDSideNavItem -Text 'Fixtures' -PageName 'Fixtures' -Icon calendar_alt
+        New-UDSideNavItem -Text 'League Standings' -PageName 'Tables' -Icon futbol
+        New-UDSideNavItem -Text 'Cup' -PageName 'Cup' -Icon trophy
+        New-UDSideNavItem -Text 'Teams' -PageName 'Teams' -Icon users
+        New-UDSideNavItem -Text 'Player List' -PageName 'Players' -Icon user
+        New-UDSideNavItem -Text 'Trades' -PageName 'Trades' -Icon exchange_alt
+        New-UDSideNavItem -Text 'Draft Order' -PageName 'Picks' -Icon list_ol
+        New-UDSideNavItem -Text 'History' -PageName 'History' -Icon history
+    }
+
     $DashboardSplat = @{
         Title                  = 'Draft Fantasy Football'
         Pages                  = $Pages
         EndpointInitialization = $BHEndpoints
         Theme                  = $Theme
+        Navigation             = $Navigation
     }
     $Dashboard = New-UDDashboard @DashboardSplat
 

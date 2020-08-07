@@ -1,4 +1,4 @@
-New-UDPage -Name 'Trades' -Icon exchange_alt -Endpoint {
+New-UDPage -Name 'Trades' -Endpoint {
     New-UDRow -Columns {
         New-UDColumn -SmallSize 12 -MediumSize 12 -LargeSize 8 -LargeOffset 2 -Endpoint {
             New-UDTabContainer -Tabs {

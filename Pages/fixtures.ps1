@@ -1,4 +1,4 @@
-New-UDPage -Name 'Fixtures' -Icon calendar_alt -Endpoint {
+New-UDPage -Name 'Fixtures' -Endpoint {
     New-UDRow -Columns {
         New-UDColumn -SmallSize 12 -MediumSize 12 -LargeSize 8 -LargeOffset 2 -Endpoint {
             New-UDTabContainer -Tabs {

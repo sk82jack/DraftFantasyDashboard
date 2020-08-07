@@ -1,4 +1,4 @@
-New-UDPage -Name 'Teams' -Icon 'users' -Endpoint {
+New-UDPage -Name 'Teams' -Endpoint {
     New-UDRow -Columns {
         New-UDColumn -SmallSize 12 -MediumSize 12 -LargeSize 8 -LargeOffset 2 -Endpoint {
             New-UDTabContainer -Tabs {

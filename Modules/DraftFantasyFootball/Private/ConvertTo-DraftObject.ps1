@@ -234,8 +234,13 @@ function ConvertTo-DraftObject {
                 $Manager = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable.TeamId]
                 $Hashtable['Manager'] = $Manager
 
-                $Player = $Script:DraftPlayers.Where{$_.Id -eq $Hashtable.PlayerId}.WebName
-                $Hashtable['Player'] = $Player
+                $Player = $Script:DraftPlayers.Where{$_.Id -eq $Hashtable.PlayerId}
+
+                $Hashtable['PlayerId'] = $Player.Id
+                $Hashtable['Player'] = $Player.WebName
+                $Hashtable['PlayerClub'] = $Player.TeamNameShort
+                $Hashtable['PlayerPoints'] = $Player.TotalPoints
+                $Hashtable['PlayerPosition'] = $Player.TypeName
 
                 $PickNo++
                 $Hashtable['PickNo'] = $PickNo

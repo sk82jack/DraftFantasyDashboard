@@ -2,8 +2,10 @@ New-UDPage -Name 'Picks' -Endpoint {
     New-UDRow -Columns {
         New-UDColumn -SmallSize 12 -MediumSize 12 -LargeSize 8 -LargeOffset 2 -Endpoint {
             New-UDTabContainer -Tabs {
+                $Headers = @('#', 'Round', 'Manager', 'Player', 'Club', 'Position', 'Total Points')
+                $Properties = @('PickNo', 'Round', 'Manager', 'Player', 'PlayerClub', 'PlayerPosition', 'PlayerPoints')
                 New-UDTab -Text 'Prem' -Content {
-                    New-UDGrid -Id 'PremHistory' -Headers @('#', 'Manager', 'Player', 'Round') -Properties 'PickNo', 'Manager', 'Player', 'Round' -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
+                    New-UDGrid -Id 'PremHistory' -Headers $Headers -Properties $Properties  -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
                         $Cache:Picks['Prem'] | Out-UDGridData
                         Invoke-UDJavaScript -JavaScript "
                             var checkExist = setInterval(function () {
@@ -16,7 +18,7 @@ New-UDPage -Name 'Picks' -Endpoint {
                     }
                 }
                 New-UDTab -Text 'Freak' -Content {
-                    New-UDGrid -Id 'FreakHistory' -Headers @('#', 'Manager', 'Player', 'Round') -Properties 'PickNo', 'Manager', 'Player', 'Round' -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
+                    New-UDGrid -Id 'FreakHistory' -Headers $Headers -Properties $Properties -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
                         $Cache:Picks['Freak'] | Out-UDGridData
                         Invoke-UDJavaScript -JavaScript "
                             var checkExist = setInterval(function () {
@@ -29,7 +31,7 @@ New-UDPage -Name 'Picks' -Endpoint {
                     }
                 }
                 New-UDTab -Text 'Vermin' -Content {
-                    New-UDGrid -Id 'VerminHistory' -Headers @('#', 'Manager', 'Player', 'Round') -Properties 'PickNo', 'Manager', 'Player', 'Round' -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
+                    New-UDGrid -Id 'VerminHistory' -Headers $Headers -Properties $Properties -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
                         $Cache:Picks['Vermin'] | Out-UDGridData
                         Invoke-UDJavaScript -JavaScript "
                             var checkExist = setInterval(function () {

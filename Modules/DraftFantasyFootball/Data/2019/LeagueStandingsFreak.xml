@@ -663,7 +663,7 @@
       <S N="Manager">Tashan Williams-Mitchell</S>
       <I32 N="Position">11</I32>
       <B N="Promoted">false</B>
-      <B N="Relegated">true</B>
+      <B N="Relegated">false</B>
     </MS>
   </Obj>
   <Obj RefId="55">

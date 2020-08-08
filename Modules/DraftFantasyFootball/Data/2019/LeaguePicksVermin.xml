@@ -5,10 +5,13 @@
       <T>System.Object</T>
     </TN>
     <MS>
-      <S N="Playerid">6XEYZcmzy6izfraGr</S>
+      <S N="PlayerId">6XEYZcmzy6izfraGr</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Sterling</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">184</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">1</I32>
       <Db N="Round">1</Db>
     </MS>
@@ -16,10 +19,13 @@
   <Obj RefId="1">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">ZuWWZ7aZp3uNZRDhd</S>
+      <S N="PlayerId">ZuWWZ7aZp3uNZRDhd</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Kane</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">132</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">2</I32>
       <Db N="Round">1</Db>
     </MS>
@@ -27,10 +33,13 @@
   <Obj RefId="2">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">LhQvwukmJuvDHWMeR</S>
+      <S N="PlayerId">LhQvwukmJuvDHWMeR</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Salah</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">207</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">3</I32>
       <Db N="Round">1</Db>
     </MS>
@@ -38,10 +47,13 @@
   <Obj RefId="3">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">irxTtXhrTZfrTvsdS</S>
+      <S N="PlayerId">irxTtXhrTZfrTvsdS</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Mane</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">194</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">4</I32>
       <Db N="Round">1</Db>
     </MS>
@@ -49,10 +61,13 @@
   <Obj RefId="4">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">tSj39mauNjCq42LXg</S>
+      <S N="PlayerId">tSj39mauNjCq42LXg</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Aubameyang</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">168</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">5</I32>
       <Db N="Round">1</Db>
     </MS>
@@ -60,10 +75,13 @@
   <Obj RefId="5">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">FRjjvsHKpHCksNzAA</S>
+      <S N="PlayerId">FRjjvsHKpHCksNzAA</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Aguero</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">118</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">6</I32>
       <Db N="Round">1</Db>
     </MS>
@@ -71,10 +89,13 @@
   <Obj RefId="6">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">8vYsDuAQAtXRgPEMD</S>
+      <S N="PlayerId">8vYsDuAQAtXRgPEMD</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">De Bruyne</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">216</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">7</I32>
       <Db N="Round">1</Db>
     </MS>
@@ -82,10 +103,13 @@
   <Obj RefId="7">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">evKD48yKn5EsdJvFy</S>
+      <S N="PlayerId">evKD48yKn5EsdJvFy</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Lacazette</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">102</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">8</I32>
       <D N="Round">1</D>
     </MS>
@@ -93,10 +117,13 @@
   <Obj RefId="8">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">wJQoSbYEahkteCEXb</S>
+      <S N="PlayerId">wJQoSbYEahkteCEXb</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Pepe</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">97</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">9</I32>
       <Db N="Round">2</Db>
     </MS>
@@ -104,10 +131,13 @@
   <Obj RefId="9">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">wDRBWAhBJhjhB39M9</S>
+      <S N="PlayerId">wDRBWAhBJhjhB39M9</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Son Heung-Min</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">151</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">10</I32>
       <Db N="Round">2</Db>
     </MS>
@@ -115,10 +145,13 @@
   <Obj RefId="10">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">QbNZCrAnityEoLqhY</S>
+      <S N="PlayerId">QbNZCrAnityEoLqhY</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Roberto Firmino</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">135</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">11</I32>
       <Db N="Round">2</Db>
     </MS>
@@ -126,10 +159,13 @@
   <Obj RefId="11">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">ZuSKFK3DQfJgRLuYH</S>
+      <S N="PlayerId">ZuSKFK3DQfJgRLuYH</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Robertson</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">161</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">12</I32>
       <Db N="Round">2</Db>
     </MS>
@@ -137,10 +173,13 @@
   <Obj RefId="12">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">MMQmANxcxxHLHEW2w</S>
+      <S N="PlayerId">MMQmANxcxxHLHEW2w</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Vardy</S>
+      <S N="PlayerClub">LEI</S>
+      <I64 N="PlayerPoints">176</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">13</I32>
       <Db N="Round">2</Db>
     </MS>
@@ -148,10 +187,13 @@
   <Obj RefId="13">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">X3hrqcohri9GDNdoP</S>
+      <S N="PlayerId">X3hrqcohri9GDNdoP</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Eriksen</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">42</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">14</I32>
       <Db N="Round">2</Db>
     </MS>
@@ -159,10 +201,13 @@
   <Obj RefId="14">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">gSEYEoMjpPL9sRLPa</S>
+      <S N="PlayerId">gSEYEoMjpPL9sRLPa</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">van Dijk</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">164</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">15</I32>
       <Db N="Round">2</Db>
     </MS>
@@ -170,10 +215,13 @@
   <Obj RefId="15">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">nZ2SEJ5mvYA2BqP47</S>
+      <S N="PlayerId">nZ2SEJ5mvYA2BqP47</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Bernardo Silva</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">109</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">16</I32>
       <D N="Round">2</D>
     </MS>
@@ -181,10 +229,13 @@
   <Obj RefId="16">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">NaRuB5myMWn874pKo</S>
+      <S N="PlayerId">NaRuB5myMWn874pKo</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Alexander-Arnold</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">186</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">17</I32>
       <Db N="Round">3</Db>
     </MS>
@@ -192,10 +243,13 @@
   <Obj RefId="17">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">FRBawGLukznpoSv9T</S>
+      <S N="PlayerId">FRBawGLukznpoSv9T</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Zaha</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">116</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">18</I32>
       <Db N="Round">3</Db>
     </MS>
@@ -203,10 +257,13 @@
   <Obj RefId="18">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">PbXGDrny57G7Ds2tQ</S>
+      <S N="PlayerId">PbXGDrny57G7Ds2tQ</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Wilson</S>
+      <S N="PlayerClub">BOU</S>
+      <I64 N="PlayerPoints">108</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">19</I32>
       <Db N="Round">3</Db>
     </MS>
@@ -214,10 +271,13 @@
   <Obj RefId="19">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">RLqRteW98cgNGg4wh</S>
+      <S N="PlayerId">RLqRteW98cgNGg4wh</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Pogba</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">49</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">20</I32>
       <Db N="Round">3</Db>
     </MS>
@@ -225,10 +285,13 @@
   <Obj RefId="20">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">r4Daba7nc5hsLjkhJ</S>
+      <S N="PlayerId">r4Daba7nc5hsLjkhJ</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Rashford</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">146</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">21</I32>
       <Db N="Round">3</Db>
     </MS>
@@ -236,10 +299,13 @@
   <Obj RefId="21">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">ff5jPhDuakgy9yy33</S>
+      <S N="PlayerId">ff5jPhDuakgy9yy33</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Richarlison</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">152</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">22</I32>
       <Db N="Round">3</Db>
     </MS>
@@ -247,10 +313,13 @@
   <Obj RefId="22">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">WATzB9YT2RYdMvbBk</S>
+      <S N="PlayerId">WATzB9YT2RYdMvbBk</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Sigurdsson</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">88</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">23</I32>
       <Db N="Round">3</Db>
     </MS>
@@ -258,10 +327,13 @@
   <Obj RefId="23">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">orzoKMAt8YBdzvkst</S>
+      <S N="PlayerId">orzoKMAt8YBdzvkst</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Pulisic</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">119</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">24</I32>
       <D N="Round">3</D>
     </MS>
@@ -269,10 +341,13 @@
   <Obj RefId="24">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">TYSaxKtHXJQteNNEK</S>
+      <S N="PlayerId">TYSaxKtHXJQteNNEK</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Laporte</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">63</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">25</I32>
       <Db N="Round">4</Db>
     </MS>
@@ -280,10 +355,13 @@
   <Obj RefId="25">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">85Y2zd5Pp3qmDAQWW</S>
+      <S N="PlayerId">85Y2zd5Pp3qmDAQWW</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Ederson Moraes</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">131</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">26</I32>
       <Db N="Round">4</Db>
     </MS>
@@ -291,10 +369,13 @@
   <Obj RefId="26">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">fpyE8vi6a4gHN2wSr</S>
+      <S N="PlayerId">fpyE8vi6a4gHN2wSr</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Felipe Anderson</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">65</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">27</I32>
       <Db N="Round">4</Db>
     </MS>
@@ -302,10 +383,13 @@
   <Obj RefId="27">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">oQhmjoLisSM36MKfX</S>
+      <S N="PlayerId">oQhmjoLisSM36MKfX</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Lucas Moura</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">97</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">28</I32>
       <Db N="Round">4</Db>
     </MS>
@@ -313,10 +397,13 @@
   <Obj RefId="28">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">6G7Y9NZPozoE7aHYp</S>
+      <S N="PlayerId">6G7Y9NZPozoE7aHYp</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Jimenez</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">161</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">29</I32>
       <Db N="Round">4</Db>
     </MS>
@@ -324,10 +411,13 @@
   <Obj RefId="29">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">aQ642xLKuEEiuuwJL</S>
+      <S N="PlayerId">aQ642xLKuEEiuuwJL</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Alisson</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">111</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">30</I32>
       <Db N="Round">4</Db>
     </MS>
@@ -335,10 +425,13 @@
   <Obj RefId="30">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">cEra7GFMLs53iJn9T</S>
+      <S N="PlayerId">cEra7GFMLs53iJn9T</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Walker</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">107</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">31</I32>
       <Db N="Round">4</Db>
     </MS>
@@ -346,10 +439,13 @@
   <Obj RefId="31">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">sgYFcyX4CeGD4wqoQ</S>
+      <S N="PlayerId">sgYFcyX4CeGD4wqoQ</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Stones</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">34</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">32</I32>
       <D N="Round">4</D>
     </MS>
@@ -357,10 +453,13 @@
   <Obj RefId="32">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">qveCBsC8mNzw5sdXJ</S>
+      <S N="PlayerId">qveCBsC8mNzw5sdXJ</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Digne</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">104</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">33</I32>
       <Db N="Round">5</Db>
     </MS>
@@ -368,10 +467,13 @@
   <Obj RefId="33">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">qB3u9tvgQrhXojAT7</S>
+      <S N="PlayerId">qB3u9tvgQrhXojAT7</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Sane</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">1</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">34</I32>
       <Db N="Round">5</Db>
     </MS>
@@ -379,10 +481,13 @@
   <Obj RefId="34">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">6CLiW9npFcyTdKLXN</S>
+      <S N="PlayerId">6CLiW9npFcyTdKLXN</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Doherty</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">152</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">35</I32>
       <Db N="Round">5</Db>
     </MS>
@@ -390,10 +495,13 @@
   <Obj RefId="35">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">Jg8LsDma5Y4BbphH7</S>
+      <S N="PlayerId">Jg8LsDma5Y4BbphH7</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Haller</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">91</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">36</I32>
       <Db N="Round">5</Db>
     </MS>
@@ -401,10 +509,13 @@
   <Obj RefId="36">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">hEqZ3fcBiXzM5gDmD</S>
+      <S N="PlayerId">hEqZ3fcBiXzM5gDmD</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Maddison</S>
+      <S N="PlayerClub">LEI</S>
+      <I64 N="PlayerPoints">111</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">37</I32>
       <Db N="Round">5</Db>
     </MS>
@@ -412,10 +523,13 @@
   <Obj RefId="37">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">CGTXpjBesPmtjJ6Je</S>
+      <S N="PlayerId">CGTXpjBesPmtjJ6Je</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Milivojevic</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">72</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">38</I32>
       <Db N="Round">5</Db>
     </MS>
@@ -423,10 +537,13 @@
   <Obj RefId="38">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">XFFa4mfLEGsZFnL67</S>
+      <S N="PlayerId">XFFa4mfLEGsZFnL67</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Tielemans</S>
+      <S N="PlayerClub">LEI</S>
+      <I64 N="PlayerPoints">112</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">39</I32>
       <Db N="Round">5</Db>
     </MS>
@@ -434,10 +551,13 @@
   <Obj RefId="39">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">agkgtKtSu63zE4pxw</S>
+      <S N="PlayerId">agkgtKtSu63zE4pxw</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Martial</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">186</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">40</I32>
       <D N="Round">5</D>
     </MS>
@@ -445,10 +565,13 @@
   <Obj RefId="40">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">kMQWoWviRabZGRisD</S>
+      <S N="PlayerId">kMQWoWviRabZGRisD</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Fraser</S>
+      <S N="PlayerClub">BOU</S>
+      <I64 N="PlayerPoints">71</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">41</I32>
       <Db N="Round">6</Db>
     </MS>
@@ -456,10 +579,13 @@
   <Obj RefId="41">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">77fZBixoib7ZYrbKy</S>
+      <S N="PlayerId">77fZBixoib7ZYrbKy</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">King</S>
+      <S N="PlayerClub">BOU</S>
+      <I64 N="PlayerPoints">88</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">42</I32>
       <Db N="Round">6</Db>
     </MS>
@@ -467,10 +593,13 @@
   <Obj RefId="42">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">BPNDggz3MhhWEj9aJ</S>
+      <S N="PlayerId">BPNDggz3MhhWEj9aJ</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Maguire</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">118</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">43</I32>
       <Db N="Round">6</Db>
     </MS>
@@ -478,10 +607,13 @@
   <Obj RefId="43">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">rdeBpaafJmApz5kw7</S>
+      <S N="PlayerId">rdeBpaafJmApz5kw7</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Ayoze Perez</S>
+      <S N="PlayerClub">LEI</S>
+      <I64 N="PlayerPoints">120</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">44</I32>
       <Db N="Round">6</Db>
     </MS>
@@ -489,10 +621,13 @@
   <Obj RefId="44">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">zBTzhrXYxNjEXNd45</S>
+      <S N="PlayerId">zBTzhrXYxNjEXNd45</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Silva</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">124</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">45</I32>
       <Db N="Round">6</Db>
     </MS>
@@ -500,10 +635,13 @@
   <Obj RefId="45">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">rfFutgr4MzhCMKgc6</S>
+      <S N="PlayerId">rfFutgr4MzhCMKgc6</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Wan-Bissaka</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">111</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">46</I32>
       <Db N="Round">6</Db>
     </MS>
@@ -511,10 +649,13 @@
   <Obj RefId="46">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">NLsEGv83GLpK6ymfW</S>
+      <S N="PlayerId">NLsEGv83GLpK6ymfW</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Deeney</S>
+      <S N="PlayerClub">WAT</S>
+      <I64 N="PlayerPoints">94</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">47</I32>
       <Db N="Round">6</Db>
     </MS>
@@ -522,10 +663,13 @@
   <Obj RefId="47">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">GNvDh7rdrj9xm6KX6</S>
+      <S N="PlayerId">GNvDh7rdrj9xm6KX6</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Wood</S>
+      <S N="PlayerClub">BUR</S>
+      <I64 N="PlayerPoints">115</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">48</I32>
       <D N="Round">6</D>
     </MS>
@@ -533,10 +677,13 @@
   <Obj RefId="48">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">o3yy8hhq3ZFb92X5J</S>
+      <S N="PlayerId">o3yy8hhq3ZFb92X5J</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Deulofeu</S>
+      <S N="PlayerClub">WAT</S>
+      <I64 N="PlayerPoints">79</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">49</I32>
       <Db N="Round">7</Db>
     </MS>
@@ -544,10 +691,13 @@
   <Obj RefId="49">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">egcvofts3m843z3Sp</S>
+      <S N="PlayerId">egcvofts3m843z3Sp</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Moutinho</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">101</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">50</I32>
       <Db N="Round">7</Db>
     </MS>
@@ -555,10 +705,13 @@
   <Obj RefId="50">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">nvN8QncLonpjybufD</S>
+      <S N="PlayerId">nvN8QncLonpjybufD</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Jota</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">93</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">51</I32>
       <Db N="Round">7</Db>
     </MS>
@@ -566,10 +719,13 @@
   <Obj RefId="51">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">Fwz2WAQnp76HqBjhi</S>
+      <S N="PlayerId">Fwz2WAQnp76HqBjhi</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Pereira</S>
+      <S N="PlayerClub">LEI</S>
+      <I64 N="PlayerPoints">112</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">52</I32>
       <Db N="Round">7</Db>
     </MS>
@@ -577,10 +733,13 @@
   <Obj RefId="52">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">qbcCZe8r6nKP5K5DA</S>
+      <S N="PlayerId">qbcCZe8r6nKP5K5DA</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Pickford</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">112</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">53</I32>
       <Db N="Round">7</Db>
     </MS>
@@ -588,10 +747,13 @@
   <Obj RefId="53">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">DLSPyBBQdju5Zpvhz</S>
+      <S N="PlayerId">DLSPyBBQdju5Zpvhz</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Joelinton</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">75</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">54</I32>
       <Db N="Round">7</Db>
     </MS>
@@ -599,10 +761,13 @@
   <Obj RefId="54">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">PmHyq9Rj9JEGpynwK</S>
+      <S N="PlayerId">PmHyq9Rj9JEGpynwK</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Keane</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">81</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">55</I32>
       <Db N="Round">7</Db>
     </MS>
@@ -610,10 +775,13 @@
   <Obj RefId="55">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">Evb3gQ2DZagksZzvv</S>
+      <S N="PlayerId">Evb3gQ2DZagksZzvv</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Mahrez</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">158</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">56</I32>
       <D N="Round">7</D>
     </MS>
@@ -621,10 +789,13 @@
   <Obj RefId="56">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">Cw892Xgwcn4PgSJrA</S>
+      <S N="PlayerId">Cw892Xgwcn4PgSJrA</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">de Gea</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">135</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">57</I32>
       <Db N="Round">8</Db>
     </MS>
@@ -632,10 +803,13 @@
   <Obj RefId="57">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">kK7ipwHNFPDz3eBd6</S>
+      <S N="PlayerId">kK7ipwHNFPDz3eBd6</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Dele Alli</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">105</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">58</I32>
       <Db N="Round">8</Db>
     </MS>
@@ -643,10 +817,13 @@
   <Obj RefId="58">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">AteRY5vGbYa6CSneH</S>
+      <S N="PlayerId">AteRY5vGbYa6CSneH</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Chilwell</S>
+      <S N="PlayerClub">LEI</S>
+      <I64 N="PlayerPoints">106</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">59</I32>
       <Db N="Round">8</Db>
     </MS>
@@ -654,10 +831,13 @@
   <Obj RefId="59">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">nLeoWrZbWPMbWqv54</S>
+      <S N="PlayerId">nLeoWrZbWPMbWqv54</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Azpilicueta</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">114</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">60</I32>
       <Db N="Round">8</Db>
     </MS>
@@ -665,10 +845,13 @@
   <Obj RefId="60">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">M25mxo6E4ce7DHiWH</S>
+      <S N="PlayerId">M25mxo6E4ce7DHiWH</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">van Aanholt</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">97</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">61</I32>
       <Db N="Round">8</Db>
     </MS>
@@ -676,10 +859,13 @@
   <Obj RefId="61">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">M2CtCcqcnxqd8q8hC</S>
+      <S N="PlayerId">M2CtCcqcnxqd8q8hC</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Gomez</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">86</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">62</I32>
       <Db N="Round">8</Db>
     </MS>
@@ -687,10 +873,13 @@
   <Obj RefId="62">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">DzSw2swgp4pRcbdRJ</S>
+      <S N="PlayerId">DzSw2swgp4pRcbdRJ</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Lloris</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">85</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">63</I32>
       <Db N="Round">8</Db>
     </MS>
@@ -698,10 +887,13 @@
   <Obj RefId="63">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">zC6awXt97EBXwS2ce</S>
+      <S N="PlayerId">zC6awXt97EBXwS2ce</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Barkley</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">56</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">64</I32>
       <D N="Round">8</D>
     </MS>
@@ -709,10 +901,13 @@
   <Obj RefId="64">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">j6wqftPwjGmcLek9z</S>
+      <S N="PlayerId">j6wqftPwjGmcLek9z</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Mina</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">70</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">65</I32>
       <Db N="Round">9</Db>
     </MS>
@@ -720,10 +915,13 @@
   <Obj RefId="65">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">RbAJFHfZ2cw6djbmj</S>
+      <S N="PlayerId">RbAJFHfZ2cw6djbmj</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Boly</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">87</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">66</I32>
       <Db N="Round">9</Db>
     </MS>
@@ -731,10 +929,13 @@
   <Obj RefId="66">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">eprmmEERwuFQNKj3T</S>
+      <S N="PlayerId">eprmmEERwuFQNKj3T</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Pereyra</S>
+      <S N="PlayerClub">WAT</S>
+      <I64 N="PlayerPoints">60</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">67</I32>
       <Db N="Round">9</Db>
     </MS>
@@ -742,10 +943,13 @@
   <Obj RefId="67">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">CJzLGGrjE2Whg7Xmc</S>
+      <S N="PlayerId">CJzLGGrjE2Whg7Xmc</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Alderweireld</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">91</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">68</I32>
       <Db N="Round">9</Db>
     </MS>
@@ -753,10 +957,13 @@
   <Obj RefId="68">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">7Xa2WKKwbWd7LZmKq</S>
+      <S N="PlayerId">7Xa2WKKwbWd7LZmKq</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Jonny</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">117</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">69</I32>
       <Db N="Round">9</Db>
     </MS>
@@ -764,10 +971,13 @@
   <Obj RefId="69">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">DyHE25p5zNnScuBAB</S>
+      <S N="PlayerId">DyHE25p5zNnScuBAB</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Ake</S>
+      <S N="PlayerClub">BOU</S>
+      <I64 N="PlayerPoints">73</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">70</I32>
       <Db N="Round">9</Db>
     </MS>
@@ -775,10 +985,13 @@
   <Obj RefId="70">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">ttfz4CZ6msfcirTwZ</S>
+      <S N="PlayerId">ttfz4CZ6msfcirTwZ</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Abraham</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">133</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">71</I32>
       <Db N="Round">9</Db>
     </MS>
@@ -786,10 +999,13 @@
   <Obj RefId="71">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">yRvnXpuqE55ohjzxM</S>
+      <S N="PlayerId">yRvnXpuqE55ohjzxM</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Vertonghen</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">57</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">72</I32>
       <D N="Round">9</D>
     </MS>
@@ -797,10 +1013,13 @@
   <Obj RefId="72">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">z56PwipWhmpGQaKie</S>
+      <S N="PlayerId">z56PwipWhmpGQaKie</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Gabriel Jesus</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">129</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">73</I32>
       <Db N="Round">10</Db>
     </MS>
@@ -808,10 +1027,13 @@
   <Obj RefId="73">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">ZtJL3hmWcpJkHw3NQ</S>
+      <S N="PlayerId">ZtJL3hmWcpJkHw3NQ</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Rose</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">47</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">74</I32>
       <Db N="Round">10</Db>
     </MS>
@@ -819,10 +1041,13 @@
   <Obj RefId="74">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">yWe6fYRo3wJg4qit3</S>
+      <S N="PlayerId">yWe6fYRo3wJg4qit3</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Redmond</S>
+      <S N="PlayerClub">SOU</S>
+      <I64 N="PlayerPoints">99</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">75</I32>
       <Db N="Round">10</Db>
     </MS>
@@ -830,10 +1055,13 @@
   <Obj RefId="75">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">cbjcKNRepAZPXhtB8</S>
+      <S N="PlayerId">cbjcKNRepAZPXhtB8</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Townsend</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">48</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">76</I32>
       <Db N="Round">10</Db>
     </MS>
@@ -841,10 +1069,13 @@
   <Obj RefId="76">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">YBYRAv4Ln6E55zN5C</S>
+      <S N="PlayerId">YBYRAv4Ln6E55zN5C</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Kepa</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">90</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">77</I32>
       <Db N="Round">10</Db>
     </MS>
@@ -852,10 +1083,13 @@
   <Obj RefId="77">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">N9xszfTjwAbS9QrFJ</S>
+      <S N="PlayerId">N9xszfTjwAbS9QrFJ</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">James</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">93</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">78</I32>
       <Db N="Round">10</Db>
     </MS>
@@ -863,10 +1097,13 @@
   <Obj RefId="78">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">4dmR9fa9NrF7DZrK6</S>
+      <S N="PlayerId">4dmR9fa9NrF7DZrK6</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Ozil</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">52</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">79</I32>
       <Db N="Round">10</Db>
     </MS>
@@ -874,10 +1111,13 @@
   <Obj RefId="79">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">QfpvP9E3Qau8kqdWa</S>
+      <S N="PlayerId">QfpvP9E3Qau8kqdWa</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Origi</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">57</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">80</I32>
       <D N="Round">10</D>
     </MS>
@@ -885,10 +1125,13 @@
   <Obj RefId="80">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">rK6Q3Xbxq4qZ2qK3F</S>
+      <S N="PlayerId">rK6Q3Xbxq4qZ2qK3F</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Barnes</S>
+      <S N="PlayerClub">LEI</S>
+      <I64 N="PlayerPoints">124</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">81</I32>
       <Db N="Round">11</Db>
     </MS>
@@ -896,10 +1139,13 @@
   <Obj RefId="81">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">RGN6Ec5ACcFY5xgps</S>
+      <S N="PlayerId">RGN6Ec5ACcFY5xgps</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Lukaku</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">82</I32>
       <Db N="Round">11</Db>
     </MS>
@@ -907,10 +1153,13 @@
   <Obj RefId="82">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">DNvGYuNmLxEe3grEA</S>
+      <S N="PlayerId">DNvGYuNmLxEe3grEA</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Alonso</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">89</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">83</I32>
       <Db N="Round">11</Db>
     </MS>
@@ -918,10 +1167,13 @@
   <Obj RefId="83">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">YAQTnjRunLDRXbQEd</S>
+      <S N="PlayerId">YAQTnjRunLDRXbQEd</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Zinchenko</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">48</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">84</I32>
       <Db N="Round">11</Db>
     </MS>
@@ -929,10 +1181,13 @@
   <Obj RefId="84">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">z3J6X2p7Wd88H24Lp</S>
+      <S N="PlayerId">z3J6X2p7Wd88H24Lp</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Coleman</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">53</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">85</I32>
       <Db N="Round">11</Db>
     </MS>
@@ -940,10 +1195,13 @@
   <Obj RefId="85">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">BK6AFuzvB8NqLhB8m</S>
+      <S N="PlayerId">BK6AFuzvB8NqLhB8m</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Leno</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">104</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">86</I32>
       <Db N="Round">11</Db>
     </MS>
@@ -951,10 +1209,13 @@
   <Obj RefId="86">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">rfRgQzthBzuDxLRxs</S>
+      <S N="PlayerId">rfRgQzthBzuDxLRxs</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">David Luiz</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">84</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">87</I32>
       <Db N="Round">11</Db>
     </MS>
@@ -962,10 +1223,13 @@
   <Obj RefId="87">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">nShi8djm2Aoa8zxcN</S>
+      <S N="PlayerId">nShi8djm2Aoa8zxcN</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Matip</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">35</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">88</I32>
       <D N="Round">11</D>
     </MS>
@@ -973,10 +1237,13 @@
   <Obj RefId="88">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">k2gtw2p2sniBL3DLk</S>
+      <S N="PlayerId">k2gtw2p2sniBL3DLk</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Maitland-Niles</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">38</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">89</I32>
       <Db N="Round">12</Db>
     </MS>
@@ -984,10 +1251,13 @@
   <Obj RefId="89">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">Wdd663Hoj4F5QaCS9</S>
+      <S N="PlayerId">Wdd663Hoj4F5QaCS9</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Shaw</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">65</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">90</I32>
       <Db N="Round">12</Db>
     </MS>
@@ -995,10 +1265,13 @@
   <Obj RefId="90">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">bbMsovrbX7toaFCFw</S>
+      <S N="PlayerId">bbMsovrbX7toaFCFw</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Tarkowski</S>
+      <S N="PlayerClub">BUR</S>
+      <I64 N="PlayerPoints">129</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">91</I32>
       <Db N="Round">12</Db>
     </MS>
@@ -1006,10 +1279,13 @@
   <Obj RefId="91">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">LmwenHR5RvoHAbnRp</S>
+      <S N="PlayerId">LmwenHR5RvoHAbnRp</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Antonio</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">103</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">92</I32>
       <Db N="Round">12</Db>
     </MS>
@@ -1017,10 +1293,13 @@
   <Obj RefId="92">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">qSYgh4wcoSkE3wqYc</S>
+      <S N="PlayerId">qSYgh4wcoSkE3wqYc</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Fornals</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">89</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">93</I32>
       <Db N="Round">12</Db>
     </MS>
@@ -1028,10 +1307,13 @@
   <Obj RefId="93">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">KvTfLqoDib7usQpkA</S>
+      <S N="PlayerId">KvTfLqoDib7usQpkA</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Murray</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">36</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">94</I32>
       <Db N="Round">12</Db>
     </MS>
@@ -1039,10 +1321,13 @@
   <Obj RefId="94">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">iRS4t4NWoviG2Ztn9</S>
+      <S N="PlayerId">iRS4t4NWoviG2Ztn9</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Mendy</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">71</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">95</I32>
       <Db N="Round">12</Db>
     </MS>
@@ -1050,10 +1335,13 @@
   <Obj RefId="95">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">su2A3r5bhv5qJ9bek</S>
+      <S N="PlayerId">su2A3r5bhv5qJ9bek</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Sanchez</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">60</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">96</I32>
       <D N="Round">12</D>
     </MS>
@@ -1061,10 +1349,13 @@
   <Obj RefId="96">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">wC4Qdk6uqAvPuPAmd</S>
+      <S N="PlayerId">wC4Qdk6uqAvPuPAmd</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Schmeichel</S>
+      <S N="PlayerClub">LEI</S>
+      <I64 N="PlayerPoints">146</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">97</I32>
       <Db N="Round">13</Db>
     </MS>
@@ -1072,10 +1363,13 @@
   <Obj RefId="97">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">LywCABWjhmoeX9Hg5</S>
+      <S N="PlayerId">LywCABWjhmoeX9Hg5</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">McGinn</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">80</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">98</I32>
       <Db N="Round">13</Db>
     </MS>
@@ -1083,10 +1377,13 @@
   <Obj RefId="98">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">sHnZmw2yACnuTi2wM</S>
+      <S N="PlayerId">sHnZmw2yACnuTi2wM</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Duffy</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">43</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">99</I32>
       <Db N="Round">13</Db>
     </MS>
@@ -1094,10 +1391,13 @@
   <Obj RefId="99">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">2gPeZtZPinrKbZhg2</S>
+      <S N="PlayerId">2gPeZtZPinrKbZhg2</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Ndombele</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">43</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">100</I32>
       <Db N="Round">13</Db>
     </MS>
@@ -1105,10 +1405,13 @@
   <Obj RefId="100">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">DoTRd4D3Qb3igm3Xe</S>
+      <S N="PlayerId">DoTRd4D3Qb3igm3Xe</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Pukki</S>
+      <S N="PlayerClub">NOR</S>
+      <I64 N="PlayerPoints">118</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">101</I32>
       <Db N="Round">13</Db>
     </MS>
@@ -1116,10 +1419,13 @@
   <Obj RefId="101">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">MfutKQr96Lgxwk65W</S>
+      <S N="PlayerId">MfutKQr96Lgxwk65W</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Grealish</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">130</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">102</I32>
       <Db N="Round">13</Db>
     </MS>
@@ -1127,10 +1433,13 @@
   <Obj RefId="102">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">4j4tgJnkcHxup7g8v</S>
+      <S N="PlayerId">4j4tgJnkcHxup7g8v</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Kolasinac</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">54</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">103</I32>
       <Db N="Round">13</Db>
     </MS>
@@ -1138,10 +1447,13 @@
   <Obj RefId="103">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">N4oovfYLJtuQqg9pr</S>
+      <S N="PlayerId">N4oovfYLJtuQqg9pr</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Delph</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">22</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">104</I32>
       <D N="Round">13</D>
     </MS>
@@ -1149,10 +1461,13 @@
   <Obj RefId="104">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">CL9RGto2mejqcxGTE</S>
+      <S N="PlayerId">CL9RGto2mejqcxGTE</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Patricio</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">145</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">105</I32>
       <Db N="Round">14</Db>
     </MS>
@@ -1160,10 +1475,13 @@
   <Obj RefId="105">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">Tys6R4KBuyhwtMb8q</S>
+      <S N="PlayerId">Tys6R4KBuyhwtMb8q</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">Barnes</S>
+      <S N="PlayerClub">BUR</S>
+      <I64 N="PlayerPoints">55</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">106</I32>
       <Db N="Round">14</Db>
     </MS>
@@ -1171,10 +1489,13 @@
   <Obj RefId="106">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">5Tf7RYjg7K8jogf4m</S>
+      <S N="PlayerId">5Tf7RYjg7K8jogf4m</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Schar</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">53</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">107</I32>
       <Db N="Round">14</Db>
     </MS>
@@ -1182,10 +1503,13 @@
   <Obj RefId="107">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">ey3RuSXQWePXZ2NfY</S>
+      <S N="PlayerId">ey3RuSXQWePXZ2NfY</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Dubravka</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">136</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">108</I32>
       <Db N="Round">14</Db>
     </MS>
@@ -1193,10 +1517,13 @@
   <Obj RefId="108">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">vrBH6TBE8a6N6yadK</S>
+      <S N="PlayerId">vrBH6TBE8a6N6yadK</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Lindelof</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">107</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">109</I32>
       <Db N="Round">14</Db>
     </MS>
@@ -1204,10 +1531,13 @@
   <Obj RefId="109">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">ox9B9Fuv6hsxupEcD</S>
+      <S N="PlayerId">ox9B9Fuv6hsxupEcD</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Ward-Prowse</S>
+      <S N="PlayerClub">SOU</S>
+      <I64 N="PlayerPoints">109</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">110</I32>
       <Db N="Round">14</Db>
     </MS>
@@ -1215,10 +1545,13 @@
   <Obj RefId="110">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">okaYJCfZkfFEywjvo</S>
+      <S N="PlayerId">okaYJCfZkfFEywjvo</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Mustafi</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">41</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">111</I32>
       <Db N="Round">14</Db>
     </MS>
@@ -1226,10 +1559,13 @@
   <Obj RefId="111">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">E9g8oeFW6SJcYxsXQ</S>
+      <S N="PlayerId">E9g8oeFW6SJcYxsXQ</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Pedro</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">31</I64>
+      <S N="PlayerPosition">Midfielder</S>
       <I32 N="PickNo">112</I32>
       <D N="Round">14</D>
     </MS>
@@ -1237,10 +1573,13 @@
   <Obj RefId="112">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">Quxv77QEPMC8qoxoS</S>
+      <S N="PlayerId">Quxv77QEPMC8qoxoS</S>
       <S N="Teamid">EBJXsFsPcDTkCL4nz</S>
       <S N="Manager">Aidan Brown</S>
       <S N="Player">Foster</S>
+      <S N="PlayerClub">WAT</S>
+      <I64 N="PlayerPoints">120</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">113</I32>
       <Db N="Round">15</Db>
     </MS>
@@ -1248,10 +1587,13 @@
   <Obj RefId="113">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">hRNPDnoqix67QYQyR</S>
+      <S N="PlayerId">hRNPDnoqix67QYQyR</S>
       <S N="Teamid">HaGZZXQQyFHDzaKMS</S>
       <S N="Manager">Dennis Hollywood</S>
       <S N="Player">Guaita</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">121</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">114</I32>
       <Db N="Round">15</Db>
     </MS>
@@ -1259,10 +1601,13 @@
   <Obj RefId="114">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">3a2jw8KorkQMNAR9d</S>
+      <S N="PlayerId">3a2jw8KorkQMNAR9d</S>
       <S N="Teamid">7uujrQbDGgLwctnBh</S>
       <S N="Manager">Tom Goodman</S>
       <S N="Player">Fabianski</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">78</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">115</I32>
       <Db N="Round">15</Db>
     </MS>
@@ -1270,10 +1615,13 @@
   <Obj RefId="115">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">sQNqBiq8xBXnv2EnN</S>
+      <S N="PlayerId">sQNqBiq8xBXnv2EnN</S>
       <S N="Teamid">XkKhDb9PvPxdMazML</S>
       <S N="Manager">Rob Turner</S>
       <S N="Player">Mat Ryan</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">121</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">116</I32>
       <Db N="Round">15</Db>
     </MS>
@@ -1281,10 +1629,13 @@
   <Obj RefId="116">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">xqsnK2boXwDgwch2q</S>
+      <S N="PlayerId">xqsnK2boXwDgwch2q</S>
       <S N="Teamid">yeH4ivqjm8uWRw76a</S>
       <S N="Manager">Ian Montagu</S>
       <S N="Player">Cathcart</S>
+      <S N="PlayerClub">WAT</S>
+      <I64 N="PlayerPoints">74</I64>
+      <S N="PlayerPosition">Defender</S>
       <I32 N="PickNo">117</I32>
       <Db N="Round">15</Db>
     </MS>
@@ -1292,10 +1643,13 @@
   <Obj RefId="117">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">PTDGvsdnbvsCbeDCz</S>
+      <S N="PlayerId">PTDGvsdnbvsCbeDCz</S>
       <S N="Teamid">6bTwRQEvbJ5ZXvv7s</S>
       <S N="Manager">Nick Arndt</S>
       <S N="Player">Begovic</S>
+      <S N="PlayerClub">BOU</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">118</I32>
       <Db N="Round">15</Db>
     </MS>
@@ -1303,10 +1657,13 @@
   <Obj RefId="118">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">xFBXPrwyGszvRGXiE</S>
+      <S N="PlayerId">xFBXPrwyGszvRGXiE</S>
       <S N="Teamid">R2u43LyMS45QPcMvZ</S>
       <S N="Manager">Jake Meskell</S>
       <S N="Player">McGovern</S>
+      <S N="PlayerClub">NOR</S>
+      <I64 N="PlayerPoints">9</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
       <I32 N="PickNo">119</I32>
       <Db N="Round">15</Db>
     </MS>
@@ -1314,10 +1671,13 @@
   <Obj RefId="119">
     <TNRef RefId="0" />
     <MS>
-      <S N="Playerid">9F3N4MepvMEdLXWei</S>
+      <S N="PlayerId">9F3N4MepvMEdLXWei</S>
       <S N="Teamid">WQHZfisJJgjinTdJq</S>
       <S N="Manager">Ramin Nizami</S>
       <S N="Player">Batshuayi</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">27</I64>
+      <S N="PlayerPosition">Forward</S>
       <I32 N="PickNo">120</I32>
       <D N="Round">15</D>
     </MS>

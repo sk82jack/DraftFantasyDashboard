@@ -3,28 +3,92 @@
         Prem   = @{
             LeagueId = 'QvrQiKfAa3tzhLfqi'
             Managers = @{
-
+                'ufAruvPx57r9KuQe2' = 'Shane Meskell'
+                'mu2C3KrkWrNtXdbYE' = 'Joe Chrisp'
+                'uetwxbtproiMJBBzt' = 'Daniel Barber'
+                'BiCadqsurGanxkZDY' = 'Simeon Gholam'
+                'bLtWDEPPhudorsHkb' = 'Calum Reina'
+                'PAkaiWN87PBCh4aKM' = 'Daniel Jansepar'
+                'T3QDiwtKa6L7p7goC' = 'Dawood Moghim'
+                'T9y9Wt3LscXWLEfmK' = 'Daniel Louki'
+                'ww983A4fwoFQzrLko' = 'James Doku'
+                'oY2zMMqJp7hr8Aj7q' = 'Louis Worthington'
+                'ebaDkhJWpJNkwxQtS' = 'Will Lafferty'
+                'mBSZoWk2L5gm9o42d' = 'Edi Finch'
             }
             Teams    = @{
-
+                '64pYre6DPxT5ezBrE' = 'Shane Meskell'
+                'Ap3cdMmYskFX3NHog' = 'Joe Chrisp'
+                'GT73Nsiow8zZQ7c2Q' = 'Daniel Barber'
+                'LZ4K69uKsS49ySNPM' = 'Simeon Gholam'
+                'TL4aHmdn87HSBQCnf' = 'Calum Reina'
+                'Wij5CxEXWKvZsHqWw' = 'Daniel Jansepar'
+                'Xeg6278z5K5St3xeR' = 'Dawood Moghim'
+                'cL5TtTd3mYqtATkfN' = 'Daniel Louki'
+                'iLnmLGkCYKRS2EsSD' = 'James Doku'
+                'mnhxhF9p6QiNZjpv2' = 'Louis Worthington'
+                'sZTJCHJu7yQv7Gxtv' = 'Will Lafferty'
+                'zvBFMz3dLo3oDhYMf' = 'Edi Finch'
             }
         }
         Freak  = @{
             LeagueId = 'xhGvYTn9kfBAbeADs'
             Managers = @{
-
+                '3jMWXSuqBNGuXDgw7' = 'Ben Featherstone'
+                'd3NG7f4RovG9SRKyN' = 'Jonny Mills'
+                'aiEbdn3y5bBEcYDBZ' = 'Eddie Lyne'
+                '9KxnZRpoRKNsgs5S6' = 'Tashan Williams-Mitchell'
+                '9J2XjE3LE2vLETTkG' = 'Ian Montagu'
+                'RXYTLotwDNs8mL7si' = 'Craig Farrell'
+                'QoEczu62WNoTuFbbT' = 'Adam Waller'
+                'SgtN6CgK5AbXsXtNK' = 'Jack Denton'
+                '3ZSa5ADLPaHHatfFt' = 'Sasha Bosnjak'
+                'AaDbRhMy66SAq7TPg' = 'Robert Ferguson'
+                'ZLxaNxmaiS5nbCFLJ' = 'Cieran James'
             }
             Teams    = @{
-
+                '6i2xLLjnW5ZsZDfqE' = 'Ben Featherstone'
+                'AjotaaX9CjceG9KNy' = 'Jonny Mills'
+                'Cn94RHypAZK2PqNcZ' = 'Eddie Lyne'
+                'EottCRYj6xjnKN2aL' = 'Tashan Williams-Mitchell'
+                'LsNfbkuqDxfPEEzfT' = 'Ian Montagu'
+                'RFnhRa5ALbodMiPhs' = 'Craig Farrell'
+                'qBRFStx8mW2N9xWnG' = 'Adam Waller'
+                'xSTmr63Mhe35Yotcv' = 'Jack Denton'
+                'yCR7uPSspJsXkugzs' = 'Sasha Bosnjak'
+                'yqJ5HLcv9mBACtNx8' = 'Robert Ferguson'
+                'zdcGyS3yq6z84oqqS' = 'Cieran James'
             }
         }
         Vermin = @{
             LeagueId = 'EDL7HPY64LzqReDzJ'
             Managers = @{
-
+                '9Sq2LPBLHE5qouHce' = 'Rob Turner'
+                '4isWpfDX4wrD66vFX' = 'Phelan Murphy'
+                'tPHZ2FwQcWzbf2T8g' = 'Shayan Shahdi'
+                'CcpJmebsZCSb3o4EY' = 'Dennis Hollywood'
+                'cviiirtcaozXT4jb2' = 'Tom Field'
+                'mrfTMLDBFXGhdNequ' = 'James Lowenthal'
+                'kCKus9AXGujKHb8k7' = 'George Smyth'
+                '8g3v9YgYAn7BHLCjH' = 'Deni Bosnjak'
+                'ceKhSFXzknrq7T6Pz' = 'Ronan McGhee'
+                'K2RiSMFxHHbiE69pA' = 'Ben Stanier'
+                'M87QTfnEAxFbMCWhY' = 'Nick Arndt'
+                'uGtCwcuhbctj7Gyiw' = 'Aidan Brown'
             }
             Teams    = @{
-
+                '5RMoAHtcfhgfFCSap' = 'Rob Turner'
+                '5TgZ94gDxL6Q6C2Lw' = 'Phelan Murphy'
+                '8nqRFLF6gtwTiaK7k' = 'Shayan Shahdi'
+                'CcEhQw7ij4KBnqWD7' = 'Dennis Hollywood'
+                'FGtPYyFSjs68xvzaj' = 'Tom Field'
+                'GSAuFkfmrGjym4wdy' = 'James Lowenthal'
+                'HcRd3wCF5JZMfq7sM' = 'George Smyth'
+                'MkpJHSNXRdbtuPP2g' = 'Deni Bosnjak'
+                'fhcutCiFxaMNaXSWN' = 'Ronan McGhee'
+                'nS3eqshRpKBWavfqf' = 'Ben Stanier'
+                'oqjfzspgEwuvZhnPh' = 'Nick Arndt'
+                'zXg8sGnaAJKGZExYo' = 'Aidan Brown'
             }
         }
         Cup    = @{

@@ -45,6 +45,7 @@
                 '3ZSa5ADLPaHHatfFt' = 'Sasha Bosnjak'
                 'AaDbRhMy66SAq7TPg' = 'Robert Ferguson'
                 'ZLxaNxmaiS5nbCFLJ' = 'Cieran James'
+                'F6XQZa3z9wcoMPFvM' = 'Gavin Ferguson'
             }
             Teams    = @{
                 '6i2xLLjnW5ZsZDfqE' = 'Ben Featherstone'
@@ -58,6 +59,7 @@
                 'yCR7uPSspJsXkugzs' = 'Sasha Bosnjak'
                 'yqJ5HLcv9mBACtNx8' = 'Robert Ferguson'
                 'zdcGyS3yq6z84oqqS' = 'Cieran James'
+                'v6au54k3PPnYQFLcJ' = 'Gavin Ferguson'
             }
         }
         Vermin = @{

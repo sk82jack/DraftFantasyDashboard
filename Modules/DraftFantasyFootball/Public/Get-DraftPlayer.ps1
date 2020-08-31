@@ -12,7 +12,10 @@ function Get-DraftPlayer {
     )
 
     $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
-    if ($Gameweek -gt 38) {
+    if ($Gameweek -eq 0) {
+        $Gameweek = 1
+    }
+    elseif ($Gameweek -gt 38) {
         $Gameweek += -9
     }
     $LeagueId = $Script:ConfigData[$Year]['Prem']['LeagueId']

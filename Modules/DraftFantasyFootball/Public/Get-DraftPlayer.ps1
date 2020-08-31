@@ -11,7 +11,7 @@ function Get-DraftPlayer {
         $Year = (Get-DraftYear)
     )
 
-    $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
+    [int]$Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     if ($Gameweek -eq 0) {
         $Gameweek = 1
     }

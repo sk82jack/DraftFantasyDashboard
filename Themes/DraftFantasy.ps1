@@ -50,7 +50,7 @@
             "margin-top"    = "4% !important"
         }
 
-        UDTab = @{
+        UDTab                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 = @{
             FontColor = '#FFFFFF'
         }
         UDTabs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                = @{
@@ -74,7 +74,7 @@
         '.mdc-tab__ripple::after'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             = @{
             'background-color' = '#1c1c1c'
         }
-        '.mdc-tab .mdc-tab__text-label' = @{
+        '.mdc-tab .mdc-tab__text-label'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       = @{
             'color' = '#FFFFFF'
         }
 
@@ -205,7 +205,6 @@
             'margin-right' = 'auto'
             'width'        = 'auto'
             'float'        = 'none'
-            'max-height'   = '72px'
         }
         '.card .card-content'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 = @{
             'padding'     = '0px'

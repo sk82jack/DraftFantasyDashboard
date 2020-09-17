@@ -20,5 +20,6 @@ $publicFunctions = (Get-ChildItem -Path "$PSScriptRoot/Public" -Filter '*.ps1').
 Export-ModuleMember -Function $publicFunctions
 
 $Script:ConfigData = Import-PowerShellDataFile -Path "$PSScriptRoot/Config/Leagues.psd1"
+$Script:ManagerProfiles = Import-PowerShellDataFile -Path "$PSScriptRoot/Config/ManagerProfiles.psd1"
 $Script:BootstrapStatic = Get-FplBootstrapStatic
 $Script:DraftPlayers = Get-DraftPlayer

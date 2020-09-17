@@ -16,12 +16,9 @@ function Start-Dashboard {
         $Pages += . $_.FullName
     }
 
-    $Images = @{}
-    foreach ($File in (Get-ChildItem -Path $PSScriptRoot/Images)) {
-        $Images[$File.BaseName] = Join-Path -Path $PSScriptRoot -ChildPath ('Images/{0}' -f $File.Name)
-    }
+    $ProfilePics = Publish-UDFolder -Path "$PSScriptRoot/Images/profile_pics" -RequestPath "/profile_pics"
 
-    $BHEndpoints = New-UDEndpointInitialization -Module 'Modules/DraftFantasyFootball/DraftFantasyFootball.psd1' -Variable 'Images'
+    $BHEndpoints = New-UDEndpointInitialization -Module 'Modules/DraftFantasyFootball/DraftFantasyFootball.psd1'
     $ThemeDefinition = Import-PowerShellDataFile -Path (Join-Path $PSScriptRoot '/Themes/DraftFantasy.ps1')
     $Theme = New-UDTheme -Name $ThemeDefinition['Name'] -Definition $ThemeDefinition['Definition']
 
@@ -29,7 +26,7 @@ function Start-Dashboard {
         New-UDSideNavItem -Text 'Fixtures' -PageName 'Fixtures' -Icon calendar_alt
         New-UDSideNavItem -Text 'League Standings' -PageName 'Tables' -Icon futbol
         New-UDSideNavItem -Text 'Cup' -PageName 'Cup' -Icon trophy
-        New-UDSideNavItem -Text 'Teams' -PageName 'Teams' -Icon users
+        New-UDSideNavItem -Text 'Managers' -PageName 'Managers' -Icon users
         New-UDSideNavItem -Text 'Player List' -PageName 'Players' -Icon user
         New-UDSideNavItem -Text 'Trades' -PageName 'Trades' -Icon exchange_alt
         New-UDSideNavItem -Text 'Draft Order' -PageName 'Picks' -Icon list_ol
@@ -178,10 +175,11 @@ function Start-Dashboard {
     )
 
     $StartDashboardSplat = @{
-        Dashboard = $Dashboard
-        Port      = $Port
-        Wait      = $true
-        EndPoint  = $Endpoints
+        Dashboard       = $Dashboard
+        Port            = $Port
+        Wait            = $true
+        EndPoint        = $Endpoints
+        PublishedFolder = $ProfilePics
     }
     if ($CertificatePath) {
         $StartDashboardSplat['Certificate'] = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromCertFile($CertificatePath)

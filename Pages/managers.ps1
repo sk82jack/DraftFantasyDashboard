@@ -20,31 +20,31 @@ New-UDPage -Name 'Managers' -Endpoint {
 
                             [PSCustomObject]@{
                                 Manager = New-UDElement -Tag 'a' -Attributes @{
-                                        onClick = {
-                                            Show-UDModal -Content {
-                                                $Profile = Get-ManagerProfile $Team.Manager
+                                    onClick = {
+                                        Show-UDModal -Content {
+                                            $ManagerProfile = Get-ManagerProfile $Team.Manager
 
-                                                New-UDCard -Title $Team.Manager -TitleAlignment center -Image (New-UDImage -Url $ProfilePic -Height 200)
-                                                New-UDCard -Title 'POSITION HISTORY' -TitleAlignment center -TextAlignment center -Text $Profile.PositionHistory
-                                                New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text $Profile.Accolades
-                                                New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text $Profile.Style
-                                                New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text $Profile.Rivalries
-                                                New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text $Profile.Quotes
-                                            }
-                                        }
-                                        style   = @{
-                                            'cursor' = 'pointer'
-                                        }
-                                    } -Content {
-                                        New-UDRow -Columns {
-                                            New-UDColumn {
-                                                New-UDMuAvatar -Image $ProfilePic -Alt $Team.Manager
-                                            }
-                                            New-UDColumn {
-                                                $Team.Manager
-                                            }
+                                            New-UDCard -Title $Team.Manager -TitleAlignment center -Image (New-UDImage -Url $ProfilePic -Height 200)
+                                            New-UDCard -Title 'POSITION HISTORY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.PositionHistory -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Accolades -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Style -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Rivalries -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Quotes -replace '\r?\n', "`r`n")
                                         }
                                     }
+                                    style   = @{
+                                        'cursor' = 'pointer'
+                                    }
+                                } -Content {
+                                    New-UDRow -Columns {
+                                        New-UDColumn {
+                                            New-UDMuAvatar -Image $ProfilePic -Alt $Team.Manager
+                                        }
+                                        New-UDColumn {
+                                            $Team.Manager
+                                        }
+                                    }
+                                }
                                 Team    = New-UDButton -Text 'Team' -OnClick $ViewTeamEndpoint
                             }
                         }
@@ -70,31 +70,31 @@ New-UDPage -Name 'Managers' -Endpoint {
 
                             [PSCustomObject]@{
                                 Manager = New-UDElement -Tag 'a' -Attributes @{
-                                        onClick = {
-                                            Show-UDModal -Content {
-                                                $Profile = Get-ManagerProfile $Team.Manager
+                                    onClick = {
+                                        Show-UDModal -Content {
+                                            $ManagerProfile = Get-ManagerProfile $Team.Manager
 
-                                                New-UDCard -Title $Team.Manager -TitleAlignment center -Image (New-UDImage -Url $ProfilePic -Height 200)
-                                                New-UDCard -Title 'POSITION HISTORY' -TitleAlignment center -TextAlignment center -Text $Profile.PositionHistory
-                                                New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text $Profile.Accolades
-                                                New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text $Profile.Style
-                                                New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text $Profile.Rivalries
-                                                New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text $Profile.Quotes
-                                            }
-                                        }
-                                        style   = @{
-                                            'cursor' = 'pointer'
-                                        }
-                                    } -Content {
-                                        New-UDRow -Columns {
-                                            New-UDColumn {
-                                                New-UDMuAvatar -Image $ProfilePic -Alt $Team.Manager
-                                            }
-                                            New-UDColumn {
-                                                $Team.Manager
-                                            }
+                                            New-UDCard -Title $Team.Manager -TitleAlignment center -Image (New-UDImage -Url $ProfilePic -Height 200)
+                                            New-UDCard -Title 'POSITION HISTORY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.PositionHistory -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Accolades -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Style -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Rivalries -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Quotes -replace '\r?\n', "`r`n")
                                         }
                                     }
+                                    style   = @{
+                                        'cursor' = 'pointer'
+                                    }
+                                } -Content {
+                                    New-UDRow -Columns {
+                                        New-UDColumn {
+                                            New-UDMuAvatar -Image $ProfilePic -Alt $Team.Manager
+                                        }
+                                        New-UDColumn {
+                                            $Team.Manager
+                                        }
+                                    }
+                                }
                                 Team    = New-UDButton -Text 'Team' -OnClick $ViewTeamEndpoint
                             }
                         }
@@ -120,31 +120,31 @@ New-UDPage -Name 'Managers' -Endpoint {
 
                             [PSCustomObject]@{
                                 Manager = New-UDElement -Tag 'a' -Attributes @{
-                                        onClick = {
-                                            Show-UDModal -Content {
-                                                $Profile = Get-ManagerProfile $Team.Manager
+                                    onClick = {
+                                        Show-UDModal -Content {
+                                            $ManagerProfile = Get-ManagerProfile $Team.Manager
 
-                                                New-UDCard -Title $Team.Manager -TitleAlignment center -Image (New-UDImage -Url $ProfilePic -Height 200)
-                                                New-UDCard -Title 'POSITION HISTORY' -TitleAlignment center -TextAlignment center -Text $Profile.PositionHistory
-                                                New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text $Profile.Accolades
-                                                New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text $Profile.Style
-                                                New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text $Profile.Rivalries
-                                                New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text $Profile.Quotes
-                                            }
-                                        }
-                                        style   = @{
-                                            'cursor' = 'pointer'
-                                        }
-                                    } -Content {
-                                        New-UDRow -Columns {
-                                            New-UDColumn {
-                                                New-UDMuAvatar -Image $ProfilePic -Alt $Team.Manager
-                                            }
-                                            New-UDColumn {
-                                                $Team.Manager
-                                            }
+                                            New-UDCard -Title $Team.Manager -TitleAlignment center -Image (New-UDImage -Url $ProfilePic -Height 200)
+                                            New-UDCard -Title 'POSITION HISTORY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.PositionHistory -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Accolades -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Style -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Rivalries -replace '\r?\n', "`r`n")
+                                            New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Quotes -replace '\r?\n', "`r`n")
                                         }
                                     }
+                                    style   = @{
+                                        'cursor' = 'pointer'
+                                    }
+                                } -Content {
+                                    New-UDRow -Columns {
+                                        New-UDColumn {
+                                            New-UDMuAvatar -Image $ProfilePic -Alt $Team.Manager
+                                        }
+                                        New-UDColumn {
+                                            $Team.Manager
+                                        }
+                                    }
+                                }
                                 Team    = New-UDButton -Text 'Team' -OnClick $ViewTeamEndpoint
                             }
                         }

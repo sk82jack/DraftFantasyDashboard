@@ -39,6 +39,11 @@ function Get-DraftCupInfo {
     }
     $EliminatedManagers = [System.Collections.Generic.List[string]]::new()
 
+    if ($CurrentGW -eq $StartGameweek) {
+        $CupHash
+        return
+    }
+
     foreach ($Gameweek in ($StartGameweek + 1)..$CurrentGW) {
         $EliminationNumber += 1
         if ($EliminationNumber -eq $Scores.Count) {

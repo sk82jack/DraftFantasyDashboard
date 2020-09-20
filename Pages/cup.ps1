@@ -3,17 +3,17 @@ New-UDPage -Name 'Cup' -Endpoint {
         New-UDColumn -SmallSize 12 -MediumSize 12 -LargeSize 8 -LargeOffset 2 -Endpoint {
             $Cache:AllCupRounds = [int[]]$Cache:CupInfo.Keys
             $CupRounds = $Cache:AllCupRounds | Measure-Object -Maximum -Minimum
-            if ($Cache:CupInfo[[int]$CupRounds.Maximum].Winner) {
+            if ($Cache:CupInfo[[int]$CupRounds.Maximum].Winner -eq $true) {
                 New-UDCard -Title 'CUP WINNER' -Size 'small' -FontColor 'White' -TextSize Large -Text $Cache:CupInfo[[int]$CupRounds.Maximum].Manager -TextAlignment 'center'
                 $Cache:AllCupRounds = $Cache:AllCupRounds -ne $CupRounds.Maximum
             }
             else {
-                New-UDTable -Title "Round $([int]$Cache:CurrentGameweek - 5) Cup Rankings" -Headers @("Manager", "Round Points") -Endpoint {
+                New-UDTable -Title "Gameweek $Cache:CurrentGameweek Cup Rankings" -Headers @("Manager", "Gameweek Points") -Endpoint {
                     $Cache:CupInfo[[int]$Cache:CurrentGameweek] | Out-UDTableData -Property @("Manager", "Gameweekpoints")
                 }
             }
 
-            New-UDTable -Title "Cup History" -Headers @("Round", "Eliminated", "Round Rankings") -Endpoint {
+            New-UDTable -Title "Cup History" -Headers @("Gameweek", "Eliminated", "Gameweek Rankings") -Endpoint {
                 $Output = foreach ($Gameweek in $Cache:AllCupRounds) {
                     if ($Gameweek -eq [int]$Cache:CurrentGameweek) {
                         continue
@@ -29,24 +29,24 @@ New-UDPage -Name 'Cup' -Endpoint {
                         $Eliminated = 'N/A'
                     }
 
-                    $RoundNumber = $Gameweek - 5
                     $ViewRankingsEndpoint = New-UDEndpoint -ArgumentList $Cache:CupInfo[$Gameweek] -Endpoint {
                         Show-UDModal -Content {
-                            New-UDTable -Title "Round $RoundNumber Cup Rankings" -Headers @("Manager", "Round Points") -Content {
+                            New-UDTable -Title "Gameweek $Gameweek Cup Rankings" -Headers @("Manager", "Gameweek Points") -Content {
                                 $ArgumentList | Out-UDTableData -Property @("Manager", "Gameweekpoints")
                             }
                         }
                     }
 
                     [PSCustomObject]@{
-                        Round        = $RoundNumber
+                        Gameweek     = $Gameweek
                         Eliminated   = $Eliminated
-                        ViewRankings = New-UDButton -Text "Round $RoundNumber Rankings" -OnClick $ViewRankingsEndpoint
+                        ViewRankings = New-UDButton -Text "Gameweek $Gameweek Rankings" -OnClick $ViewRankingsEndpoint
                     }
                 }
 
-                $Output | Out-UDTableData -Property @("Round", "Eliminated", "ViewRankings")
+                $Output | Out-UDTableData -Property @("Gameweek", "Eliminated", "ViewRankings")
             }
+
         }
     }
 }

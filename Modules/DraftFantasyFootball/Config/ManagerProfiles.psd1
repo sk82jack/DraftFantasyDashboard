@@ -155,15 +155,35 @@ I will enjoy the slow and gradual demise of Jack Denton and the Denton's Dugout.
     }
 
     'Daniel Louki'             = @{
-        TeamName        = ''
+        TeamName        = "Hierarchy Pawns, formerly/briefly known as... Southgate you're the one, No Freaks,"
         PositionHistory = @'
-
+2015-16: Unclassified
+2016-17: 1st
+2017-18: 1st (Prem)
+2018-19: 5th (Prem)
+2019-20: 7th (Prem)
 '@
-        Accolades       = ''
+        Accolades       = @'
+Prem Winner 2016-17, 2017-18
+Cup Winner 2016-17
+'@
         Style           = @'
+After early success unfortunately this manager may have become rather stuck in his ways, developing a borderline obsession with owning certain players which are proving detrimental to the club.
 
+After owning him in all previous draft seasons, the manager lives in fear that this could finally be Erik Lamela’s breakthrough season and someone else will reap the rewards after years of being nurtured by Louki.
+
+Louki always has an eye out for the next trade and hopes to once again assemble a team of superstars that will propel him back to the top.
+
+The manager has great respect for the sport and always tries to play the game in a fair and honest manner.
 '@
-        Rivalries       = ''
+        Rivalries       = @'
+We here at the Hierarchy Pawns have always strived to get on well with the other teams in the league and believe we have a good relationship with my fellow managers.
+
+However, everyone needs a rivalry and the Hierarchy Pawns always seem to find themselves locked in battle with Sim City.
+Having spent the early years contesting the title both clubs have really struggled to keep their Prem status in recent seasons.
+The 2019-20 season looked destined for one of these best of enemies to face the plunge into the dreaded Freak league.
+With COVID-19 halting the season there was a chance for the Hierarchy Pawns to bring in some much needed firepower (‘world class’ Harry Kane) and managed to pull of the great escape in the dying minutes of the last game of the season. Sim City also survived.
+'@
         Quotes          = @'
 
 '@

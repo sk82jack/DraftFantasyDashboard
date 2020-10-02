@@ -47,20 +47,20 @@ Quote: 'This player does not shake unless there is something 'in it' for him' �
 '@
         Accolades       = 'Promotion from the Freak 2019/20'
         Style           = @'
-A serial fiend, "Goé” first learnt his trade as a teenager in the feudal era of the official Premier League Fantasy Football website, devising and manually processing obscenely complicated head-to-head Champions League and FA Cup tournaments. He fell out of love with the game after a deluge of mediocre performances, with the well-known monotonous churn of the peasant format taking its toll. While in exile in the People's Republic of China, Goé started work on a business plan to bring "draft” fantasy football to the world. Unfortunately, progress stalled after he enlisted future rival manager Dan Barber ("Barbs”) as chief operating officer and Barbs's time in China was mostly wasted chugging unceremoniously on a Vietnamese tobacco pipe. Months later, Goé was amazed to find a new draft website that had put all their ideas into being and it wasn't long before an army of fiends were signed up and the league and the (rumour) mill were formed.
+A serial fiend, "Goé" first learnt his trade as a teenager in the feudal era of the official Premier League Fantasy Football website, devising and manually processing obscenely complicated head-to-head Champions League and FA Cup tournaments. He fell out of love with the game after a deluge of mediocre performances, with the well-known monotonous churn of the peasant format taking its toll. While in exile in the People's Republic of China, Goé started work on a business plan to bring "draft" fantasy football to the world. Unfortunately, progress stalled after he enlisted future rival manager Dan Barber ("Barbs") as chief operating officer and Barbs's time in China was mostly wasted chugging unceremoniously on a Vietnamese tobacco pipe. Months later, Goé was amazed to find a new draft website that had put all their ideas into being and it wasn't long before an army of fiends were signed up and the league and the (rumour) mill were formed.
 In terms of management style, Goé is known to hunt for a clean sheet in an erratic fashion and grew used to receiving the weekly moz alert from rival Freak Gavin Ferguson last season after a newly brought-in defender lost his clean sheet. Following promotion, Goé looks forward to a season of self-loathing in peace. On the transfer market, he is prone to an overattachment to doomed flops or self-destructive mozzes.
 Politically, Goé is strongly associated with the ‘Hierarchy' and the ol' timers movement. Always on the lookout for some new pawns, he is intimately tied to the expansion agenda and has restarted the #justice4plankton campaign for the 2021-22 season.
 '@
         Rivalries       = "Robert 'Pex'/Botts Ferguson. More of a spiteful vendetta than a rivalry given the gulf in class, reports suggest Goé is trying not to kick the young manager while he's down this season."
         Quotes          = @'
 Team name 1: Pex
-Quote 1: "A piece of trivia for you: Bottsy (aka A-Rob) has never finished in the top half of a division”
+Quote 1: "A piece of trivia for you: Bottsy (aka A-Rob) has never finished in the top half of a division"
 
 Team name 2: Shane
-Quote 2: "Every season is a countdown to shexit #7thpick”
+Quote 2: "Every season is a countdown to shexit #7thpick"
 
 Team name 3: Cier aka Tommy Toots
-Quote 3: "Keep C3PO away from other managers when drunk #ToA”
+Quote 3: "Keep C3PO away from other managers when drunk #ToA"
 '@
     }
 
@@ -97,7 +97,7 @@ Former loans specialist who revels in historic glories to steer attention away f
 '@
         Rivalries       = 'N/A. I treat all my opponents with equal disdain.'
         Quotes          = @'
-To all other managers: Take heed from those who have called my team shit. They are all freaks and I’m still standing in the Prem.
+To all other managers: Take heed from those who have called my team shit. They are all freaks and I'm still standing in the Prem.
 '@
     }
 
@@ -170,7 +170,7 @@ Cup Winner 2016-17
         Style           = @'
 After early success unfortunately this manager may have become rather stuck in his ways, developing a borderline obsession with owning certain players which are proving detrimental to the club.
 
-After owning him in all previous draft seasons, the manager lives in fear that this could finally be Erik Lamela’s breakthrough season and someone else will reap the rewards after years of being nurtured by Louki.
+After owning him in all previous draft seasons, the manager lives in fear that this could finally be Erik Lamela's breakthrough season and someone else will reap the rewards after years of being nurtured by Louki.
 
 Louki always has an eye out for the next trade and hopes to once again assemble a team of superstars that will propel him back to the top.
 
@@ -182,7 +182,7 @@ We here at the Hierarchy Pawns have always strived to get on well with the other
 However, everyone needs a rivalry and the Hierarchy Pawns always seem to find themselves locked in battle with Sim City.
 Having spent the early years contesting the title both clubs have really struggled to keep their Prem status in recent seasons.
 The 2019-20 season looked destined for one of these best of enemies to face the plunge into the dreaded Freak league.
-With COVID-19 halting the season there was a chance for the Hierarchy Pawns to bring in some much needed firepower (‘world class’ Harry Kane) and managed to pull of the great escape in the dying minutes of the last game of the season. Sim City also survived.
+With COVID-19 halting the season there was a chance for the Hierarchy Pawns to bring in some much needed firepower (‘world class' Harry Kane) and managed to pull of the great escape in the dying minutes of the last game of the season. Sim City also survived.
 '@
         Quotes          = @'
 
@@ -215,28 +215,38 @@ With COVID-19 halting the season there was a chance for the Hierarchy Pawns to b
 '@
         Accolades       = '2020 Cup Runner Up, 2020 Promotion to Prem, Most points in a gameweek (Something like 70++, Lukaku scored 4)'
         Style           = @'
-Erratic, unpredictable, frantic and inconsistent. Judd is a wheeler dealer by nature and always on the look out for value in the market. This has worked both for an against his team in recent seasons, with an early transfer of De Bruyne to Dani Louki proving pivotal to his eventual crowning as champion and the Doggers relegation to the Freak. The 2019-20 Season did however show the manager’s nose for a good deal, with all but 2 players from his original 11 surviving to the end of the season which culminated in a title challenge and promotion to the Prem. Highlights of the season involved trades with Shayan to strip him of his best players, notably Mane. The Bishop’s growing disenchantment with the footballing world led to him reviewing the Doggers continued participation in the Draft leagues, however after a period of reflection the manager realised there was little other stimulation in his life. The 2020-21 Season see’s the Doggers returns to their rightful place in the Prem, but only time will tell as to whether he can avoid giving Dani Louki his best players.
+Erratic, unpredictable, frantic and inconsistent. Judd is a wheeler dealer by nature and always on the look out for value in the market. This has worked both for an against his team in recent seasons, with an early transfer of De Bruyne to Dani Louki proving pivotal to his eventual crowning as champion and the Doggers relegation to the Freak. The 2019-20 Season did however show the manager's nose for a good deal, with all but 2 players from his original 11 surviving to the end of the season which culminated in a title challenge and promotion to the Prem. Highlights of the season involved trades with Shayan to strip him of his best players, notably Mane. The Bishop's growing disenchantment with the footballing world led to him reviewing the Doggers continued participation in the Draft leagues, however after a period of reflection the manager realised there was little other stimulation in his life. The 2020-21 Season see's the Doggers returns to their rightful place in the Prem, but only time will tell as to whether he can avoid giving Dani Louki his best players.
 '@
-        Rivalries       = "James ‘The Jugg’ Doku – title rival and deserved winner in 2019 season, nickname is too similar to mine."
+        Rivalries       = "James ‘The Jugg' Doku – title rival and deserved winner in 2019 season, nickname is too similar to mine."
         Quotes          = @'
-Hierarchy Pawns: ‘Don’t be unarmed by his friendly demeanour, he will kill you in the market’
+Hierarchy Pawns: ‘Don't be unarmed by his friendly demeanour, he will kill you in the market'
 
-NE Helsinki Utd: ‘Impossible to trade with as he is too detached from reality’
+NE Helsinki Utd: ‘Impossible to trade with as he is too detached from reality'
 '@
     }
 
     'Will Lafferty'            = @{
-        TeamName        = ''
+        TeamName        = 'Real Shame'
         PositionHistory = @'
-
+2015-16 & 2016-17 Unclassified
+2017-18: 2nd in Prem
+2018-19: 7th in Prem
+2019-20: 1st in Prem        
 '@
-        Accolades       = ''
+        Accolades       = 'Prem Champion 19/20'
         Style           = @'
-
+A keen Fantasy manager since the early days of peasant, Lafferty relishes all facets of the beautiful game and clocks up the hours on the training pitch staring absentmindedly at his team into the wee hours to no real benefit. His history includes some highly questionable transfers (Kouyate for Mahrez 2017), error-strewn drafts (Llorente Defoe 1st and 2nd picks 2018) and he has, to his own shame, been known to set 4am alarms in an attempt to secure free list transfer targets when time zones necessitated. Relieved and thrilled to finally secure some silverware this year as was widely reported in the media following boozy final day celebrations.
+Politically: democratic, pro-Vermin, anti-Freak and Justice For Plankton 2021
 '@
-        Rivalries       = ''
+        Rivalries       = @'
+: Historically always enjoyed battling with such big-name "Ol' Timers" as Danny Louki, Simeon Gholam and Daniel Jansepar, who mostly seem to iron me out. Want to see Edi Finch relegated because he never trades but somehow has Wilson and Vardy every year who keep him up
+'@
         Quotes          = @'
+Team name: Sim City, One Hit Wanderers & Hierarchy Pawns
+Quote: "Hope they never win the league again" - sorry, they have had too much success in the past
 
+Team name: XI Irons
+Quote: "If anyone deserves some silverware it's this lad" Nail-biting title race could have gone either way down to the last day last minute
 '@
     }
 
@@ -280,7 +290,7 @@ Despite never actually saying anything, Ben is perhaps most notable for unwittin
         Rivalries       = @'
         Joe Chrisp of Almunia's Army. Can't stand the cunt.
 
-        Honourable mention to “Edi” “True Geordie” Finch. Genuinely can't fathom how he's stayed in the prem based on some of the players he's kept in his teams.
+        Honourable mention to "Edi" "True Geordie" Finch. Genuinely can't fathom how he's stayed in the prem based on some of the players he's kept in his teams.
 '@
         Quotes          = @'
 
@@ -292,7 +302,7 @@ Despite never actually saying anything, Ben is perhaps most notable for unwittin
         PositionHistory = @'
 2015-16: N/A
 2016-17: One Bang FC (Merger) (unclassified)
-2017-18: Tiote’s Army (3rd) (Freak promotion)
+2017-18: Tiote's Army (3rd) (Freak promotion)
 2018-19: @Man FC (11th) (Relld to Freak)
 2019-20: Tea & Busquets (10th)
 '@
@@ -308,7 +318,7 @@ Quote 1: Ex colleague turned rival.
 Team name 2: Sim City
 Quote 2: @
 
-Team name 3: Denton’s Dugout
+Team name 3: Denton's Dugout
 Quote 3: Onions are spicy.
 '@
     }
@@ -369,7 +379,7 @@ Quote 3: Onions are spicy.
 '@
         Accolades       = 'Freak promotion 18/19'
         Style           = @'
-Run of the mill, yo-yo club. Passionate fans but when it comes down to it can’t perform in the big time. Feel at home in the second tier.
+Run of the mill, yo-yo club. Passionate fans but when it comes down to it can't perform in the big time. Feel at home in the second tier.
 
 Constantly trying to get the best out of mediocre picks.
 '@
@@ -604,17 +614,17 @@ Quote: AROUNA KONEEEEEEEEEEEEEE
     }
 
     'Ronan McGhee'             = @{
-        TeamName        = "MCBURNIE’S BONFIRE"
+        TeamName        = "MCBURNIE'S BONFIRE"
         PositionHistory = @'
-2015/16 - didn’t complete season with Brendan’s Doggers
+2015/16 - didn't complete season with Brendan's Doggers
 2016/17 - n/a
 2017/18 - n/a
 2018/19 - n/a
 2019/20 - n/a
 '@
-        Accolades       = "NONE, lost a 5’s league on the last day of the season and called an 18 year old ref a cunt - haven’t played since."
+        Accolades       = "NONE, lost a 5's league on the last day of the season and called an 18 year old ref a cunt - haven't played since."
         Style           = @'
-I’ve had to take the high road back to management after some unfortunate things were recorded and brought to public attention. Like hardworking, loyal players and believe in integrity above all else. Looking to rebuild my reputation.
+I've had to take the high road back to management after some unfortunate things were recorded and brought to public attention. Like hardworking, loyal players and believe in integrity above all else. Looking to rebuild my reputation.
 '@
         Rivalries       = @'
 AFC ClIMATE CHANGE - Dennis Hollywood: will be interesting to go head to head with a fellow Tim, especially after he took Kieran from me in the draft.
@@ -651,7 +661,7 @@ AFC TINA - Robbie Turner: Sorry Turns but like John McGinn, I fucking hate that 
 '@
         Accolades       = 'None… yet.'
         Style           = @'
-100% German, I’m aiming to do the same as Klopp, conquer this foreign country and one day win the Prem.
+100% German, I'm aiming to do the same as Klopp, conquer this foreign country and one day win the Prem.
 
 Still finding my feet in the game, always eager to learn from past mistakes and happy to not repeat them. Very vocal and hands on, always looking for nice additions on the free list and happy to extend more into trading this season.
 '@
@@ -662,7 +672,7 @@ List of rivalries to be extended soon…
 '@
         Quotes          = @'
 Team name: AFC Tina
-Quote: “The finest day in our club’s short history was them loosing the playoffs. This season we aim to do even better and finish above them.”
+Quote: "The finest day in our club's short history was them loosing the playoffs. This season we aim to do even better and finish above them."
 '@
     }
 
@@ -679,7 +689,7 @@ Quote: “The finest day in our club’s short history was them loosing the play
         Style           = @'
 FMIN appointed Brown as manager for their inaugural campaign in 2019-20, placing great trust in the 32 year old by offering him a 10 year contract at the club. After a promising start results started to take a turn for the worse and the club spent much of the season languishing in the bottom half of the table. However, FMIN finished the season on a high as Brown took full advantage of the unprecedented lockdown due to COVID-19 and made several high profile opportunistic signings to bolster the squad for the run-in. It wasn't quite enough to secure a top 4 spot in the end, but Brown will certainly be keen to take this momentum into the coming season.
 
-On his squad for the 2020-21 season, Brown stated: “I'm delighted to get fans' favourite Woody [Chris Wood] through the door again this year, as well as add some pace to compliment him up front with Jamie Vardy after an unsuccessful attempt to sign him from AFC Tina last season.” He continued: “The Vermin league is notoriously difficult to get out of and is shaping up to be even more competitive this year in its expanded format, not to mention fighting on two fronts this season, so we're hoping to bring in another couple of faces in the coming weeks to help us through the long season ahead.”
+On his squad for the 2020-21 season, Brown stated: "I'm delighted to get fans' favourite Woody [Chris Wood] through the door again this year, as well as add some pace to compliment him up front with Jamie Vardy after an unsuccessful attempt to sign him from AFC Tina last season." He continued: "The Vermin league is notoriously difficult to get out of and is shaping up to be even more competitive this year in its expanded format, not to mention fighting on two fronts this season, so we're hoping to bring in another couple of faces in the coming weeks to help us through the long season ahead."
 '@
         Rivalries       = 'Anyone who disrespects Vermin. Barbs and Shane currently on the watchlist.'
         Quotes          = @'

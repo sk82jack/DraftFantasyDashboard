@@ -65,17 +65,31 @@ Quote 3: "Keep C3PO away from other managers when drunk #ToA"
     }
 
     'Daniel Barber'            = @{
-        TeamName        = ''
+        TeamName        = 'Unnington Stanley'
         PositionHistory = @'
-
+2015-16 & 2016-17 Unclassified
+2017-18 4th in Freak
+2018-19 8th in Prem (play off winner)
+2019-20 6th in prem        
 '@
-        Accolades       = ''
+        Accolades       = @'
+Promotion from Freak (2018)
+Play off winner (2019)
+'@
         Style           = @'
+I like to keep a strong nucleus in my team but always about for a couple of disposable defenders based on the upcoming fixture list. I am always wary of rotation with squads involved in European competition and routinely reduce players value based on this as no one is ever guaranteed to start.
 
+After a very poor start to the inaugural draft season in early December 2015 I formed a merger with 2 close friends Gavin Ferguson and Calum Langland and have to say there impact was immediate and radical as we went from bottom of the league and won 15 games on the trot with captain Wes Morgan and Robert Huth unable to ever concede a goal and throwing in a brace at the Etihad for good measure. I believe this record winning streak of 15 is yet to be broken to this day.
+
+Unfortunately this all turned sour the following season and we all went separate ways after that. While I still consider these rivals I still maintain the split was purely professional and nothing personal and I continue to keep an eye for my former colleagues results.
+
+Never afraid to ruthlessly drop and sell on my players and have Been known to make a few controversial trades. A particular highlight was causing uproar by giving away Paul Pogba for Mohamed Salah in trade with peckers only for Salah to singlehandedly promote me to the prem. When the stress of the game overwhelmes me I love having a rant to other managers (Daniel Jansepar cops it sometimes) about getting bad rub despite deeps knowing it comes to us all and Is part and parcel. 
 '@
-        Rivalries       = ''
+        Rivalries       = 'Gavin Ferguson - Callum Langlands'
         Quotes          = @'
-
+Gavin: As much as I love you, Chris Smalling needs to go
+Pex: Is he better than Shelvey
+Jan: Why is George Baldock getting 11 points against me
 '@
     }
 

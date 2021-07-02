@@ -1,4 +1,35 @@
 @{
+    2021 = @{
+        Prem   = @{
+            LeagueId = ''
+            Managers = @{
+            }
+            Teams    = @{
+            }
+        }
+        Freak  = @{
+            LeagueId = ''
+            Managers = @{
+            }
+            Teams    = @{
+            }
+        }
+        Vermin = @{
+            LeagueId = ''
+            Managers = @{
+            }
+            Teams    = @{
+            }
+        }
+        Cup    = @{
+            StartGameweek = 2
+            Leagues       = @(
+                'Prem'
+                'Freak'
+                'Vermin'
+            )
+        }
+    }
     2020 = @{
         Prem   = @{
             LeagueId = 'QvrQiKfAa3tzhLfqi'

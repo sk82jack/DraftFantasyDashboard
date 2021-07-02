@@ -11,7 +11,7 @@ function Get-DraftLeagueTable {
         $Year = (Get-DraftYear)
     )
     $LeagueId = $Script:ConfigData[$Year][$League]['LeagueId']
-    $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
+    [int]$Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     if ($Gameweek -gt 38) {
         $Gameweek += -9
     }

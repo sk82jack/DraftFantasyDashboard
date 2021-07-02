@@ -13,7 +13,7 @@ function Invoke-AutoSubs {
     if (-not $PlayerMinutes) {
         $PlayerMinutes = Get-DraftPlayerMinutes
     }
-    $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
+    [int]$Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
     if ($Gameweek -gt 38) {
         $Gameweek += -9
     }

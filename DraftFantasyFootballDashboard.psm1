@@ -47,13 +47,13 @@ function Start-Dashboard {
     $Schedule60 = New-UDEndpointSchedule -Every 1 -Hour
 
     $BaseEndpoint = New-UDEndpoint -Schedule $Schedule2 -Endpoint {
-        $Gameweek = (Get-FplBootstrapStatic).events.Where{$_.is_current}
-        $Cache:CurrentGameweek = $Gameweek.id
+        [int]$Gameweek = (Get-FplBootstrapStatic).events.Where{$_.is_current}.id
+        $Cache:CurrentGameweek = $Gameweek
         if ($Cache:CurrentGameweek -gt 38) {
             $Cache:CurrentGameweek += -9
         }
         $Fixtures = Invoke-RestMethod -Uri 'https://fantasy.premierleague.com/api/fixtures/'
-        $GameweekFixtures = $Fixtures.Where{$_.event -eq $Gameweek.id}
+        $GameweekFixtures = $Fixtures.Where{$_.event -eq $Gameweek}
         $Cache:InGame = foreach ($Fixture in $GameweekFixtures) {
             ($Time -gt $Fixture.kickoff_time) -and ($Time -lt $Fixture.kickoff_time.AddHours(2))
             break

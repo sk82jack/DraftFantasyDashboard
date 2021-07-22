@@ -17,14 +17,19 @@ function Get-DraftCupInfo {
 
     if (-not $StartGameweek) {
         $StartGameweek = $Script:ConfigData[$Year]['Cup']['StartGameweek']
+        Write-Verbose "StartGameweek: $StartGameweek"
     }
 
     if (-not $Leagues) {
         $Leagues = $Script:ConfigData[$Year]['Cup']['Leagues']
+        Write-Verbose "Leagues $($Leagues -join ', ')"
     }
 
     $CurrentGW = $Script:BootstrapStatic.events.Where{$_.is_current}.id
-    if ($CurrentGW -gt 38) {
+    if (-not $CurrentGW) {
+        $CurrentGW = 38
+    }
+    elseif ($CurrentGW -gt 38) {
         $CurrentGW += -9
     }
 

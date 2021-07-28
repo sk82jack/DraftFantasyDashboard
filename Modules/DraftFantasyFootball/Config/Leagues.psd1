@@ -1,24 +1,88 @@
 @{
     2021 = @{
         Prem   = @{
-            LeagueId = ''
+            LeagueId = 'kYB65wvLZ93sByjrT'
             Managers = @{
+                "T9y9Wt3LscXWLEfmK" = "Daniel Louki"
+                "ebaDkhJWpJNkwxQtS" = "Will Lafferty"
+                "PAkaiWN87PBCh4aKM" = "Daniel Janny"
+                "d3NG7f4RovG9SRKyN" = "Jonny Mills"
+                "BiCadqsurGanxkZDY" = "Simeon Gholam"
+                "AaDbRhMy66SAq7TPg" = "Robert Ferguson"
+                "aiEbdn3y5bBEcYDBZ" = "Eddie Lyne"
+                "F6XQZa3z9wcoMPFvM" = "Gavin Ferguson"
+                "oY2zMMqJp7hr8Aj7q" = "Louis Worthington"
+                "mu2C3KrkWrNtXdbYE" = "Joe Chrisp"
+                "bLtWDEPPhudorsHkb" = "Calum Langlands"
+                "9KxnZRpoRKNsgs5S6" = "Tashan Williams-Mitchell"
             }
             Teams    = @{
+                "7Et7Prriibtnammn7" = "Daniel Louki"
+                "HwCyfpn5txHjuAn2H" = "Will Lafferty"
+                "Kug3y9WvYiziMAZsP" = "Daniel Janny"
+                "LRH3uByYxHNCczjGA" = "Jonny Mills"
+                "NXPqCZGHNdkpSN7q6" = "Simeon Gholam"
+                "NfHymq7Mm6irDzwGh" = "Robert Ferguson"
+                "WKXj7KLEgJGpHCcrW" = "Eddie Lyne"
+                "bjHMXXjPXpb3aRqhz" = "Gavin Ferguson"
+                "gqewacjEerX3Jbxtp" = "Louis Worthington"
+                "m97kZAfbCQomLYz3a" = "Joe Chrisp"
+                "pujqKvKaxeAeTEhuQ" = "Calum Langlands"
+                "zsZqL3K4yQfGAXAQD" = "Tashan Williams-Mitchell"
             }
         }
         Freak  = @{
-            LeagueId = ''
+            LeagueId = 'LCXFaW6TQYkiNNC5i'
             Managers = @{
+                "K2RiSMFxHHbiE69pA" = "Ben Stanier"
+                "RXYTLotwDNs8mL7si" = "Craig Farrell"
+                "tPHZ2FwQcWzbf2T8g" = "Shayan Shahdi"
+                "T3QDiwtKa6L7p7goC" = "Dawood Moghim"
+                "M87QTfnEAxFbMCWhY" = "Nick Arndt"
+                "QoEczu62WNoTuFbbT" = "Adam Waller"
+                "uGtCwcuhbctj7Gyiw" = "Aidan Brown"
+                "3ZSa5ADLPaHHatfFt" = "Sasha Bosnjak"
+                "ww983A4fwoFQzrLko" = "James Doku"
+                "ZLxaNxmaiS5nbCFLJ" = "Cieran James"
             }
             Teams    = @{
+                "7BrBrLbbN3dJ2ZCTS" = "Ben Stanier"
+                "7Cz2LR2h47ywyzGcg" = "Craig Farrell"
+                "9rdzHEewX52YG8wY4" = "Shayan Shahdi"
+                "Fxz8khpHXRyTSnfZq" = "Dawood Moghim"
+                "JRdGjsECCYHsGj5MD" = "Nick Arndt"
+                "Q3X58fJeDSq7FNRnx" = "Adam Waller"
+                "eiPCsgb6T7pYdwddL" = "Aidan Brown"
+                "kWkDpqHnM7D55n4qu" = "Sasha Bosnjak"
+                "vrmFSA4nfhFmjHnCg" = "James Doku"
+                "xbDC2eD6ohPoBjyha" = "Cieran James"
             }
         }
         Vermin = @{
-            LeagueId = ''
+            LeagueId = '9EowQxNm7oT6iKtdb'
             Managers = @{
+                "mrfTMLDBFXGhdNequ" = "James Lowenthal"
+                "9J2XjE3LE2vLETTkG" = "Ian Montagu"
+                "ceKhSFXzknrq7T6Pz" = "Ronan McGhee"
+                "9Sq2LPBLHE5qouHce" = "Rob Turner"
+                "cviiirtcaozXT4jb2" = "Tom Field"
+                "8g3v9YgYAn7BHLCjH" = "Deni Bosnjak"
+                "SgtN6CgK5AbXsXtNK" = "Jack Denton"
+                "37MnJYEYDGxzF48c2" = "Liam McDonald"
+                "kCKus9AXGujKHb8k7" = "George Smyth"
+                "NcKHPjWM852ZoBT3B" = "Richard Cooper"
             }
             Teams    = @{
+                "2G4GF8TiwKrNutwm9" = "James Lowenthal"
+                "3t2iT4SxuFFzqNoaE" = "Ian Montagu"
+                "8oRR493G2BDviWjGW" = "Ronan McGhee"
+                "CbRw84xXjTiFMmFcN" = "Rob Turner"
+                "KqpS4gSHhs8jrSsta" = "Tom Field"
+                "NkJqZgC39psAAFoub" = "Deni Bosnjak"
+                "QkKaiCEmRn7B9YSAM" = "Jack Denton"
+                "WHjy5tFNXWFegcDPY" = "Liam McDonald"
+                "Xx4yDGSdAFYrDacCF" = "George Smyth"
+                "voq8JPgzpe7gAK6Zg" = "Richard Cooper"
             }
         }
         Cup    = @{

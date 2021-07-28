@@ -91,7 +91,7 @@
                 <I64 N="Team1score">39</I64>
                 <S N="Team2id">5apBKB2p6dykYj8kz</S>
                 <I64 N="Team2score">35</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Edi Finch</S>
               </MS>
             </Obj>
@@ -151,7 +151,7 @@
                 <I64 N="Team1score">31</I64>
                 <S N="Team2id">qBcq8QJQMXfBYenBF</S>
                 <I64 N="Team2score">42</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Jack Denton</S>
               </MS>
             </Obj>
@@ -250,7 +250,7 @@
                 <I64 N="Team1score">37</I64>
                 <S N="Team2id">yyF4MG9DGZkYjMr8g</S>
                 <I64 N="Team2score">35</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Will Lafferty</S>
               </MS>
             </Obj>
@@ -310,7 +310,7 @@
                 <I64 N="Team1score">33</I64>
                 <S N="Team2id">NpNRbWhQq5N3goe8i</S>
                 <I64 N="Team2score">69</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Daniel Barber</S>
               </MS>
             </Obj>
@@ -383,7 +383,7 @@
                 <I64 N="Team1score">49</I64>
                 <S N="Team2id">Ci6eDCfgkDRtSQArE</S>
                 <I64 N="Team2score">36</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Daniel Louki</S>
               </MS>
             </Obj>
@@ -457,7 +457,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">36</I64>
                 <S N="Manager1">Daniel Barber</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
             <Obj RefId="38">
@@ -575,7 +575,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">47</I64>
                 <S N="Manager1">Daniel Louki</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
             <Obj RefId="48">
@@ -674,7 +674,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">63</I64>
                 <S N="Manager1">Daniel Jansepar</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
             <Obj RefId="56">
@@ -786,7 +786,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">39</I64>
                 <S N="Manager1">Edi Finch</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
           </LST>
@@ -872,7 +872,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">39</I64>
                 <S N="Manager1">Eddie Lyne</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
           </LST>
@@ -957,7 +957,7 @@
                 <I64 N="Team1score">58</I64>
                 <S N="Team2id">cWuZ3F3EKDm4BtvCm</S>
                 <I64 N="Team2score">57</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Craig Farrell</S>
               </MS>
             </Obj>
@@ -1017,7 +1017,7 @@
                 <I64 N="Team1score">35</I64>
                 <S N="Team2id">7ERzHEbTBTq59sBQg</S>
                 <I64 N="Team2score">31</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Simeon Gholam</S>
               </MS>
             </Obj>
@@ -1116,7 +1116,7 @@
                 <I64 N="Team1score">34</I64>
                 <S N="Team2id">yyF4MG9DGZkYjMr8g</S>
                 <I64 N="Team2score">37</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Will Lafferty</S>
               </MS>
             </Obj>
@@ -1176,7 +1176,7 @@
                 <I64 N="Team1score">31</I64>
                 <S N="Team2id">qBcq8QJQMXfBYenBF</S>
                 <I64 N="Team2score">22</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Jack Denton</S>
               </MS>
             </Obj>
@@ -1249,7 +1249,7 @@
                 <I64 N="Team1score">32</I64>
                 <S N="Team2id">t3EhdWRWMSzo9jDgp</S>
                 <I64 N="Team2score">35</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Sasha Bosnjak</S>
               </MS>
             </Obj>
@@ -1374,7 +1374,7 @@
                 <I64 N="Team1score">22</I64>
                 <S N="Team2id">yyF4MG9DGZkYjMr8g</S>
                 <I64 N="Team2score">42</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Will Lafferty</S>
               </MS>
             </Obj>
@@ -1447,7 +1447,7 @@
                 <I64 N="Team1score">56</I64>
                 <S N="Team2id">5apBKB2p6dykYj8kz</S>
                 <I64 N="Team2score">23</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Edi Finch</S>
               </MS>
             </Obj>
@@ -1520,7 +1520,7 @@
                 <I64 N="Team1score">23</I64>
                 <S N="Team2id">7ERzHEbTBTq59sBQg</S>
                 <I64 N="Team2score">29</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Simeon Gholam</S>
               </MS>
             </Obj>
@@ -1580,7 +1580,7 @@
                 <I64 N="Team1score">36</I64>
                 <S N="Team2id">t3EhdWRWMSzo9jDgp</S>
                 <I64 N="Team2score">30</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Sasha Bosnjak</S>
               </MS>
             </Obj>
@@ -1680,7 +1680,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">36</I64>
                 <S N="Manager1">Jack Denton</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
             <Obj RefId="138">
@@ -1779,7 +1779,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">31</I64>
                 <S N="Manager1">Adam Waller</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
             <Obj RefId="146">
@@ -1839,7 +1839,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">41</I64>
                 <S N="Manager1">Eddie Lyne</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
             <Obj RefId="151">
@@ -1951,7 +1951,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">43</I64>
                 <S N="Manager1">Daniel Barber</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
             <Obj RefId="160">
@@ -2063,7 +2063,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">34</I64>
                 <S N="Manager1">Craig Farrell</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
             <Obj RefId="169">
@@ -2162,7 +2162,7 @@
                 <S N="Team2id">RYhTYnzcwrBLSB8rf</S>
                 <I64 N="Team2score">38</I64>
                 <S N="Manager1">Daniel Jansepar</S>
-                <S N="Manager2">Calum Reina</S>
+                <S N="Manager2">Calum Langlands</S>
               </MS>
             </Obj>
           </LST>
@@ -2247,7 +2247,7 @@
                 <I64 N="Team1score">36</I64>
                 <S N="Team2id">Ci6eDCfgkDRtSQArE</S>
                 <I64 N="Team2score">35</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Daniel Louki</S>
               </MS>
             </Obj>
@@ -2268,7 +2268,7 @@
                 <I64 N="Team1score">30</I64>
                 <S N="Team2id">wMRLPg8KhK3BszJtw</S>
                 <I64 N="Team2score">37</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Daniel Jansepar</S>
               </MS>
             </Obj>
@@ -2354,7 +2354,7 @@
                 <I64 N="Team1score">50</I64>
                 <S N="Team2id">g7oyQog8GXz77Quct</S>
                 <I64 N="Team2score">47</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Eddie Lyne</S>
               </MS>
             </Obj>
@@ -2440,7 +2440,7 @@
                 <I64 N="Team1score">34</I64>
                 <S N="Team2id">t3EhdWRWMSzo9jDgp</S>
                 <I64 N="Team2score">29</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Sasha Bosnjak</S>
               </MS>
             </Obj>
@@ -2526,7 +2526,7 @@
                 <I64 N="Team1score">41</I64>
                 <S N="Team2id">cWuZ3F3EKDm4BtvCm</S>
                 <I64 N="Team2score">24</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Craig Farrell</S>
               </MS>
             </Obj>
@@ -2612,7 +2612,7 @@
                 <I64 N="Team1score">32</I64>
                 <S N="Team2id">GFYPpwaixCTC76RaZ</S>
                 <I64 N="Team2score">29</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Adam Waller</S>
               </MS>
             </Obj>
@@ -2698,7 +2698,7 @@
                 <I64 N="Team1score">51</I64>
                 <S N="Team2id">5apBKB2p6dykYj8kz</S>
                 <I64 N="Team2score">33</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Edi Finch</S>
               </MS>
             </Obj>
@@ -2784,7 +2784,7 @@
                 <I64 N="Team1score">33</I64>
                 <S N="Team2id">7ERzHEbTBTq59sBQg</S>
                 <I64 N="Team2score">32</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Simeon Gholam</S>
               </MS>
             </Obj>
@@ -2870,7 +2870,7 @@
                 <I64 N="Team1score">47</I64>
                 <S N="Team2id">NpNRbWhQq5N3goe8i</S>
                 <I64 N="Team2score">44</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Daniel Barber</S>
               </MS>
             </Obj>
@@ -2956,7 +2956,7 @@
                 <I64 N="Team1score">28</I64>
                 <S N="Team2id">qBcq8QJQMXfBYenBF</S>
                 <I64 N="Team2score">31</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Jack Denton</S>
               </MS>
             </Obj>
@@ -3055,7 +3055,7 @@
                 <I64 N="Team1score">39</I64>
                 <S N="Team2id">Ci6eDCfgkDRtSQArE</S>
                 <I64 N="Team2score">37</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Daniel Louki</S>
               </MS>
             </Obj>
@@ -3128,7 +3128,7 @@
                 <I64 N="Team1score">43</I64>
                 <S N="Team2id">yyF4MG9DGZkYjMr8g</S>
                 <I64 N="Team2score">44</I64>
-                <S N="Manager1">Calum Reina</S>
+                <S N="Manager1">Calum Langlands</S>
                 <S N="Manager2">Will Lafferty</S>
               </MS>
             </Obj>

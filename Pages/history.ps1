@@ -71,12 +71,15 @@ New-UDPage -Name 'History' -Endpoint {
                 New-UDCollapsibleItem -Title 'Points by Draft Order' -FontColor 'White' -Content {
                     New-UdChart -Title "Points by Draft Order" -Type Line -Endpoint {
                         $Leagues = @{
+                            'Prem 2020'   = Import-DraftData -League Prem -Year 2020 -DataType Picks
                             'Prem 2019'   = Import-DraftData -League Prem -Year 2019 -DataType Picks
                             'Prem 2018'   = Import-DraftData -League Prem -Year 2018 -DataType Picks
                             'Prem 2017'   = Import-DraftData -League Prem -Year 2017 -DataType Picks
+                            'Freak 2020'  = Import-DraftData -League Freak -Year 2020 -DataType Picks
                             'Freak 2019'  = Import-DraftData -League Freak -Year 2019 -DataType Picks
                             'Freak 2018'  = Import-DraftData -League Freak -Year 2018 -DataType Picks
                             'Freak 2017'  = Import-DraftData -League Freak -Year 2017 -DataType Picks
+                            'Vermin 2020' = Import-DraftData -League Vermin -Year 2020 -DataType Picks
                             'Vermin 2019' = Import-DraftData -League Vermin -Year 2019 -DataType Picks
                         }
 

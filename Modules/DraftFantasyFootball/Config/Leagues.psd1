@@ -1,6 +1,6 @@
 @{
     2021 = @{
-        Prem   = @{
+        Prem     = @{
             LeagueId = 'kYB65wvLZ93sByjrT'
             Managers = @{
                 "T9y9Wt3LscXWLEfmK" = "Daniel Louki"
@@ -31,7 +31,7 @@
                 "zsZqL3K4yQfGAXAQD" = "Tashan Williams-Mitchell"
             }
         }
-        Freak  = @{
+        Freak    = @{
             LeagueId = 'LCXFaW6TQYkiNNC5i'
             Managers = @{
                 "K2RiSMFxHHbiE69pA" = "Ben Stanier"
@@ -58,7 +58,7 @@
                 "xbDC2eD6ohPoBjyha" = "Cieran James"
             }
         }
-        Vermin = @{
+        Vermin   = @{
             LeagueId = '9EowQxNm7oT6iKtdb'
             Managers = @{
                 "mrfTMLDBFXGhdNequ" = "James Lowenthal"
@@ -71,6 +71,8 @@
                 "37MnJYEYDGxzF48c2" = "Liam McDonald"
                 "kCKus9AXGujKHb8k7" = "George Smyth"
                 "NcKHPjWM852ZoBT3B" = "Richard Cooper"
+                "4isWpfDX4wrD66vFX" = "Phelan Murphy"
+                "cfCh9MQsa2rHm3Dwi" = "Dennis Hollywood"
             }
             Teams    = @{
                 "2G4GF8TiwKrNutwm9" = "James Lowenthal"
@@ -83,9 +85,28 @@
                 "WHjy5tFNXWFegcDPY" = "Liam McDonald"
                 "Xx4yDGSdAFYrDacCF" = "George Smyth"
                 "voq8JPgzpe7gAK6Zg" = "Richard Cooper"
+                "L8xQmzsfrqQyLCqFR" = "Phelan Murphy"
+                "zqYgoCpq8AiEzYE75" = "Dennis Hollywood"
             }
         }
-        Cup    = @{
+        Plankton = @{
+            LeagueId = 'BmQqqceBvh9kWsZKd'
+            Managers = @{
+                "ebeoDbi29P4ooRE5y" = "David Cartlidge"
+                "BmXowGcva8hgCRWCZ" = "Martin Jones"
+                "6siAaAPbnjRT3BA6T" = "Louis Barron"
+                "ErN6d5bXbiQvLt2J7" = "Lee Waller"
+                "GET88aX7AWSoLyE4h" = "Rob Rix"
+            }
+            Teams    = @{
+                "3fC9BmWmQYCYQrj2b" = "David Cartlidge"
+                "KyY6DZqLuRQyTAaeW" = "Martin Jones"
+                "aRfRTBQnR4cvXSiSS" = "Louis Barron"
+                "hXAgucg2ghK5iLx8C" = "Lee Waller"
+                "sNRGnoqiiSJSHYRTh" = "Rob Rix"
+            }
+        }
+        Cup      = @{
             StartGameweek = 2
             Leagues       = @(
                 'Prem'

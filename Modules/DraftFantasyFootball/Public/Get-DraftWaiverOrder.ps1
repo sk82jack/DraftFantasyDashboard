@@ -2,7 +2,7 @@ function Get-DraftWaiverOrder {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory)]
-        [ValidateSet('Prem', 'Freak', 'Vermin')]
+        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton')]
         [string]
         $League,
 

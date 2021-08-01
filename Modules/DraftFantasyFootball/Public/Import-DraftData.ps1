@@ -5,7 +5,7 @@ function Import-DraftData {
             Mandatory,
             ParameterSetName = 'League'
         )]
-        [ValidateSet('Prem', 'Freak', 'Vermin')]
+        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton')]
         [string]
         $League,
 

@@ -43,6 +43,19 @@ New-UDPage -Name 'Picks' -Endpoint {
                         "
                     }
                 }
+                New-UDTab -Text 'Plankton' -Content {
+                    New-UDGrid -Id 'PlanktonHistory' -Headers $Headers -Properties $Properties -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
+                        $Cache:Picks['Plankton'] | Out-UDGridData
+                        Invoke-UDJavaScript -JavaScript "
+                            var checkExist = setInterval(function () {
+                            if (document.getElementById('PlanktonHistory').querySelector('table.griddle-table') != null) {
+                                document.getElementById('PlanktonHistory').querySelector('table.griddle-table').parentNode.style.overflowX = 'auto'
+                                clearInterval(checkExist);
+                            }
+                        }, 100);
+                        "
+                    }
+                }
             }
         }
     }

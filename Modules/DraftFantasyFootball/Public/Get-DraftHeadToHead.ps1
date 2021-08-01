@@ -2,7 +2,7 @@ function Get-DraftHeadToHead {
     [CmdletBinding(DefaultParameterSetName = 'Gameweek')]
     param (
         [Parameter(Mandatory)]
-        [ValidateSet('Prem', 'Freak', 'Vermin')]
+        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton')]
         [string]
         $League,
 

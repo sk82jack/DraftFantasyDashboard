@@ -13,7 +13,7 @@ function ConvertTo-DraftObject {
         $Type,
 
         [Parameter()]
-        [ValidateSet('Prem', 'Freak', 'Vermin')]
+        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton')]
         [string]
         $League,
 

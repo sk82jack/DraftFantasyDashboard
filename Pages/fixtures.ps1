@@ -18,6 +18,11 @@ New-UDPage -Name 'Fixtures' -Endpoint {
                         $Cache:H2H['Vermin'] | Out-UDTableData -Property @('Manager1', 'Team1score', 'Team2score', 'Manager2')
                     }
                 }
+                New-UDTab -Text 'Plankton' -Content {
+                    New-UDTable -Headers @('Home', 'Home Score', 'Away Score', 'Away') -Content {
+                        $Cache:H2H['Plankton'] | Out-UDTableData -Property @('Manager1', 'Team1score', 'Team2score', 'Manager2')
+                    }
+                }
             }
         }
     }

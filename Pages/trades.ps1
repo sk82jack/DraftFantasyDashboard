@@ -59,6 +59,25 @@ New-UDPage -Name 'Trades' -Endpoint {
                         }
                     }
                 }
+                New-UDTab -Text 'Plankton' -Content {
+                    New-UDCollapsible -Items {
+                        New-UDCollapsibleItem -Title 'Open Offers' -FontColor 'White' -Content {
+                            New-UDGrid -Headers @('Type', 'Offered', 'Requested', 'Offered by', 'Offered to', 'Offer date') -DateTimeFormat "D/M/YY, H:mm" -NoExport -NoFilter -Properties @('Type', 'PlayersOut', 'PlayersIn', 'OutManager', 'InManager', 'createdAt') -Endpoint {
+                                $Cache:Trades['Plankton'] | Where-Object Status -eq 'awaiting_response' | Out-UDGridData
+                            }
+                        }
+                        New-UDCollapsibleItem -Title 'History' -FontColor 'White' -Content {
+                            New-UDGrid -Headers @('Type', 'Offered', 'Requested', 'Offered by', 'Offered to', 'Offer date', 'Response date', 'Status') -DateTimeFormat "D/M/YY, H:mm" -NoExport -NoFilter -Properties @('Type', 'PlayersOut', 'PlayersIn', 'OutManager', 'InManager', 'createdAt', 'respondedAt', 'Status') -Endpoint {
+                                $Cache:Trades['Plankton'] | Where-Object Status -ne 'awaiting_response' | Out-UDGridData
+                            }
+                        }
+                        New-UDCollapsibleItem -Title 'Waiver Order' -FontColor 'White' -Content {
+                            New-UDTable -Headers 'Manager' -Style 'centered' -Content {
+                                $Cache:Waivers['Plankton'] | Out-UDTableData -Property Manager
+                            }
+                        }
+                    }
+                }
             }
         }
     }

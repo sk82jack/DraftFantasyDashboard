@@ -63,7 +63,7 @@ function Start-Dashboard {
             $Cache:Picks = @{}
         }
 
-        foreach ($League in 'Prem', 'Freak', 'Vermin') {
+        foreach ($League in 'Prem', 'Freak', 'Vermin', 'Plankton') {
             if (-not $Cache:Picks[$League]) {
                 $Cache:Picks[$League] = Get-DraftPicks -League $League
             }
@@ -72,54 +72,60 @@ function Start-Dashboard {
     $TeamsEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
         if ($Cache:InGame) {
             $Cache:Teams = @{
-                'Prem'   = Get-DraftTeam -League 'Prem'
-                'Freak'  = Get-DraftTeam -League 'Freak'
-                'Vermin' = Get-DraftTeam -League 'Vermin'
+                'Prem'     = Get-DraftTeam -League 'Prem'
+                'Freak'    = Get-DraftTeam -League 'Freak'
+                'Vermin'   = Get-DraftTeam -League 'Vermin'
+                'Plankton' = Get-DraftTeam -League 'Plankton'
             }
         }
     }
     $H2HEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
         if ($Cache:InGame) {
             $Cache:H2H = @{
-                'Prem'   = Get-DraftHeadToHead -League 'Prem'
-                'Freak'  = Get-DraftHeadToHead -League 'Freak'
-                'Vermin' = Get-DraftHeadToHead -League 'Vermin'
+                'Prem'     = Get-DraftHeadToHead -League 'Prem'
+                'Freak'    = Get-DraftHeadToHead -League 'Freak'
+                'Vermin'   = Get-DraftHeadToHead -League 'Vermin'
+                'Plankton' = Get-DraftHeadToHead -League 'Plankton'
             }
         }
     }
     $PlayersEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
         if ($Cache:InGame) {
             $Cache:Players = @{
-                'Prem'   = Get-DraftPlayer -League 'Prem'
-                'Freak'  = Get-DraftPlayer -League 'Freak'
-                'Vermin' = Get-DraftPlayer -League 'Vermin'
+                'Prem'     = Get-DraftPlayer -League 'Prem'
+                'Freak'    = Get-DraftPlayer -League 'Freak'
+                'Vermin'   = Get-DraftPlayer -League 'Vermin'
+                'Plankton' = Get-DraftPlayer -League 'Plankton'
             }
         }
     }
     $TablesEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
         if ($Cache:InGame) {
             $Cache:Tables = @{
-                'Prem'   = Get-DraftLeagueTable -League 'Prem'
-                'Freak'  = Get-DraftLeagueTable -League 'Freak'
-                'Vermin' = Get-DraftLeagueTable -League 'Vermin'
+                'Prem'     = Get-DraftLeagueTable -League 'Prem'
+                'Freak'    = Get-DraftLeagueTable -League 'Freak'
+                'Vermin'   = Get-DraftLeagueTable -League 'Vermin'
+                'Plankton' = Get-DraftLeagueTable -League 'Plankton'
             }
         }
     }
     $TradesEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
         if ($Cache:InGame) {
             $Cache:Trades = @{
-                'Prem'   = Get-DraftTrade -League 'Prem'
-                'Freak'  = Get-DraftTrade -League 'Freak'
-                'Vermin' = Get-DraftTrade -League 'Vermin'
+                'Prem'     = Get-DraftTrade -League 'Prem'
+                'Freak'    = Get-DraftTrade -League 'Freak'
+                'Vermin'   = Get-DraftTrade -League 'Vermin'
+                'Plankton' = Get-DraftTrade -League 'Plankton'
             }
         }
     }
     $WaiversEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
         if ($Cache:InGame) {
             $Cache:Waivers = @{
-                'Prem'   = Get-DraftWaiverOrder -League 'Prem'
-                'Freak'  = Get-DraftWaiverOrder -League 'Freak'
-                'Vermin' = Get-DraftWaiverOrder -League 'Vermin'
+                'Prem'     = Get-DraftWaiverOrder -League 'Prem'
+                'Freak'    = Get-DraftWaiverOrder -League 'Freak'
+                'Vermin'   = Get-DraftWaiverOrder -League 'Vermin'
+                'Plankton' = Get-DraftWaiverOrder -League 'Plankton'
             }
         }
     }
@@ -130,34 +136,40 @@ function Start-Dashboard {
     }
     $HourlyEndpoint = New-UDEndpoint -Schedule $Schedule60 -Endpoint {
         $Cache:Teams = @{
-            'Prem'   = Get-DraftTeam -League 'Prem'
-            'Freak'  = Get-DraftTeam -League 'Freak'
-            'Vermin' = Get-DraftTeam -League 'Vermin'
+            'Prem'     = Get-DraftTeam -League 'Prem'
+            'Freak'    = Get-DraftTeam -League 'Freak'
+            'Vermin'   = Get-DraftTeam -League 'Vermin'
+            'Plankton' = Get-DraftTeam -League 'Plankton'
         }
         $Cache:H2H = @{
-            'Prem'   = Get-DraftHeadToHead -League 'Prem'
-            'Freak'  = Get-DraftHeadToHead -League 'Freak'
-            'Vermin' = Get-DraftHeadToHead -League 'Vermin'
+            'Prem'     = Get-DraftHeadToHead -League 'Prem'
+            'Freak'    = Get-DraftHeadToHead -League 'Freak'
+            'Vermin'   = Get-DraftHeadToHead -League 'Vermin'
+            'Plankton' = Get-DraftHeadToHead -League 'Plankton'
         }
         $Cache:Players = @{
-            'Prem'   = Get-DraftPlayer -League 'Prem'
-            'Freak'  = Get-DraftPlayer -League 'Freak'
-            'Vermin' = Get-DraftPlayer -League 'Vermin'
+            'Prem'     = Get-DraftPlayer -League 'Prem'
+            'Freak'    = Get-DraftPlayer -League 'Freak'
+            'Vermin'   = Get-DraftPlayer -League 'Vermin'
+            'Plankton' = Get-DraftPlayer -League 'Plankton'
         }
         $Cache:Tables = @{
-            'Prem'   = Get-DraftLeagueTable -League 'Prem'
-            'Freak'  = Get-DraftLeagueTable -League 'Freak'
-            'Vermin' = Get-DraftLeagueTable -League 'Vermin'
+            'Prem'     = Get-DraftLeagueTable -League 'Prem'
+            'Freak'    = Get-DraftLeagueTable -League 'Freak'
+            'Vermin'   = Get-DraftLeagueTable -League 'Vermin'
+            'Plankton' = Get-DraftLeagueTable -League 'Plankton'
         }
         $Cache:Trades = @{
-            'Prem'   = Get-DraftTrade -League 'Prem'
-            'Freak'  = Get-DraftTrade -League 'Freak'
-            'Vermin' = Get-DraftTrade -League 'Vermin'
+            'Prem'     = Get-DraftTrade -League 'Prem'
+            'Freak'    = Get-DraftTrade -League 'Freak'
+            'Vermin'   = Get-DraftTrade -League 'Vermin'
+            'Plankton' = Get-DraftTrade -League 'Plankton'
         }
         $Cache:Waivers = @{
-            'Prem'   = Get-DraftWaiverOrder -League 'Prem'
-            'Freak'  = Get-DraftWaiverOrder -League 'Freak'
-            'Vermin' = Get-DraftWaiverOrder -League 'Vermin'
+            'Prem'     = Get-DraftWaiverOrder -League 'Prem'
+            'Freak'    = Get-DraftWaiverOrder -League 'Freak'
+            'Vermin'   = Get-DraftWaiverOrder -League 'Vermin'
+            'Plankton' = Get-DraftWaiverOrder -League 'Plankton'
         }
         $Cache:CupInfo = Get-DraftCupInfo
     }

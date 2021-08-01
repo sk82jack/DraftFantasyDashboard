@@ -6,7 +6,7 @@ function Get-DraftCupInfo {
         $StartGameweek,
 
         [Parameter()]
-        [ValidateSet('Prem', 'Freak', 'Vermin')]
+        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton')]
         [string[]]
         $Leagues,
 

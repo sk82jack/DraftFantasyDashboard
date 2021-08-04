@@ -106,6 +106,8 @@
                 '8nkGDH4RLoNY9EbP2' = "Eoin O'Connor"
                 'YChrsaNxPjkiw5WFN' = 'Arthur Duncan'
                 'XmdPTheyiBZTYohpm' = 'Liam McSharry'
+                'uetwxbtproiMJBBzt' = 'Daniel Barber'
+                'o3vF8YDKgqHA7u82J' = 'Jack Mercer'
             }
             Teams    = @{
                 '3fC9BmWmQYCYQrj2b' = 'David Cartlidge'
@@ -118,6 +120,8 @@
                 'TLSQkSnAkD2ZjgrZL' = "Eoin O'Connor"
                 'YjDEyfYjsALy2AZ99' = 'Arthur Duncan'
                 'v7ohQh4F5EJTMwnZJ' = 'Liam McSharry'
+                '5z5ok8uT4Ag2e4cyf' = 'Daniel Barber'
+                'EA2ZYfBB5rxwoTfN5' = 'Jack Mercer'
             }
         }
         Cup      = @{

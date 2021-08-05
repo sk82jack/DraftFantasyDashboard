@@ -222,5 +222,19 @@
         'main'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                = @{
             'margin-top' = '64px'
         }
+        '.responsiveFrame'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    = @{
+            'position'       = 'relative'
+            'margin-right'   = 'auto'
+            'margin-left'    = 'auto'
+            'width'          = '100%'
+            'padding-bottom' = '60%'
+        }
+        '.responsiveFrame iframe'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             = @{
+            'position' = 'absolute'
+            'top'      = '0'
+            'left'     = '0'
+            'width'    = '100%'
+            'height'   = '100%'
+        }
     }
 }

@@ -188,11 +188,13 @@
             'background-color' = "#1c1c1c !important"
             'font-size'        = "18px"
         }
-        'ul:not(.browser-default)'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            = @{
-            'padding-left'     = "0"
-            'list-style-type'  = "none"
-            'background-color' = "#1c1c1c"
-        }
+        # Disabled for the charter
+        #
+        # 'ul:not(.browser-default)'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            = @{
+        #     'padding-left'     = "0"
+        #     'list-style-type'  = "none"
+        #     'background-color' = "#1c1c1c"
+        # }
         '.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating)'                                                                                                                                                                                                                                                                                                                                                                                                                                                   = @{
             'color'              = "#55b3ff"
             'margin-right'       = "24px"

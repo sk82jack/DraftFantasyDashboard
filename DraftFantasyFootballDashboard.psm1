@@ -31,6 +31,7 @@ function Start-Dashboard {
         New-UDSideNavItem -Text 'Trades' -PageName 'Trades' -Icon exchange_alt
         New-UDSideNavItem -Text 'Draft Order' -PageName 'Picks' -Icon list_ol
         New-UDSideNavItem -Text 'History' -PageName 'History' -Icon history
+        New-UDSideNavItem -Text 'Charter' -PageName 'Charter' -Icon gavel
     }
 
     $DashboardSplat = @{
@@ -135,6 +136,7 @@ function Start-Dashboard {
         }
     }
     $HourlyEndpoint = New-UDEndpoint -Schedule $Schedule60 -Endpoint {
+        $Cache:Charter = Invoke-RestMethod -Uri "https://docs.google.com/document/d/e/2PACX-1vQRuKOpjpCzrxiGALWK6NaxtCcHgbewS3gnFoVB3miKn9DNO52SC5baZ2PQko6Ngo1Mf_wWeKGLuLDv/pub?embedded=true"
         $Cache:Teams = @{
             'Prem'     = Get-DraftTeam -League 'Prem'
             'Freak'    = Get-DraftTeam -League 'Freak'

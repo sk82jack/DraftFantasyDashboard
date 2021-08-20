@@ -64,13 +64,13 @@ function Get-DraftCupInfo {
     }
 
     foreach ($Gameweek in ($StartGameweek + 1)..$CurrentGW) {
-        # If $EliminationNumber doesn't exist (first iteration) or is set to 0 after an elimination then we bump it by
-        # 1 for gameweeks where we want double eliminations to occur
-        if (([int]$EliminationNumber -eq 0) -and ($Gameweek -le $DoubleEliminationUntil)) {
-            $EliminationNumber = 1
+        if ($Gameweek -le $DoubleEliminationUntil) {
+            $EliminationNumber += 2
+        }
+        else {
+            $EliminationNumber += 1
         }
 
-        $EliminationNumber += 1
         if ($EliminationNumber -eq $Scores.Count) {
             $EliminationNumber -= 1
         }

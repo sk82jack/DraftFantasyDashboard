@@ -5,7 +5,7 @@
             Managers = @{
                 'T9y9Wt3LscXWLEfmK' = 'Daniel Louki'
                 'ebaDkhJWpJNkwxQtS' = 'Will Lafferty'
-                'PAkaiWN87PBCh4aKM' = 'Daniel Janny'
+                'PAkaiWN87PBCh4aKM' = 'Daniel Jansepar'
                 'd3NG7f4RovG9SRKyN' = 'Jonny Mills'
                 'BiCadqsurGanxkZDY' = 'Simeon Gholam'
                 'AaDbRhMy66SAq7TPg' = 'Robert Ferguson'
@@ -19,7 +19,7 @@
             Teams    = @{
                 '7Et7Prriibtnammn7' = 'Daniel Louki'
                 'HwCyfpn5txHjuAn2H' = 'Will Lafferty'
-                'Kug3y9WvYiziMAZsP' = 'Daniel Janny'
+                'Kug3y9WvYiziMAZsP' = 'Daniel Jansepar'
                 'LRH3uByYxHNCczjGA' = 'Jonny Mills'
                 'NXPqCZGHNdkpSN7q6' = 'Simeon Gholam'
                 'NfHymq7Mm6irDzwGh' = 'Robert Ferguson'

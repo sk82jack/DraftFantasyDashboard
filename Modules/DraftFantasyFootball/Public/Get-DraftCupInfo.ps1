@@ -8,7 +8,7 @@ function Get-DraftCupInfo {
         # The gameweek that double elminations occur until (including)
         [Parameter()]
         [int]
-        $DoubleEliminationUntil = 13,
+        $DoubleEliminationUntil,
 
         [Parameter()]
         [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton')]
@@ -25,9 +25,14 @@ function Get-DraftCupInfo {
         Write-Verbose "StartGameweek: $StartGameweek"
     }
 
+    if (-not $DoubleEliminationUntil) {
+        $DoubleEliminationUntil = $Script:ConfigData[$Year]['Cup']['DoubleEliminationUntil']
+        Write-Verbose "DoubleEliminationUntil: $DoubleEliminationUntil"
+    }
+
     if (-not $Leagues) {
         $Leagues = $Script:ConfigData[$Year]['Cup']['Leagues']
-        Write-Verbose "Leagues $($Leagues -join ', ')"
+        Write-Verbose "Leagues: $($Leagues -join ', ')"
     }
 
     $CurrentGW = $Script:BootstrapStatic.events.Where{$_.is_current}.id

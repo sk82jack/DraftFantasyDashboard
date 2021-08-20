@@ -125,11 +125,13 @@
             }
         }
         Cup      = @{
-            StartGameweek = 2
-            Leagues       = @(
+            StartGameweek          = 2
+            DoubleEliminationUntil = 13
+            Leagues                = @(
                 'Prem'
                 'Freak'
                 'Vermin'
+                'Plankton'
             )
         }
     }
@@ -228,8 +230,9 @@
             }
         }
         Cup    = @{
-            StartGameweek = 2
-            Leagues       = @(
+            StartGameweek          = 2
+            DoubleEliminationUntil = 0
+            Leagues                = @(
                 'Prem'
                 'Freak'
                 'Vermin'
@@ -323,8 +326,9 @@
             }
         }
         Cup    = @{
-            StartGameweek = 6
-            Leagues       = @(
+            StartGameweek          = 6
+            DoubleEliminationUntil = 0
+            Leagues                = @(
                 'Prem'
                 'Freak'
             )

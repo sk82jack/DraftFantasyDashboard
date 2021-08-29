@@ -8,12 +8,16 @@ Function Get-DraftTrade {
 
         [Parameter()]
         [int]
-        $Year = (Get-DraftYear)
+        $Year = (Get-DraftYear),
+
+        [Parameter()]
+        [int]
+        $TradeCount = 30
     )
     $LeagueId = $Script:ConfigData[$Year][$League]['LeagueId']
     $Query = @"
 {
-    trades(leagueId:"$LeagueId") {
+    trades(leagueId:"$LeagueId", count: $TradeCount) {
         _id
         createdAt
         updatedAt

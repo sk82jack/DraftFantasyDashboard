@@ -162,9 +162,6 @@ function Start-Dashboard {
         $H2HEndpoint
         $PlayersEndpoint
         $TablesEndpoint
-        $TradesEndpoint
-        $WaiversEndpoint
-        $CupEndpoint
         $HourlyEndpoint
     )
 

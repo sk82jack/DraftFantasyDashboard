@@ -56,16 +56,14 @@ function Start-Dashboard {
         $Fixtures = Invoke-RestMethod -Uri 'https://fantasy.premierleague.com/api/fixtures/'
         $GameweekFixtures = $Fixtures.Where{$_.event -eq $Gameweek}
         $Time = [datetime]::UtcNow
-        $GamesOngoing = foreach ($Fixture in $GameweekFixtures) {
+        foreach ($Fixture in $GameweekFixtures) {
             $GameOngoing = ($Time -gt $Fixture.kickoff_time) -and ($Time -lt $Fixture.kickoff_time.AddHours(3))
-            $GameOngoing
 
             if ($GameOngoing -eq $true) {
+                $Cache:InGame = $true
                 break
             }
         }
-
-        $Cache:InGame = ($GamesOngoing -eq $true) -as [bool]
 
         if (-not $Cache:Picks) {
             $Cache:Picks = @{}

@@ -115,31 +115,6 @@ function Start-Dashboard {
             }
         }
     }
-    $TradesEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame) {
-            $Cache:Trades = @{
-                'Prem'     = Get-DraftTrade -League 'Prem'
-                'Freak'    = Get-DraftTrade -League 'Freak'
-                'Vermin'   = Get-DraftTrade -League 'Vermin'
-                'Plankton' = Get-DraftTrade -League 'Plankton'
-            }
-        }
-    }
-    $WaiversEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame) {
-            $Cache:Waivers = @{
-                'Prem'     = Get-DraftWaiverOrder -League 'Prem'
-                'Freak'    = Get-DraftWaiverOrder -League 'Freak'
-                'Vermin'   = Get-DraftWaiverOrder -League 'Vermin'
-                'Plankton' = Get-DraftWaiverOrder -League 'Plankton'
-            }
-        }
-    }
-    $CupEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame) {
-            $Cache:CupInfo = Get-DraftCupInfo
-        }
-    }
     $HourlyEndpoint = New-UDEndpoint -Schedule $Schedule60 -Endpoint {
         $Cache:Charter = Invoke-RestMethod -Uri "https://docs.google.com/document/d/e/2PACX-1vQRuKOpjpCzrxiGALWK6NaxtCcHgbewS3gnFoVB3miKn9DNO52SC5baZ2PQko6Ngo1Mf_wWeKGLuLDv/pub?embedded=true"
         $Cache:Teams = @{

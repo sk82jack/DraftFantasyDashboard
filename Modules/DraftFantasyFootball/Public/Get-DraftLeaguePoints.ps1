@@ -37,6 +37,8 @@ function Get-DraftLeaguePoints {
         gameweek$($Week)History: gameweekHistory(gameweek: $Week) {
             lineup
             subs
+            finalLineup
+            finalSubs
             autoSubs {
                 in
                 out

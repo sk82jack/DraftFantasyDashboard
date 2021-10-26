@@ -90,6 +90,7 @@ function ConvertTo-DraftObject {
                 $Hashtable['Drawn'] = $Hashtable['headToHeadData'].drawn
                 $Hashtable['Lost'] = $Hashtable['headToHeadData'].lost
                 $Hashtable['Points'] = $Hashtable['headToHeadData'].headToHeadLeaguepoints
+                $Hashtable['TotalScoreAgainst'] = $Hashtable['headToHeadData'].totalScoreAgainst
                 $Hashtable['Manager'] = $Script:ConfigData[$Year][$League]['Managers'][$Hashtable['UserId']]
                 $Hashtable['Position'] = $null
 

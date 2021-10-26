@@ -29,6 +29,7 @@ function Get-DraftLeagueTable {
             drawn
             lost
             headToHeadLeaguePoints
+            totalScoreAgainst
         }
         gameweekPoints: liveGameweekPoints(gameweek: $Gameweek)
         gameweekHistory(gameweek: $Gameweek) {

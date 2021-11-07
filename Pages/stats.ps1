@@ -54,10 +54,11 @@ New-UDPage -Name 'Stats' -Endpoint {
                         } | Sort-Object {$Sort.IndexOf($_.League)} | Out-UDChartData -DataProperty WeeklyScore -LabelProperty League -BackgroundColor '#FF530D' -BorderColor 'black' -HoverBackgroundColor '#FF9F0D'
                     }
 
-                    New-UDChart -Title 'Top 10 Scores' -Type HorizontalBar -Endpoint {
-                        $AllLeagueScores = $Cache:LeaguePoints.Values | ForEach-Object {$_}
+                    New-UDChart -Title 'Top 5 Scores' -Type HorizontalBar -Endpoint {
+                        $AllLeagueScores = $Cache:Tables.Values | ForEach-Object {$_}
+                        $FilteredScores = $AllLeagueScores | Group-Object -Property 'GameweekPoints' | Sort-Object -Property {[int]$_.Name} -Descending | Select-Object -First 5
 
-                        $AllLeagueScores | Sort-Object -Descending GameweekPoints | Select-Object -First 10 | Out-UDChartData -DataProperty GameweekPoints -LabelProperty Manager -BackgroundColor '#FF530D' -BorderColor 'black' -HoverBackgroundColor '#FF9F0D'
+                        $FilteredScores.Group | ForEach-Object {$_} | Out-UDChartData -DataProperty GameweekPoints -LabelProperty Manager -BackgroundColor '#FF530D' -BorderColor 'black' -HoverBackgroundColor '#FF9F0D'
                     }
                 }
             }

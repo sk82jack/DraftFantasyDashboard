@@ -26,6 +26,7 @@ function Start-Dashboard {
         New-UDSideNavItem -Text 'Fixtures' -PageName 'Fixtures' -Icon calendar_alt
         New-UDSideNavItem -Text 'League Standings' -PageName 'Tables' -Icon futbol
         New-UDSideNavItem -Text 'Cup' -PageName 'Cup' -Icon trophy
+        New-UDSideNavItem -Text 'Stats' -PageName 'Stats' -Icon chart_bar
         New-UDSideNavItem -Text 'Managers' -PageName 'Managers' -Icon users
         New-UDSideNavItem -Text 'Player List' -PageName 'Players' -Icon user
         New-UDSideNavItem -Text 'Trades' -PageName 'Trades' -Icon exchange_alt
@@ -154,6 +155,12 @@ function Start-Dashboard {
             'Plankton' = Get-DraftWaiverOrder -League 'Plankton'
         }
         $Cache:CupInfo = Get-DraftCupInfo
+        $Cache:LeaguePoints = @{
+            'Prem'     = Get-DraftLeaguePoints -League 'Prem' -Gameweek (1..$Cache:CurrentGameweek)
+            'Freak'    = Get-DraftLeaguePoints -League 'Freak' -Gameweek (1..$Cache:CurrentGameweek)
+            'Vermin'   = Get-DraftLeaguePoints -League 'Vermin' -Gameweek (1..$Cache:CurrentGameweek)
+            'Plankton' = Get-DraftLeaguePoints -League 'Plankton' -Gameweek (1..$Cache:CurrentGameweek)
+        }
     }
 
     $Endpoints = @(

@@ -13,6 +13,31 @@ New-UDPage -Name 'Stats' -Endpoint {
                         } | Sort-Object {$Sort.IndexOf($_.League)} | Out-UDChartData -DataProperty TotalScore -LabelProperty League -BackgroundColor '#FF530D' -BorderColor 'black' -HoverBackgroundColor '#FF9F0D'
                     }
 
+                    New-UDChart -Title 'Individual Scores by League' -Type Line -Endpoint {
+                        $ChartData = foreach ($Rank in 1..12) {
+                            $RankData = @{
+                                Rank = $Rank
+                            }
+                            foreach ($League in $Cache:Tables.Keys) {
+                                $RankData[$League] = $Cache:Tables[$League] | Sort-Object -Descending 'TotalScore' |
+                                Select-Object -Index ($Rank - 1) | Select-Object -ExpandProperty 'TotalScore'
+                            }
+                            [pscustomobject]$RankData
+                        }
+
+                        $ChartData | Out-UDChartData -LabelProperty Rank -Dataset @(
+                            foreach ($League in $Cache:Tables.Keys) {
+                                $Colour = switch -Regex ($League) {
+                                    'Prem' { 'Green' }
+                                    'Freak' { 'Orange' }
+                                    'Vermin' { 'Red' }
+                                    'Plankton' { 'Pink' }
+                                }
+                                New-UdChartDataset -DataProperty $League -AdditionalOptions @{fill = $false} -Label $League -BackgroundColor $Colour -BorderColor $Colour
+                            }
+                        )
+                    }
+
                     New-UDChart -Title 'Top 10 Total Scores' -Type HorizontalBar -Endpoint {
                         $Cache:Tables.Values | ForEach-Object {$_} | Sort-Object -Descending TotalScore | Select-Object -First 10 | Out-UDChartData -DataProperty TotalScore -LabelProperty Manager -BackgroundColor '#FF530D' -BorderColor 'black' -HoverBackgroundColor '#FF9F0D'
                     }
@@ -52,6 +77,31 @@ New-UDPage -Name 'Stats' -Endpoint {
                                 WeeklyScore = ($Cache:Tables[$_].WeeklyScore | Measure-Object -Sum).Sum
                             }
                         } | Sort-Object {$Sort.IndexOf($_.League)} | Out-UDChartData -DataProperty WeeklyScore -LabelProperty League -BackgroundColor '#FF530D' -BorderColor 'black' -HoverBackgroundColor '#FF9F0D'
+                    }
+
+                    New-UDChart -Title 'Individual Scores by League' -Type Line -Endpoint {
+                        $ChartData = foreach ($Rank in 1..12) {
+                            $RankData = @{
+                                Rank = $Rank
+                            }
+                            foreach ($League in $Cache:Tables.Keys) {
+                                $RankData[$League] = $Cache:Tables[$League] | Sort-Object -Descending 'WeeklyScore' |
+                                Select-Object -Index ($Rank - 1) | Select-Object -ExpandProperty 'WeeklyScore'
+                            }
+                            [pscustomobject]$RankData
+                        }
+
+                        $ChartData | Out-UDChartData -LabelProperty Rank -Dataset @(
+                            foreach ($League in $Cache:Tables.Keys) {
+                                $Colour = switch -Regex ($League) {
+                                    'Prem' { 'Green' }
+                                    'Freak' { 'Orange' }
+                                    'Vermin' { 'Red' }
+                                    'Plankton' { 'Pink' }
+                                }
+                                New-UdChartDataset -DataProperty $League -AdditionalOptions @{fill = $false} -Label $League -BackgroundColor $Colour -BorderColor $Colour
+                            }
+                        )
                     }
 
                     New-UDChart -Title 'Top 5 Scores' -Type HorizontalBar -Endpoint {

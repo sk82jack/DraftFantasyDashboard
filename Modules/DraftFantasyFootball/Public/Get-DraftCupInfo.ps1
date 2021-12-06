@@ -68,7 +68,9 @@ function Get-DraftCupInfo {
     }
 
     foreach ($Gameweek in ($StartGameweek + 1)..$CurrentGW) {
-        if ($Gameweek -le $DoubleEliminationUntil) {
+        # The eliminations are worked out on the following week so if the eliminations are to GW 13 inclusive then
+        # we still need +2 on GW 14 for the calculation of GW 13 eliminations
+        if ($Gameweek -le ($DoubleEliminationUntil + 1)) {
             $EliminationNumber += 2
         }
         else {

@@ -43,8 +43,6 @@ function Get-DraftCupInfo {
         $CurrentGW += -9
     }
 
-    $CupHash = @{}
-
     if ($CurrentGW -lt $StartGameweek) {
         $ScoreGameweeks = $CurrentGW
         $StartGameweek = $CurrentGW
@@ -57,6 +55,7 @@ function Get-DraftCupInfo {
         Get-DraftLeaguePoints -League $League -Gameweek $ScoreGameweeks
     }
 
+    $CupHash = @{}
     $CupHash[$StartGameweek] = $Scores | Sort-Object -Property "Gameweek$($StartGameweek)points" -Descending | Select-Object -ExcludeProperty 'Gameweekpoints' -Property *, @{
         Name       = 'Gameweekpoints'
         Expression = {$_."Gameweek$($StartGameweek)points"}

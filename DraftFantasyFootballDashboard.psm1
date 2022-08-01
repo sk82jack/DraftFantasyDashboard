@@ -45,7 +45,7 @@ function Start-Dashboard {
     $Dashboard = New-UDDashboard @DashboardSplat
 
     $Schedule2 = New-UDEndpointSchedule -Every 2 -Minute
-    $Schedule5 = New-UDEndpointSchedule -Every 5 -Minute
+    $Schedule15 = New-UDEndpointSchedule -Every 15 -Minute
     $Schedule60 = New-UDEndpointSchedule -Every 1 -Hour
 
     $BaseEndpoint = New-UDEndpoint -Schedule $Schedule2 -Endpoint {
@@ -76,17 +76,7 @@ function Start-Dashboard {
             }
         }
     }
-    $TeamsEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame) {
-            $Cache:Teams = @{
-                'Prem'     = Get-DraftTeam -League 'Prem'
-                'Freak'    = Get-DraftTeam -League 'Freak'
-                'Vermin'   = Get-DraftTeam -League 'Vermin'
-                'Plankton' = Get-DraftTeam -League 'Plankton'
-            }
-        }
-    }
-    $H2HEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
+    $H2HEndpoint = New-UDEndpoint -Schedule $Schedule15 -Endpoint {
         if ($Cache:InGame) {
             $Cache:H2H = @{
                 'Prem'     = Get-DraftHeadToHead -League 'Prem'
@@ -96,17 +86,7 @@ function Start-Dashboard {
             }
         }
     }
-    $PlayersEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
-        if ($Cache:InGame) {
-            $Cache:Players = @{
-                'Prem'     = Get-DraftPlayer -League 'Prem'
-                'Freak'    = Get-DraftPlayer -League 'Freak'
-                'Vermin'   = Get-DraftPlayer -League 'Vermin'
-                'Plankton' = Get-DraftPlayer -League 'Plankton'
-            }
-        }
-    }
-    $TablesEndpoint = New-UDEndpoint -Schedule $Schedule5 -Endpoint {
+    $TablesEndpoint = New-UDEndpoint -Schedule $Schedule15 -Endpoint {
         if ($Cache:InGame) {
             $Cache:Tables = @{
                 'Prem'     = Get-DraftLeagueTable -League 'Prem'
@@ -165,9 +145,7 @@ function Start-Dashboard {
 
     $Endpoints = @(
         $BaseEndpoint
-        $TeamsEndpoint
         $H2HEndpoint
-        $PlayersEndpoint
         $TablesEndpoint
         $HourlyEndpoint
     )

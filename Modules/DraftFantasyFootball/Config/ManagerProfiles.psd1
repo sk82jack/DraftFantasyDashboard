@@ -1,66 +1,28 @@
 @{
-        'Shane Meskell'            = @{
-                TeamName        = 'The London Londoners'
-                PositionHistory = @'
-2015/16: Unclassified
-2016/17: Unclassified
-2017/18: 2nd in Freak (Promoted)
-2018/19: 10th in Prem (Relegated)
-2019/20: 3rd in Freak (Promoted)
-'@
-                Accolades       = 'Promotion from the Freak: 2017/18, 2019/20'
-                Style           = @'
-A fiercely competitive and moral driven manager, Meskell values the importance of reaching the 'correct' and 'fair' conclusions to the league's most important or trivial issues.
-
-It is key to note that he has always ensured that he has stayed on the positive side of the Moz balance sheet.
-
-A proud Original league member, Meskell volunteered to go be relegated in order to support the revolutionary creation of the Freak league despite two mid-table finishes in the 16 man, one league Draft setup. Shane went on to prove his managerial acumen by securing an instantaneous return to the premier league.
-
-The only blotch on Meskell's record was his relegation from the Premier League in 2018/19 due to his unfortunate punt on Sanchez (8th pick) which turned out to be a very poor choice. The following season, he managed to once again secure an immediate return to the Premier League using his generally 'transfer averse' policy.
-
-One particular bugbear which he believes reduces the reputation of offending teams and their managers is when certain teams change their names on a frequent basis. The London Londoners franchise is steeped in history and become a household name by not dabbling in this curious art.
-
-Meskell has been responsible for recruiting some impressive franchises to the league, including but not limited to; The 'Jugg', Eddie Lyne and Aidan Brown
-'@
-                Rivalries       = @'
-Generally when a Moz is at stake, rivalries tend to be quite fluid at The London Londoners
-
-Historic rivalry was definitely FC Hibak, although the intenseness of this rivalry has decreased in recent seasons due to the clubs plight – Meskell looks forward to the rejuvenation of a fellow household name in order to lock horns in the Premier League again one day.
-'@
-                Quotes          = @'
-Team Name 1: Almunia's Army
-Quote: 'The biggest under-player going, yet tries to avert attention by accusing others of the same'. Prime example being 2019/20 season where he accused me of under playing midway through a tight fixture – Joe then went on to finish the season unbeaten and challenge for the title (including colluding with Louis Worthington to create sabotage tactics)
-
-Team Name 2: Sim City
-Quote: 'This player does not shake unless there is something 'in it' for him' – he is a disgrace
-'@
-        }
-
         'Joe Chrisp'               = @{
                 TeamName        = "Almunia's Army"
                 PositionHistory = @'
 2015-16: Unclassified
 2016-17: Unclassified
-2017-18: 3rd in the Prem
-2018-19: 12th in the Prem
-2019-20: 2nd in the Freak
+2017-18: 3rd in Prem
+2018-19: 12th in Prem
+2019-20: 2nd in Freak
+2020-21: 3rd in Prem
+2021-22: 8th in Prem
 '@
                 Accolades       = 'Promotion from the Freak 2019/20'
                 Style           = @'
 A serial fiend, "Goé" first learnt his trade as a teenager in the feudal era of the official Premier League Fantasy Football website, devising and manually processing obscenely complicated head-to-head Champions League and FA Cup tournaments. He fell out of love with the game after a deluge of mediocre performances, with the well-known monotonous churn of the peasant format taking its toll. While in exile in the People's Republic of China, Goé started work on a business plan to bring "draft" fantasy football to the world. Unfortunately, progress stalled after he enlisted future rival manager Dan Barber ("Barbs") as chief operating officer and Barbs's time in China was mostly wasted chugging unceremoniously on a Vietnamese tobacco pipe. Months later, Goé was amazed to find a new draft website that had put all their ideas into being and it wasn't long before an army of fiends were signed up and the league and the (rumour) mill were formed.
-In terms of management style, Goé is known to hunt for a clean sheet in an erratic fashion and grew used to receiving the weekly moz alert from rival Freak Gavin Ferguson last season after a newly brought-in defender lost his clean sheet. Following promotion, Goé looks forward to a season of self-loathing in peace. On the transfer market, he is prone to an overattachment to doomed flops or self-destructive mozzes.
-Politically, Goé is strongly associated with the ‘Hierarchy' and the ol' timers movement. Always on the lookout for some new pawns, he is intimately tied to the expansion agenda and has restarted the #justice4plankton campaign for the 2021-22 season.
+
+In terms of management style, Goé is known to hunt for a clean sheet in an erratic fashion and is prone to an overattachment to doomed flops or self-destructive mozzes. With the strict transfer ban on dealings with Will Lafferty expiring, Goé is looking forward to gifting him the Prem title again. Survival is the name of the game.
+
+Politically, Goé is strongly associated with the ‘Hierarchy', although has recently fallen out of favour with many of the old guard. Always on the lookout for some new pawns, he is intimately tied to the expansion agenda and is putting out feelers for a new #justice4algae campaign.
+
+With revenue taking a huge plunge after a disastrous attempt to move to Fantrax, Goé's position as CEO of FatZone is under threat.
 '@
                 Rivalries       = "Robert 'Pex'/Botts Ferguson. More of a spiteful vendetta than a rivalry given the gulf in class, reports suggest Goé is trying not to kick the young manager while he's down this season."
                 Quotes          = @'
-Team name 1: Pex
-Quote 1: "A piece of trivia for you: Bottsy (aka A-Rob) has never finished in the top half of a division"
 
-Team name 2: Shane
-Quote 2: "Every season is a countdown to shexit #7thpick"
-
-Team name 3: Cier aka Tommy Toots
-Quote 3: "Keep C3PO away from other managers when drunk #ToA"
 '@
         }
 
@@ -153,21 +115,6 @@ I will enjoy the slow and gradual demise of Jack Denton and the Denton's Dugout.
 '@
         }
 
-        'Dawood Moghim'            = @{
-                TeamName        = ''
-                PositionHistory = @'
-
-'@
-                Accolades       = ''
-                Style           = @'
-
-'@
-                Rivalries       = ''
-                Quotes          = @'
-
-'@
-        }
-
         'Daniel Louki'             = @{
                 TeamName        = "Hierarchy Pawns, formerly/briefly known as... Southgate you're the one, No Freaks,"
                 PositionHistory = @'
@@ -215,27 +162,6 @@ With COVID-19 halting the season there was a chance for the Hierarchy Pawns to b
                 Rivalries       = ''
                 Quotes          = @'
 
-'@
-        }
-
-        'Louis Worthington'        = @{
-                TeamName        = "Brendan's Doggers"
-                PositionHistory = @'
-2015-16 (Prem): Unclassified, probably bottom
-2016-17 (Prem) : Unclassified, probably bottom
-2017-18 (Prem): 12th (bottom, relegated to Freak)
-2018-19 (Freak): 10th
-2019-20 (Freak): 4th (Promoted to Prem)
-'@
-                Accolades       = '2020 Cup Runner Up, 2020 Promotion to Prem, Most points in a gameweek (Something like 70++, Lukaku scored 4)'
-                Style           = @'
-Erratic, unpredictable, frantic and inconsistent. Judd is a wheeler dealer by nature and always on the look out for value in the market. This has worked both for an against his team in recent seasons, with an early transfer of De Bruyne to Dani Louki proving pivotal to his eventual crowning as champion and the Doggers relegation to the Freak. The 2019-20 Season did however show the manager's nose for a good deal, with all but 2 players from his original 11 surviving to the end of the season which culminated in a title challenge and promotion to the Prem. Highlights of the season involved trades with Shayan to strip him of his best players, notably Mane. The Bishop's growing disenchantment with the footballing world led to him reviewing the Doggers continued participation in the Draft leagues, however after a period of reflection the manager realised there was little other stimulation in his life. The 2020-21 Season see's the Doggers returns to their rightful place in the Prem, but only time will tell as to whether he can avoid giving Dani Louki his best players.
-'@
-                Rivalries       = "James ‘The Jugg' Doku – title rival and deserved winner in 2019 season, nickname is too similar to mine."
-                Quotes          = @'
-Hierarchy Pawns: ‘Don't be unarmed by his friendly demeanour, he will kill you in the market'
-
-NE Helsinki Utd: ‘Impossible to trade with as he is too detached from reality'
 '@
         }
 
@@ -709,6 +635,304 @@ On his squad for the 2020-21 season, Brown stated: "I'm delighted to get fans' f
                 Quotes          = @'
 Team name 1: Tashan Williams-Mitchell
 Quote 1: The debacle of Pepe-gate followed by the second debacle of picking 4 players in the playoff rematch but still avoiding relegation made me think there is a god up there, and he loves draft controversy.
+'@
+        }
+
+        'Liam McDonald'            = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Richard Cooper'           = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Liam McSharry'            = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Lee Waller'               = @{
+                TeamName        = ''
+                PositionHistory = @'
+2021-22: 1st in Plankton
+'@
+                Accolades       = 'Promoted to Vermin after winning Plankton 21/22'
+                Style           = @'
+An elder statesman yet one of the newer additions to the Draft format, Lee Waller cuts the figure of a plump manager with high expectations and in turn high blood pressure. Sibling to Prem manager Adam Waller, waffling is in his bones and due to the nature of his part-time job in ‘music’ he has a lot of time to waffle. If you don’t find Lee chatting shite in The Mill then you’ll likely find him chatting shite in your DMs. A keen trader that enjoys the thrill of the negotiation, Lee is a manager happy to take risks if the price is right. Will likely shoot himself in the foot in the free market if you give him the chance.
+'@
+                Rivalries       = 'Everyone loves scalping a Waller, so every match is a new rivalry in the making. Also, like any manager, loves beating a Waller so a Waffler derby is welcomed. Enjoys putting any of the Old Guard scum in their place when given the opportunity.'
+                Quotes          = @'
+
+'@
+        }
+
+        'Julian Jest'              = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'James Arnold'             = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'David Cartlidge'          = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Patrick Nielsen'          = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        "Eoin O'Connor"            = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Daniel Tandy'             = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Lee Williams'             = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Louis Pell'               = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Martin Jones'             = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Arthur Duncan'            = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Sean Riley'               = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
+'@
+        }
+
+        'Shane Meskell'            = @{
+                TeamName        = 'The London Londoners'
+                PositionHistory = @'
+2015/16: Unclassified
+2016/17: Unclassified
+2017/18: 2nd in Freak (Promoted)
+2018/19: 10th in Prem (Relegated)
+2019/20: 3rd in Freak (Promoted)
+'@
+                Accolades       = 'Promotion from the Freak: 2017/18, 2019/20'
+                Style           = @'
+A fiercely competitive and moral driven manager, Meskell values the importance of reaching the 'correct' and 'fair' conclusions to the league's most important or trivial issues.
+
+It is key to note that he has always ensured that he has stayed on the positive side of the Moz balance sheet.
+
+A proud Original league member, Meskell volunteered to go be relegated in order to support the revolutionary creation of the Freak league despite two mid-table finishes in the 16 man, one league Draft setup. Shane went on to prove his managerial acumen by securing an instantaneous return to the premier league.
+
+The only blotch on Meskell's record was his relegation from the Premier League in 2018/19 due to his unfortunate punt on Sanchez (8th pick) which turned out to be a very poor choice. The following season, he managed to once again secure an immediate return to the Premier League using his generally 'transfer averse' policy.
+
+One particular bugbear which he believes reduces the reputation of offending teams and their managers is when certain teams change their names on a frequent basis. The London Londoners franchise is steeped in history and become a household name by not dabbling in this curious art.
+
+Meskell has been responsible for recruiting some impressive franchises to the league, including but not limited to; The 'Jugg', Eddie Lyne and Aidan Brown
+'@
+                Rivalries       = @'
+Generally when a Moz is at stake, rivalries tend to be quite fluid at The London Londoners
+
+Historic rivalry was definitely FC Hibak, although the intenseness of this rivalry has decreased in recent seasons due to the clubs plight – Meskell looks forward to the rejuvenation of a fellow household name in order to lock horns in the Premier League again one day.
+'@
+                Quotes          = @'
+Team Name 1: Almunia's Army
+Quote: 'The biggest under-player going, yet tries to avert attention by accusing others of the same'. Prime example being 2019/20 season where he accused me of under playing midway through a tight fixture – Joe then went on to finish the season unbeaten and challenge for the title (including colluding with Louis Worthington to create sabotage tactics)
+
+Team Name 2: Sim City
+Quote: 'This player does not shake unless there is something 'in it' for him' – he is a disgrace
+'@
+        }
+
+        'Louis Worthington'        = @{
+                TeamName        = "Brendan's Doggers"
+                PositionHistory = @'
+        2015-16 (Prem): Unclassified, probably bottom
+        2016-17 (Prem) : Unclassified, probably bottom
+        2017-18 (Prem): 12th (bottom, relegated to Freak)
+        2018-19 (Freak): 10th
+        2019-20 (Freak): 4th (Promoted to Prem)
+'@
+                Accolades       = '2020 Cup Runner Up, 2020 Promotion to Prem, Most points in a gameweek (Something like 70++, Lukaku scored 4)'
+                Style           = @'
+        Erratic, unpredictable, frantic and inconsistent. Judd is a wheeler dealer by nature and always on the look out for value in the market. This has worked both for an against his team in recent seasons, with an early transfer of De Bruyne to Dani Louki proving pivotal to his eventual crowning as champion and the Doggers relegation to the Freak. The 2019-20 Season did however show the manager's nose for a good deal, with all but 2 players from his original 11 surviving to the end of the season which culminated in a title challenge and promotion to the Prem. Highlights of the season involved trades with Shayan to strip him of his best players, notably Mane. The Bishop's growing disenchantment with the footballing world led to him reviewing the Doggers continued participation in the Draft leagues, however after a period of reflection the manager realised there was little other stimulation in his life. The 2020-21 Season see's the Doggers returns to their rightful place in the Prem, but only time will tell as to whether he can avoid giving Dani Louki his best players.
+'@
+                Rivalries       = "James ‘The Jugg' Doku – title rival and deserved winner in 2019 season, nickname is too similar to mine."
+                Quotes          = @'
+        Hierarchy Pawns: ‘Don't be unarmed by his friendly demeanour, he will kill you in the market'
+
+        NE Helsinki Utd: ‘Impossible to trade with as he is too detached from reality'
+'@
+        }
+
+        'Dawood Moghim'            = @{
+                TeamName        = ''
+                PositionHistory = @'
+
+'@
+                Accolades       = ''
+                Style           = @'
+
+'@
+                Rivalries       = ''
+                Quotes          = @'
+
 '@
         }
 }

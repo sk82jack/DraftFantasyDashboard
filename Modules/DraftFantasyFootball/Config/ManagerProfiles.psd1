@@ -21,9 +21,6 @@ Politically, Goé is strongly associated with the ‘Hierarchy', although has re
 With revenue taking a huge plunge after a disastrous attempt to move to Fantrax, Goé's position as CEO of FatZone is under threat.
 '@
                 Rivalries       = "Robert 'Pex'/Botts Ferguson. More of a spiteful vendetta than a rivalry given the gulf in class, reports suggest Goé is trying not to kick the young manager while he's down this season."
-                Quotes          = @'
-
-'@
         }
 
         'Daniel Barber'            = @{
@@ -48,11 +45,6 @@ Unfortunately this all turned sour the following season and we all went separate
 Never afraid to ruthlessly drop and sell on my players and have Been known to make a few controversial trades. A particular highlight was causing uproar by giving away Paul Pogba for Mohamed Salah in trade with peckers only for Salah to singlehandedly promote me to the prem. When the stress of the game overwhelmes me I love having a rant to other managers (Daniel Jansepar cops it sometimes) about getting bad rub despite deeps knowing it comes to us all and Is part and parcel.
 '@
                 Rivalries       = 'Gavin Ferguson - Callum Langlands'
-                Quotes          = @'
-Gavin: As much as I love you, Chris Smalling needs to go
-Pex: Is he better than Shelvey
-Jan: Why is George Baldock getting 11 points against me
-'@
         }
 
         'Simeon Gholam'            = @{
@@ -72,9 +64,6 @@ Cup champion: 2015-16, 2016-17
 Former loans specialist who revels in historic glories to steer attention away from the fact he is now a relegation scrapper. Free list scavenger and limited trader.
 '@
                 Rivalries       = 'N/A. I treat all my opponents with equal disdain.'
-                Quotes          = @'
-To all other managers: Take heed from those who have called my team shit. They are all freaks and I'm still standing in the Prem.
-'@
         }
 
         'Calum Langlands'          = @{
@@ -87,9 +76,6 @@ To all other managers: Take heed from those who have called my team shit. They a
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Daniel Jansepar'          = @{
@@ -108,11 +94,6 @@ Born 7th December 1989 in London to an English Mother and Iranian Father, Daniel
 Wheeler dealer, trade fiend, traditionalist.
 '@
                 Rivalries       = "Denton's Dugout (CUNT)"
-                Quotes          = @'
-I aspire to one day have a trophy cabinet that competes with the greatest manager of our generation, the one and only Mr Daniel Louki of the Hierarchy Pawns.
-
-I will enjoy the slow and gradual demise of Jack Denton and the Denton's Dugout.
-'@
         }
 
         'Daniel Louki'             = @{
@@ -145,9 +126,6 @@ Having spent the early years contesting the title both clubs have really struggl
 The 2019-20 season looked destined for one of these best of enemies to face the plunge into the dreaded Freak league.
 With COVID-19 halting the season there was a chance for the Hierarchy Pawns to bring in some much needed firepower (‘world class' Harry Kane) and managed to pull of the great escape in the dying minutes of the last game of the season. Sim City also survived.
 '@
-                Quotes          = @'
-
-'@
         }
 
         'James Doku'               = @{
@@ -160,9 +138,6 @@ With COVID-19 halting the season there was a chance for the Hierarchy Pawns to b
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Will Lafferty'            = @{
@@ -181,13 +156,6 @@ Politically: democratic, pro-Vermin, anti-Freak and Justice For Plankton 2021
                 Rivalries       = @'
 : Historically always enjoyed battling with such big-name "Ol' Timers" as Danny Louki, Simeon Gholam and Daniel Jansepar, who mostly seem to iron me out. Want to see Edi Finch relegated because he never trades but somehow has Wilson and Vardy every year who keep him up
 '@
-                Quotes          = @'
-Team name: Sim City, One Hit Wanderers & Hierarchy Pawns
-Quote: "Hope they never win the league again" - sorry, they have had too much success in the past
-
-Team name: XI Irons
-Quote: "If anyone deserves some silverware it's this lad" Nail-biting title race could have gone either way down to the last day last minute
-'@
         }
 
         'Edi Finch'                = @{
@@ -204,7 +172,6 @@ Quote: "If anyone deserves some silverware it's this lad" Nail-biting title race
 Hardworking, earnest, and determined. Teams under Finch always surprise by coming together on the field and facing the opposition as a united group.
 '@
                 Rivalries       = 'None - always trying to bring the group of managers together.'
-                Quotes          = ''
         }
 
         'Ben Featherstone'         = @{
@@ -232,9 +199,6 @@ Despite never actually saying anything, Ben is perhaps most notable for unwittin
 
         Honourable mention to "Edi" "True Geordie" Finch. Genuinely can't fathom how he's stayed in the prem based on some of the players he's kept in his teams.
 '@
-                Quotes          = @'
-
-'@
         }
 
         'Jonny Mills'              = @{
@@ -251,16 +215,6 @@ Despite never actually saying anything, Ben is perhaps most notable for unwittin
 Determined, committed and a great motivator. A manager the players respect and want to do well for.
 '@
                 Rivalries       = 'One Bang FC'
-                Quotes          = @'
-Team name 1: One Bang FC
-Quote 1: Ex colleague turned rival.
-
-Team name 2: Sim City
-Quote 2: @
-
-Team name 3: Denton's Dugout
-Quote 3: Onions are spicy.
-'@
         }
 
         'Eddie Lyne'               = @{
@@ -273,9 +227,6 @@ Quote 3: Onions are spicy.
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Tashan Williams-Mitchell' = @{
@@ -288,9 +239,6 @@ Quote 3: Onions are spicy.
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Ian Montagu'              = @{
@@ -303,9 +251,6 @@ Quote 3: Onions are spicy.
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Craig Farrell'            = @{
@@ -324,10 +269,6 @@ Run of the mill, yo-yo club. Passionate fans but when it comes down to it can't 
 Constantly trying to get the best out of mediocre picks.
 '@
                 Rivalries       = 'The London Londoners (Kante Derby, unfortunately the fans have been waiting 4 years for a re match.)'
-                Quotes          = @'
-Team name 1: One Bang FC
-Quote 1: One Bang, Two Teams, Three Points Guaranteed.
-'@
         }
 
         'Adam Waller'              = @{
@@ -344,13 +285,6 @@ Quote 1: One Bang, Two Teams, Three Points Guaranteed.
 Always on the lookout for a hidden gem on the free list and eager to be involved in the trading market. High transfer activity tends to go either one of two ways, hero or zero, with not much room in between. Fairly laissez-faire approach to gameweek matches, more likely to cause a stir in off-field antics
 '@
                 Rivalries       = 'Historically, majority of managers The Mill want to see One Hit Wanderers lose each gameweek. Biggest rivalry going into 2020-21 season, Flexitarian (Craig Farrell) in the "El Twatico" derby'
-                Quotes          = @'
-Team name: Flexiterian
-Quote: Curly-haired twat
-
-Team name: To whom it may concern
-Quote: The Ol' Timers, your time is up. You know who you are…
-'@
         }
 
         'Jack Denton'              = @{
@@ -363,9 +297,6 @@ Quote: The Ol' Timers, your time is up. You know who you are…
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Sasha Bosnjak'            = @{
@@ -378,9 +309,6 @@ Quote: The Ol' Timers, your time is up. You know who you are…
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Robert Ferguson'          = @{
@@ -393,9 +321,6 @@ Quote: The Ol' Timers, your time is up. You know who you are…
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Cieran James'             = @{
@@ -408,9 +333,6 @@ Quote: The Ol' Timers, your time is up. You know who you are…
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Gavin Ferguson'           = @{
@@ -423,9 +345,6 @@ Quote: The Ol' Timers, your time is up. You know who you are…
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Rob Turner'               = @{
@@ -438,9 +357,6 @@ Quote: The Ol' Timers, your time is up. You know who you are…
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Phelan Murphy'            = @{
@@ -453,9 +369,6 @@ Quote: The Ol' Timers, your time is up. You know who you are…
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Shayan Shahdi'            = @{
@@ -472,10 +385,6 @@ Quote: The Ol' Timers, your time is up. You know who you are…
 Panicked and irritable fiend, who is in the top 3% of time spent fiending, but in the bottom 1% for efficiency and decision making. Transfer strategy is down there, with a constant desire to trade and pick up new players for absolutely no reason despite clear and obvious signs that it will be detrimental to the clubs success. Administration has humbled him and a new managerial style to be introduced in the 20/21 season in order to support the clubs restructuring and intended return to the top flight.
 '@
                 Rivalries       = 'One Bang FC'
-                Quotes          = @'
-Team name: One Bang FC
-Quote: AROUNA KONEEEEEEEEEEEEEE
-'@
         }
 
         'Dennis Hollywood'         = @{
@@ -488,9 +397,6 @@ Quote: AROUNA KONEEEEEEEEEEEEEE
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Tom Field'                = @{
@@ -503,9 +409,6 @@ Quote: AROUNA KONEEEEEEEEEEEEEE
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'James Lowenthal'          = @{
@@ -518,9 +421,6 @@ Quote: AROUNA KONEEEEEEEEEEEEEE
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'George Smyth'             = @{
@@ -533,9 +433,6 @@ Quote: AROUNA KONEEEEEEEEEEEEEE
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Deni Bosnjak'             = @{
@@ -548,9 +445,6 @@ Quote: AROUNA KONEEEEEEEEEEEEEE
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Ronan McGhee'             = @{
@@ -570,9 +464,6 @@ I've had to take the high road back to management after some unfortunate things 
 AFC ClIMATE CHANGE - Dennis Hollywood: will be interesting to go head to head with a fellow Tim, especially after he took Kieran from me in the draft.
 GIVE ME KIERAN TIERNEY
 '@
-                Quotes          = @'
-AFC TINA - Robbie Turner: Sorry Turns but like John McGinn, I fucking hate that Tina Turner song so consider yourself on the list. Nothing personal.
-'@
         }
 
         'Ben Stanier'              = @{
@@ -585,9 +476,6 @@ AFC TINA - Robbie Turner: Sorry Turns but like John McGinn, I fucking hate that 
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Nick Arndt'               = @{
@@ -610,10 +498,6 @@ AFC Tina – Robbie Turner
 
 List of rivalries to be extended soon…
 '@
-                Quotes          = @'
-Team name: AFC Tina
-Quote: "The finest day in our club's short history was them loosing the playoffs. This season we aim to do even better and finish above them."
-'@
         }
 
         'Aidan Brown'              = @{
@@ -632,10 +516,6 @@ FMIN appointed Brown as manager for their inaugural campaign in 2019-20, placing
 On his squad for the 2020-21 season, Brown stated: "I'm delighted to get fans' favourite Woody [Chris Wood] through the door again this year, as well as add some pace to compliment him up front with Jamie Vardy after an unsuccessful attempt to sign him from AFC Tina last season." He continued: "The Vermin league is notoriously difficult to get out of and is shaping up to be even more competitive this year in its expanded format, not to mention fighting on two fronts this season, so we're hoping to bring in another couple of faces in the coming weeks to help us through the long season ahead."
 '@
                 Rivalries       = 'Anyone who disrespects Vermin. Barbs and Shane currently on the watchlist.'
-                Quotes          = @'
-Team name 1: Tashan Williams-Mitchell
-Quote 1: The debacle of Pepe-gate followed by the second debacle of picking 4 players in the playoff rematch but still avoiding relegation made me think there is a god up there, and he loves draft controversy.
-'@
         }
 
         'Liam McDonald'            = @{
@@ -648,9 +528,6 @@ Quote 1: The debacle of Pepe-gate followed by the second debacle of picking 4 pl
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Richard Cooper'           = @{
@@ -663,9 +540,6 @@ Quote 1: The debacle of Pepe-gate followed by the second debacle of picking 4 pl
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Liam McSharry'            = @{
@@ -678,9 +552,6 @@ Quote 1: The debacle of Pepe-gate followed by the second debacle of picking 4 pl
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Lee Waller'               = @{
@@ -693,9 +564,6 @@ Quote 1: The debacle of Pepe-gate followed by the second debacle of picking 4 pl
 An elder statesman yet one of the newer additions to the Draft format, Lee Waller cuts the figure of a plump manager with high expectations and in turn high blood pressure. Sibling to Prem manager Adam Waller, waffling is in his bones and due to the nature of his part-time job in ‘music’ he has a lot of time to waffle. If you don’t find Lee chatting shite in The Mill then you’ll likely find him chatting shite in your DMs. A keen trader that enjoys the thrill of the negotiation, Lee is a manager happy to take risks if the price is right. Will likely shoot himself in the foot in the free market if you give him the chance.
 '@
                 Rivalries       = 'Everyone loves scalping a Waller, so every match is a new rivalry in the making. Also, like any manager, loves beating a Waller so a Waffler derby is welcomed. Enjoys putting any of the Old Guard scum in their place when given the opportunity.'
-                Quotes          = @'
-
-'@
         }
 
         'Julian Jest'              = @{
@@ -708,9 +576,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'James Arnold'             = @{
@@ -723,9 +588,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'David Cartlidge'          = @{
@@ -738,9 +600,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Patrick Nielsen'          = @{
@@ -753,9 +612,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         "Eoin O'Connor"            = @{
@@ -768,9 +624,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Daniel Tandy'             = @{
@@ -783,9 +636,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Lee Williams'             = @{
@@ -798,9 +648,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Louis Pell'               = @{
@@ -813,9 +660,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Martin Jones'             = @{
@@ -828,9 +672,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Arthur Duncan'            = @{
@@ -843,9 +684,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Sean Riley'               = @{
@@ -858,9 +696,6 @@ An elder statesman yet one of the newer additions to the Draft format, Lee Walle
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 
         'Shane Meskell'            = @{
@@ -891,13 +726,6 @@ Generally when a Moz is at stake, rivalries tend to be quite fluid at The London
 
 Historic rivalry was definitely FC Hibak, although the intenseness of this rivalry has decreased in recent seasons due to the clubs plight – Meskell looks forward to the rejuvenation of a fellow household name in order to lock horns in the Premier League again one day.
 '@
-                Quotes          = @'
-Team Name 1: Almunia's Army
-Quote: 'The biggest under-player going, yet tries to avert attention by accusing others of the same'. Prime example being 2019/20 season where he accused me of under playing midway through a tight fixture – Joe then went on to finish the season unbeaten and challenge for the title (including colluding with Louis Worthington to create sabotage tactics)
-
-Team Name 2: Sim City
-Quote: 'This player does not shake unless there is something 'in it' for him' – he is a disgrace
-'@
         }
 
         'Louis Worthington'        = @{
@@ -914,11 +742,6 @@ Quote: 'This player does not shake unless there is something 'in it' for him' �
         Erratic, unpredictable, frantic and inconsistent. Judd is a wheeler dealer by nature and always on the look out for value in the market. This has worked both for an against his team in recent seasons, with an early transfer of De Bruyne to Dani Louki proving pivotal to his eventual crowning as champion and the Doggers relegation to the Freak. The 2019-20 Season did however show the manager's nose for a good deal, with all but 2 players from his original 11 surviving to the end of the season which culminated in a title challenge and promotion to the Prem. Highlights of the season involved trades with Shayan to strip him of his best players, notably Mane. The Bishop's growing disenchantment with the footballing world led to him reviewing the Doggers continued participation in the Draft leagues, however after a period of reflection the manager realised there was little other stimulation in his life. The 2020-21 Season see's the Doggers returns to their rightful place in the Prem, but only time will tell as to whether he can avoid giving Dani Louki his best players.
 '@
                 Rivalries       = "James ‘The Jugg' Doku – title rival and deserved winner in 2019 season, nickname is too similar to mine."
-                Quotes          = @'
-        Hierarchy Pawns: ‘Don't be unarmed by his friendly demeanour, he will kill you in the market'
-
-        NE Helsinki Utd: ‘Impossible to trade with as he is too detached from reality'
-'@
         }
 
         'Dawood Moghim'            = @{
@@ -931,8 +754,5 @@ Quote: 'This player does not shake unless there is something 'in it' for him' �
 
 '@
                 Rivalries       = ''
-                Quotes          = @'
-
-'@
         }
 }

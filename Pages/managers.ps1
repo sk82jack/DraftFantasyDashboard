@@ -29,7 +29,6 @@ New-UDPage -Name 'Managers' -Endpoint {
                                             New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Accolades -replace '\r?\n', "`r`n")
                                             New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Style -replace '\r?\n', "`r`n")
                                             New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Rivalries -replace '\r?\n', "`r`n")
-                                            New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Quotes -replace '\r?\n', "`r`n")
                                         }
                                     }
                                     style   = @{
@@ -79,7 +78,6 @@ New-UDPage -Name 'Managers' -Endpoint {
                                             New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Accolades -replace '\r?\n', "`r`n")
                                             New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Style -replace '\r?\n', "`r`n")
                                             New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Rivalries -replace '\r?\n', "`r`n")
-                                            New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Quotes -replace '\r?\n', "`r`n")
                                         }
                                     }
                                     style   = @{
@@ -129,7 +127,6 @@ New-UDPage -Name 'Managers' -Endpoint {
                                             New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Accolades -replace '\r?\n', "`r`n")
                                             New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Style -replace '\r?\n', "`r`n")
                                             New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Rivalries -replace '\r?\n', "`r`n")
-                                            New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Quotes -replace '\r?\n', "`r`n")
                                         }
                                     }
                                     style   = @{
@@ -179,7 +176,6 @@ New-UDPage -Name 'Managers' -Endpoint {
                                             New-UDCard -Title 'ACCOLADES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Accolades -replace '\r?\n', "`r`n")
                                             New-UDCard -Title 'MANAGERIAL STYLE' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Style -replace '\r?\n', "`r`n")
                                             New-UDCard -Title 'BIGGEST RIVALRY' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Rivalries -replace '\r?\n', "`r`n")
-                                            New-UDCard -Title 'QUOTES' -TitleAlignment center -TextAlignment center -Text ($ManagerProfile.Quotes -replace '\r?\n', "`r`n")
                                         }
                                     }
                                     style   = @{

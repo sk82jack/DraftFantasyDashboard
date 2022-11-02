@@ -143,11 +143,28 @@ function Start-Dashboard {
         }
     }
 
+    $WeeklyScoresEndpoint = New-UDEndpoint -Url "/weeklyscores/:league" -Method "GET" -Endpoint {
+        param($League)
+        $Output = foreach ($Week in 1..$Cache:CurrentGameweek) {
+            $WeekScores = @{}
+
+            foreach ($Team in $Cache:LeaguePoints.$League) {
+                $WeekScores[$Team.Manager] = $Team."Gameweek$($Week)points"
+            }
+
+            [pscustomobject]$WeekScores
+        }
+
+        Set-UDContentType -ContentType 'text/csv'
+        $Output | ConvertTo-Csv | Out-String
+    }
+
     $Endpoints = @(
         $BaseEndpoint
         $H2HEndpoint
         $TablesEndpoint
         $HourlyEndpoint
+        $WeeklyScoresEndpoint
     )
 
     $StartDashboardSplat = @{

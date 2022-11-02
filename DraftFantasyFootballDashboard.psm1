@@ -155,6 +155,7 @@ function Start-Dashboard {
             [pscustomobject]$WeekScores
         }
 
+        $Request.ContentType = 'text/csv'
         Set-UDContentType -ContentType 'text/csv'
         $Output | ConvertTo-Csv | Out-String
     }

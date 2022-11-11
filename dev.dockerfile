@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/powershell:7.0.0-preview.5-ubuntu-18.04
+FROM mcr.microsoft.com/powershell:latest
 RUN apt-get update \
     && apt install -y git \
     && pwsh -c "Install-Module universaldashboard.community -Acceptlicense -Force"

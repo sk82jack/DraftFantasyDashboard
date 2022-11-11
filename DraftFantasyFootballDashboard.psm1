@@ -160,12 +160,32 @@ function Start-Dashboard {
         $Output | ConvertTo-Csv | Out-String
     }
 
+    $AllLeagueTeamsEndpoint = New-UDEndpoint -Url "/teams" -Method "GET" -Endpoint {
+        $Output = foreach ($LeagueName in $Cache:Teams.Keys) {
+            foreach ($Team in $Cache:Teams[$LeagueName]) {
+                foreach ($Player in $Team.Players) {
+                    [pscustomobject]@{
+                        manager            = $Team.Manager
+                        player_web_name    = $Player.WebName
+                        player_first_name  = $Player.FirstName
+                        player_second_name = $Player.SecondName
+                    }
+                }
+            }
+        }
+
+        $Request.ContentType = 'text/csv'
+        Set-UDContentType -ContentType 'text/csv'
+        $Output | ConvertTo-Csv | Out-String
+    }
+
     $Endpoints = @(
         $BaseEndpoint
         $H2HEndpoint
         $TablesEndpoint
         $HourlyEndpoint
         $WeeklyScoresEndpoint
+        $AllLeagueTeamsEndpoint
     )
 
     $StartDashboardSplat = @{

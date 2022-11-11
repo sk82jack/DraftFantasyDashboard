@@ -18,6 +18,8 @@ Function Get-DraftTeam {
         lineupPlayers {
             _id
             web_name
+            first_name
+            second_name
             element_type_id
             team_name_short
             club {
@@ -31,6 +33,8 @@ Function Get-DraftTeam {
         subPlayers {
             _id
             web_name
+            first_name
+            second_name
             element_type_id
             team_name_short
             club {

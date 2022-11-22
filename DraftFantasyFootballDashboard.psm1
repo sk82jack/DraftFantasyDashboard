@@ -166,25 +166,25 @@ function Start-Dashboard {
                 foreach ($Player in $Team.Players) {
                     [pscustomobject]@{
                         manager            = $Team.Manager
-                        player_web_name    = $Player.WebName
-                        player_first_name  = $Player.FirstName
-                        player_second_name = $Player.SecondName
+                        player_web_name    = $Player.o_web_name
+                        player_first_name  = $Player.o_first_name
+                        player_second_name = $Player.o_second_name
                     }
                 }
             }
         }
 
-        $Request.ContentType = 'text/csv'
-        Set-UDContentType -ContentType 'text/csv'
+        $Request.ContentType = 'text/csv; charset=utf-8'
+        Set-UDContentType -ContentType 'text/csv; charset=utf-8'
         $Output | ConvertTo-Csv | Out-String
     }
 
     $TableEndpoint = New-UDEndpoint -Url "/table/:league" -Method "GET" -Endpoint {
         param($League)
-        $Output = $Cache:Tables.$League | Select 'Manager', 'Points'
+        $Output = $Cache:Tables.$League | Select-Object 'Manager', 'Points'
 
-        $Request.ContentType = 'text/csv'
-        Set-UDContentType -ContentType 'text/csv'
+        $Request.ContentType = 'text/csv; charset=utf-8'
+        Set-UDContentType -ContentType 'text/csv; charset=utf-8'
         $Output | ConvertTo-Csv | Out-String
     }
 

@@ -164,6 +164,9 @@ function ConvertTo-DraftObject {
                         'vs {0} (A)' -f $Fixture.homeTeamShort
                     }
                     $PlayerHash['Position'] = $Positions[[int]$Player.element_type_id]
+                    $PlayerHash['o_web_name'] = $Player.web_name
+                    $PlayerHash['o_first_name'] = $Player.first_name
+                    $PlayerHash['o_second_name'] = $Player.second_name
                     $Hashtable['Players'].Add([PSCustomObject]$PlayerHash)
                 }
                 $Hashtable['Players'] = [System.Collections.Generic.List[psobject]]($Hashtable['Players'] | Sort-Object ElementTypeId)
@@ -179,6 +182,9 @@ function ConvertTo-DraftObject {
                         'vs {0} (A)' -f $Fixture.homeTeamShort
                     }
                     $PlayerHash['Position'] = $Positions[[int]$Player.element_type_id]
+                    $PlayerHash['o_web_name'] = $Player.web_name
+                    $PlayerHash['o_first_name'] = $Player.first_name
+                    $PlayerHash['o_second_name'] = $Player.second_name
                     $Hashtable['Players'].Add([PSCustomObject]$PlayerHash)
                 }
             }

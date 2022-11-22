@@ -179,6 +179,15 @@ function Start-Dashboard {
         $Output | ConvertTo-Csv | Out-String
     }
 
+    $TableEndpoint = New-UDEndpoint -Url "/table/:league" -Method "GET" -Endpoint {
+        param($League)
+        $Output = $Cache:Tables.$League | Select 'Manager', 'Points'
+
+        $Request.ContentType = 'text/csv'
+        Set-UDContentType -ContentType 'text/csv'
+        $Output | ConvertTo-Csv | Out-String
+    }
+
     $Endpoints = @(
         $BaseEndpoint
         $H2HEndpoint
@@ -186,6 +195,7 @@ function Start-Dashboard {
         $HourlyEndpoint
         $WeeklyScoresEndpoint
         $AllLeagueTeamsEndpoint
+        $TableEndpoint
     )
 
     $StartDashboardSplat = @{

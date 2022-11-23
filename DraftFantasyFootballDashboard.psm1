@@ -188,6 +188,38 @@ function Start-Dashboard {
         $Output | ConvertTo-Csv | Out-String
     }
 
+    $TradesEndpoint = New-UDEndpoint -Url "/trades/:league/:count" -Method "GET" -Endpoint {
+        param(
+            $League,
+            $Count = 50
+        )
+        $Trades = Get-DraftTrade -League $League -TradeCount $Count
+        $Output = foreach ($Trade in $Trades) {
+            if ($Trade.Status -ne 'accepted') {
+                continue
+            }
+
+            for ($i = 0; $i -lt $Trade.Playersinids.Count; $i++) {
+                [pscustomobject]@{
+                    type                   = $Trade.type
+                    timestamp              = $Trade.respondedAt
+                    out_manager            = $Trade.OutManager
+                    out_player_web_name    = $Trade.o_players_out_web_name[$i]
+                    out_player_first_name  = $Trade.o_players_out_first_name[$i]
+                    out_player_second_name = $Trade.o_players_out_second_name[$i]
+                    in_manager             = $Trade.InManager
+                    in_player_web_name     = $Trade.o_players_in_web_name[$i]
+                    in_player_first_name   = $Trade.o_players_in_first_name[$i]
+                    in_player_second_name  = $Trade.o_players_in_second_name[$i]
+                }
+            }
+        }
+
+        $Request.ContentType = 'text/csv; charset=utf-8'
+        Set-UDContentType -ContentType 'text/csv; charset=utf-8'
+        $Output | ConvertTo-Csv | Out-String
+    }
+
     $Endpoints = @(
         $BaseEndpoint
         $H2HEndpoint
@@ -196,6 +228,7 @@ function Start-Dashboard {
         $WeeklyScoresEndpoint
         $AllLeagueTeamsEndpoint
         $TableEndpoint
+        $TradesEndpoint
     )
 
     $StartDashboardSplat = @{

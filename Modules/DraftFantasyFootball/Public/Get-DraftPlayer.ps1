@@ -24,6 +24,8 @@ function Get-DraftPlayer {
     players {
         _id
         web_name
+        first_name
+        second_name
         team_name_short
         gameweekPoints: customGameweekPoints(gameweek: $Gameweek, leagueId: "$LeagueId")
         total_points

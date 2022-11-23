@@ -132,12 +132,28 @@ function ConvertTo-DraftObject {
                 [string]$Hashtable['InManager'] = if ($Hashtable['inTeamId']) {
                     $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['inTeamId']]
                 }
-                $Hashtable['PlayersIn'] = foreach ($Player in $Hashtable['Playersinids']) {
-                    $Script:DraftPlayers.Where{$_.Id -eq $Player}.WebName
+                $Hashtable['PlayersIn'] = [System.Collections.Generic.List[string]]::new()
+                $Hashtable['o_players_in_web_name'] = [System.Collections.Generic.List[string]]::new()
+                $Hashtable['o_players_in_first_name'] = [System.Collections.Generic.List[string]]::new()
+                $Hashtable['o_players_in_second_name'] = [System.Collections.Generic.List[string]]::new()
+                foreach ($Player in $Hashtable['Playersinids']) {
+                    $Hashtable['PlayersIn'].Add($Script:DraftPlayers.Where{$_.Id -eq $Player}.WebName)
+                    $Hashtable['o_players_in_web_name'].Add($Script:DraftPlayers.Where{$_.Id -eq $Player}.o_web_name)
+                    $Hashtable['o_players_in_first_name'].Add($Script:DraftPlayers.Where{$_.Id -eq $Player}.o_first_name)
+                    $Hashtable['o_players_in_second_name'].Add($Script:DraftPlayers.Where{$_.Id -eq $Player}.o_second_name)
                 }
+
                 $Hashtable['OutManager'] = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['outTeamId']]
-                $Hashtable['PlayersOut'] = foreach ($Player in $Hashtable['Playersoutids']) {
-                    $Script:DraftPlayers.Where{$_.Id -eq $Player}.WebName
+                $Hashtable['PlayersOut'] = [System.Collections.Generic.List[string]]::new()
+                $Hashtable['o_players_out_web_name'] = [System.Collections.Generic.List[string]]::new()
+                $Hashtable['o_players_out_first_name'] = [System.Collections.Generic.List[string]]::new()
+                $Hashtable['o_players_out_second_name'] = [System.Collections.Generic.List[string]]::new()
+
+                foreach ($Player in $Hashtable['Playersoutids']) {
+                    $Hashtable['PlayersOut'].Add($Script:DraftPlayers.Where{$_.Id -eq $Player}.WebName)
+                    $Hashtable['o_players_out_web_name'].Add($Script:DraftPlayers.Where{$_.Id -eq $Player}.o_web_name)
+                    $Hashtable['o_players_out_first_name'].Add($Script:DraftPlayers.Where{$_.Id -eq $Player}.o_first_name)
+                    $Hashtable['o_players_out_second_name'].Add($Script:DraftPlayers.Where{$_.Id -eq $Player}.o_second_name)
                 }
                 foreach ($Property in 'createdAt', 'respondedAt', 'updatedAt') {
                     $Hashtable[$Property] = ConvertFrom-PosixTime -PosixTime $Hashtable[$Property]
@@ -191,6 +207,9 @@ function ConvertTo-DraftObject {
             'Player' {
                 $Hashtable['WeeklyPoints'] = $Hashtable['GameweekPoints']
                 $Hashtable.Remove('GameweekPoints')
+                $Hashtable['o_web_name'] = $Object.web_name
+                $Hashtable['o_first_name'] = $Object.first_name
+                $Hashtable['o_second_name'] = $Object.second_name
                 foreach ($Fixture in $Hashtable['Club'].fixtures) {
                     $Fixture.date = ConvertFrom-PosixTime -PosixTime $Fixture.date
                 }

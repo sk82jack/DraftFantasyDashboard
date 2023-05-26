@@ -1,13 +1,26 @@
 function Export-DraftData {
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory)]
+        [Parameter(
+            Mandatory,
+            ParameterSetName = 'LeagueAndCup'
+        )]
         [int]
         $PremRelegationSpots,
 
-        [Parameter(Mandatory)]
+        [Parameter(
+            Mandatory,
+            ParameterSetName = 'LeagueAndCup'
+        )]
         [int]
         $FreakRelegationSpots,
+
+        [Parameter(
+            Mandatory,
+            ParameterSetName = 'Cup'
+        )]
+        [switch]
+        $CupOnly,
 
         [Parameter()]
         [int]
@@ -16,6 +29,15 @@ function Export-DraftData {
 
     $ExportFolder = Join-Path -Path $PSScriptRoot -ChildPath "..\Data\$Year"
     New-Item -Path $ExportFolder -ItemType Directory -Force | Out-Null
+
+    $CupFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueCup.xml"
+    if (-not (Test-Path $CupFileName)) {
+        $CupData = Get-DraftCupInfo -Year $Year
+        $CupData | Export-CliXml -Path $CupFileName -Depth 99
+    }
+    if ($CupOnly) {
+        return
+    }
 
     :LeagueLoop foreach ($LeagueName in $Script:ConfigData[$Year].Keys) {
         switch ($LeagueName) {
@@ -75,10 +97,5 @@ function Export-DraftData {
             }
             $HeadToHead | Export-CliXml -Path $H2HFileName -Depth 99
         }
-    }
-
-    $CupFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueCup.xml"
-    if (-not (Test-Path $CupFileName)) {
-        Get-DraftCupInfo -Year $Year | Export-CliXml -Path $CupFileName -Depth 99
     }
 }

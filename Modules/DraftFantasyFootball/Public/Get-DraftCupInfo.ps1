@@ -20,6 +20,12 @@ function Get-DraftCupInfo {
         $Year = (Get-DraftYear)
     )
 
+    $CupFile = Join-Path -Path $PSScriptRoot -ChildPath "..\Data\$Year\LeagueCup.xml"
+    if (Test-Path -Path $CupFile) {
+        Import-DraftData -Cup -Year $Year
+        return
+    }
+
     if (-not $StartGameweek) {
         $StartGameweek = $Script:ConfigData[$Year]['Cup']['StartGameweek']
         Write-Verbose "StartGameweek: $StartGameweek"

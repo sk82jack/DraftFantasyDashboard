@@ -17,6 +17,13 @@ function Export-DraftData {
 
         [Parameter(
             Mandatory,
+            ParameterSetName = 'LeagueAndCup'
+        )]
+        [int]
+        $VerminRelegationSpots,
+
+        [Parameter(
+            Mandatory,
             ParameterSetName = 'Cup'
         )]
         [switch]
@@ -50,8 +57,12 @@ function Export-DraftData {
                 $PromotionSpots = $PremRelegationSpots
             }
             'Vermin' {
-                $RelegationSpots = 0
+                $RelegationSpots = $VerminRelegationSpots
                 $PromotionSpots = $FreakRelegationSpots
+            }
+            'Plankton' {
+                $RelegationSpots = 0
+                $PromotionSpots = $VerminRelegationSpots
             }
             'Cup' {
                 continue LeagueLoop

@@ -6,22 +6,22 @@ New-UDPage -Name 'History' -Endpoint {
                     New-UDTabContainer -Tabs {
                         New-UDTab -Text 'Prem' -Content {
                             New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
-                                Import-DraftData -League 'Prem' -DataType 'Standings' -Year 2020 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                                Import-DraftData -League 'Prem' -DataType 'Standings' -Year 2022 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
                             }
                         }
                         New-UDTab -Text 'Freak' -Content {
                             New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
-                                Import-DraftData -League 'Freak' -DataType 'Standings' -Year 2020 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                                Import-DraftData -League 'Freak' -DataType 'Standings' -Year 2022 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
                             }
                         }
                         New-UDTab -Text 'Vermin' -Content {
                             New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
-                                Import-DraftData -League 'Vermin' -DataType 'Standings' -Year 2020 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                                Import-DraftData -League 'Vermin' -DataType 'Standings' -Year 2022 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
                             }
                         }
                         New-UDTab -Text 'Plankton' -Content {
                             New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
-                                Import-DraftData -League 'Plankton' -DataType 'Standings' -Year 2020 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                                Import-DraftData -League 'Plankton' -DataType 'Standings' -Year 2022 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
                             }
                         }
                     }
@@ -95,19 +95,20 @@ New-UDPage -Name 'History' -Endpoint {
                 New-UDCollapsibleItem -Title 'Points by Draft Order' -FontColor 'White' -Content {
                     New-UdChart -Title "Points by Draft Order" -Type Line -Endpoint {
                         $Leagues = @{
-                            'Prem 2022'   = Import-DraftData -League Prem -Year 2022 -DataType Picks
-                            'Prem 2020'   = Import-DraftData -League Prem -Year 2020 -DataType Picks
-                            'Prem 2019'   = Import-DraftData -League Prem -Year 2019 -DataType Picks
-                            'Prem 2018'   = Import-DraftData -League Prem -Year 2018 -DataType Picks
-                            'Prem 2017'   = Import-DraftData -League Prem -Year 2017 -DataType Picks
-                            'Freak 2022'  = Import-DraftData -League Freak -Year 2022 -DataType Picks
-                            'Freak 2020'  = Import-DraftData -League Freak -Year 2020 -DataType Picks
-                            'Freak 2019'  = Import-DraftData -League Freak -Year 2019 -DataType Picks
-                            'Freak 2018'  = Import-DraftData -League Freak -Year 2018 -DataType Picks
-                            'Freak 2017'  = Import-DraftData -League Freak -Year 2017 -DataType Picks
-                            'Vermin 2022' = Import-DraftData -League Vermin -Year 2022 -DataType Picks
-                            'Vermin 2020' = Import-DraftData -League Vermin -Year 2020 -DataType Picks
-                            'Vermin 2019' = Import-DraftData -League Vermin -Year 2019 -DataType Picks
+                            'Prem 2022'     = Import-DraftData -League Prem -Year 2022 -DataType Picks
+                            'Prem 2020'     = Import-DraftData -League Prem -Year 2020 -DataType Picks
+                            'Prem 2019'     = Import-DraftData -League Prem -Year 2019 -DataType Picks
+                            'Prem 2018'     = Import-DraftData -League Prem -Year 2018 -DataType Picks
+                            'Prem 2017'     = Import-DraftData -League Prem -Year 2017 -DataType Picks
+                            'Freak 2022'    = Import-DraftData -League Freak -Year 2022 -DataType Picks
+                            'Freak 2020'    = Import-DraftData -League Freak -Year 2020 -DataType Picks
+                            'Freak 2019'    = Import-DraftData -League Freak -Year 2019 -DataType Picks
+                            'Freak 2018'    = Import-DraftData -League Freak -Year 2018 -DataType Picks
+                            'Freak 2017'    = Import-DraftData -League Freak -Year 2017 -DataType Picks
+                            'Vermin 2022'   = Import-DraftData -League Vermin -Year 2022 -DataType Picks
+                            'Vermin 2020'   = Import-DraftData -League Vermin -Year 2020 -DataType Picks
+                            'Vermin 2019'   = Import-DraftData -League Vermin -Year 2019 -DataType Picks
+                            'Plankton 2022' = Import-DraftData -League Plankton -Year 2022 -DataType Picks
                         }
 
                         $ChartData = foreach ($Pick in 1..12) {

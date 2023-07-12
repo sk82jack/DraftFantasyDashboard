@@ -1,0 +1,401 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Id">9Q3QFmSHS4bKFMThz</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="1">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">3</I64>
+          <I64 N="headToHeadLeaguePoints">78</I64>
+          <I64 N="lost">10</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1219</I64>
+          <I64 N="won">25</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Under My Cucurella</S>
+      <I64 N="Totalscore">1458</I64>
+      <S N="Userid">ebeoDbi29P4ooRE5y</S>
+      <I64 N="Weeklyscore">31</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">25</I64>
+      <I64 N="Drawn">3</I64>
+      <I64 N="Lost">10</I64>
+      <I64 N="Points">78</I64>
+      <I64 N="TotalScoreAgainst">1219</I64>
+      <S N="Manager">David Cartlidge</S>
+      <I32 N="Position">1</I32>
+      <B N="Promoted">true</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">sNvqnojPsQKumLjz4</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="3">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">5</I64>
+          <I64 N="headToHeadLeaguePoints">68</I64>
+          <I64 N="lost">12</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1426</I64>
+          <I64 N="won">21</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Botman and Robben</S>
+      <I64 N="Totalscore">1542</I64>
+      <S N="Userid">9EPbKo8CCtiPkzBA2</S>
+      <I64 N="Weeklyscore">32</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">21</I64>
+      <I64 N="Drawn">5</I64>
+      <I64 N="Lost">12</I64>
+      <I64 N="Points">68</I64>
+      <I64 N="TotalScoreAgainst">1426</I64>
+      <S N="Manager">Julian Jest</S>
+      <I32 N="Position">2</I32>
+      <B N="Promoted">true</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">SPGvGk6JBjKu2p5gC</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="5">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">2</I64>
+          <I64 N="headToHeadLeaguePoints">68</I64>
+          <I64 N="lost">14</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1458</I64>
+          <I64 N="won">22</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Loftus-Cheeky Nandos</S>
+      <I64 N="Totalscore">1505</I64>
+      <S N="Userid">H6nDx52Kh7PwM8XC7</S>
+      <I64 N="Weeklyscore">51</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">22</I64>
+      <I64 N="Drawn">2</I64>
+      <I64 N="Lost">14</I64>
+      <I64 N="Points">68</I64>
+      <I64 N="TotalScoreAgainst">1458</I64>
+      <S N="Manager">Lee Williams</S>
+      <I32 N="Position">3</I32>
+      <B N="Promoted">true</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">TQNWZtcYSun7MrJ2j</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="7">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">4</I64>
+          <I64 N="headToHeadLeaguePoints">64</I64>
+          <I64 N="lost">14</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1259</I64>
+          <I64 N="won">20</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Michu at De Gea Ba FC</S>
+      <I64 N="Totalscore">1353</I64>
+      <S N="Userid">Fq6LkoGuGgRouLt9o</S>
+      <I64 N="Weeklyscore">27</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">20</I64>
+      <I64 N="Drawn">4</I64>
+      <I64 N="Lost">14</I64>
+      <I64 N="Points">64</I64>
+      <I64 N="TotalScoreAgainst">1259</I64>
+      <S N="Manager">James Arnold</S>
+      <I32 N="Position">4</I32>
+      <B N="Promoted">true</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="8">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">CcoGqjQTGZYsLqokB</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="9">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">5</I64>
+          <I64 N="headToHeadLeaguePoints">62</I64>
+          <I64 N="lost">14</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1308</I64>
+          <I64 N="won">19</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Patience and Prudence FC</S>
+      <I64 N="Totalscore">1372</I64>
+      <S N="Userid">8nkGDH4RLoNY9EbP2</S>
+      <I64 N="Weeklyscore">21</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">19</I64>
+      <I64 N="Drawn">5</I64>
+      <I64 N="Lost">14</I64>
+      <I64 N="Points">62</I64>
+      <I64 N="TotalScoreAgainst">1308</I64>
+      <S N="Manager">Eoin O'Connor</S>
+      <I32 N="Position">5</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">wvMYDgpzKyBFuTWFY</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="11">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">3</I64>
+          <I64 N="headToHeadLeaguePoints">57</I64>
+          <I64 N="lost">17</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1412</I64>
+          <I64 N="won">18</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Unnington Stanley</S>
+      <I64 N="Totalscore">1415</I64>
+      <S N="Userid">uetwxbtproiMJBBzt</S>
+      <I64 N="Weeklyscore">35</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">18</I64>
+      <I64 N="Drawn">3</I64>
+      <I64 N="Lost">17</I64>
+      <I64 N="Points">57</I64>
+      <I64 N="TotalScoreAgainst">1412</I64>
+      <S N="Manager">Daniel Barber</S>
+      <I32 N="Position">6</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">jGkauE2d4Y5SZ4zDm</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="13">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">4</I64>
+          <I64 N="headToHeadLeaguePoints">55</I64>
+          <I64 N="lost">17</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1363</I64>
+          <I64 N="won">17</I64>
+        </MS>
+      </Obj>
+      <S N="Name">The Spicy Queefs</S>
+      <I64 N="Totalscore">1318</I64>
+      <S N="Userid">G4hxfzbcXdHXcwe4G</S>
+      <I64 N="Weeklyscore">38</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">17</I64>
+      <I64 N="Drawn">4</I64>
+      <I64 N="Lost">17</I64>
+      <I64 N="Points">55</I64>
+      <I64 N="TotalScoreAgainst">1363</I64>
+      <S N="Manager">Louis Pell</S>
+      <I32 N="Position">7</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">ZCbmTNwMA2dpLGhW6</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="15">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">3</I64>
+          <I64 N="headToHeadLeaguePoints">48</I64>
+          <I64 N="lost">20</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1366</I64>
+          <I64 N="won">15</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Witches Toss VI</S>
+      <I64 N="Totalscore">1371</I64>
+      <S N="Userid">YChrsaNxPjkiw5WFN</S>
+      <I64 N="Weeklyscore">25</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">15</I64>
+      <I64 N="Drawn">3</I64>
+      <I64 N="Lost">20</I64>
+      <I64 N="Points">48</I64>
+      <I64 N="TotalScoreAgainst">1366</I64>
+      <S N="Manager">Arthur Duncan</S>
+      <I32 N="Position">8</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="16">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">CAwR9KiWKDEiMKpK5</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="17">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">3</I64>
+          <I64 N="headToHeadLeaguePoints">45</I64>
+          <I64 N="lost">21</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1348</I64>
+          <I64 N="won">14</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Book Ake FC</S>
+      <I64 N="Totalscore">1279</I64>
+      <S N="Userid">nqNrNDtd5dusH594R</S>
+      <I64 N="Weeklyscore">28</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">14</I64>
+      <I64 N="Drawn">3</I64>
+      <I64 N="Lost">21</I64>
+      <I64 N="Points">45</I64>
+      <I64 N="TotalScoreAgainst">1348</I64>
+      <S N="Manager">Sean Riley</S>
+      <I32 N="Position">9</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">cwckz9oPDpDwJP8h7</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="19">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">2</I64>
+          <I64 N="headToHeadLeaguePoints">44</I64>
+          <I64 N="lost">22</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1341</I64>
+          <I64 N="won">14</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Haalandaise Saucers</S>
+      <I64 N="Totalscore">1284</I64>
+      <S N="Userid">BmXowGcva8hgCRWCZ</S>
+      <I64 N="Weeklyscore">20</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">14</I64>
+      <I64 N="Drawn">2</I64>
+      <I64 N="Lost">22</I64>
+      <I64 N="Points">44</I64>
+      <I64 N="TotalScoreAgainst">1341</I64>
+      <S N="Manager">Martin Jones</S>
+      <I32 N="Position">10</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">tBs4MY44GEBR4mgkL</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="21">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">4</I64>
+          <I64 N="headToHeadLeaguePoints">43</I64>
+          <I64 N="lost">21</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1362</I64>
+          <I64 N="won">13</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Big Juicy Umtitis</S>
+      <I64 N="Totalscore">1307</I64>
+      <S N="Userid">ePreE6RZLiHpQyEap</S>
+      <I64 N="Weeklyscore">46</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">13</I64>
+      <I64 N="Drawn">4</I64>
+      <I64 N="Lost">21</I64>
+      <I64 N="Points">43</I64>
+      <I64 N="TotalScoreAgainst">1362</I64>
+      <S N="Manager">Daniel Tandy</S>
+      <I32 N="Position">11</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="22">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">aqqMiYNNYwdot4eZm</S>
+      <Nil N="Gameweekhistory" />
+      <I64 N="Gameweekpoints">0</I64>
+      <Obj N="Headtoheaddata" RefId="23">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">2</I64>
+          <I64 N="headToHeadLeaguePoints">32</I64>
+          <I64 N="lost">26</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1423</I64>
+          <I64 N="won">10</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Costa Del Grealish</S>
+      <I64 N="Totalscore">1081</I64>
+      <S N="Userid">GHbZyvsEcPGEWaqmq</S>
+      <I64 N="Weeklyscore">38</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">10</I64>
+      <I64 N="Drawn">2</I64>
+      <I64 N="Lost">26</I64>
+      <I64 N="Points">32</I64>
+      <I64 N="TotalScoreAgainst">1423</I64>
+      <S N="Manager">Patrick Nielsen</S>
+      <I32 N="Position">12</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+</Objs>

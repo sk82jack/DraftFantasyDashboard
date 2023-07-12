@@ -2,6 +2,30 @@ New-UDPage -Name 'History' -Endpoint {
     New-UDRow -Columns {
         New-UDColumn -SmallSize 12 -MediumSize 12 -LargeSize 8 -LargeOffset 2 -Endpoint {
             New-UDCollapsible -Items {
+                New-UDCollapsibleItem -Title '2022 League Standings' -FontColor 'White' -Content {
+                    New-UDTabContainer -Tabs {
+                        New-UDTab -Text 'Prem' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'Prem' -DataType 'Standings' -Year 2020 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                        New-UDTab -Text 'Freak' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'Freak' -DataType 'Standings' -Year 2020 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                        New-UDTab -Text 'Vermin' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'Vermin' -DataType 'Standings' -Year 2020 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                        New-UDTab -Text 'Plankton' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'Plankton' -DataType 'Standings' -Year 2020 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                    }
+                }
                 New-UDCollapsibleItem -Title '2020 League Standings' -FontColor 'White' -Content {
                     New-UDTabContainer -Tabs {
                         New-UDTab -Text 'Prem' -Content {
@@ -71,14 +95,17 @@ New-UDPage -Name 'History' -Endpoint {
                 New-UDCollapsibleItem -Title 'Points by Draft Order' -FontColor 'White' -Content {
                     New-UdChart -Title "Points by Draft Order" -Type Line -Endpoint {
                         $Leagues = @{
+                            'Prem 2022'   = Import-DraftData -League Prem -Year 2022 -DataType Picks
                             'Prem 2020'   = Import-DraftData -League Prem -Year 2020 -DataType Picks
                             'Prem 2019'   = Import-DraftData -League Prem -Year 2019 -DataType Picks
                             'Prem 2018'   = Import-DraftData -League Prem -Year 2018 -DataType Picks
                             'Prem 2017'   = Import-DraftData -League Prem -Year 2017 -DataType Picks
+                            'Freak 2022'  = Import-DraftData -League Freak -Year 2022 -DataType Picks
                             'Freak 2020'  = Import-DraftData -League Freak -Year 2020 -DataType Picks
                             'Freak 2019'  = Import-DraftData -League Freak -Year 2019 -DataType Picks
                             'Freak 2018'  = Import-DraftData -League Freak -Year 2018 -DataType Picks
                             'Freak 2017'  = Import-DraftData -League Freak -Year 2017 -DataType Picks
+                            'Vermin 2022' = Import-DraftData -League Vermin -Year 2022 -DataType Picks
                             'Vermin 2020' = Import-DraftData -League Vermin -Year 2020 -DataType Picks
                             'Vermin 2019' = Import-DraftData -League Vermin -Year 2019 -DataType Picks
                         }
@@ -114,6 +141,7 @@ New-UDPage -Name 'History' -Endpoint {
                                     'Prem' { 'Green' }
                                     'Freak' { 'Orange' }
                                     'Vermin' { 'Red' }
+                                    'Plankton' { 'Purple' }
                                 }
                                 New-UdChartDataset -DataProperty $League -AdditionalOptions @{fill = $false} -Label $League -BackgroundColor $Colour -BorderColor $Colour
                             }

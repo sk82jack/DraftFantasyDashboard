@@ -94,7 +94,7 @@ New-UDPage -Name 'History' -Endpoint {
                 }
                 New-UDCollapsibleItem -Title 'Points by Draft Order' -FontColor 'White' -Content {
                     New-UdChart -Title "Points by Draft Order" -Type Line -Endpoint {
-                        $Leagues = @{
+                        $Leagues = [ordered]@{
                             'Prem 2022'     = Import-DraftData -League Prem -Year 2022 -DataType Picks
                             'Prem 2020'     = Import-DraftData -League Prem -Year 2020 -DataType Picks
                             'Prem 2019'     = Import-DraftData -League Prem -Year 2019 -DataType Picks
@@ -144,7 +144,9 @@ New-UDPage -Name 'History' -Endpoint {
                                     'Vermin' { 'Red' }
                                     'Plankton' { 'Purple' }
                                 }
-                                New-UdChartDataset -DataProperty $League -AdditionalOptions @{fill = $false} -Label $League -BackgroundColor $Colour -BorderColor $Colour
+                                $DataSet = New-UdChartDataset -DataProperty $League -AdditionalOptions @{fill = $false} -Label $League -BackgroundColor $Colour -BorderColor $Colour
+                                $DataSet.hidden = $true
+                                $DataSet
                             }
 
                             New-UdChartDataset -DataProperty 'Average' -AdditionalOptions @{fill = $false} -Label 'Average' -BackgroundColor 'Blue' -BorderColor 'Blue'

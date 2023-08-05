@@ -22,6 +22,16 @@ New-UDPage -Name 'Players' -Endpoint {
                         $Cache:Players['Plankton'] | Out-UDGridData
                     }
                 }
+                New-UDTab -Text 'Algae N' -Content {
+                    New-UDGrid -Headers @('Player', 'Club', 'Rating', 'Points', 'Status', 'Owner') -Properties 'WebName', 'TeamNameShort', 'Rating', 'TotalPoints', 'Status', 'Owner' -DefaultSortColumn 'TotalPoints' -DefaultSortDescending -Endpoint {
+                        $Cache:Players['AlgaeN'] | Out-UDGridData
+                    }
+                }
+                New-UDTab -Text 'Algae S' -Content {
+                    New-UDGrid -Headers @('Player', 'Club', 'Rating', 'Points', 'Status', 'Owner') -Properties 'WebName', 'TeamNameShort', 'Rating', 'TotalPoints', 'Status', 'Owner' -DefaultSortColumn 'TotalPoints' -DefaultSortDescending -Endpoint {
+                        $Cache:Players['AlgaeS'] | Out-UDGridData
+                    }
+                }
             }
         }
     }

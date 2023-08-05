@@ -56,6 +56,32 @@ New-UDPage -Name 'Picks' -Endpoint {
                         "
                     }
                 }
+                New-UDTab -Text 'Algae N' -Content {
+                    New-UDGrid -Id 'AlgaeNHistory' -Headers $Headers -Properties $Properties -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
+                        $Cache:Picks['AlgaeN'] | Out-UDGridData
+                        Invoke-UDJavaScript -JavaScript "
+                            var checkExist = setInterval(function () {
+                            if (document.getElementById('AlgaeNHistory').querySelector('table.griddle-table') != null) {
+                                document.getElementById('AlgaeNHistory').querySelector('table.griddle-table').parentNode.style.overflowX = 'auto'
+                                clearInterval(checkExist);
+                            }
+                        }, 100);
+                        "
+                    }
+                }
+                New-UDTab -Text 'Algae S' -Content {
+                    New-UDGrid -Id 'AlgaeSHistory' -Headers $Headers -Properties $Properties -DefaultSortColumn 'PickNo' -NoPaging -Endpoint {
+                        $Cache:Picks['AlgaeS'] | Out-UDGridData
+                        Invoke-UDJavaScript -JavaScript "
+                            var checkExist = setInterval(function () {
+                            if (document.getElementById('AlgaeSHistory').querySelector('table.griddle-table') != null) {
+                                document.getElementById('AlgaeSHistory').querySelector('table.griddle-table').parentNode.style.overflowX = 'auto'
+                                clearInterval(checkExist);
+                            }
+                        }, 100);
+                        "
+                    }
+                }
             }
         }
     }

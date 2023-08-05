@@ -22,6 +22,16 @@ New-UDPage -Name 'Tables' -Endpoint {
                         $Cache:Tables['Plankton'] | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'TotalScore', 'TotalScoreAgainst', 'Points')
                     }
                 }
+                New-UDTab -Text 'Algae N' -Content {
+                    New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', '+', '-', 'Pts') -Style 'highlight' -Content {
+                        $Cache:Tables['AlgaeN'] | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'TotalScore', 'TotalScoreAgainst', 'Points')
+                    }
+                }
+                New-UDTab -Text 'Algae S' -Content {
+                    New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', '+', '-', 'Pts') -Style 'highlight' -Content {
+                        $Cache:Tables['AlgaeS'] | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'TotalScore', 'TotalScoreAgainst', 'Points')
+                    }
+                }
             }
         }
     }

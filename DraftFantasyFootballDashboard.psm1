@@ -70,7 +70,7 @@ function Start-Dashboard {
             $Cache:Picks = @{}
         }
 
-        foreach ($League in 'Prem', 'Freak', 'Vermin', 'Plankton') {
+        foreach ($League in 'Prem', 'Freak', 'Vermin', 'Plankton', 'AlgaeN', 'AlgaeS') {
             if ($Cache:Picks[$League].Length -lt 180) {
                 $Cache:Picks[$League] = Get-DraftPicks -League $League
             }
@@ -83,6 +83,8 @@ function Start-Dashboard {
                 'Freak'    = Get-DraftHeadToHead -League 'Freak'
                 'Vermin'   = Get-DraftHeadToHead -League 'Vermin'
                 'Plankton' = Get-DraftHeadToHead -League 'Plankton'
+                'AlgaeN'   = Get-DraftHeadToHead -League 'AlgaeN'
+                'AlgaeS'   = Get-DraftHeadToHead -League 'AlgaeS'
             }
         }
     }
@@ -93,6 +95,8 @@ function Start-Dashboard {
                 'Freak'    = Get-DraftLeagueTable -League 'Freak'
                 'Vermin'   = Get-DraftLeagueTable -League 'Vermin'
                 'Plankton' = Get-DraftLeagueTable -League 'Plankton'
+                'AlgaeN'   = Get-DraftLeagueTable -League 'AlgaeN'
+                'AlgaeS'   = Get-DraftLeagueTable -League 'AlgaeS'
             }
         }
     }
@@ -103,36 +107,48 @@ function Start-Dashboard {
             'Freak'    = Get-DraftTeam -League 'Freak'
             'Vermin'   = Get-DraftTeam -League 'Vermin'
             'Plankton' = Get-DraftTeam -League 'Plankton'
+            'AlgaeN'   = Get-DraftTeam -League 'AlgaeN'
+            'AlgaeS'   = Get-DraftTeam -League 'AlgaeS'
         }
         $Cache:H2H = @{
             'Prem'     = Get-DraftHeadToHead -League 'Prem'
             'Freak'    = Get-DraftHeadToHead -League 'Freak'
             'Vermin'   = Get-DraftHeadToHead -League 'Vermin'
             'Plankton' = Get-DraftHeadToHead -League 'Plankton'
+            'AlgaeN'   = Get-DraftHeadToHead -League 'AlgaeN'
+            'AlgaeS'   = Get-DraftHeadToHead -League 'AlgaeS'
         }
         $Cache:Players = @{
             'Prem'     = Get-DraftPlayer -League 'Prem'
             'Freak'    = Get-DraftPlayer -League 'Freak'
             'Vermin'   = Get-DraftPlayer -League 'Vermin'
             'Plankton' = Get-DraftPlayer -League 'Plankton'
+            'AlgaeN'   = Get-DraftPlayer -League 'AlgaeN'
+            'AlgaeS'   = Get-DraftPlayer -League 'AlgaeS'
         }
         $Cache:Tables = @{
             'Prem'     = Get-DraftLeagueTable -League 'Prem'
             'Freak'    = Get-DraftLeagueTable -League 'Freak'
             'Vermin'   = Get-DraftLeagueTable -League 'Vermin'
             'Plankton' = Get-DraftLeagueTable -League 'Plankton'
+            'AlgaeN'   = Get-DraftLeagueTable -League 'AlgaeN'
+            'AlgaeS'   = Get-DraftLeagueTable -League 'AlgaeS'
         }
         $Cache:Trades = @{
             'Prem'     = Get-DraftTrade -League 'Prem'
             'Freak'    = Get-DraftTrade -League 'Freak'
             'Vermin'   = Get-DraftTrade -League 'Vermin'
             'Plankton' = Get-DraftTrade -League 'Plankton'
+            'AlgaeN'   = Get-DraftTrade -League 'AlgaeN'
+            'AlgaeS'   = Get-DraftTrade -League 'AlgaeS'
         }
         $Cache:Waivers = @{
             'Prem'     = Get-DraftWaiverOrder -League 'Prem'
             'Freak'    = Get-DraftWaiverOrder -League 'Freak'
             'Vermin'   = Get-DraftWaiverOrder -League 'Vermin'
             'Plankton' = Get-DraftWaiverOrder -League 'Plankton'
+            'AlgaeN'   = Get-DraftWaiverOrder -League 'AlgaeN'
+            'AlgaeS'   = Get-DraftWaiverOrder -League 'AlgaeS'
         }
         $Cache:CupInfo = Get-DraftCupInfo
         $Cache:LeaguePoints = @{
@@ -140,6 +156,8 @@ function Start-Dashboard {
             'Freak'    = Get-DraftLeaguePoints -League 'Freak' -Gameweek (1..$Cache:CurrentGameweek)
             'Vermin'   = Get-DraftLeaguePoints -League 'Vermin' -Gameweek (1..$Cache:CurrentGameweek)
             'Plankton' = Get-DraftLeaguePoints -League 'Plankton' -Gameweek (1..$Cache:CurrentGameweek)
+            'AlgaeN'   = Get-DraftLeaguePoints -League 'AlgaeN' -Gameweek (1..$Cache:CurrentGameweek)
+            'AlgaeS'   = Get-DraftLeaguePoints -League 'AlgaeS' -Gameweek (1..$Cache:CurrentGameweek)
         }
     }
 

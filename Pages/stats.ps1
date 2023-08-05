@@ -4,7 +4,7 @@ New-UDPage -Name 'Stats' -Endpoint {
             New-UDTabContainer -Tabs {
                 New-UDTab -Text 'Current Season Stats' -Content {
                     New-UDChart -Title 'Total Scores by League' -Type Bar -Endpoint {
-                        $Sort = 'Prem', 'Freak', 'Vermin', 'Plankton'
+                        $Sort = 'Prem', 'Freak', 'Vermin', 'Plankton', 'AlgaeN', 'AlgaeS'
                         $Cache:Tables.Keys | ForEach-Object {
                             [PSCustomObject]@{
                                 League     = $_
@@ -32,6 +32,8 @@ New-UDPage -Name 'Stats' -Endpoint {
                                     'Freak' { 'Orange' }
                                     'Vermin' { 'Red' }
                                     'Plankton' { 'Pink' }
+                                    'AlgaeN' { 'Blue' }
+                                    'AlgaeS' { 'Yellow' }
                                 }
                                 New-UdChartDataset -DataProperty $League -AdditionalOptions @{fill = $false} -Label $League -BackgroundColor $Colour -BorderColor $Colour
                             }
@@ -70,7 +72,7 @@ New-UDPage -Name 'Stats' -Endpoint {
                 }
                 New-UDTab -Text 'Current Gameweek Stats' -Content {
                     New-UDChart -Title 'Total Scores by League' -Type Bar -Endpoint {
-                        $Sort = 'Prem', 'Freak', 'Vermin', 'Plankton'
+                        $Sort = 'Prem', 'Freak', 'Vermin', 'Plankton', 'AlgaeN', 'AlgaeS'
                         $Cache:Tables.Keys | ForEach-Object {
                             [PSCustomObject]@{
                                 League      = $_
@@ -98,6 +100,8 @@ New-UDPage -Name 'Stats' -Endpoint {
                                     'Freak' { 'Orange' }
                                     'Vermin' { 'Red' }
                                     'Plankton' { 'Pink' }
+                                    'AlgaeN' { 'Blue' }
+                                    'AlgaeS' { 'Yellow' }
                                 }
                                 New-UdChartDataset -DataProperty $League -AdditionalOptions @{fill = $false} -Label $League -BackgroundColor $Colour -BorderColor $Colour
                             }

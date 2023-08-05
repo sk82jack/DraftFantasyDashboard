@@ -11,7 +11,7 @@ function Get-DraftCupInfo {
         $DoubleEliminationUntil,
 
         [Parameter()]
-        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton')]
+        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton', 'AlgaeN', 'AlgaeS')]
         [string[]]
         $Leagues,
 

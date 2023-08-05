@@ -2,7 +2,7 @@ Function Get-DraftTeam {
     [CmdletBinding()]
     Param(
         [Parameter(Mandatory)]
-        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton')]
+        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton', 'AlgaeN', 'AlgaeS')]
         [string]
         $League,
 

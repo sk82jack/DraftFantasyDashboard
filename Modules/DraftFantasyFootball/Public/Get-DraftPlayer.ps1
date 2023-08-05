@@ -2,7 +2,7 @@ function Get-DraftPlayer {
     [CmdletBinding()]
     param (
         [Parameter()]
-        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton')]
+        [ValidateSet('Prem', 'Freak', 'Vermin', 'Plankton', 'AlgaeN', 'AlgaeS')]
         [string]
         $League,
 

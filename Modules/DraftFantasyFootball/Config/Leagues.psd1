@@ -1,4 +1,195 @@
 @{
+    2023 = @{
+        Prem     = @{
+            LeagueId = 'Z5gh5JKmoxPd5htTY'
+            Managers = @{
+                'mu2C3KrkWrNtXdbYE' = 'Joe Chrisp'
+                'ww983A4fwoFQzrLko' = 'James Doku'
+                'mBSZoWk2L5gm9o42d' = 'Edi Finch'
+                'ZLxaNxmaiS5nbCFLJ' = 'Cieran James'
+                'K2RiSMFxHHbiE69pA' = 'Ben Stanier'
+                'PAkaiWN87PBCh4aKM' = 'Daniel Jansepar'
+                'SgtN6CgK5AbXsXtNK' = 'Jack Denton'
+                '3ZSa5ADLPaHHatfFt' = 'Sasha Bosnjak'
+                'pPCB78cs5ZrYNtPuh' = 'Nick Arndt'
+                'bLtWDEPPhudorsHkb' = 'Calum Langlands'
+                'BiCadqsurGanxkZDY' = 'Simeon Gholam'
+                'ebaDkhJWpJNkwxQtS' = 'Will Lafferty'
+            }
+            Teams    = @{
+                '9Y9qGaeP76xLJxMqb' = 'Joe Chrisp'
+                'DstZHxaejbLCT9Jwa' = 'James Doku'
+                'LvPFPwuXdPWHnhXyn' = 'Edi Finch'
+                'gGSRwGHE99QYCouij' = 'Cieran James'
+                'jm4PeMEACBtboK28r' = 'Ben Stanier'
+                'jryAn4bGFxJXrriM2' = 'Daniel Jansepar'
+                'mqJzRBtuTGNYsTuYQ' = 'Jack Denton'
+                'pWzZdbmue8AxruFyw' = 'Sasha Bosnjak'
+                'pZvyfXknrY5dHEbj6' = 'Nick Arndt'
+                'qAct6oin5TBu6vkTs' = 'Calum Langlands'
+                'qLXyZFdzrgE6DvHxG' = 'Simeon Gholam'
+                'xiiAufdae5XWzmDnb' = 'Will Lafferty'
+            }
+        }
+        Freak    = @{
+            LeagueId = 'EozLdFkxowwaWF99t'
+            Managers = @{
+                'kCKus9AXGujKHb8k7' = 'George Smyth'
+                'aiEbdn3y5bBEcYDBZ' = 'Eddie Lyne'
+                'ErN6d5bXbiQvLt2J7' = 'Lee Waller'
+                'mrfTMLDBFXGhdNequ' = 'James Lowenthal'
+                'QoEczu62WNoTuFbbT' = 'Adam Waller'
+                'uGtCwcuhbctj7Gyiw' = 'Aidan Brown'
+                'ufAruvPx57r9KuQe2' = 'Shane Meskell'
+                '8g3v9YgYAn7BHLCjH' = 'Deni Bosnjak'
+                'T9y9Wt3LscXWLEfmK' = 'Daniel Louki'
+                'RXYTLotwDNs8mL7si' = 'Craig Farrell'
+                'd3NG7f4RovG9SRKyN' = 'Jonny Mills'
+                'AaDbRhMy66SAq7TPg' = 'Robert Ferguson'
+            }
+            Teams    = @{
+                'CfQN3LphqpMyosXNc' = 'George Smyth'
+                'EuAMPNgeoa5HpPBej' = 'Eddie Lyne'
+                'H6J4q2DkAGNJan2jC' = 'Lee Waller'
+                'KpyiniHBmcbKNie3M' = 'James Lowenthal'
+                'P4HqZn33udE6MC3Cz' = 'Adam Waller'
+                'PK9Y9ZXdmbbarivhD' = 'Aidan Brown'
+                'QJBak8uytx4XqPCzv' = 'Shane Meskell'
+                'S3rZQS6WBPgFTYRWE' = 'Deni Bosnjak'
+                'XnjJ5F7PfrNb7BwMX' = 'Daniel Louki'
+                'cy22rHcRe23ebxzqu' = 'Craig Farrell'
+                'iDn25wf2hZpPBzeox' = 'Jonny Mills'
+                'uNERxaJNhtgMvNC6N' = 'Robert Ferguson'
+            }
+        }
+        Vermin   = @{
+            LeagueId = 'LHsK6Fi59rGwM3ayw'
+            Managers = @{
+                'Fq6LkoGuGgRouLt9o' = 'James Arnold'
+                'XmdPTheyiBZTYohpm' = 'Liam McSharry'
+                '9EPbKo8CCtiPkzBA2' = 'Julian Jest'
+                'CcpJmebsZCSb3o4EY' = 'Dennis Hollywood'
+                'ebeoDbi29P4ooRE5y' = 'David Cartlidge'
+                'tPHZ2FwQcWzbf2T8g' = 'Shayan Shahdi'
+                'H6nDx52Kh7PwM8XC7' = 'Lee Williams'
+                'ceKhSFXzknrq7T6Pz' = 'Ronan McGhee'
+                '9KxnZRpoRKNsgs5S6' = 'Tashan Williams-Mitchell'
+            }
+            Teams    = @{
+                '4pu3opTFXJuhxoiDf' = 'James Arnold'
+                'GLfRMtLEpPgNuL7gw' = 'Liam McSharry'
+                'GWMwDqkLSpgdmi8ML' = 'Julian Jest'
+                'etndvLcakwShh7zJL' = 'Dennis Hollywood'
+                'gWZCDfcQgkNgfCnT5' = 'David Cartlidge'
+                'hguKWcDL9Aa4opCku' = 'Shayan Shahdi'
+                'k4RncjW5bYvv5p8ak' = 'Lee Williams'
+                'kuvqE695td9aJQd5t' = 'Ronan McGhee'
+                'yWEzuZMF4gMmxitu7' = 'Tashan Williams-Mitchell'
+            }
+        }
+        Plankton = @{
+            LeagueId = 'CidwwTJtw7Ez59iit'
+            Managers = @{
+                '9J2XjE3LE2vLETTkG' = 'Ian Montagu'
+                'YChrsaNxPjkiw5WFN' = 'Arthur Duncan'
+                '9Sq2LPBLHE5qouHce' = 'Rob Turner'
+                'GHbZyvsEcPGEWaqmq' = 'Patrick Nielsen'
+                'T3QDiwtKa6L7p7goC' = 'Dawood Moghim'
+                'nqNrNDtd5dusH594R' = 'Sean Riley'
+                'G4hxfzbcXdHXcwe4G' = 'Louis Pell'
+                '8nkGDH4RLoNY9EbP2' = "Eoin O'Connor"
+                'BmXowGcva8hgCRWCZ' = 'Martin Jones'
+                'uetwxbtproiMJBBzt' = 'daniel barber'
+            }
+            Teams    = @{
+                'EfBYMKfJLpHLmE6Z2' = 'Ian Montagu'
+                'FqRe7MJ6EpGCnHAye' = 'Arthur Duncan'
+                'XkACquD3C8zBrsNmt' = 'Rob Turner'
+                'Y78KgpzeThTnSRQYW' = 'Patrick Nielsen'
+                'bXYsYpDcBn328bXnb' = 'Dawood Moghim'
+                'bm3skCMpGaFJBrLkA' = 'Sean Riley'
+                'gTawn8o4vCz3YQyM2' = 'Louis Pell'
+                'ktACmiRGrSsk3ow9W' = "Eoin O'Connor"
+                'na2foiJPKoKtwwhrM' = 'Martin Jones'
+                'wiszhwoLBomFuMYS9' = 'daniel barber'
+            }
+        }
+        AlgaeN   = @{
+            LeagueId = 'ddviTqraeMbg8z7Bz'
+            Managers = @{
+                'QsoC4CRMGgnB9wjkK' = 'James Beardsworth'
+                'hBypn8BB4NSDeSy7p' = 'Jack Hanington'
+                'DnJzs3N4nL2dDrFSX' = 'Connor Hull'
+                'nW5pJ4gWebqjSGkx2' = 'Mihail Maldaianu'
+                'aCeAYwzFeHAqq8hg8' = 'Tom Pugh'
+                'E9BmjTH86WjbiurLy' = 'Chia Mahmood'
+                'ZkRd2SvwZ3v7tawjA' = 'Jack Sanderson'
+                'uFQY8ufGwT8rhYBXJ' = 'Daniel Kelleher'
+                '4CcCbrRNxE9WcLmYc' = 'Joe Clarke'
+                'GRpnN72abozXq2ZGq' = 'Ben Kandebe'
+                'TkCvMkKGEM9HK2wuy' = 'Jake White'
+                'XBhuqnxcub9YCoTzu' = 'Joe Bagnall'
+            }
+            Teams    = @{
+                'B8s8DeFY7m4xmZvr9' = 'James Beardsworth'
+                'DTR6LZ3EWC5TcJPKL' = 'Jack Hanington'
+                'HvopmwXDuBd5MP7WE' = 'Connor Hull'
+                'JPd2dxmdPL68oWn5t' = 'Mihail Maldaianu'
+                'LTNscimTb3zeQJ4dL' = 'Tom Pugh'
+                'a99iYzSeGerXT8Kjp' = 'Chia Mahmood'
+                'ag36R3JniZqnPMgmv' = 'Jack Sanderson'
+                'fFLQEkHhyXk4LLCG7' = 'Daniel Kelleher'
+                'gYWQQeFGgygSv3rvF' = 'Joe Clarke'
+                'hvCrRoY6GkyWz9ve2' = 'Ben Kandebe'
+                'w5ENTxEm5SHWtfLMh' = 'Jake White'
+                'xc3mwK8PrcYA4ezAi' = 'Joe Bagnall'
+            }
+        }
+        AlgaeS   = @{
+            LeagueId = 'uyEAdLXBJcSpy84sQ'
+            Managers = @{
+                '3jMWXSuqBNGuXDgw7' = 'Ben Featherstone'
+                'wFMzZX7dzpxLKSZoa' = 'Gus Baker'
+                'LiWhTjniBaiXEWMWi' = 'David Thomas'
+                'cFDtvQzJQqwNWnCss' = 'Jack Grayson'
+                'PFeCZbCZmnMSRkqpL' = 'Yagiz Temel'
+                'q2emfZNs68p54HKuj' = 'Christian Gray'
+                'BMaC7z96wuiGXLtkp' = 'Josh Freeman'
+                'B7emPhdnLvQsWv6ss' = 'Henry Huxley'
+                'rvLgimSdRwZst3b3p' = 'Jack Bailey'
+                'cviiirtcaozXT4jb2' = 'Tom Field'
+                'bi8caq7RHykmzgbkx' = 'Jack Robertson'
+                '2TfDfSRcqybwDgiLW' = 'Stephen Walton'
+            }
+            Teams    = @{
+                'Bitqrmyi4pNTL5zkY' = 'Ben Featherstone'
+                'EymFfeJvK2cJp6iEn' = 'Gus Baker'
+                'GGj76qJcmHAyHsZNP' = 'David Thomas'
+                'PRGehGoXPHcnrgTZ3' = 'Jack Grayson'
+                'YKyMxskHSrMLAtXBP' = 'Yagiz Temel'
+                'bjqQCcvnkJoT4onTs' = 'Christian Gray'
+                'mwf9oBSZe8hzNFEmA' = 'Josh Freeman'
+                's64ndHdTuitngcenH' = 'Henry Huxley'
+                'siTX6CiejGMmn6Qip' = 'Jack Bailey'
+                'xbRj8eWTfWMAgr9Gz' = 'Tom Field'
+                'yjjxFXsLxd3LdAz3q' = 'Jack Robertson'
+                'zmAKYcJLqKEcJLDNe' = 'Stephen Walton'
+            }
+        }
+        Cup      = @{
+            StartGameweek          = 2
+            TripleEliminationUntil = 13
+            DoubleEliminationUntil = 25
+            Leagues                = @(
+                'Prem'
+                'Freak'
+                'Vermin'
+                'Plankton'
+                'AlgaeN'
+                'AlgaeS'
+            )
+        }
+    }
     2022 = @{
         Prem     = @{
             LeagueId = 'CdDcTSH2PDzsQDzQf'

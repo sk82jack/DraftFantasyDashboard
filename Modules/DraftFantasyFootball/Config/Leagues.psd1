@@ -65,9 +65,12 @@
         Vermin   = @{
             LeagueId = 'LHsK6Fi59rGwM3ayw'
             Managers = @{
+                '37MnJYEYDGxzF48c2' = 'Liam McDonald'
+                'NcKHPjWM852ZoBT3B' = 'Richard Cooper'
                 'Fq6LkoGuGgRouLt9o' = 'James Arnold'
                 'XmdPTheyiBZTYohpm' = 'Liam McSharry'
                 '9EPbKo8CCtiPkzBA2' = 'Julian Jest'
+                'F6XQZa3z9wcoMPFvM' = 'Gavin Ferguson'
                 'CcpJmebsZCSb3o4EY' = 'Dennis Hollywood'
                 'ebeoDbi29P4ooRE5y' = 'David Cartlidge'
                 'tPHZ2FwQcWzbf2T8g' = 'Shayan Shahdi'
@@ -76,9 +79,12 @@
                 '9KxnZRpoRKNsgs5S6' = 'Tashan Williams-Mitchell'
             }
             Teams    = @{
+                '2ucq2jCzubE2oexNN' = 'Liam McDonald'
+                '3tHJWXZv4toCRtRkH' = 'Richard Cooper'
                 '4pu3opTFXJuhxoiDf' = 'James Arnold'
                 'GLfRMtLEpPgNuL7gw' = 'Liam McSharry'
                 'GWMwDqkLSpgdmi8ML' = 'Julian Jest'
+                'Qtrv85RKbPf6kQMPh' = 'Gavin Ferguson'
                 'etndvLcakwShh7zJL' = 'Dennis Hollywood'
                 'gWZCDfcQgkNgfCnT5' = 'David Cartlidge'
                 'hguKWcDL9Aa4opCku' = 'Shayan Shahdi'
@@ -90,28 +96,32 @@
         Plankton = @{
             LeagueId = 'CidwwTJtw7Ez59iit'
             Managers = @{
+                'bRFSJnjznBMKXGpWi' = 'Gordon Hipwood'
                 '9J2XjE3LE2vLETTkG' = 'Ian Montagu'
                 'YChrsaNxPjkiw5WFN' = 'Arthur Duncan'
                 '9Sq2LPBLHE5qouHce' = 'Rob Turner'
+                'ZQEk9fHojgq69JzCD' = 'Daniel Tandy'
                 'GHbZyvsEcPGEWaqmq' = 'Patrick Nielsen'
                 'T3QDiwtKa6L7p7goC' = 'Dawood Moghim'
                 'nqNrNDtd5dusH594R' = 'Sean Riley'
-                'G4hxfzbcXdHXcwe4G' = 'Louis Pell'
+                'G4hxfzbcXdHXcwe4G' = 'Louis Barron'
                 '8nkGDH4RLoNY9EbP2' = "Eoin O'Connor"
                 'BmXowGcva8hgCRWCZ' = 'Martin Jones'
-                'uetwxbtproiMJBBzt' = 'daniel barber'
+                'uetwxbtproiMJBBzt' = 'Daniel Barber'
             }
             Teams    = @{
+                '9cWii9nQuRiYNKSv8' = 'Gordon Hipwood'
                 'EfBYMKfJLpHLmE6Z2' = 'Ian Montagu'
                 'FqRe7MJ6EpGCnHAye' = 'Arthur Duncan'
                 'XkACquD3C8zBrsNmt' = 'Rob Turner'
+                'Xrvww4dwF9XqKrhSM' = 'Daniel Tandy'
                 'Y78KgpzeThTnSRQYW' = 'Patrick Nielsen'
                 'bXYsYpDcBn328bXnb' = 'Dawood Moghim'
                 'bm3skCMpGaFJBrLkA' = 'Sean Riley'
-                'gTawn8o4vCz3YQyM2' = 'Louis Pell'
+                'gTawn8o4vCz3YQyM2' = 'Louis Barron'
                 'ktACmiRGrSsk3ow9W' = "Eoin O'Connor"
                 'na2foiJPKoKtwwhrM' = 'Martin Jones'
-                'wiszhwoLBomFuMYS9' = 'daniel barber'
+                'wiszhwoLBomFuMYS9' = 'Daniel Barber'
             }
         }
         AlgaeN   = @{

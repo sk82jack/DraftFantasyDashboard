@@ -5,6 +5,11 @@ function Get-DraftCupInfo {
         [int]
         $StartGameweek,
 
+        # The gameweek that triple elminations occur until (including)
+        [Parameter()]
+        [int]
+        $TripleEliminationUntil,
+
         # The gameweek that double elminations occur until (including)
         [Parameter()]
         [int]
@@ -29,6 +34,11 @@ function Get-DraftCupInfo {
     if (-not $StartGameweek) {
         $StartGameweek = $Script:ConfigData[$Year]['Cup']['StartGameweek']
         Write-Verbose "StartGameweek: $StartGameweek"
+    }
+
+    if (-not $TripleEliminationUntil) {
+        $TripleEliminationUntil = $Script:ConfigData[$Year]['Cup']['DoubleEliminationUntil']
+        Write-Verbose "DoubleEliminationUntil: $TripleEliminationUntil"
     }
 
     if (-not $DoubleEliminationUntil) {
@@ -76,7 +86,10 @@ function Get-DraftCupInfo {
     foreach ($Gameweek in ($StartGameweek + 1)..$CurrentGW) {
         # The eliminations are worked out on the following week so if the eliminations are to GW 13 inclusive then
         # we still need +2 on GW 14 for the calculation of GW 13 eliminations
-        if ($Gameweek -le ($DoubleEliminationUntil + 1)) {
+        if ($Gameweek -le ($TripleEliminationUntil + 1)) {
+            $EliminationNumber += 3
+        }
+        elseif ($Gameweek -le ($DoubleEliminationUntil + 1)) {
             $EliminationNumber += 2
         }
         else {

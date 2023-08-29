@@ -102,10 +102,7 @@ function Export-DraftData {
 
         $H2HFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueH2H$LeagueName.xml"
         if (-not (Test-Path $H2HFileName)) {
-            $HeadToHead = @{}
-            foreach ($Gameweek in 1..38) {
-                $HeadToHead[$Gameweek] = Get-DraftHeadToHead -League $LeagueName -Gameweek $Gameweek -Year $Year
-            }
+            $HeadToHead = Get-DraftHeadToHead -League $LeagueName -Year $Year | Group-Object -Property {[int]$_.Gameweek} -AsHashTable
             $HeadToHead | Export-CliXml -Path $H2HFileName -Depth 99
         }
     }

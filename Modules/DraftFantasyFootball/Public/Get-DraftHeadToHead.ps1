@@ -7,8 +7,8 @@ function Get-DraftHeadToHead {
         $League,
 
         [Parameter()]
-        [int64]
-        $Gameweek,
+        [int64[]]
+        $Gameweek = 1..38,
 
         [Parameter()]
         [int]
@@ -17,19 +17,12 @@ function Get-DraftHeadToHead {
 
     $LeagueId = $Script:ConfigData[$Year][$League]['LeagueId']
 
-    if (-not $Gameweek) {
-        $Gameweek = $Script:BootstrapStatic.events.Where{$_.is_current}[0].id
-        if ($Gameweek -eq 0) {
-            $Gameweek = 1
-        }
-        elseif ($Gameweek -gt 38) {
-            $Gameweek += -9
-        }
-    }
-
     $Query = @"
 {
-    headToHeadMatches(leagueId: "$LeagueId", gameweek: $Gameweek) {
+"@
+    foreach ($Week in $Gameweek) {
+        $Query += @"
+    Gameweek${Week}: headToHeadMatches(leagueId: "$LeagueId", gameweek: $Week) {
         gameweek
         _id
         team1Id
@@ -37,10 +30,16 @@ function Get-DraftHeadToHead {
         team1Score
         team2Score
     }
+
+"@
+    }
+
+    $Query += @"
 }
 "@
 
     $Result = Invoke-ApiQuery -Query $Query -Year $Year
-
-    ConvertTo-DraftObject -InputObject $Result.data.headToHeadMatches -Type 'HeadToHead' -League $League -Gameweek $Gameweek -Year $Year
+    foreach ($Week in $Gameweek) {
+        ConvertTo-DraftObject -InputObject $Result.data."Gameweek$Week" -Type 'HeadToHead' -League $League -Year $Year
+    }
 }

@@ -27,10 +27,13 @@ function ConvertTo-DraftObject {
     )
     switch ($Type) {
         'HeadToHead' {
-            $Points = Get-DraftLeaguePoints -League $League -Gameweek $Gameweek -Year $Year
+            if ($InputObject.gameweek -eq $CurrentGameweek) {
+                $CurrentGameweek = $Script:BootstrapStatic.events.Where{$_.is_current}.id
+                $CurrentWeekPoints = Get-DraftLeaguePoints -League $League -Gameweek $CurrentGameweek -Year $Year
+            }
         }
         'LeagueTable' {
-            $HeadToHead = Get-DraftHeadToHead -League $League -Year $Year
+            $HeadToHead = Get-DraftHeadToHead -League $League -Year $Year -Gameweek $Gameweek
         }
         'Trade' {}
         'Team' {
@@ -81,8 +84,10 @@ function ConvertTo-DraftObject {
             'HeadToHead' {
                 $Hashtable['Manager1'] = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['Team1Id']]
                 $Hashtable['Manager2'] = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['Team2Id']]
-                $Hashtable['Team1score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager1']}."Gameweek${Gameweek}points"
-                $Hashtable['Team2score'] = $Points.Where{$_.Manager -eq $Hashtable['Manager2']}."Gameweek${Gameweek}points"
+                if ($Object.gameweek -eq $CurrentGameweek) {
+                    $Hashtable['Team1score'] = $CurrentWeekPoints.Where{$_.Manager -eq $Hashtable['Manager1']}."Gameweek${$CurrentGameweek}points"
+                    $Hashtable['Team2score'] = $CurrentWeekPoints.Where{$_.Manager -eq $Hashtable['Manager2']}."Gameweek${$CurrentGameweek}points"
+                }
             }
             'LeagueTable' {
                 $Hashtable['Played'] = [int]$Hashtable['headToHeadData'].played

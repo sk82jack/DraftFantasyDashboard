@@ -40,7 +40,7 @@ function Get-DraftLeagueTable {
 }
 "@
     $Result = Invoke-ApiQuery -Query $Query -Year $Year
-    $Output = ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'LeagueTable' -League $League -Year $Year
+    $Output = ConvertTo-DraftObject -InputObject $Result.data.leagueTeams -Type 'LeagueTable' -League $League -Year $Year -Gameweek $Gameweek
     $Output | Sort-Object -Property Points, TotalScore -Descending | Foreach-Object -Begin {$i = 1} {
         $_.Position = $i++
         $_

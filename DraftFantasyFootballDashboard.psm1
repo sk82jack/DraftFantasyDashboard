@@ -48,7 +48,7 @@ function Start-Dashboard {
     $Schedule15 = New-UDEndpointSchedule -Every 15 -Minute
     $Schedule60 = New-UDEndpointSchedule -Every 1 -Hour
 
-    $BaseEndpoint = New-UDEndpoint -Schedule $Schedule2 -Endpoint {
+    $BaseSchedEndpoint = New-UDEndpoint -Schedule $Schedule2 -Endpoint {
         [int]$Gameweek = (Get-FplBootstrapStatic).events.Where{$_.is_current}.id
         $Cache:CurrentGameweek = $Gameweek
         if ($Cache:CurrentGameweek -gt 38) {
@@ -76,7 +76,7 @@ function Start-Dashboard {
             }
         }
     }
-    $H2HEndpoint = New-UDEndpoint -Schedule $Schedule15 -Endpoint {
+    $H2HSchedEndpoint = New-UDEndpoint -Schedule $Schedule15 -Endpoint {
         if ($Cache:InGame) {
             $Cache:H2H = @{
                 'Prem'     = Get-DraftHeadToHead -League 'Prem'
@@ -88,7 +88,7 @@ function Start-Dashboard {
             }
         }
     }
-    $TablesEndpoint = New-UDEndpoint -Schedule $Schedule15 -Endpoint {
+    $TablesSchedEndpoint = New-UDEndpoint -Schedule $Schedule15 -Endpoint {
         if ($Cache:InGame) {
             $Cache:Tables = @{
                 'Prem'     = Get-DraftLeagueTable -League 'Prem'
@@ -100,7 +100,7 @@ function Start-Dashboard {
             }
         }
     }
-    $HourlyEndpoint = New-UDEndpoint -Schedule $Schedule60 -Endpoint {
+    $HourlySchedEndpoint = New-UDEndpoint -Schedule $Schedule60 -Endpoint {
         $Cache:Charter = Invoke-RestMethod -Uri "https://docs.google.com/document/d/e/2PACX-1vQRuKOpjpCzrxiGALWK6NaxtCcHgbewS3gnFoVB3miKn9DNO52SC5baZ2PQko6Ngo1Mf_wWeKGLuLDv/pub?embedded=true"
         $Cache:Teams = @{
             'Prem'     = Get-DraftTeam -League 'Prem'
@@ -161,7 +161,7 @@ function Start-Dashboard {
         }
     }
 
-    $WeeklyScoresEndpoint = New-UDEndpoint -Url "/weeklyscores/:league" -Method "GET" -Endpoint {
+    $WeeklyScoresApiEndpoint = New-UDEndpoint -Url "/weeklyscores/:league" -Method "GET" -Endpoint {
         param($League)
         $Output = foreach ($Week in 1..$Cache:CurrentGameweek) {
             $WeekScores = @{}
@@ -178,7 +178,7 @@ function Start-Dashboard {
         $Output | ConvertTo-Csv | Out-String
     }
 
-    $AllLeagueTeamsEndpoint = New-UDEndpoint -Url "/teams" -Method "GET" -Endpoint {
+    $AllLeagueTeamsApiEndpoint = New-UDEndpoint -Url "/teams" -Method "GET" -Endpoint {
         $Output = foreach ($LeagueName in $Cache:Teams.Keys) {
             foreach ($Team in $Cache:Teams[$LeagueName]) {
                 foreach ($Player in $Team.Players) {
@@ -197,7 +197,7 @@ function Start-Dashboard {
         $Output | ConvertTo-Csv | Out-String
     }
 
-    $TableEndpoint = New-UDEndpoint -Url "/table/:league" -Method "GET" -Endpoint {
+    $TableApiEndpoint = New-UDEndpoint -Url "/table/:league" -Method "GET" -Endpoint {
         param($League)
         $Output = $Cache:Tables.$League | Select-Object 'Manager', 'Points'
 
@@ -206,7 +206,7 @@ function Start-Dashboard {
         $Output | ConvertTo-Csv | Out-String
     }
 
-    $TradesEndpoint = New-UDEndpoint -Url "/trades/:league/:count" -Method "GET" -Endpoint {
+    $TradesApiEndpoint = New-UDEndpoint -Url "/trades/:league/:count" -Method "GET" -Endpoint {
         param(
             $League,
             $Count = 50
@@ -239,14 +239,14 @@ function Start-Dashboard {
     }
 
     $Endpoints = @(
-        $BaseEndpoint
-        $H2HEndpoint
-        $TablesEndpoint
-        $HourlyEndpoint
-        $WeeklyScoresEndpoint
-        $AllLeagueTeamsEndpoint
-        $TableEndpoint
-        $TradesEndpoint
+        $BaseSchedEndpoint
+        $H2HSchedEndpoint
+        $TablesSchedEndpoint
+        $HourlySchedEndpoint
+        $WeeklyScoresApiEndpoint
+        $AllLeagueTeamsApiEndpoint
+        $TableApiEndpoint
+        $TradesApiEndpoint
     )
 
     $StartDashboardSplat = @{

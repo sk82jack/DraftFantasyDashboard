@@ -206,6 +206,21 @@ function Start-Dashboard {
         $Output | ConvertTo-Csv | Out-String
     }
 
+    $H2HApiEndpoint = New-UDEndpoint -Url "/h2h/:league/:gameweek" -Method "GET" -Endpoint {
+        param(
+            $League,
+            $Gameweek
+        )
+        $Output = if ($Gameweek) {
+            $Cache:H2H.$League.Where{$_.Gameweek -eq $Gameweek}
+        }
+        else {
+            $Cache:H2H.$League
+        }
+
+        $Output | ConvertTo-Json -Depth 99
+    }
+
     $TradesApiEndpoint = New-UDEndpoint -Url "/trades/:league/:count" -Method "GET" -Endpoint {
         param(
             $League,
@@ -246,6 +261,7 @@ function Start-Dashboard {
         $WeeklyScoresApiEndpoint
         $AllLeagueTeamsApiEndpoint
         $TableApiEndpoint
+        $H2HApiEndpoint
         $TradesApiEndpoint
     )
 

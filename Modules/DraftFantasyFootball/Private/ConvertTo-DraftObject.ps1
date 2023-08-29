@@ -243,7 +243,10 @@ function ConvertTo-DraftObject {
                 $Manager = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable.Id]
                 $Hashtable['Manager'] = $Manager
                 foreach ($Week in $Gameweek) {
-                    if (-not ($Script:BootstrapStatic.events.Where{$_.id -eq $Week}.finished -or $Hashtable["Gameweek$($Week)history"].finalLineup)) {
+                    if ($Hashtable["Gameweek$($Week)history"].finalLineup) {
+                        $Hashtable["Gameweek$($Week)Lineup"] = Assert-FplLineup -Lineup $Hashtable["Gameweek$($Week)history"].finalLineup
+                    }
+                    elseif (-not ($Script:BootstrapStatic.events.Where{$_.id -eq $Week}.finished -or $Hashtable["Gameweek$($Week)history"].finalLineup)) {
                         $AutoSubParams = @{
                             LineupIds     = $Hashtable["Gameweek$($Week)history"].lineup
                             SubIds        = $Hashtable["Gameweek$($Week)history"].subs

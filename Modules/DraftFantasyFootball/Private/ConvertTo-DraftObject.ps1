@@ -84,10 +84,19 @@ function ConvertTo-DraftObject {
             'HeadToHead' {
                 $Hashtable['Manager1'] = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['Team1Id']]
                 $Hashtable['Manager2'] = $Script:ConfigData[$Year][$League]['Teams'][$Hashtable['Team2Id']]
+
                 if ($Object.gameweek -eq $CurrentGameweek) {
                     $Hashtable['Team1score'] = $CurrentWeekPoints.Where{$_.Manager -eq $Hashtable['Manager1']}."Gameweek${$CurrentGameweek}points"
                     $Hashtable['Team2score'] = $CurrentWeekPoints.Where{$_.Manager -eq $Hashtable['Manager2']}."Gameweek${$CurrentGameweek}points"
                 }
+
+                if ($Hashtable['team1'].gameweekHistory.finalLineup) {
+                    $Hashtable["Team1Lineup"] = Assert-FplLineup -Lineup $Hashtable['team1'].gameweekHistory.finalLineup
+                    $Hashtable["Team2Lineup"] = Assert-FplLineup -Lineup $Hashtable['team2'].gameweekHistory.finalLineup
+                }
+
+                $Hashtable.Remove('team1')
+                $Hashtable.Remove('team2')
             }
             'LeagueTable' {
                 $Hashtable['Played'] = [int]$Hashtable['headToHeadData'].played

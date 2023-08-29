@@ -29,6 +29,16 @@ function Get-DraftHeadToHead {
         team2Id
         team1Score
         team2Score
+        team1 {
+            gameweekHistory(gameweek: $Week) {
+                finalLineup
+            }
+        }
+        team2 {
+            gameweekHistory(gameweek: $Week) {
+                finalLineup
+            }
+        }
     }
 
 "@

@@ -3,11 +3,7 @@ function Start-Dashboard {
     param (
         [Parameter()]
         [int]
-        $Port = 8585,
-
-        [Parameter()]
-        [string]
-        $CertificatePath
+        $Port = 8585
     )
     $Pages = @()
     $Pages += . (Join-Path $PSScriptRoot "Pages/fixtures.ps1")
@@ -272,9 +268,7 @@ function Start-Dashboard {
         EndPoint        = $Endpoints
         PublishedFolder = $ProfilePics
     }
-    if ($CertificatePath) {
-        $StartDashboardSplat['Certificate'] = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromCertFile($CertificatePath)
-    }
+
     try {
         Start-UDDashboard @StartDashboardSplat
     }

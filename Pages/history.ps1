@@ -2,6 +2,40 @@ New-UDPage -Name 'History' -Endpoint {
     New-UDRow -Columns {
         New-UDColumn -SmallSize 12 -MediumSize 12 -LargeSize 8 -LargeOffset 2 -Endpoint {
             New-UDCollapsible -Items {
+                New-UDCollapsibleItem -Title '2023 League Standings' -FontColor 'White' -Content {
+                    New-UDTabContainer -Tabs {
+                        New-UDTab -Text 'Prem' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'Prem' -DataType 'Standings' -Year 2023 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                        New-UDTab -Text 'Freak' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'Freak' -DataType 'Standings' -Year 2023 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                        New-UDTab -Text 'Vermin' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'Vermin' -DataType 'Standings' -Year 2023 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                        New-UDTab -Text 'Plankton' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'Plankton' -DataType 'Standings' -Year 2023 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                        New-UDTab -Text 'AlgaeN' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'AlgaeN' -DataType 'Standings' -Year 2023 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                        New-UDTab -Text 'AlgaeS' -Content {
+                            New-UDTable -Headers @('Pos', 'Manager', 'P', 'W', 'D', 'L', 'S', 'Pts') -Style 'highlight' -Content {
+                                Import-DraftData -League 'AlgaeS' -DataType 'Standings' -Year 2023 | Out-UDTableData -Property @('Position', 'Manager', 'Played', 'Won', 'Drawn', 'Lost', 'Totalscore', 'Points')
+                            }
+                        }
+                    }
+                }
                 New-UDCollapsibleItem -Title '2022 League Standings' -FontColor 'White' -Content {
                     New-UDTabContainer -Tabs {
                         New-UDTab -Text 'Prem' -Content {
@@ -118,7 +152,7 @@ New-UDPage -Name 'History' -Endpoint {
                             }
 
                             foreach ($League in $Leagues.Keys) {
-                                $Round1CurrentPick = $Leagues[$League].Where{$_.Round -eq 1 -and $_.PickNo -eq $Pick}
+                                $Round1CurrentPick = $Leagues[$League].Where{ $_.Round -eq 1 -and $_.PickNo -eq $Pick }
 
                                 if (-not $Round1CurrentPick) {
                                     continue
@@ -132,7 +166,7 @@ New-UDPage -Name 'History' -Endpoint {
                         }
 
                         foreach ($Object in $ChartData) {
-                            $ObjectStats = $Object.psobject.Properties.Where{$_.Name -ne 'Pick'}.Value | Measure-Object -Sum
+                            $ObjectStats = $Object.psobject.Properties.Where{ $_.Name -ne 'Pick' }.Value | Measure-Object -Sum
                             $Object.Average = $ObjectStats.Sum / $ObjectStats.Count
                         }
 
@@ -144,12 +178,12 @@ New-UDPage -Name 'History' -Endpoint {
                                     'Vermin' { 'Red' }
                                     'Plankton' { 'Purple' }
                                 }
-                                $DataSet = New-UdChartDataset -DataProperty $League -AdditionalOptions @{fill = $false} -Label $League -BackgroundColor $Colour -BorderColor $Colour
+                                $DataSet = New-UdChartDataset -DataProperty $League -AdditionalOptions @{fill = $false } -Label $League -BackgroundColor $Colour -BorderColor $Colour
                                 $DataSet.hidden = $true
                                 $DataSet
                             }
 
-                            New-UdChartDataset -DataProperty 'Average' -AdditionalOptions @{fill = $false} -Label 'Average' -BackgroundColor 'Blue' -BorderColor 'Blue'
+                            New-UdChartDataset -DataProperty 'Average' -AdditionalOptions @{fill = $false } -Label 'Average' -BackgroundColor 'Blue' -BorderColor 'Blue'
                         )
                     }
                 }

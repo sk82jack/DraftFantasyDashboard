@@ -1,0 +1,753 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Id">H6J4q2DkAGNJan2jC</S>
+      <Obj N="Gameweekhistory" RefId="1">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="2">
+            <TN RefId="1">
+              <T>System.Object[]</T>
+              <T>System.Array</T>
+              <T>System.Object</T>
+            </TN>
+            <LST>
+              <S>cEra7GFMLs53iJn9T</S>
+              <S>ZjrwbZmbYcoTvspNP</S>
+              <S>xCd6mRaBcY9oGsttm</S>
+              <S>Y6F6kt3WSsMzDu9nx</S>
+              <S>4ygNeYxcwGTGytkst</S>
+              <S>tdxRmmiys5Nkxkmou</S>
+              <S>J3Cfgvn9ZkPSbopvo</S>
+              <S>3DtdskqMCnFamxytF</S>
+              <S>85Y2zd5Pp3qmDAQWW</S>
+              <S>KS7szm87Lf5WJ2x2G</S>
+              <S>ZJgr5TnHspCvuGu3P</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="3">
+            <TNRef RefId="1" />
+            <LST>
+              <S>RTybphsLv8Gn7whYX</S>
+              <S>An73QRNxPZhhYERF9</S>
+              <S>p5xDRB2MKWsevvvvd</S>
+              <S>nqgaFTLAs5iWc8J8S</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">52</I64>
+      <Obj N="Headtoheaddata" RefId="4">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">0</I64>
+          <I64 N="headToHeadLeaguePoints">81</I64>
+          <I64 N="lost">11</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1351</I64>
+          <I64 N="won">27</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Don't Cry For Me Dele Alli</S>
+      <I64 N="Totalscore">1573</I64>
+      <S N="Userid">ErN6d5bXbiQvLt2J7</S>
+      <I64 N="Weeklyscore">52</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">27</I64>
+      <I64 N="Drawn">0</I64>
+      <I64 N="Lost">11</I64>
+      <I64 N="Points">81</I64>
+      <I64 N="TotalScoreAgainst">1351</I64>
+      <S N="Manager">Lee Waller</S>
+      <I32 N="Position">1</I32>
+      <B N="Promoted">true</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="5">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">iDn25wf2hZpPBzeox</S>
+      <Obj N="Gameweekhistory" RefId="6">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="7">
+            <TNRef RefId="1" />
+            <LST>
+              <S>wDRBWAhBJhjhB39M9</S>
+              <S>A3ZKrakeXuRytRHzt</S>
+              <S>qCiXa9QfPTpxbYgRi</S>
+              <S>DffAf3nFN6zt6T45j</S>
+              <S>7v4fDjKfSXqsjFDWR</S>
+              <S>bqmZNg3cm4tThwFNp</S>
+              <S>gY3uWJp8iEPiby4CL</S>
+              <S>2He75LbJq3pkuzLLN</S>
+              <S>xFz9P3zetCep5TCEw</S>
+              <S>EazGYBxJN8Q7FmzXo</S>
+              <S>YS8BEGrvBHkC7mdEB</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="8">
+            <TNRef RefId="1" />
+            <LST>
+              <S>ySNBZEkf2CjjxfHBL</S>
+              <S>px42HjtyLfxaWc4EL</S>
+              <S>egixytdEmRvQnM4x4</S>
+              <S>SHupGJ8CNLhSJQDQu</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">68</I64>
+      <Obj N="Headtoheaddata" RefId="9">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">0</I64>
+          <I64 N="headToHeadLeaguePoints">72</I64>
+          <I64 N="lost">14</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1423</I64>
+          <I64 N="won">24</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Farcelona</S>
+      <I64 N="Totalscore">1505</I64>
+      <S N="Userid">d3NG7f4RovG9SRKyN</S>
+      <I64 N="Weeklyscore">68</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">24</I64>
+      <I64 N="Drawn">0</I64>
+      <I64 N="Lost">14</I64>
+      <I64 N="Points">72</I64>
+      <I64 N="TotalScoreAgainst">1423</I64>
+      <S N="Manager">Jonny Mills</S>
+      <I32 N="Position">2</I32>
+      <B N="Promoted">true</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">CfQN3LphqpMyosXNc</S>
+      <Obj N="Gameweekhistory" RefId="11">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="12">
+            <TNRef RefId="1" />
+            <LST>
+              <S>ZuSKFK3DQfJgRLuYH</S>
+              <S>DSrfoSGaTFXshuFq4</S>
+              <S>GY9Re32YWQM5TfFSd</S>
+              <S>wp44iMnkSp9CzurP7</S>
+              <S>C8cHCA5YJmzeo5NRN</S>
+              <S>Yn28x7rcPjzp9WMKF</S>
+              <S>8BP9wtMg3AAKmRy4g</S>
+              <S>RoqsMsyMahidwxvhW</S>
+              <S>RRnHLY6L52db7fftM</S>
+              <S>4AMADXTyk222FSnTP</S>
+              <S>uPAkjP8QkR2zBp44G</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="13">
+            <TNRef RefId="1" />
+            <LST>
+              <S>S2qXLb8RMj8LLWkjX</S>
+              <S>Xq8ik8dDLHXFtrys6</S>
+              <S>yFS9AKeRkpcEDjEDp</S>
+              <S>RaSg3umPoSSfmHkx5</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">15</I64>
+      <Obj N="Headtoheaddata" RefId="14">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">1</I64>
+          <I64 N="headToHeadLeaguePoints">70</I64>
+          <I64 N="lost">14</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1300</I64>
+          <I64 N="won">23</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Jaglas XL</S>
+      <I64 N="Totalscore">1370</I64>
+      <S N="Userid">kCKus9AXGujKHb8k7</S>
+      <I64 N="Weeklyscore">15</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">23</I64>
+      <I64 N="Drawn">1</I64>
+      <I64 N="Lost">14</I64>
+      <I64 N="Points">70</I64>
+      <I64 N="TotalScoreAgainst">1300</I64>
+      <S N="Manager">George Smyth</S>
+      <I32 N="Position">3</I32>
+      <B N="Promoted">true</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="15">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">XnjJ5F7PfrNb7BwMX</S>
+      <Obj N="Gameweekhistory" RefId="16">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="17">
+            <TNRef RefId="1" />
+            <LST>
+              <S>NaRuB5myMWn874pKo</S>
+              <S>nZ2SEJ5mvYA2BqP47</S>
+              <S>hEqZ3fcBiXzM5gDmD</S>
+              <S>CkbDSENossBsupijy</S>
+              <S>BuvnY7L8JwZjngLTt</S>
+              <S>BFiwbDeNLRmmH7nTQ</S>
+              <S>7AkKbp3YG86HmKRF9</S>
+              <S>kgNPQjhjcFbmtDHFB</S>
+              <S>3W63yJrmXLwjKkeSt</S>
+              <S>QhMiTeMN8SM9wQuGz</S>
+              <S>3WsPowmfPjZPWD4jw</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="18">
+            <TNRef RefId="1" />
+            <LST>
+              <S>pFFbtwbifg2muTzGP</S>
+              <S>gSEYEoMjpPL9sRLPa</S>
+              <S>LmwenHR5RvoHAbnRp</S>
+              <S>MfutKQr96Lgxwk65W</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">36</I64>
+      <Obj N="Headtoheaddata" RefId="19">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">2</I64>
+          <I64 N="headToHeadLeaguePoints">68</I64>
+          <I64 N="lost">14</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1386</I64>
+          <I64 N="won">22</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Hierarchy Pawns ??</S>
+      <I64 N="Totalscore">1458</I64>
+      <S N="Userid">T9y9Wt3LscXWLEfmK</S>
+      <I64 N="Weeklyscore">36</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">22</I64>
+      <I64 N="Drawn">2</I64>
+      <I64 N="Lost">14</I64>
+      <I64 N="Points">68</I64>
+      <I64 N="TotalScoreAgainst">1386</I64>
+      <S N="Manager">Daniel Louki</S>
+      <I32 N="Position">4</I32>
+      <B N="Promoted">true</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">S3rZQS6WBPgFTYRWE</S>
+      <Obj N="Gameweekhistory" RefId="21">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="22">
+            <TNRef RefId="1" />
+            <LST>
+              <S>bbMsovrbX7toaFCFw</S>
+              <S>PThqamRtjBizb8KnT</S>
+              <S>LhQvwukmJuvDHWMeR</S>
+              <S>JDBPigyAYqaLMoCfx</S>
+              <S>BkDhKAeTG7SG5WWoe</S>
+              <S>2Cd38cg43NXDTje63</S>
+              <S>NKFkdbvmFXEmEMoE8</S>
+              <S>iitoHtDBsbkNLoqHZ</S>
+              <S>dhLxaoPTiPpTHKQvz</S>
+              <S>LTH4SmBuanFxSwgcj</S>
+              <S>6vjCTes534rNNvHDB</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="23">
+            <TNRef RefId="1" />
+            <LST>
+              <S>q8oQA7bHWB9t9MDgB</S>
+              <S>rfFutgr4MzhCMKgc6</S>
+              <S>8fDNPYN8bpctFtQYv</S>
+              <S>842k7LjtT3gPKd6YN</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">40</I64>
+      <Obj N="Headtoheaddata" RefId="24">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">1</I64>
+          <I64 N="headToHeadLeaguePoints">64</I64>
+          <I64 N="lost">16</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1359</I64>
+          <I64 N="won">21</I64>
+        </MS>
+      </Obj>
+      <S N="Name">HaalandGlobetrotters</S>
+      <I64 N="Totalscore">1554</I64>
+      <S N="Userid">8g3v9YgYAn7BHLCjH</S>
+      <I64 N="Weeklyscore">40</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">21</I64>
+      <I64 N="Drawn">1</I64>
+      <I64 N="Lost">16</I64>
+      <I64 N="Points">64</I64>
+      <I64 N="TotalScoreAgainst">1359</I64>
+      <S N="Manager">Deni Bosnjak</S>
+      <I32 N="Position">5</I32>
+      <B N="Promoted">true</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="25">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">EuAMPNgeoa5HpPBej</S>
+      <Obj N="Gameweekhistory" RefId="26">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="27">
+            <TNRef RefId="1" />
+            <LST>
+              <S>qbcCZe8r6nKP5K5DA</S>
+              <S>2nvTmcZAtLbMZwbLr</S>
+              <S>pAzkPXjE8AfqmB5h9</S>
+              <S>2BMAmXYBBZfBQLWQT</S>
+              <S>gTgjChgnHXe24zfop</S>
+              <S>pTZeo4MpK6BnweFeN</S>
+              <S>3YHdAFRxe77oPmbGA</S>
+              <S>NYWXtQk67NvfNaKJ6</S>
+              <S>PZ6AfhMYE8Ya7sxki</S>
+              <S>BpFgKLAGHajXmTzaN</S>
+              <S>vuhkmuP9EjKodfhwf</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="28">
+            <TNRef RefId="1" />
+            <LST>
+              <S>oyF2emfQ4Qo4ub2MY</S>
+              <S>Wgfp33pxKK9uXHHhn</S>
+              <S>yw6BxjmYTvvT4EsSf</S>
+              <S>n78xHqgdys7gy9eWf</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">38</I64>
+      <Obj N="Headtoheaddata" RefId="29">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">0</I64>
+          <I64 N="headToHeadLeaguePoints">60</I64>
+          <I64 N="lost">18</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1337</I64>
+          <I64 N="won">20</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Paulo Ferreira</S>
+      <I64 N="Totalscore">1560</I64>
+      <S N="Userid">aiEbdn3y5bBEcYDBZ</S>
+      <I64 N="Weeklyscore">38</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">20</I64>
+      <I64 N="Drawn">0</I64>
+      <I64 N="Lost">18</I64>
+      <I64 N="Points">60</I64>
+      <I64 N="TotalScoreAgainst">1337</I64>
+      <S N="Manager">Eddie Lyne</S>
+      <I32 N="Position">6</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="30">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">QJBak8uytx4XqPCzv</S>
+      <Obj N="Gameweekhistory" RefId="31">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="32">
+            <TNRef RefId="1" />
+            <LST>
+              <S>DyHE25p5zNnScuBAB</S>
+              <S>v6F3NhjgmiMBHKXLb</S>
+              <S>H2pvWccSW2JhPfr5K</S>
+              <S>5Rfg7K6aTMXG6wjQC</S>
+              <S>tF7hSjESsvrRhBCCz</S>
+              <S>7haghQyeYLoxakcsJ</S>
+              <S>TE2oh8vDYawdYHRbE</S>
+              <S>KtHa2w2hghdJ2pieR</S>
+              <S>PXFwiBZ9zd4dQMAyT</S>
+              <S>RsfmgkxY77ryACwbS</S>
+              <S>MuJyKAgbL9DfFEWyQ</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="33">
+            <TNRef RefId="1" />
+            <LST>
+              <S>LywCABWjhmoeX9Hg5</S>
+              <S>z56PwipWhmpGQaKie</S>
+              <S>CNc23v53TY6ck4cZJ</S>
+              <S>NHditsEs5LgMG7wMa</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">17</I64>
+      <Obj N="Headtoheaddata" RefId="34">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">1</I64>
+          <I64 N="headToHeadLeaguePoints">58</I64>
+          <I64 N="lost">18</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1345</I64>
+          <I64 N="won">19</I64>
+        </MS>
+      </Obj>
+      <S N="Name">The London Londoners</S>
+      <I64 N="Totalscore">1354</I64>
+      <S N="Userid">ufAruvPx57r9KuQe2</S>
+      <I64 N="Weeklyscore">17</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">19</I64>
+      <I64 N="Drawn">1</I64>
+      <I64 N="Lost">18</I64>
+      <I64 N="Points">58</I64>
+      <I64 N="TotalScoreAgainst">1345</I64>
+      <S N="Manager">Shane Meskell</S>
+      <I32 N="Position">7</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">false</B>
+    </MS>
+  </Obj>
+  <Obj RefId="35">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">cy22rHcRe23ebxzqu</S>
+      <Obj N="Gameweekhistory" RefId="36">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="37">
+            <TNRef RefId="1" />
+            <LST>
+              <S>6xP93deqcTwpbqH6T</S>
+              <S>ff5jPhDuakgy9yy33</S>
+              <S>NZ7cYWMKBPjDThMhs</S>
+              <S>r4Daba7nc5hsLjkhJ</S>
+              <S>Z9JxTvwJEsf8Fadzw</S>
+              <S>TqFmkWixYtPGsZck8</S>
+              <S>xN2sNCoM3EZ6Mk5eg</S>
+              <S>WSWGHYz5haGWwHuu6</S>
+              <S>LGLLh5S87Wd7K57uB</S>
+              <S>FL54qRA3pe7etAnie</S>
+              <S>6NBAxPhP8pwEg79H8</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="38">
+            <TNRef RefId="1" />
+            <LST>
+              <S>2scdkXi9YYNGFBc9n</S>
+              <S>oSwtqDvWDjvhKTzmq</S>
+              <S>Ww6vv9P49sbTP52Rq</S>
+              <S>7nf5H9ysaab5AEQZh</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">25</I64>
+      <Obj N="Headtoheaddata" RefId="39">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">1</I64>
+          <I64 N="headToHeadLeaguePoints">52</I64>
+          <I64 N="lost">20</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1360</I64>
+          <I64 N="won">17</I64>
+        </MS>
+      </Obj>
+      <S N="Name">He's only picked 4 players!</S>
+      <I64 N="Totalscore">1285</I64>
+      <S N="Userid">RXYTLotwDNs8mL7si</S>
+      <I64 N="Weeklyscore">25</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">17</I64>
+      <I64 N="Drawn">1</I64>
+      <I64 N="Lost">20</I64>
+      <I64 N="Points">52</I64>
+      <I64 N="TotalScoreAgainst">1360</I64>
+      <S N="Manager">Craig Farrell</S>
+      <I32 N="Position">8</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">true</B>
+    </MS>
+  </Obj>
+  <Obj RefId="40">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">uNERxaJNhtgMvNC6N</S>
+      <Obj N="Gameweekhistory" RefId="41">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="42">
+            <TNRef RefId="1" />
+            <LST>
+              <S>4qgT3xWsqb4Wnq2aN</S>
+              <S>6XEYZcmzy6izfraGr</S>
+              <S>8vYsDuAQAtXRgPEMD</S>
+              <S>NyxvmA82Heyz2RjWp</S>
+              <S>Qy6wWXjWaLzBpXXsT</S>
+              <S>TkCmHkTN9TWc2aZBT</S>
+              <S>YcJvA57JztbtdxXAi</S>
+              <S>iDD9abjrzxTx744mA</S>
+              <S>oPhG96nQKYFjcZ3ci</S>
+              <S>s9BMdrrcHoZESSGEM</S>
+              <S>yBzx9LMgX42ksjSbc</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="43">
+            <TNRef RefId="1" />
+            <LST>
+              <S>JwLafpstvmvpia8XN</S>
+              <S>aTe6PYfrNWtKpnSMD</S>
+              <S>xgNojrbwLBdd43RNE</S>
+              <S>Hzy3KNYzQAHh6GmSF</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">36</I64>
+      <Obj N="Headtoheaddata" RefId="44">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">1</I64>
+          <I64 N="headToHeadLeaguePoints">46</I64>
+          <I64 N="lost">22</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1398</I64>
+          <I64 N="won">15</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Captain Loser Lascelles</S>
+      <I64 N="Totalscore">1281</I64>
+      <S N="Userid">AaDbRhMy66SAq7TPg</S>
+      <I64 N="Weeklyscore">36</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">15</I64>
+      <I64 N="Drawn">1</I64>
+      <I64 N="Lost">22</I64>
+      <I64 N="Points">46</I64>
+      <I64 N="TotalScoreAgainst">1398</I64>
+      <S N="Manager">Robert Ferguson</S>
+      <I32 N="Position">9</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">true</B>
+    </MS>
+  </Obj>
+  <Obj RefId="45">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">PK9Y9ZXdmbbarivhD</S>
+      <Obj N="Gameweekhistory" RefId="46">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="47">
+            <TNRef RefId="1" />
+            <LST>
+              <S>GNvDh7rdrj9xm6KX6</S>
+              <S>Xdn3tfedLAevfdcaC</S>
+              <S>PQ2gTNgRQGATSQCMR</S>
+              <S>9ng3vfhoSEa3hagpJ</S>
+              <S>LZPr8kt4nG6kA8tM2</S>
+              <S>ba92Z38Lmb2mKK5H2</S>
+              <S>6Acro3bWmEDXgf6AQ</S>
+              <S>MZ35FR5jAKDX6oNHk</S>
+              <S>WRjfSha2H2NQYnfan</S>
+              <S>R6KakCdsnGdNFPEsR</S>
+              <S>LFYvT4uATcx9A976v</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="48">
+            <TNRef RefId="1" />
+            <LST>
+              <S>nvN8QncLonpjybufD</S>
+              <S>3mJf6yxnr7E3kn8CG</S>
+              <S>2TuxeRmF8aS7brew2</S>
+              <S>4oefAEdxjY4XZp7nx</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">54</I64>
+      <Obj N="Headtoheaddata" RefId="49">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">2</I64>
+          <I64 N="headToHeadLeaguePoints">44</I64>
+          <I64 N="lost">22</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1331</I64>
+          <I64 N="won">14</I64>
+        </MS>
+      </Obj>
+      <S N="Name">Fuchs Mee Ings Niasse</S>
+      <I64 N="Totalscore">1258</I64>
+      <S N="Userid">uGtCwcuhbctj7Gyiw</S>
+      <I64 N="Weeklyscore">54</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">14</I64>
+      <I64 N="Drawn">2</I64>
+      <I64 N="Lost">22</I64>
+      <I64 N="Points">44</I64>
+      <I64 N="TotalScoreAgainst">1331</I64>
+      <S N="Manager">Aidan Brown</S>
+      <I32 N="Position">10</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">true</B>
+    </MS>
+  </Obj>
+  <Obj RefId="50">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">KpyiniHBmcbKNie3M</S>
+      <Obj N="Gameweekhistory" RefId="51">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="52">
+            <TNRef RefId="1" />
+            <LST>
+              <S>3bjZvyHBvMHQviEgm</S>
+              <S>53LPiXgftZ9WePxy9</S>
+              <S>5Tf7RYjg7K8jogf4m</S>
+              <S>8GTkmPhFCsByGgqvc</S>
+              <S>RE8vXDd5MFiQKaymJ</S>
+              <S>ZM535wjhwSLoYdrr6</S>
+              <S>b34nabC5Nz8okyfn6</S>
+              <S>dowi8rRXqgxjMYsu8</S>
+              <S>ey3RuSXQWePXZ2NfY</S>
+              <S>gXX3PG8N9EiykdFsW</S>
+              <S>bRExxMhomvFWtcqzL</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="53">
+            <TNRef RefId="1" />
+            <LST>
+              <S>de9q4FMJqczjqPX3W</S>
+              <S>BK6AFuzvB8NqLhB8m</S>
+              <S>7jFCePS8yH2ii2RnM</S>
+              <S>sgYFcyX4CeGD4wqoQ</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">31</I64>
+      <Obj N="Headtoheaddata" RefId="54">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">2</I64>
+          <I64 N="headToHeadLeaguePoints">35</I64>
+          <I64 N="lost">25</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1424</I64>
+          <I64 N="won">11</I64>
+        </MS>
+      </Obj>
+      <S N="Name">RockyRosicky</S>
+      <I64 N="Totalscore">1236</I64>
+      <S N="Userid">mrfTMLDBFXGhdNequ</S>
+      <I64 N="Weeklyscore">31</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">11</I64>
+      <I64 N="Drawn">2</I64>
+      <I64 N="Lost">25</I64>
+      <I64 N="Points">35</I64>
+      <I64 N="TotalScoreAgainst">1424</I64>
+      <S N="Manager">James Lowenthal</S>
+      <I32 N="Position">11</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">true</B>
+    </MS>
+  </Obj>
+  <Obj RefId="55">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Id">P4HqZn33udE6MC3Cz</S>
+      <Obj N="Gameweekhistory" RefId="56">
+        <TNRef RefId="0" />
+        <MS>
+          <Obj N="lineup" RefId="57">
+            <TNRef RefId="1" />
+            <LST>
+              <S>taeHWiNMCdfk93xne</S>
+              <S>aQ642xLKuEEiuuwJL</S>
+              <S>qveCBsC8mNzw5sdXJ</S>
+              <S>Dhu6ECFvhPtJkmjjp</S>
+              <S>X6SJ9Qmwjd7g6HBt3</S>
+              <S>WbjuGM4xBdT2JyupL</S>
+              <S>PyNHeFYP9uSJ8CEZM</S>
+              <S>soSHW7wFJsNDJfYuD</S>
+              <S>GLxr32mRrPD3x5MLP</S>
+              <S>iJEzg7KZCRCTfuzyc</S>
+              <S>t36ndGD659BkgmvGo</S>
+            </LST>
+          </Obj>
+          <Obj N="subs" RefId="58">
+            <TNRef RefId="1" />
+            <LST>
+              <S>NkfdgNupWNzxWH4BN</S>
+              <S>NYri32Y6EaG26PFAu</S>
+              <S>WQ6wcN2nAp3m4cPmK</S>
+              <S>ZFT9NpYxvRs4CLPXT</S>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <I64 N="Gameweekpoints">40</I64>
+      <Obj N="Headtoheaddata" RefId="59">
+        <TNRef RefId="0" />
+        <MS>
+          <I64 N="drawn">1</I64>
+          <I64 N="headToHeadLeaguePoints">28</I64>
+          <I64 N="lost">28</I64>
+          <I64 N="played">38</I64>
+          <I64 N="totalScoreAgainst">1492</I64>
+          <I64 N="won">9</I64>
+        </MS>
+      </Obj>
+      <S N="Name">One Hit Wanderers</S>
+      <I64 N="Totalscore">1072</I64>
+      <S N="Userid">QoEczu62WNoTuFbbT</S>
+      <I64 N="Weeklyscore">40</I64>
+      <I32 N="Played">38</I32>
+      <I64 N="Won">9</I64>
+      <I64 N="Drawn">1</I64>
+      <I64 N="Lost">28</I64>
+      <I64 N="Points">28</I64>
+      <I64 N="TotalScoreAgainst">1492</I64>
+      <S N="Manager">Adam Waller</S>
+      <I32 N="Position">12</I32>
+      <B N="Promoted">false</B>
+      <B N="Relegated">true</B>
+    </MS>
+  </Obj>
+</Objs>

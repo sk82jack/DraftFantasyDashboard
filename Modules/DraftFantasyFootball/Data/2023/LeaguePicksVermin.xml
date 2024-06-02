@@ -1,0 +1,2525 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="PlayerId">kgNPQjhjcFbmtDHFB</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Haaland</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">188</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">1</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">LhQvwukmJuvDHWMeR</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Salah</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">187</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">2</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">xCd6mRaBcY9oGsttm</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Saka</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">197</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">3</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">ZuWWZ7aZp3uNZRDhd</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Kane</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">4</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">b34nabC5Nz8okyfn6</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Odegaard</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">160</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">5</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="5">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">8vYsDuAQAtXRgPEMD</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">De Bruyne</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">87</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">6</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">r4Daba7nc5hsLjkhJ</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Rashford</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">108</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">7</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="7">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">H2pvWccSW2JhPfr5K</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Fernandes</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">142</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">8</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="8">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">wDRBWAhBJhjhB39M9</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Son Heung-Min</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">188</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">9</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="9">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Yn28x7rcPjzp9WMKF</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Watkins</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">199</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">10</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">wp44iMnkSp9CzurP7</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Martinelli</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">112</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">11</I32>
+      <Db N="Round">1</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="11">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">KtHa2w2hghdJ2pieR</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Alvarez</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">141</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">12</I32>
+      <D N="Round">1</D>
+    </MS>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">bqmZNg3cm4tThwFNp</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Isak</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">149</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">13</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="13">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">3YHdAFRxe77oPmbGA</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Gakpo</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">94</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">14</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">2nvTmcZAtLbMZwbLr</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Havertz</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">165</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">15</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="15">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">2Cd38cg43NXDTje63</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Wilson</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">65</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">16</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="16">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">xN2sNCoM3EZ6Mk5eg</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Darwin</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">123</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">17</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="17">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">MuJyKAgbL9DfFEWyQ</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Hojlund</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">98</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">18</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">z56PwipWhmpGQaKie</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Gabriel Jesus</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">75</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">19</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="19">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">iitoHtDBsbkNLoqHZ</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Raya</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">129</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">20</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">NaRuB5myMWn874pKo</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Alexander-Arnold</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">103</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">21</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="21">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">PThqamRtjBizb8KnT</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Foden</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">199</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">22</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="22">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">JwLafpstvmvpia8XN</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Trippier</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">91</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">23</I32>
+      <Db N="Round">2</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="23">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">7AkKbp3YG86HmKRF9</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Luis Diaz</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">133</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">24</I32>
+      <D N="Round">2</D>
+    </MS>
+  </Obj>
+  <Obj RefId="24">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">MfutKQr96Lgxwk65W</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Grealish</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">44</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">25</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="25">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">hEqZ3fcBiXzM5gDmD</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Maddison</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">108</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">26</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="26">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">of6zPG7HFWodX2QEL</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Ui-jo</S>
+      <S N="PlayerClub">NFO</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">27</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="27">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">C7DMopxBDgdGkFWCa</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Mount</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">23</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">28</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="28">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">aTe6PYfrNWtKpnSMD</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Almiron</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">73</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">29</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="29">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">RE8vXDd5MFiQKaymJ</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">N.Jackson</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">130</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">30</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="30">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">aQ642xLKuEEiuuwJL</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Alisson</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">98</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">31</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="31">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">BpFgKLAGHajXmTzaN</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Diaby</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">132</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">32</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="32">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">qCiXa9QfPTpxbYgRi</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Eze</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">125</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">33</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="33">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">yBzx9LMgX42ksjSbc</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Bowen</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">168</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">34</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="34">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">WiB3nXckNig72YDC2</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Mitoma</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">67</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">35</I32>
+      <Db N="Round">3</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="35">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">nvN8QncLonpjybufD</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Jota</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">103</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">36</I32>
+      <D N="Round">3</D>
+    </MS>
+  </Obj>
+  <Obj RefId="36">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">fccD2rXTzyYiZQmHM</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Mitrovic</S>
+      <S N="PlayerClub">FUL</S>
+      <I64 N="PlayerPoints">1</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">37</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="37">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">EazGYBxJN8Q7FmzXo</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Barnes</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">61</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">38</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="38">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">6xP93deqcTwpbqH6T</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Calvert-Lewin</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">92</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">39</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="39">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">bRExxMhomvFWtcqzL</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Joao Pedro</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">92</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">40</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="40">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">WQ6wcN2nAp3m4cPmK</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Ferguson</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">64</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">41</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="41">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">YS8BEGrvBHkC7mdEB</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Gvardiol</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">111</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">42</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="42">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">9ng3vfhoSEa3hagpJ</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Mbeumo</S>
+      <S N="PlayerClub">BRE</S>
+      <I64 N="PlayerPoints">115</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">43</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="43">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">ZFT9NpYxvRs4CLPXT</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Kulusevski</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">116</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">44</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="44">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">dhLxaoPTiPpTHKQvz</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Solanke</S>
+      <S N="PlayerClub">BOU</S>
+      <I64 N="PlayerPoints">155</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">45</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="45">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">ba92Z38Lmb2mKK5H2</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Wissa</S>
+      <S N="PlayerClub">BRE</S>
+      <I64 N="PlayerPoints">116</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">46</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="46">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">gXX3PG8N9EiykdFsW</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Rice</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">148</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">47</I32>
+      <Db N="Round">4</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="47">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">ZuSKFK3DQfJgRLuYH</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Robertson</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">68</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">48</I32>
+      <D N="Round">4</D>
+    </MS>
+  </Obj>
+  <Obj RefId="48">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">85Y2zd5Pp3qmDAQWW</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Ederson Moraes</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">107</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">49</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="49">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">gSEYEoMjpPL9sRLPa</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">van Dijk</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">109</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">50</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="50">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">C8cHCA5YJmzeo5NRN</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">White</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">168</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">51</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="51">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">c26BsTx8pDCCxok95</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Estupinan</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">50</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">52</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="52">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">CkbDSENossBsupijy</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Gabriel</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">141</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">53</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="53">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">AteRY5vGbYa6CSneH</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Chilwell</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">22</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">54</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="54">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">ZjrwbZmbYcoTvspNP</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Gibbs-White</S>
+      <S N="PlayerClub">NFO</S>
+      <I64 N="PlayerPoints">129</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">55</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="55">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">X6SJ9Qmwjd7g6HBt3</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Mac Allister</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">97</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">56</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="56">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Ww6vv9P49sbTP52Rq</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Szoboszlai</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">92</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">57</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="57">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">WSWGHYz5haGWwHuu6</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Antony</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">47</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">58</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="58">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">eMu7zXYBizNpemQnn</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Pope</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">56</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">59</I32>
+      <Db N="Round">5</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="59">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">sgYFcyX4CeGD4wqoQ</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Stones</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">50</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">60</I32>
+      <D N="Round">5</D>
+    </MS>
+  </Obj>
+  <Obj RefId="60">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">tF7hSjESsvrRhBCCz</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Dias</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">85</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">61</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="61">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">BuvnY7L8JwZjngLTt</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Olise</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">104</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">62</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="62">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">6XEYZcmzy6izfraGr</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Sterling</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">115</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">63</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="63">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Wdd663Hoj4F5QaCS9</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Shaw</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">31</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">64</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="64">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">oPhG96nQKYFjcZ3ci</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">James</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">11</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">65</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="65">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">tLYqzu28Zzzwc2ntQ</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">J.Timber</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">66</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="66">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">FL54qRA3pe7etAnie</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Onana</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">123</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">67</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="67">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">53LPiXgftZ9WePxy9</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Willian</S>
+      <S N="PlayerClub">FUL</S>
+      <I64 N="PlayerPoints">88</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">68</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="68">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">7v4fDjKfSXqsjFDWR</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Johnson</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">122</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">69</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="69">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">4qgT3xWsqb4Wnq2aN</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Pedro Porro</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">116</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">70</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="70">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">3W63yJrmXLwjKkeSt</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Nkunku</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">25</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">71</I32>
+      <Db N="Round">6</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="71">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Y6F6kt3WSsMzDu9nx</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Saliba</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">151</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">72</I32>
+      <D N="Round">6</D>
+    </MS>
+  </Obj>
+  <Obj RefId="72">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">taeHWiNMCdfk93xne</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Danny Ings</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">32</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">73</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="73">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Evb3gQ2DZagksZzvv</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Mahrez</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">74</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="74">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">ff5jPhDuakgy9yy33</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Richarlison</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">115</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">75</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="75">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">DSrfoSGaTFXshuFq4</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Martinez</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">96</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">76</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="76">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">LmwenHR5RvoHAbnRp</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Antonio</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">70</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">77</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="77">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">NHditsEs5LgMG7wMa</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Konate</S>
+      <S N="PlayerClub">LIV</S>
+      <I64 N="PlayerPoints">54</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">78</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="78">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">64BgKrkaKQwiHw9tu</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Solomon</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">12</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">79</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="79">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">R7A3nfhian8kRAqxf</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Varane</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">42</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">80</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="80">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">25yxhFbr955YHbnJn</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Colwill</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">61</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">81</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="81">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Qy6wWXjWaLzBpXXsT</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Morris</S>
+      <S N="PlayerClub">LUT</S>
+      <I64 N="PlayerPoints">128</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">82</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="82">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">YAQTnjRunLDRXbQEd</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Zinchenko</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">88</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">83</I32>
+      <Db N="Round">7</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="83">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">JDBPigyAYqaLMoCfx</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Trossard</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">127</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">84</I32>
+      <D N="Round">7</D>
+    </MS>
+  </Obj>
+  <Obj RefId="84">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">i2zJa3w9LPCue5Yyv</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Botman</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">47</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">85</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="85">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">yw6BxjmYTvvT4EsSf</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Awoniyi</S>
+      <S N="PlayerClub">NFO</S>
+      <I64 N="PlayerPoints">62</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">86</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="86">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">vjxR9QcRjeTtPszQp</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Martinez</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">15</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">87</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="87">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">nZ2SEJ5mvYA2BqP47</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Bernardo Silva</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">121</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">88</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="88">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">C3aPsktg8xcQ9vG59</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Sancho</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">3</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">89</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="89">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Nsig4aRCELjuaK5PM</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Tonali</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">16</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">90</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="90">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">LGLLh5S87Wd7K57uB</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Mudryk</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">89</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">91</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="91">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">SixC5nRh49jr4xqp4</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Dunk</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">78</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">92</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="92">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">HFYu6dDCxm4MPepce</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Edouard</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">70</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">93</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="93">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">DLSPyBBQdju5Zpvhz</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Joelinton</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">42</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">94</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="94">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">K7pAiZswpJghmz5Qi</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Buendia</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">95</I32>
+      <Db N="Round">8</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="95">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">TkCmHkTN9TWc2aZBT</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Gross</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">124</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">96</I32>
+      <D N="Round">8</D>
+    </MS>
+  </Obj>
+  <Obj RefId="96">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">5Tf7RYjg7K8jogf4m</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Schar</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">111</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">97</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="97">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">K6x6NtRqmrLKhioNc</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Lukaku</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">98</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="98">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">htsCeDcnrknhz4jJY</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Mings</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">99</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="99">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">XFKfQMKJknRpLDfGu</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Benrahma</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">20</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">100</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="100">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">S95uLYtBxMKLYWeXK</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Mee</S>
+      <S N="PlayerClub">BRE</S>
+      <I64 N="PlayerPoints">36</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">101</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="101">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">PypZQtMDdqWJeXFLW</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Solly March</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">33</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">102</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="102">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">PyxDAbz4uT6x5N9zw</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Dahoud</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">14</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">103</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="103">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">LFYvT4uATcx9A976v</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Disasi</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">65</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">104</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="104">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">8fDNPYN8bpctFtQYv</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Bailey</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">137</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">105</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="105">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">cXBuoboHmWKH5uEdF</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Sa</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">99</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">106</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="106">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">v9RWmSzfSxW3TmKec</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Paqueta</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">93</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">107</I32>
+      <Db N="Round">9</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="107">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Dhu6ECFvhPtJkmjjp</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Burn</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">93</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">108</I32>
+      <D N="Round">9</D>
+    </MS>
+  </Obj>
+  <Obj RefId="108">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">GY9Re32YWQM5TfFSd</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Douglas Luiz</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">123</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">109</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="109">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Dyjrq93o8vaaPM9Gg</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Pau</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">81</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">110</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="110">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">YBBgpB5XuAuSbhHLh</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Pinnock</S>
+      <S N="PlayerClub">BRE</S>
+      <I64 N="PlayerPoints">72</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">111</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="111">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">dowi8rRXqgxjMYsu8</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Konsa</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">84</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">112</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="112">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">RKwwxHtghvgYQAovm</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Ramsdale</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">20</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">113</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="113">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">c2YK9K5WeAxBqyPSi</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Collins</S>
+      <S N="PlayerClub">BRE</S>
+      <I64 N="PlayerPoints">76</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">114</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="114">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">cEra7GFMLs53iJn9T</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Walker</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">110</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">115</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="115">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">gY3uWJp8iEPiby4CL</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Akanji</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">104</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">116</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="116">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">WbjuGM4xBdT2JyupL</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Thiago Silva</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">86</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">117</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="117">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">YBYRAv4Ln6E55zN5C</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Kepa</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">118</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="118">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">qbcCZe8r6nKP5K5DA</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Pickford</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">131</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">119</I32>
+      <Db N="Round">10</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="119">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">okPCBSXZeNuMfgYzF</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Woodrow</S>
+      <S N="PlayerClub">LUT</S>
+      <I64 N="PlayerPoints">30</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">120</I32>
+      <D N="Round">10</D>
+    </MS>
+  </Obj>
+  <Obj RefId="120">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">XCSR2rY579izGbPrG</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Lamptey</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">31</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">121</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="121">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">x2efY7eyJwH6GJu6G</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Guehi</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">60</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">122</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="122">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">BkDhKAeTG7SG5WWoe</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Veltman</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">49</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">123</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="123">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">3bjZvyHBvMHQviEgm</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Bruno Guimaraes</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">138</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">124</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="124">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">6G7Y9NZPozoE7aHYp</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Jimenez</S>
+      <S N="PlayerClub">FUL</S>
+      <I64 N="PlayerPoints">59</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">125</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="125">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">sn4vhZGFwy4LHZmcm</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Udogie</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">71</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">126</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="126">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">7nhHQ4tBBuiPw3X5D</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Perisic</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">6</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">127</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="127">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">seynypJt22of7pcn2</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Henry</S>
+      <S N="PlayerClub">BRE</S>
+      <I64 N="PlayerPoints">13</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">128</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="128">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">SHupGJ8CNLhSJQDQu</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Steele</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">37</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">129</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="129">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">7haghQyeYLoxakcsJ</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Pereira</S>
+      <S N="PlayerClub">FUL</S>
+      <I64 N="PlayerPoints">120</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">130</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="130">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">TqFmkWixYtPGsZck8</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Romero</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">92</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">131</I32>
+      <Db N="Round">11</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="131">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">BK6AFuzvB8NqLhB8m</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Leno</S>
+      <S N="PlayerClub">FUL</S>
+      <I64 N="PlayerPoints">118</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">132</I32>
+      <D N="Round">11</D>
+    </MS>
+  </Obj>
+  <Obj RefId="132">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">LywCABWjhmoeX9Hg5</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">McGinn</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">110</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">133</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="133">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">NKFkdbvmFXEmEMoE8</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Welbeck</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">74</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">134</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="134">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">bbMsovrbX7toaFCFw</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Tarkowski</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">107</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">135</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="135">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">PyNHeFYP9uSJ8CEZM</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Cash</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">60</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">136</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="136">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">sg8hfvvyAziJkmWfm</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Enciso</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">20</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">137</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="137">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">agkgtKtSu63zE4pxw</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Martial</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">23</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">138</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="138">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">q8oQA7bHWB9t9MDgB</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Cunha</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">120</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">139</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="139">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">XFFa4mfLEGsZFnL67</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Tielemans</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">75</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">140</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="140">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">rBSczpHad4GRd9Wd8</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Kilman</S>
+      <S N="PlayerClub">WOL</S>
+      <I64 N="PlayerPoints">79</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">141</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="141">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">RoqsMsyMahidwxvhW</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Jensen</S>
+      <S N="PlayerClub">BRE</S>
+      <I64 N="PlayerPoints">88</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">142</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="142">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">cbjsL6HjAtQ54vZTc</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Aubameyang</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">143</I32>
+      <Db N="Round">12</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="143">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">8GTkmPhFCsByGgqvc</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Ramsey</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">29</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">144</I32>
+      <D N="Round">12</D>
+    </MS>
+  </Obj>
+  <Obj RefId="144">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">dDHh9KRMyMoA8hTPu</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Casemiro</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">58</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">145</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="145">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">EMnzic9WNBjX9Wq9S</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Cancelo</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">146</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="146">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">ZX6z4A8pH39JTRHJt</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Vinicius</S>
+      <S N="PlayerClub">FUL</S>
+      <I64 N="PlayerPoints">20</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">147</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="147">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">LZPr8kt4nG6kA8tM2</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Dalot</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">98</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">148</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="148">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">qveCBsC8mNzw5sdXJ</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Digne</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">80</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">149</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="149">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">PXFwiBZ9zd4dQMAyT</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Garnacho</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">124</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">150</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="150">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Q8sNkTbMBEAwJrjEy</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Sanchez</S>
+      <S N="PlayerClub">CHE</S>
+      <I64 N="PlayerPoints">52</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">151</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="151">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">4AMADXTyk222FSnTP</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Zabarnyi</S>
+      <S N="PlayerClub">BOU</S>
+      <I64 N="PlayerPoints">81</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">152</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="152">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Xq8ik8dDLHXFtrys6</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Nketiah</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">66</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">153</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="153">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">2BMAmXYBBZfBQLWQT</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Andersen</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">109</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">154</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="154">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">YHS354JXvHFTnn4Yz</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Zouma</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">70</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">155</I32>
+      <Db N="Round">13</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="155">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">BWLQvtoYYPTA8YJWs</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Gray</S>
+      <S N="PlayerClub">EVE</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">156</I32>
+      <D N="Round">13</D>
+    </MS>
+  </Obj>
+  <Obj RefId="156">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">BPNDggz3MhhWEj9aJ</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Maguire</S>
+      <S N="PlayerClub">MUN</S>
+      <I64 N="PlayerPoints">67</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">157</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="157">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">G8ps2KxWLPZaZhCXy</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Webster</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">24</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">158</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="158">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">WBEvfjjsSNjN6vnhS</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Dier</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">2</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">159</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="159">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">YcJvA57JztbtdxXAi</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Hall</S>
+      <S N="PlayerClub">NEW</S>
+      <I64 N="PlayerPoints">35</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">160</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="160">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">ch6wvjYQQh7hMYApq</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Amdouni</S>
+      <S N="PlayerClub">BUR</S>
+      <I64 N="PlayerPoints">74</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">161</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="161">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">yqEaJuu7Y783BH2tp</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Tierney</S>
+      <S N="PlayerClub">ARS</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">162</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="162">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">R6KakCdsnGdNFPEsR</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Vicario</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">103</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">163</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="163">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">3a2jw8KorkQMNAR9d</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Fabianski</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">23</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">164</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="164">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">A3ZKrakeXuRytRHzt</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Rodrigo</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">140</I64>
+      <S N="PlayerPosition">Midfielder</S>
+      <I32 N="PickNo">165</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="165">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">ZdKsX4j2hWhbcGcKM</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Tete</S>
+      <S N="PlayerClub">FUL</S>
+      <I64 N="PlayerPoints">27</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">166</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="166">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">DyHE25p5zNnScuBAB</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Ake</S>
+      <S N="PlayerClub">MCI</S>
+      <I64 N="PlayerPoints">93</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">167</I32>
+      <Db N="Round">14</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="167">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">MZ35FR5jAKDX6oNHk</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Emerson Royal</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">23</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">168</I32>
+      <D N="Round">14</D>
+    </MS>
+  </Obj>
+  <Obj RefId="168">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">WgCnKfK5SmynhAgGF</S>
+      <S N="Teamid">2ucq2jCzubE2oexNN</S>
+      <S N="Manager">Liam McDonald</S>
+      <S N="Player">Flekken</S>
+      <S N="PlayerClub">BRE</S>
+      <I64 N="PlayerPoints">107</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">169</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="169">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">hRNPDnoqix67QYQyR</S>
+      <S N="Teamid">etndvLcakwShh7zJL</S>
+      <S N="Manager">Dennis Hollywood</S>
+      <S N="Player">Guaita</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">170</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="170">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">zRD3xk9PaZx5qhjjQ</S>
+      <S N="Teamid">yWEzuZMF4gMmxitu7</S>
+      <S N="Manager">Tashan Williams-Mitchell</S>
+      <S N="Player">Neto</S>
+      <S N="PlayerClub">BOU</S>
+      <I64 N="PlayerPoints">96</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">171</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="171">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">LEz4Nqry3pZzALCnn</S>
+      <S N="Teamid">4pu3opTFXJuhxoiDf</S>
+      <S N="Manager">James Arnold</S>
+      <S N="Player">Henderson</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">46</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">172</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="172">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Bqv3zukhEfHHJtbMY</S>
+      <S N="Teamid">GLfRMtLEpPgNuL7gw</S>
+      <S N="Manager">Liam McSharry</S>
+      <S N="Player">Scamacca</S>
+      <S N="PlayerClub">WHU</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">173</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="173">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">zkW5YkP2TkWTKz3hc</S>
+      <S N="Teamid">3tHJWXZv4toCRtRkH</S>
+      <S N="Manager">Richard Cooper</S>
+      <S N="Player">Alex Moreno</S>
+      <S N="PlayerClub">AVL</S>
+      <I64 N="PlayerPoints">44</I64>
+      <S N="PlayerPosition">Defender</S>
+      <I32 N="PickNo">174</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="174">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">QhMiTeMN8SM9wQuGz</S>
+      <S N="Teamid">kuvqE695td9aJQd5t</S>
+      <S N="Manager">Ronan McGhee</S>
+      <S N="Player">Adebayo</S>
+      <S N="PlayerClub">LUT</S>
+      <I64 N="PlayerPoints">85</I64>
+      <S N="PlayerPosition">Forward</S>
+      <I32 N="PickNo">175</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="175">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">DzSw2swgp4pRcbdRJ</S>
+      <S N="Teamid">gWZCDfcQgkNgfCnT5</S>
+      <S N="Manager">David Cartlidge</S>
+      <S N="Player">Lloris</S>
+      <S N="PlayerClub">TOT</S>
+      <I64 N="PlayerPoints">0</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">176</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="176">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">M66PJhP884NNN7aYK</S>
+      <S N="Teamid">GWMwDqkLSpgdmi8ML</S>
+      <S N="Manager">Julian Jest</S>
+      <S N="Player">Johnstone</S>
+      <S N="PlayerClub">CRY</S>
+      <I64 N="PlayerPoints">61</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">177</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="177">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">2pqPLdGFndf8iu5v6</S>
+      <S N="Teamid">k4RncjW5bYvv5p8ak</S>
+      <S N="Manager">Lee Williams</S>
+      <S N="Player">Foderingham</S>
+      <S N="PlayerClub">SHU</S>
+      <I64 N="PlayerPoints">63</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">178</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="178">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">Zt9YozD2Et9NQi6ut</S>
+      <S N="Teamid">hguKWcDL9Aa4opCku</S>
+      <S N="Manager">Shayan Shahdi</S>
+      <S N="Player">Muric</S>
+      <S N="PlayerClub">BUR</S>
+      <I64 N="PlayerPoints">35</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">179</I32>
+      <Db N="Round">15</Db>
+    </MS>
+  </Obj>
+  <Obj RefId="179">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="PlayerId">xFz9P3zetCep5TCEw</S>
+      <S N="Teamid">Qtrv85RKbPf6kQMPh</S>
+      <S N="Manager">Gavin Ferguson</S>
+      <S N="Player">Verbruggen</S>
+      <S N="PlayerClub">BHA</S>
+      <I64 N="PlayerPoints">61</I64>
+      <S N="PlayerPosition">Goalkeeper</S>
+      <I32 N="PickNo">180</I32>
+      <D N="Round">15</D>
+    </MS>
+  </Obj>
+</Objs>

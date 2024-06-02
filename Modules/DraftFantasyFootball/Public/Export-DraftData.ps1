@@ -24,6 +24,20 @@ function Export-DraftData {
 
         [Parameter(
             Mandatory,
+            ParameterSetName = 'LeagueAndCup'
+        )]
+        [int]
+        $PlanktonRelegationSpots,
+
+        [Parameter(
+            Mandatory,
+            ParameterSetName = 'LeagueAndCup'
+        )]
+        [int]
+        $AlgaeRelegationSpots,
+
+        [Parameter(
+            Mandatory,
             ParameterSetName = 'Cup'
         )]
         [switch]
@@ -61,8 +75,16 @@ function Export-DraftData {
                 $PromotionSpots = $FreakRelegationSpots
             }
             'Plankton' {
-                $RelegationSpots = 0
+                $RelegationSpots = $PlanktonRelegationSpots
                 $PromotionSpots = $VerminRelegationSpots
+            }
+            'Algae' {
+                $RelegationSpots = $AlgaeRelegationSpots
+                $PromotionSpots = $PlanktonRelegationSpots
+            }
+            'Ecoli' {
+                $RelegationSpots = 0
+                $PromotionSpots = $AlgaeRelegationSpots
             }
             'Cup' {
                 continue LeagueLoop
@@ -71,7 +93,7 @@ function Export-DraftData {
 
         $StandingsFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueStandings$LeagueName.xml"
         if (-not (Test-Path $StandingsFileName)) {
-            $Standings = Get-DraftLeagueTable -League $LeagueName -Year $Year | Foreach-Object -Begin {$Count = 0} {
+            $Standings = Get-DraftLeagueTable -League $LeagueName -Year $Year | Foreach-Object -Begin { $Count = 0 } {
                 $Count++
 
                 if ($Count -le $PromotionSpots) {
@@ -102,7 +124,7 @@ function Export-DraftData {
 
         $H2HFileName = Join-Path -Path $ExportFolder -ChildPath "LeagueH2H$LeagueName.xml"
         if (-not (Test-Path $H2HFileName)) {
-            $HeadToHead = Get-DraftHeadToHead -League $LeagueName -Year $Year | Group-Object -Property {[int]$_.Gameweek} -AsHashTable
+            $HeadToHead = Get-DraftHeadToHead -League $LeagueName -Year $Year | Group-Object -Property { [int]$_.Gameweek } -AsHashTable
             $HeadToHead | Export-CliXml -Path $H2HFileName -Depth 99
         }
     }
